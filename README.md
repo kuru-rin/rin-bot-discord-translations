@@ -1,0 +1,1 @@
+# rin-bot-discord-translations
