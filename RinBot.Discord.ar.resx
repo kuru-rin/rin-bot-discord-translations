@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>** لا أحد يخمن الاجابة الصحيحة**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} فاز !</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>تم تحصيل **{0} نقطه**</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>النقاط `{0}`</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>الرتبة {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>لقطة</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>تلميح</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>** لديك {0} ثواني لتخمين! **</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>يمكنك بدء جولة جديدة مرة أخرى في دقيقة واحدة.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning:  **تتم اعادة التشغيل**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>لاعب</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>عناوين بديلة</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` نقاط الإنجاز</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__كل-الوقت__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>عالميا</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__هذا الاسبوع__</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>نتائج {0}</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` نقاط الجولة</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[ادعمنا على باتريون]({1}), [اشتري لي قهوة ]({2})أو [صوت لي كل يوم]({0}/#الدعم)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>ساعد لإبقاء RinBot حيا !</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>لم يتم العثور على لاعبين.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>منذ الأسبوع الماضي</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**أفضل اللاعبين في __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: ** الصيانة **</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>تم بثه بين سنة {0} و {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>الصعوبة هي ** {0} **</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>إعداد جولة جديدة …</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>ستبدأ الجولة في {0} ثانية …</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0} ، هناك الكثير من الجولات التي يتم تحضيرها في الوقت الحالي. حاول مرة أخرى قريبًا.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0} ، أنا لا أفهم هاده الإعدادات.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0} ، لا توجد جولة يتم لعبها حاليًا. يمكنك بدء واحدة باستخدام `{1} sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>ستحصل على نقاط أقل لجولات الصعوبة أدناه ** {0} **</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0} قائمة الإنجاز</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>واكتسبت {0} النقاط!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} هو الآن المستوى {1}</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0} ، هذا الأمر متاح فقط للداعمين (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0} ، لديك بالفعل جولة نشطة تعمل في مكان آخر.</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>نقاط</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>سرعة</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>** أسرع اللاعبين في __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>يجب تمكين NSFW على هذه القناة من أجل استخدام هذا الروبوت.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>الوقت: ** {0} **</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>خمن: ** {0} **</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>يتم حساب جولات فقط مع مجموعة من أكثر من 1000</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>نوع الأغنية: ** {0} **</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>فائز الأسبوع الماضي</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>من {0} إلى {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>بدأت {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>الأسبوع {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(إنتهى {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>لا توجد قائمة المتصدرين المخصصين نشط.
+يمكنك أن تبدأ واحدة باستخدام `{0} startCtOp`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>لا توجد قائمة المتصدرين المخصصين نشط.
+يمكنك أن تبدأ واحدة باستخدام `{0} startCtOp`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>أنمي `{0}`</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>جولات الانمي `{0}`</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>جولات الصوت `{0}`</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__قاعدة البيانات__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>سرفرات `{0}`</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__سرفرات__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>جولات الصورة `{0}`</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>المستخدمين `{0}`</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__الاعبين__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` فاز &gt; 100 جولة</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` فاو &gt; 10 جولات</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` تم إلغاء الجوله</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` جولات تم انهائها</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>أغاني `{0}`</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>جولات الفيديو `{0}`</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` جولات رواية مرئية</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>عالمي</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__جولات__</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>لوحة المتصدرين المخصصة لـ #{0}</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>تم تشغيل لوحة المتصدرين المخصصة للتو لهذه القناة.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>للحصول على معالجة أسرع ، يمكنك [عمل بوست للسيرفر الخاص بك]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__سرفرات__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>سهل</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>متوسط</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>صعب</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>شديد</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>كابوس</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>افتتاحية</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>النهاية</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>أدخل أغنية</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>صورة الاغنيه</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` جولات سهلة</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` جولات متوسطة</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` جولات صعبة</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>جولات شديدة `{0}`</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` جولات الكابوس</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>جولات `{0}` بدون صعوبة</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>جلسة نشطة بالفعل</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} الجولات غير متوفرة حاليًا</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>لا يمكن بدء لعبة يدويًا عندما تكون جولات الصوت نشطة.
+لإيقافهم ، يمكنك استخدام `{0} stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` جولات شخصيات أنمي</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>فاز `{0}` جولة واحدة على الأقل</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>قوائم أنيمي ** {0} **</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>لقد اخترت نطاق سنة غير صالحة</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>لا يمكنك استخدام صعوبة كابوس مع أي مرشحات أخرى</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>يجب ضبط القناة على NSFW من أجل استخدام هذا المرشح.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>يجب أن يكون العام النهائي ≤ العام الحالي</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>يجب أن يكون سنة البدء&gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>يجب أن تكون سنة النهايه ≥ سنة البدء</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>هذا النوع غير متوفر</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>يعمل مرشح قائمة الانيمي فقط لجولات شخصيات أنيمي وجولات شخصية أنيمي</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>قائمة أوامر RINBOT</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>ابدأ جولة صورة جديدة</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>ابدأ جولة صوتية جديدة</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>توقف الجولة الحالية</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>يظهر درجاتك الشخصية</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>يعرض أفضل اللاعبين على الإطلاق في السرفر</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>ابدأ جولة صورة مرئية جديدة</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>يظهر المتصدرين المخصصين</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>يعرض إجمالي النتيجة لهذا السيرفر</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>يعرض أسرع اللاعبين على الإطلاق في هادا السيرفر</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>الإنجازات</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__أخر أسبوع__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` النقاط</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>نقاط</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>الرتبة {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>فاز الجولات `{0}`</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0} نقاط السيرفر</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__كل-الوقت__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__اخر اسبوع__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__هذا الاسبوع__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>لاعبون `{0}`</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>تم إلغاء الجولة بسبب المدخلات المفقودة. جرب جولة أخرى مع مرشحات أقل تقييدا.</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>أنا آسف لمقاطعة لعبتك ، لكن يجب أن أعيد تشغيل نفسي لتزويدك بميزات جديدة لامعة!</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, لم تفز بأي جولات بعد.</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>تفضل بزيارة [صفحة ملفك الشخصي]({1}/ملف شخصي/{2}) للإحصائيات العالمية</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>أنا حاليًا في وضع الصيانة ، حاول مرة أخرى قريبًا!</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0} ، هناك بالفعل جولة جارية. استخدم `{1} stopg` لإيقافهة.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0} ، لا يمكنك استخدام الأمر `{2} stopg` أكثر من مرة كل دقيقة {1}.</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} حصلت على هذا الإنجاز</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>من النوع ** {0} **</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0} ، لقد بدأت الكثير من الجولات اليوم. أدعمنا على باتريون لزيادة هذا الحد (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>** {0} نقطة ** تم الحصول عليها</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>تتم معالجة الدرجات والألواح المتصدرين كل ساعة.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>انتهى المتصدرون المخصصون في هذه القناة.
+يمكنك الآن إعادة ضبطه باستخدام `{0} refstctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>تم إعادة تعيين لوحة المتصدرين المخصصة.
+يمكنك بدء واحدة جديدة مرة أخرى مع `{0} startCtOp`.</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` فاز &gt; 1000 جولة</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>روايات مرئية `{0}`</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>إحصائيات اللعبة</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0} ، لم يتم العثور على لوحة المتصدرين المخصصة. يمكنك بدء تشغيل جديد باستخدام `{1} startCtoP`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0} ، إن لوحة المتصدرين المخصصة نشطة بالفعل في هذه القناة.
+يمكنك إنهاءها باستخدام `{1} endctop` أو إعادة تعيينها تمامًا باستخدام` {1} refetctop`.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>لا يمكن الوصول إلى قاعدة بيانات {0} في الوقت الحالي. حاول مرة أخرى في وقت لاحق.
+
+تحقق من [صفحة الحالة]({1}) أو [خادم دعم RINBOT] ({2}) لمزيد من المعلومات.</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>من المستخدمين (s) ** {0} ** على {1}</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>يجب أن يكون هذا النوع واحد من تلك المدرجة في `!الأنواع`</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>يجب أن يكون سنة البدء ≤ السنة الحالية</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>لا يمكن استخدام مرشح نوع الأغنية إلا في جولات الصوت</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>** {0} ** لم يتم {1} مزامنتها بعد. استخدم `! sync `أولاً لمزامنة القائمة.</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>ابدأ جولة فيديو جديدة</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>يعرض أفضل اللاعبين في هذا الأسبوع في السيرفر</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>للحصول على قائمة كاملة بالأوامر ، يرجى [زيارة الموقع]({0}).</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>حدثت مشاكل التحقق من الصحة هذه:</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>تجاوزت أقصى جولات مسموح بها للجلسة</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>معالجة الصور: ** {0} **</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>عكس</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>زادت الإيقاع</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>بكسل</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>مقلوبة</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>مرسومة بالزيت</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>رمادي</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>أوامر السلاش (/) متوفرة الآن!</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>جولات `{0}`</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>في قائمة الانتظار</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>لقد قدمت اسم مستخدم غير صالح.</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>نجح</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>يمكنك فقط المزامنة مرة واحدة كل 15 دقيقة.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>يمكنك فقط مزامنة واحد في وقت واحد.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>الحالة الآن ** {0} **.</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>يعرض أسرع اللاعبين في هذا الأسبوع في السيرفر</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>إظهار إحصائيات اللعبة</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>إظهار جميع أنواع أنيمي المتاحة</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0} ، لاستخدام هذه الميزة ، تحتاج إلى واحدة على الأقل من هذه الصلاحيات: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>متفرقات</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>جولات</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>النتائح</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>الأوامر</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>ابدأ جلسة جولة صوتية</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>ايقاف الجوله</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>جولات الصوتية</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>بدء جولة شخصيات الانيمي</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0} ، لم افهم هاده المدخلات.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>ابدأ جلسة جولة صوتية جديدة مع عينات</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>مزامنة قائمة أنيمي</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>إدارة</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>إظهار البادئة الحالية أو قم بتغييرها</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>تأكد من ضبط الصلاحيات بشكل صحيح. أحتاج على الأقل صلاحيات الاتصال والتحدث.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>لا يمكن الاتصال بالقناة الصوتية '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>البحث على قناة صوتية للانضمام …</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>لم أتمكن من العثور على قناة صوتية للانضمام.
+
+يمكنك إنشاء واحد بنفس الاسم مثل هذه القناة النصية ، أو الانضمام إلى القناة الصوتية حيث ترغب في الذهاب.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>لم يتم العثور على قناة صوت قابلة للاستخدام</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>ستبدأ الجولات تلقائيًا.
+
+لتخطي جولة ، استخدم `{0} stopg` وللإلغاء الجلسة ، استخدم` {0} stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>بدأت جلسة مع {0} جولات</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>بدأت الجولة!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>وصلت إلى أقصى جولات في هذه الجلسة</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>تم تغيير مرشح جلسة الجوله</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>بدأت جلسة صوتية في القناة ** {0} **</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>التحضير جولة {0} من {1} …</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__مزيد من المساعدة__
+الاستعلامات: `{0} مساعدة Query`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0} ، هناك جلسة قيد التقدم. استخدم `{1} stopgs` لإيقافه.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>ابدأ لوحة المتصدرين المخصصة الجديدة</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>إنهاء لوحة المتصدرين المخصصة</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>أعد ضبط لوحة المتصدرين المخصصين</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>ابدأ جولة جديدة</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>ابدأ جولة جديدة من Pixel شخصية أنيمي</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>عرض المنشئين</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>تزامن قائمة أنيمي</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>اسم االمستخدم</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>المنشئين</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>شكر كبير لجميع هؤلاء الأشخاص ومواقع الويب للمساعدة في جعل {0} ممكنًا.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>قواعد البيانات/واجهة برمجة التطبيقات</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>رعاة</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>شكر خاص</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>الترجمات</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>بادئة الأمر الخاص بي الآن: ** {0} **</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>لا يمكن تغيير بادئة الأمر الخاص بي.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>يجب أن يكون البادئة بين 1 و 5 أحرف.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0} بادئة الأمر</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>أنت لست كورورين ، أليس كذلك؟</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>هذه الميزة متاحة حاليا فقط على التطوير.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>المرشحات</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>عمليات</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>مساعدة للاستعلامات</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>هذه الميزة غير متوفرة على هذا البوت.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>يمكنك الآن البدء في استخدام مرشح `{0}: {1}`.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>متوازن</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>تم الحذف</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>المتحدة</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>تصنيف هذه الجلسة</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>المعروف أيضا باسم</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>بواسطة</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>أغنية</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>الأنواع</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>{0} :star: يحتاجك!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>لا يمكن تغيير اللغة.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>رمز اللغة `{0}` غير مدعوم.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>تغيير اللغة</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>تم تغيير اللغة إلى `{0}`.</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>أظهر اللغة الحالية أو قم بتغييرها</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>بما في ذلك النوع ** {0} **</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>باستثناء النوع ** {0} **</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>باءت بالفشل</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>ألغيت</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>يعالج</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>هذا الأمر متاح فقط للداعمين. انظر [هذه الصفحة]({0}) حول كيفية أن تصبح واحدة.
+</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>ألوان مقلوبة</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>يجب أن يكون نوع الأغنية: {0}</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>تم إلغاء الجلسة</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>ابدأ جولة صورة جديدة مع أزرار الاختيار متعدد</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>ربما نفدة الاسئله لهذا المرشح ، جرب آخر.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>الصلاحيات لم يتم ضبطها بشكل صحيح لبدء جولة الصوت في '{0}'</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>موضوعات `{0}`</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>ألشخصيات `{0}`</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Shard الخاص بك هو `{0}` on cluster `{3}`.
+
+هناك خوادم `{1}` متصلة بهذه المجموعة.
+الجولات `{2}` يتم تشغيلها حاليًا.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>يمكنك الحصول على جولات `{0}` لكل جلسة كحد أقصى.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>لزيادة هذا الحد ، يمكنك [أن تصبح راعيًا]({0}).</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>تمت إعادة تعيين المتصدرين على الإطلاق في النقاط</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>لا توجد جلسة نشطة في هذه القناة.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>هناك جولة نشطة في هذه القناة. حاول استخدام `{0} stopg` أو` {0} stopgs` لإيقافه.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>قد يستغرق الأمر بعض الوقت حتى يتم تحديث لوحة المتصدرين.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>جولات الفيديو متاحة فقط للداعمين</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>مزامنة {0} المستخدم '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>يتم بالفعل مزامنة هذه القائمة.
+الحالة الحالية هي ** {0} **</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>تمت مزامنة هذه القائمة مؤخرًا.
+يرجى الانتظار {0} قبل المحاولة مرة أخرى.</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>آسف ، هذا غير صحيح.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>أي أنيمي هذا؟</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>المقرر</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>إعادة ضبط لوحة المتصدرين على الإطلاق</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>أعد ضبط لوحة المتصدرين على الإطلاق</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>يتوقف كل الجولات على هذا الخادم</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>عينات من ** {0} ثانية **</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>يجب أن يكون طول العينة ≥ 5 و ≤ 30 ثانية</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>خطأ أثناء تنفيذ الأمر</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>مرشحات غير صالحة</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>لحفظ موارد الخادم ، فإن الحد الأقصى لجولات في جلسة واحدة لك هي {0}.
+
+لزيادة هذا الحد ، يمكنك المساعدة في تمويل المشروع من خلال [أن تصبح راعيًا]({1})!</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>ستبدأ الجولات تلقائيًا.
+
+لتغيير المرشح الخاص بك ، ما عليك سوى استخدام `{0} sgs` مرة أخرى. لتخطي جولة ، استخدم `{0} stopg` وللإلغاء الجلسة ، استخدم` {0} stopgs`.</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>انضم إلى القناة الصوتية ** {0} ** للاستماع وتكون قادرًا على التخمين.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>استخدم هذا الأمر لمزامنة قائمة الانيمي الخاصة بك. قد يتم ذلك مرة واحدة في اليوم.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>بادئة الأمر الحالي الخاص بي هو `{0}`
+
+استخدم "{0} بادئة البادئة_لجديدة` أو`@{1} بادئة البادئة_لجديدة` لتغييره.</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>هذه الميزة متوفرة حاليًا فقط على نسخة التجريبية.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>يمكنك إنشاء استفسارات من خلال الجمع بين العمليات والمرشحات.
+
+على سبيل المثال: `{0} sg n: 5 d: 3 y: 1995-2005` لبدء جلسة مع 5 جولات من الأنيمي في صعوبة صعبة بين عامي 1995 و 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - عدد الجولات للعب في جلسة (بحد أقصى 10)
+`im:` - معالجة الصورة: pixelated `` im: p` ، مقلوب `im: i` ، `` im: o` ، graycal P ، I ، O ، G ، F` (أي مزيج)
+`nh:` - لا تظهر تلميحات `nh: 1`
+"Aggr:` - تغيير طريقة التجميع عند استخدام قوائم الأنيمي: جميعها مجتمعة "Aggr: Union" ، موجودة في جميع القوائم "Aggr: Intersect" أو متساوٍ في حجم العينة لكل قائمة "Aggr: Balance" (افتراضي)</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>إيقاف جلسة الجولة الحالية …</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>اختر الصعوبة الافتراضية الخاصة بك</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>لا صعوبة</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>ليس لديك إذن هنا ، بسبب إعدادات التحكم في الوصول إلى القناة.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>جاري إيقاف الجولة الحالية …</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>صعوبة بناء على نقاطك</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - صعوبة `d: 0` إلى` d: 5` (`0` يعطل مرشح الصعوبة)
+`y:` - السنة `y: 2010` أو المدى العام `y: 1995-2005`
+`g:`-النوع `g: action` أو متعددة `g: action ، -sliceoflife ،! kids` ، حيث` -` أو `!` يستبعد هذا النوع (استخدم `{0} الأنواع لجميع الأنواع)
+`t:` - نوع الأغنية: operings `t: op` ، النهايات` t: ed` أو إدراج أغاني `t: in` (in 'يعمل مع` sga` فقط)
+`sl:` - طول العينة في ثوانٍ ، بين 5 و 30 (قابلة للاستخدام فقط مع `{0} sgsa`)
+`mal:` - قائمة أنيمي المستخدم myanimelist `mal: اسم المستخدم` أو متعدد `mal: user1 ، user2`
+`` anilist: ` - قائمة أنيمي المستخدم` `` anilist: username `أو متعددة` anilist: user1 ، user2 `</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>تقاطع</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0} تكاليف التشغيل هي حاليًا ** $ {1} شهريًا **
+
+في الوقت الحالي فقط ** {2} ٪ ** من هذا المبلغ مغطى.
+
+إذا كنت تستمتع بلعب ألعاب {0} ، فيرجى مراعاة [التبرع بمبلغ 2 دولار أو أكثر على Patreon]({3}) للمساعدة في إبقائها على قيد الحياة.
+
+حتى التبرعات الصغيرة هي مساعدة كبيرة وستحصل على بعض الامتيازات في المقابل!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>اللغة الحالية هي `{3}` ({4}).
+
+يمكنك تغيير لغة {1} باستخدام `{0} كود الغة`.
+هذه اللغات مدعومة حاليًا:
+{2}
+
+يمكنك المساعدة في تحسين هذه اللغات أو حتى إضافة المزيد من اللغات على [موقع الترجمة ]({5}).</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>تحقق [إحصائيات الترجمة]({0}) لقائمة من كل من ساهم!</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>يفرض تحديث معلومات هذا الخادم (القنوات والأدوار وما شابه)</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>قائمة الانتظار الخاصة بمستخدم {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>ستتلقى تحديثات الحالة في الرسائل المباشرة.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>تأكد من توفير اسم المستخدم الصحيح وأن قائمتك __عامة __.
+
+إذا استمرت المشكلة ، اطلب المساعدة في [سيرفر الدعم]({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>حالة التزامن للمستخدم {0} '{1}'</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>تمت إعادة تعيين لوحة المتصدرين على الإطلاق</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>قد يستغرق الأمر بعض الوقت حتى يتم تحديث لوحة المتصدرين.</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>لا يمكن إنشاء جلسة جديدة ، حاول استخدام `{0} stopg` أو` {0} stopgs` أو مرشح مختلف.</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>معالجة الصوت: ** {0} **</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>ابدأ جلسة جولة صوتية جديدة مع عينات وأزرار متعددة الخيارات</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>يمكنك تخمين مرة واحدة فقط!</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>تحقق من [هذه الصفحة]({0}) حول كيفية تمكينها.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>تحتاج إلى أن تعطيني على الأقل صلاحية ** العرض ** و ** الاتصال ** و ** التكلم ** لتلك القناة.</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>من السنة {0}</value>
+  </data>
+</root>

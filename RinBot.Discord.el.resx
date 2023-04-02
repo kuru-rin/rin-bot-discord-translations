@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Ο γύρος ακυρώθηκε λόγω εξάντλησης λήψεων. Δοκιμάστε ένα νέο γύρο με λιγότερο απαγορευτικά φίλτρα.</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Την περασμένη εβδομάδα__</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Επισκεφθείτε [την σελίδα προφίλ σας]({1}/profile/{2}) για παγκόσμια στατιστικά</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Χρονικό σκορ__</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Γίνετε δωρέας]({1}), [αγοράστε μου έναν καφέ]({2}) ή [ψηφίστε ημερησίως]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Οι γρηγορότεροι παίκτες στο __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Βρίσκομαι σε κατάσταση συντήρησης επί του παρόντος, ξαναδοκιμάστε αργότερα!</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>Η ρύθμιση NSFW πρέπει να είναι ενεργοποιημένη για να χρησιμοποιήσετε αυτό το bot.</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, υπάρχει ήδη ένας γύρος σε εξέλιξη. Χρησιμοποιήστε το `{1}stopg` για να τον σταματήσετε.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, δεν μπορείτε να χρησιμοποιήσετε την εντολή `{2}stopg` περισσότερες από μία φορά κάθε {1} λεπτά.</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Έχετε {0} δεύτερα για να απαντήσετε!**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Συγγνώμη για τη διακοπή του παιχνιδιού, αλλα πρέπει να επανεκκινηθώ για να σας προμηθεύσω με νέες απίθανες λειτουργείες!</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>Το σκορ του/της {0} σ'αυτό το server</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Την περασμένη εβδομάδα__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Αυτή την εβδομάδα__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` παίκτες</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Βαθμοί</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Ταχύτητα</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Χρόνος: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Υπόθεση: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} βαθμός** κερδήθηκε</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Μπορείτε να ξεκινήσετε ένα νέο γύρο σε ένα λεπτό.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: **Επανεκκίνηση**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Παίκτης</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Εναλλακτικοί τίτλοι</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` βαθμοί επιτευγμάτων</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Παγκοσμίως</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Αυτή την εβδομάδα__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, δεν έχεις νικήσει κάποιον γύρο ακόμη.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>Το σκορ του/της {0}</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` βαθμοί γύρου</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Κορυφαίοι παίκτες στο __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: **Συντήρηση**</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Μεταδόθηκε μεταξύ των ετών {0} και {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Η δυσκολία είναι **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Ετοιμάζοντας ένα νέο γύρο…</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Ο γύρος θα αρχίσει σε {0} δευτερόλεπτα…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, ετοιμάζονται πάρα πολλοί γύροι αυτή τη στιγμή. Ξαναδοκιμάστε σε λίγο.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, δεν καταλαβαίνω την παράμετρο.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, δεν υπάρχει κάποιος γύρος επί του παρόντος. Μπορείς να ξεκινήσεις ένα γύρο χρησιμοποιώντας το `{1}sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Θα πάρετε λιγότερους βαθμούς για γύρους δυσκολίας κάτω του **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>Ο/Η {0} έκανε αυτό το επίτευγμα</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>Η λίστα επιτευγμάτων του/της {0}</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>και πήρε {0} βαθμούς!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>Ο/Η {0} ανέβηκε στο επίπεδο {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Από το είδος **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, αυτή η εντολή είναι διαθέσιμη μόνο για δωρητές (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, έχεις ξεκηνίσει πάρα πολλά παιχνίδια σήμερα. Γίνεται δωρητής για να αυξήσετε αυτό το όριο (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, έχεις ήδη έναν τρέχοντα γύρο σε εξέλιξη κάπου αλλού.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Επιτεύγματα</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` βαθμοί</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Βαθμοί</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Θέση {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>Νικήθηκαν `{0}` βαθμοί</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Χρονικό σκορ__</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Κανείς δεν μάντεψε σωστά**</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>Κερδήθηκαν **{0} βαθμοί**</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` βαθμοί</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Θέση {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Λήψη</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Ίχνος</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Βοηθήστε κρατώντας το RinBot ζωντανό!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Δεν βρέθηκαν παίκτες.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Από την προηγούμενη εβδομάδα</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>Ο/Η {0} νίκησε!</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Τύπος τραγουδιού: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Ο νικητής της περασμένης εβδομάδας</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Παίκτες__</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` χρήστες</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Βάση Δεδομένων__</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` γύροι ήχου</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` γύροι anime</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>διαλέξατε ένα άκυρο χρονικό διάστημα</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Από τον/τους χρήστη/ες **{0}** στο {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Εφιάλτης</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Ακραίο</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Δύσκολο</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Κανονικό</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Εύκολο</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Σέρβερ__</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Για πιο γρήγορη επεξεργασία δεδομένων ,μπορείτε να [κάνετε boost στο σέρβερ]({0}).</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Σέρβερ__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` σέρβερ</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` τραγούδια</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` γύροι βίντεο</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` οπτικές νουβέλες</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` γύροι οπτικής νουβέλας</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Παγκόσμια</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Δεν βρέθηκαν προσαρμοσμένες βαθμολογίες. 
+Μπορείτε να ξεκινήσετε ένα προσαρμοσμένο πίνακα βαθμολογιών χρησιμοποιώντας το `{0}startctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Δεν υπάρχουν ενεργές προσαρμοσμένες βαθμολογίες.
+Μπορείτε να ξεκινήσετε μια χρησιμοποιώντας το `{0}startctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Οι προσαρμοσμένες βαθμολογίες αυτού του καναλιού έχουν τελειώσει.
+Μπορείτε να τις επαναφέρετε χρησιμοποιώντας το `{0}resetctop`.</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(τελειώνει {0})</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Εβδομάδα {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Ξεκίνησε στις {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Από {0} μέχρι {1}</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Τα σκορ και οι κατατάξεις επεξεργάζονται κάθε ώρα.</value>
+  </data>
+</root>

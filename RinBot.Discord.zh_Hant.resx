@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>從上周</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>未找到玩家</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>造訪 [your profile page]({1}/profile/{2}) 查看全球排行</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}的分數</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, 你還未在任何輪獲勝過</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__這周__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>‎全球‎</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` 成就點‎</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>‎替代標題‎</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>玩家</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning:  **重新開始**</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>‎你可以在一分鐘內重新開始新的一輪</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>‎我很抱歉打斷了你的遊戲，但我需要重新啟動，為您提供閃亮的新功能！</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**你還剩下 {0} 秒**</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>等級 {0}</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` 分</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>獲得了**{0}分**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} 贏了!</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**沒有人猜中答案**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>獲得**{0}分**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>玩家: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>時間:**{0}**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>必須在這個頻道上啟用 NSFW，才能使用這個機器人。</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**最快的玩家在__{0}__**。</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>分數</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}`玩家</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__這周__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__上周__</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__所有時間__</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}的伺服器得分</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` 赢得的回合數</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>等級 {0}</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>分數</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` 分</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__上周__</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>成就</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}，你已經有一個進行中的回合在其他地方運行。</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, 你今天开始了太多的遊戲。成為贊助者以增加這個限制 (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}，該指令僅適用於(https://patreon.com/rinbot?fan_landing=true)。</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0}現在是{1}級</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>並獲得了{0}分!</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}的成就列表</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0}獲得此成就</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>在難度低於**{0}**的回合中，你將得到較少的分數。</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}，目前没有回合正在進行。你可以用`{1}sg`啟動開始一個。</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}，你不能每隔{1}分鐘使用`{2}stopg`命令超過一次。</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}，我不明白這項參數。</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}，目前有太多的回合正在準備。請稍後再試。</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>本輪比賽將在{0}秒後开始...…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}，已經有一個回合在進行。使用`{1}stopg`來停止</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>準備新一輪…</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>難度為**{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>在{0}和{1}年之間播出</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:警告:  **維護**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>我目前處於維護狀態，請晚點再嘗試!</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**在__{0}__的頂級玩家**</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>幫助保持RinBot的生命力!</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[成為贊助者]({1}), [買一杯咖啡給我]({2})  or [投票]({0}/#支持)!</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` 回合點數</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__所有时间__</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>由於未找到府和條件，該回合被取消。 嘗試使用限制較少的過濾器開始新一輪。</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>截圖</value>
+  </data>
+</root>

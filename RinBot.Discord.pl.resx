@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Nikt nie zgadł**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} wygrywa!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>zdobyto **{0} punktów**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Zwycięzca poprzedniego tygodnia</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, rozpocząłeś dzisiaj zbyt wiele gier. Zostań patronem, aby zwiększyć swój dotychczasowy limit (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Wyniki i tabele wyników są przetwarzane co godzinę.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Od {0} do {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Rozpoczęto {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Tydzień {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(koniec {0})</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Obecnie trwa moja przerwa techniczna, spróbuj ponownie wkrótce!</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Podpowiedź</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Gracz</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Bieżący tydzień__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, nie wygrałeś jeszcze żadnej rundy.</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` punkty osiągnięć</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Pozostało Ci {0} sekund do odgadnięcia!**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Przepraszam za przerwanie Twojej gry, ale muszę się zrestartować, aby zapewnić Ci dostęp do moich nowiusieńkich funkcji!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Za minutę możesz rozpocząć kolejną rundę.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: **Ponowne uruchamianie**</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, masz już rozpoczętą i wciąż aktywną rundę przebiegającą gdzieś indziej.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Osiągnięcia</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Nie znaleziono innych graczy.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Od zeszłego tygodnia</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Top gracze na __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning:  **Przerwa techniczna**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Przygotowywanie nowej rozgrywki…</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Poprzedni tydzień__</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, aktywna runda już trwa. Użyj `{1}stopg` aby ją zakończyć.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Runda rozpocznie się za {0} sekund…</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, nie rozumiem parametru.</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, w tej chwili przygotowywanych jest zbyt wiele rozgrywek jednocześnie. Spróbuj ponownie wkrótce.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, nie możesz używać polecenia`{2}stopg` częściej niż raz na {1} minut.</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` wygranych rund</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, obecnie nie jest rozgrywana żadna runda. Możesz rozpocząć nową rozgrywkę używając `{1}sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Otrzymasz mniej punktów za rundy o stopniu trudności poniżej **{0}**</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Świat</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} zdobyłeś to osiągnięcie</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0} lista osiągnięć</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} ma teraz poziom {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Z gatunku **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, to polecenie jest dostępne tylko dla patronów (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Poprzedni tydzień__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Bieżący tydzień__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` graczy</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Prędkość</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Statystyki gry</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Nie można zmienić języka.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Język został zmieniony na `{0}`.</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` zakończonych rund</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` ekstremalnych rund</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Nie można rozpocząć gry manualnie, gdy aktywne są rundy głosowe.
+Aby je zatrzymać, możesz użyć `{0} stopgs`.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>kanał musi być ustawiony na NSFW, aby można było korzystać z tego filtru.</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>filtr typu utworu może być używany tylko w rundach typu audio</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Zatrzymaj bieżącą rundę</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Pokazuje najlepszych graczy tego tygodnia na serwerze</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Pokazuje najszybszych graczy wszechczasów na serwerze</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, aby korzystać z tej funkcji, potrzebujesz co najmniej jednego z tych uprawnień: `{1}`</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` punkty</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Ranga {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Wskazówka</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Tytuły alternatywne</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Serwery__</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>i zdobywasz {0} punktów!</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Emitowano w latach {0} i {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Poziom trudności to **{0}**</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Zostań patronem]({1}), [postaw mi kawę]({2}) lub [głosuj codziennie]({0}/#support)!</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` rundy anime</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Ranga {0}</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Najszybsi gracze na __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW musi być włączone na tym kanale, aby móc używać tego bota.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Czas: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Odpowiedź: **{0}**</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Liczone są tylko rundy z pulą większą niż 1000</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Typ piosenki:**{0}**</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Baza danych__</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Serwery__</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` użytkownicy</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Gracze__</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Rundy__</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` rundy audio</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` serwery</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` rundy obrazu</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` wygrano &gt; 1000 rund</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` wygrano &gt; 100 rund</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` wygrano &gt; 10 rund</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` przerwanych rund</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` piosenek</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` rund video</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` powieści wizualnych</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` rund powieści wizualnych</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Łatwy</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normalny</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Trudny</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Ekstremalny</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Koszmarny</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` łatwych rund</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` normalnych rund</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` trudnych rund</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` koszmarnych rund</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` rund bez poziomu trudności</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Sesja jest już aktywna</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} rozgrywek jest aktualnie dostępnych</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` rund postaci z anime</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` wygrałeś przynajmniej 1 rundę</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>gatunek musi być jednym z wymienionych w `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>wybrałeś nieprawidłowy zakres lat</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>nie możesz używać poziomu trudności Koszmar razem z innymi filtrami</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>rok końcowy musi być ≤ rok bieżący</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>rok rozpoczęcia musi być ≤ rok bieżący</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>rok rozpoczęcia musi być&gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>rok końcowy musi być ≥ rok początkowy</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>ten gatunek jest niedostępny</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>filtr lista anime działa tylko dla rund typu postaci anime i anime</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>Lista poleceń dla RinBot</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Rozpocznij nową rundę video</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Rozpocznij nową rundę audio</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Pokazuje Twój osobisty wynik</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Pokazuje najlepszych graczy wszechczasów na serwerze</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Aby zobaczyć pełną listę poleceń, [odwiedź stronę internetową]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Rozpocznij nową rundę obrazu powieści wizualnej</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Pokazuje najszybszych graczy tego tygodnia na serwerze</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Pokaż statystyki gry</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Pokaż wszystkie dostępne gatunki anime</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Inne</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Rundy</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Wyniki</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Polecenia</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Rozpocznij sesję głosową</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Zatrzymaj rundę</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Rundy głosowe</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Rozpocznij nową rundę postaci z anime</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, nie rozumiem parametru.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Rozpocznij nową sesję rundy głosowej z próbkami</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Zsynchronizuj listę anime</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Zarządzanie</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Zmień język</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Pokaż aktualny język lub zmień go</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Wspomóż RinBot!</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Punkty</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Piosenka kończąca</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Sprawdź [statystyki tłumaczeń]({0}), aby zobaczyć listę wszystkich, dzięki którym powstało to tłumaczenie!</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Punkty</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` punkty</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Niestandardowy ranking na tym kanale został już zakończony.
+Możesz go zresetować za pomocą polecenia `{0} resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Żaden niestandardowy ranking nie jest teraz aktywny.
+Możesz rozpocząć nowy używając `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Nie znaleziono żadnego niestandardowego rankingu.
+Możesz rozpocząć nowy używając `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Niestandardowy ranking został zresetowany.
+Możesz ponownie rozpocząć nowy, używając`{0}startctop`.</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>Lista użytkownika **{0}** na {1} nie została jeszcze zsynchronizowana. Użyj komendy `sync` żeby ją zsynchronizować.</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Rozpocznij nową rundę obrazu</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Ranking niestandardowy dla #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, nie znaleziono niestandardowego rankingu. Możesz rozpocząć nowy używając `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, niestandardowy ranking jest już aktywny na tym kanale.
+Możesz go zakończyć za pomocą `{1}endctop` lub całkowicie zresetować za pomocą `{1}resetctop`.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Właśnie rozpoczęto niestandardowy ranking dla tego kanału.</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Piosenka początkowa</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Ta funkcja jest obecnie dostępna tylko w wersji beta.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Zapytania można tworzyć, łącząc operacje i filtry.
+
+Na przykład: `{0}sg n:5 d:3 y:1995-2005`, aby rozpocząć sesję z 5 rundami anime na wysokim poziomie trudności emitowanych w latach 1995-2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filtry</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Ta funkcja nie jest dostępna dla tego bota.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>zbilansowany</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Ranking bieżącej sesji</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Znany również jako</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Gatunki</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Ty nie jesteś Kururin, prawda?</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Kod języka `{0}` nie jest obsługiwany.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Zawierający gatunek/ki **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Z wyłączeniem gatunku/ów **{0}**</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Trudność `d: 0` do` d: 5` (`0` wyłącza filtr trudności)
+`y:` - Rok `y: 2010` lub zakres lat` y: 1995-2005`
+`g:` - Gatunek `g: action` lub kilka` g: action, -sliceoflife,! kids`, gdzie `-` lub`! `wyklucza gatunek (użyj` {0} genres` dla wszystkich gatunków)
+`t:` - Typ utworu: utwór początkowy `t: op`, utwór kończący` t: ed` lub utwory pojawiające się w anime `t: in` (` in` działa tylko z `sga`)
+`sl:` - Długość kawałka utworu w sekundach, między 5 a 30 (działa tylko z `{0}sgsa`)
+`mal:` - Lista anime dla użytkowników MyAnimeList `mal: nazwa użytkownika` lub użytkowników` mal: użytkownik1, użytkownik2`
+`anilist:` - Lista anime dla użytkowników AniList `anilist: nazwa użytkownika` lub użytkowników` anilist: użytkownik1, użytkownik2`</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Bieżący język to `{3}` ({4}).
+
+Możesz zmienić język {1} za pomocą `{0}lang language_code`.
+Obecnie obsługiwane są następujące języki:
+{2}
+
+Możesz pomóc je ulepszyć, a nawet dodać więcej za pomocą [witryna do tłumaczenia grupowego]({5}).</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Piosenka pojawiająca się</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Motyw/Piosenka przewodnia</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>W tej chwili nie można połączyć się z bazą danych {0}. Spróbuj ponownie później.
+
+Sprawdź [status strony]({1}) lub [serwer wsparcia RinBot]({2}), aby uzyskać więcej informacji.</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Pokazuje ranking niestandardowy</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Pokazuje łączny wynik tego serwera</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Pokaż aktualny prefiks lub zmień go</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Upewnij się, że uprawnienia zostały ustawione poprawnie. Minimalne uprawnienia jakich potrzebuję to uprawnienia dla Połączenia i Mowy.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Nie udało się połączyć z kanałem głosowym '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Szukam dostępnego kanału głosowego…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Nie znaleziono odpowiedniego kanału głosowego</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Rundy rozpoczną się automatycznie.
+
+Aby pominąć rundę, użyj `{0}stopg`, aby zatrzymać rozgrywkę użyj `{0} stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Rozpoczęto sesję z {0} rundami</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Dołącz do kanału głosowego **{0}**, aby słuchać i zgadywać.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Runda rozpoczęta!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Osiągnięto maksymalną liczbę rund w tej sesji</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Sesja została przerwana</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Filtr rundy został zmieniony</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Rundy rozpoczną się automatycznie.
+
+Aby zmienić filtr, po prostu użyj ponownie `{0} sgs`. Aby pominąć rundę, użyj `{0}stopg`, a aby anulować sesję, użyj `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Rozpoczęto sesję głosową na kanale **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Przygotowuję rundę {0} z {1}…</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, sesja trwa. Użyj `{1}stopgs`, aby ją zatrzymać.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Rozpocznij nowy ranking niestandardowy</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Zakończ ranking niestandardowy</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Zresetuj ranking niestandardowy</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Rozpocznij nową rundę gry</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Synchronizacja listy anime</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Użyj tego polecenia, aby zsynchronizować swoją listę anime. Można to zrobić raz dziennie.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Patroni</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Specjalne podziękowania</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Tłumaczenia</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Prefiks musi mieć od 1 do 5 znaków.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>Prefiks polecenia dla {0}</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Pomoc dotycząca zapytań</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Piosenka</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>Obecnie koszty operacyjne firmy {0} wynoszą **{1}USD miesięcznie**
+
+W tej chwili tylko **{2}%** tej kwoty jest pokryte.
+
+Jeśli lubisz grać w gry {0}, rozważ [przekazanie 2USD lub więcej na Patreon]({3}), aby nas wesprzeć i pomóc w dalszym utrzymaniu RinBot!
+
+Nawet niewielkie darowizny są ogromną pomocą, a w zamian otrzymasz dodatkowe korzyści!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} potrzebuje Cię!</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Runda została przerwana z powodu braku kolejnych wskazówek. Spróbuj rozegrać kolejną tym razem z mniej restrykcyjnymi filtrami.</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Ranking wszechczasów__</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>Punkty {0}</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Odwiedź [stronę Twojego profilu]({1}/profile/{2}), aby zobaczyć statystki globalne</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0} wynik na serwerze</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Ranking Ogólny__</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>zdobyto **{0} punkty**</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Świat</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Aby przyspieszyć przetwarzanie, możesz [ulepszyć swój serwer]({0}).</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Nie udało mi się znaleźć kanału głosowego, do którego można dołączyć.
+
+Możesz utworzyć kanał głosowy o takiej samej nazwie jak aktualny kanał tekstowy lub wybrać kanał głosowy, do którego mam się udać.</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Aby zaoszczędzić zasoby serwera, maksymalna liczba rund w jednej sesji wynosi {0}.
+
+Aby zwiększyć ten limit, możesz wspomóc RinBot [zostając patronem]({1})!</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Prawdopodobnie zabrakło nam wskazówek do tego filtra, spróbuj innego.</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Pomoc__
+Zapytania: `{0}Pomoc`</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Rozpocznij nową rundę pikselową postaci z anime</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Pokaż listę twórców</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Ogromne podziękowania dla wszystkich tych ludzi i wszystkich stron internetowych za pomoc w umożliwieniu powstania {0}.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Bazy danych/API</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Mój obecny prefiks polecenia to `{0}`
+
+Użyj `{0}prefix twój_prefiks` lub `@{1} prefix swój_prefiks`, aby to zmienić.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Liczba rund do rozegrania w sesji (maks. 10)
+`im:` - Manipulacja obrazem: rozpikselowany `im: p`, odwrócony` im: i`, malowany farbami olejnymi`im: o`, skala szarości` im: g`, odwrócony w pionie `im: f` lub wiele` im: p, i, o, g, f` (dowolna kombinacja)
+`nh:` - Nie pokazuj podpowiedzi `nh: 1`
+`aggr:` - Zmiana metody agregacji podczas korzystania z list anime: wszystkie połączone `aggr: union`, obecne na wszystkich listach` aggr: intersect` lub taka sama wielkość próby na listę `aggr: balance` (domyślnie)</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Ta funkcja jest obecnie dostępna tylko w fazie rozwoju.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Mój prefiks polecenia to teraz: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Nie można zmienić prefiksu mojego polecenia.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Operacje</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>połączone</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>wspólne</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>twórca</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Jej obecny status to **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Dodano do kolejki</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Osiągnięto sukces</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Możesz mieć maksymalnie `{0}` rund na sesje</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Żeby zwiększyć limit, możesz [zostać patronem]({0}).</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` rund</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Nie ma aktywnych sesji na tym kanale.</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` punktów w rundzie</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Od użytkownika(użytkowników) **{0}** z {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Listy Anime to **{0}**</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>rundy video są dostępne tylko dla patronów</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Synchronizacja {0} użytkownika '{1}'</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Obecnie jest aktywna runda na tym kanale. Użyj `{0}stopg` lub `{0}stopgs` żeby ją przerwać.</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Wymusza aktualizacje informacji serwera ( kanały, role i inne)</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Przekroczono maksymalną ilość rund dozwolonych na jedną sesję</value>
+  </data>
+</root>

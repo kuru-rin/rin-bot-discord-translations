@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Naya round suru gardai…</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Year {0} ra {1} bichma air vako haru</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning:  **Maintenance**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Maintenance vairaxa, ekxin paxi try hai!</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**__{0}__ ko Top Players**</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Since last week</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Kunai players vetiyena.</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Rinbot lai jiudo rakhna sahayog garnuhoss!</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Patron bannu hoss]({1}), [Coffee kindinu hoss]({2}) or [Vote gardinu]({0}/#support)!</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Global stats ko lahi [your profile page]({1}/profile/{2}) visit garnu hoss</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` round points</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}'s score</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, hajurle ahile samma euta ni milaunu vaxaina.</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__This week__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Globally</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__All-time__</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` achievement points</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Aru naam haru</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>**Restart gardai xu hai**</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Arko round aba 1 minute ma suru garna milxa.</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Bot restart garnu parne vayo, sorry hai game rokxu hai!</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**{0} seconds baki guess garna lai**</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>guess garam hai ta</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Hint deko xu hai, milaunu paryo</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Rank {0}</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` points</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} points** paunu vayo</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} ko sahi jawaf!</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Photo sakkera yo round cancel vo hai. Ali thorai filter use garnuhola.</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Kasaile pani milaunu vayena**</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Yo feature development ma matra available xa.</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Yo feature beta ma matra available xa.</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Kururin le maatra garna milxa, timi hora?</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0} ko command prefix</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Prefix 1 dekhi 5 characters samma ko hunu parxa.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Mero command prefix change garna sakiyena.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Mero command prefix aba **{0}** vayeko xa</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Mero current command prefix `{0}` ho
+
+Change garna ko lagi `{0}prefix your_prefix` or `@{1} prefix your_prefix` garnu hola.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Anubaadak haru</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Bisesh Dhanyabaad</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Flip gariyeko</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>**{0}** difficulty hai ta</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` anime character round haru</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Voice round active vayeko bela game manually start garna mildaina.
+Teslai stop garna ko lagi `{0}stopgs` use garnu hoss.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} round haru ahile ko lagi available xainan</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>{0} database ahile reach huna sakena. Ekxin paxi try garnu hola.
+
+Aru jaankari ko lagi [the status page]({1}) or [the RinBot support server]({2}) check garnu hola.</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Euta game pahilai dekhi chaldai xa</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` difficulty navayeko round haru</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` nightmare round haru</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` extreme round haru</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` hard round haru</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` normal round haru</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` easy round haru</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Image geet</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Insert geet</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Ending</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Opening</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Nightmare ( Om Nama Shivaye )</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Extreme ( Ekdam Gaaaro )</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Hard ( Gaaro )</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normal ( Thikai )</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Easy ( sajilo )</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Server haru__</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Chado vanda chado processing ko lagi, [boost your server]({0}).</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Yo channel ko lagi varkharai custom leaderboard suru gariyo.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, yo channel ma pahilai dekhi custom leaderboard active xa.
+End garna ko lagi `{1}endctop` navaye completely reset garna `{1}resetctop` garnu hoss.</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, kunai custom leaderboard vetiyena. Naya suru garna ko lagi `{1}startctop` garnu hoss</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>#{0} ko lagi custom leaderboard</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Game statistics</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Round haru__</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` visual novel round haru</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` visual novel haru</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` video round haru</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` song haru</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` rounds finished</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` rounds cancelled</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` le 10 rounds vanda dherai jitnu vayo</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` le 100 rounds vanda dherai jitnu vayo</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` le 1000 rounds vanda dherai jitnu vayo</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Player haru__</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` user haru</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` image round haru</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Server haru__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` server haru</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Database__</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` audio round haru</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` anime round haru</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Custom leaderboard aba reset vayeko xa.
+Naya suru garna ko lagi `{0}startctop` garnu hola.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Kunai pani custom leaderboard vetiyena.
+Suru garna ko lagi `{0}startctop` garnu hola.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Kunai pani custom leaderboard active xaina.
+Suru garna ko lagi `{0}startctop` garnu hola.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Yo channel ko custom leaderboard end vayo.
+Reset garna ko lagi `{0}resetctop` garnu hola.</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(ends {0})</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Week {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Suru vayeko : {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>{0} dekhi {1} samma</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Scores ra leaderboards harek ghanta processed hunxan.</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Last week's winner</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Song type: **{0}**</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>1000 vanda dherai ko pool vako round haru maatra count hunxan</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} point** paunu vayo</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Guess: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Time: **{0}**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>Yo bot ko prayog garna, yo channel ma NSFW enable garnu hola.</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Fastest kheladi haru in __{0}__**</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` kheladi haru</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__This week__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Last week__</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__All-time__</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0} ko server score</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` rounds jitnu vayo</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Rank {0}</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` points</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__agillo hapta__</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Achievements</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, hajurko active round arkhai thau ma chaldai xa.</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, hajurle aaja dherai round suru garnu vaisakyo. Limit badhauna ko lagi patron bannuhos (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, yo command patrons members ko lagi maatra ho (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>**{0}** genre baata</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} level {1} hunu vayo.</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>ani {0} points paunu vayo!</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0} ko achievement list</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} le yo achievement paunu vayo</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Difficulty **{0}** vanda tala ko round haru ma points thorai paunu hunxa.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, ahile kunai round chalirako xaina. Start garna lai `{1}sg` garnu.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, `{2}stopg` command {1} minute ma ek choti maatrai use garna milxa.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, oho maile parameter bujhina.</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, ahile dherai rounds haru ekkai choti prepare hudai xan. Ekxin paxi try garnu hai.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>{0} seconds ma suru hudaixa…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, pailai dekhi game chaliraxa. Rokna lai `{1}stopg` gara.</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Server resources save garna ko lagi, maximum rounds euta session ko lagi {0} maatra xa.
+
+Limit badhauna ko lagi help garna crowd-funding garnu hola [becoming a patron]({1})!</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Round start vayeko xa!</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Guess garna ra sunna ko lagi **{0}** voice channel join garnu hoss.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>{0} rounds ko session suru vayo</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Round haru automatically start hunxan.
+
+Round skip garna ko lagi, `{0}stopg` use garnu hoss ra cancel garna ko lagi `{0}stopgs` use garnu hoss.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Usable voice channel vetiyena</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Join garna milne voice channel vetiyena.
+
+Yei text channel ko naam ko VC banauna sakinxa, or malai join garaune VC ma join vayera basnu hoss.</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Join garna ko lagi voice channel ko khoji hudai xa…</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Voice channel ma connect hune sakiyena '{0}'</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Permissions haru correctly set vayeko xan ki nai check garnu hoss. Rinbot lai Connect ra Speak permissions chahinxa.</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Ahile ko prefix dekhaune or change garne</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Anime list synchronize garne</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Naya voice round session samples sahit suru garne</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Naya anime character round suru garne</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Voice round haru</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Voice round session stop garna</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Naya voice round session suru garne</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Command Haru</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Round Haru</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Score Haru</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, yo feature use garna ko lagi hajur sanga thorai ma yi euta permission hunu parxa: `{1}`</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Sabai available anime genres dekhaune</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Game ko statistics dekhaune</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Server ko week top fastest players dekahaune</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Server ko all time fastest players dekhaune</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Server ko total score dekhaune</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Custom leaderboard dekhaune</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Naya visual novel image round suru garne</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Commands ko pura list ko lagi [visit the website]({0}).</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Server ko week top players dekhaune</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Server ko all time top players dekhaune</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Aafno personal score dekhaune</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Chali raheko round stop garne</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Naya audio round suru garne</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Naya video round suru garne</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Naya image round suru garne</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot ko command list</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>yo anime list filter anime ra anime character rounds ma maatra kaam garxa</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}** ko {1} list ajjai sync vayeko xaina. List synchronize garna `!sync` pragyog garnuhoss.</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>yo genre available xaina</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>song type filter audio rounds ma maatra use garna milxa</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>end year ≥ start year hunu parxa</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>start year &gt; 1900 hunu parxa</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>start year ≤ current year hunu parxa</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>end year ≤ current year hunu parxa</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>yo filter ko lagi channel NSFW hunu parxa.</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>Aru filters haru sanga Nightmare difficulty use garna mildaina</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>invalid year range pick garnu vayo</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>`!genres` ma list vayeko genre haru maatra milxa</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Anime lists **{0}** hun</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>**{0}** ko {1} bata</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` le thorai ma 1 round jityo</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, oho maile parameter bujhina.</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, pailai dekhi game chaliraxa. Rokna lai `{1}stopg` gara.</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>{0} of {1} round prepare hudai…</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Channel **{0}** ma voice session suru gariyeko xa</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Rounds haru chadai nai automatically start hunxan.
+
+FIlter change garna ko lagi, `{0}sgs` feri use garnu hoss. Round skip garna ko lagi, `{0}stopg` ra session cancel garna ko lagi `{0}stopgs` use garnu hoss.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Round session ko filter change vayeko xa</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Yo session ko lagi round sakkisakyo</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Operations ra filters harulai combine garera pani queries haru banauna sakinxa.
+
+Example ko lagi: `{0}sg n:5 d:3 y:1995-2005` prayog garera years 1995 ra 2005 bich ko hard difficulty ko 5 round vayeko session start garna sakinxa.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Euta session ma khelne round haru (dherai ma 10)
+`im:` - Image manipulation: pixelate garna `im:p`, invert garna `im:i`, oil-paint garna `im:o`, grayscale garna `im:g`, vertically flip garna `im:f` athawa dherai ekkai choti garna `im:p,i,o,g,f` (kunai pani combination)
+`nh:` - Hint haru banda garna `nh:1`
+`aggr:` - Anime list pragyog garda aggregation method change garna: sabai combined `aggr:union`, sabai list ma preset `aggr:intersect` athawa list anusaar baraabar sample size banauna `aggr:balance` (default)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Difficulty `d:0` dekhi `d:5` samma (`0` le difficulty filter disable garxa`)
+`y:` - Year `y:2010` athawa year range ko lagi `y:1995-2005`
+`g:` - Genre `g:action` athawa dherai ko lagi `g:action,-sliceoflife,!kids`, jaha `-` ra `!` le genre exclude gara (sabai genre ko lagi `{0}genres`)
+`t:` - Song ko type: openings `t:op`, endings `t:ed` athawa songs insert ko lagi `t:in` (`in` command `sga` ma maatra usable)
+`sl:` - Sample ko length second ma, 5 dekhi 30 samma (`{0}sga sanga maatra usable)
+`mal:` - MyAnimeList ko user anime list `mal:username` athawa dherai ko lagi `mal:user1,user2`
+`anilist:` - Anilist ko user anime list `anilist:username` athawa dherai ko lagi `anilist:user1,user2`</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Vaasa change huna sakena.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Ahile prayog ma vayeko vaasa  `{3}` ({4}) ho.
+
+{1} ko language change garna `{0}lang language_code` use garna sakinxa.
+Currently yi vaasa haru supported xan:
+{2}
+
+Yi vaasa haru improve garna wa naya vaasa add garna ko lagi [the crowd translation website]({5}).</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Custom leaderboard reset garna</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__More help__
+Queries: `{0}help query`</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Naya custom leaderboard suru garna</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Custom leaderboard end garna</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Naya game round suru garna</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Naya anime character pixel round suru garna</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Credits herna</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Anime list synchronization</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Anime list synchronize garna ko lagi yo command use garnu hoss. Yo din ko ek patak garna sakinxa.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>username</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>{0} sambhav paarna ko lagi sahyog garnu hune yi sab lai dherai dherai dhanyawaad.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Databases/API's</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Patrons</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filter haru</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Operation haru</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Queries harulai help</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Yo bot ma yo feature available xaina.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>balanced</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>intersected</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>united</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Yo session ko lagi ranking</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Yo vanera ni chininxa</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Yeha bata</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Geet</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Genre haru</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0} ko ahile ko operating cost haru mahina ko **${1} hun.
+
+Yes samaye ma operating cost ko maatra **{2}%** cover vayeko xa.
+
+Yedi hajur lai {0} ko game haru khelna ramailo laagxa vane, uslai jiudo rakhna, please consider [donating $2 or more on Patreon]({3}).
+
+Sano sano donations le pani thulo help hunxa ra hajur harule yesko return ma epic perks ni paunu hunxa!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star:  {0} needs you!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>`{0}` language code support garena.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Vaasa change garna ko lagi</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Vaasa `{0}` ma change vayeko xa.</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Prayog ma vayeko vaasa dekhauna wa change garna</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Including genre(s) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Excluding genre(s) **{0}**</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Contributors haru ko list herna ko lagi [the translation statistics]({0}) hernu hola!</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Server ko information force update garna ko lagi (channels, roles ra aru)</value>
+  </data>
+</root>

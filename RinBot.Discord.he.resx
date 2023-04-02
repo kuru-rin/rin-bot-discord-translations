@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>‍{0} ניצח!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} נקודות** הושגו</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` נקודות</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>רמז</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>שמות נוספים</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>עולמי</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__השבוע הזה__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, עדיין לא ניצחת אף סבב.</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} עלה/עלתה עכשיו לרמה {1}</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__בשבוע האחרון__</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**אף אחד לא ניחש נכונה**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>וקיבל/קיבלה {0} נקודות!</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, יש כרגע סיבוב פעיל במקום אחר.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: **מאתחל**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>שחקן</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**יש לך {0} שנייות לנחש!**</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>תמונה</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>אני מצטער שאני מפריע למשחק, אבל אני חייב לאתחל את עצמי כדי לספק אותך בתכונות חדשות ונוצצות!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>את/ה תוכל/י להתחיל סבב חדש בעוד דקה.</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>מיקום: {0}</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>הסבב בוטל בגלל חוסר בקבצים. נסה להתחיל סבב חדש עם סינון פחות נוקשה.</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**שחקנים מובילים ב__{0}__**</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>הרמה היא **{0}**</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, אף סיבוב לא פועל כרגע. את/ה יכול להתחיל אחד באמצעות הפקודה `{1}sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>את/ה תקבל/י פחות נקודות בשביל סיבובים מתחת לרמה **{0}**</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` שרתים</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>פקודות</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>נקודות</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>מתחיל סיבוב וידאו חדש</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>הראה את כל הז'אנרים הזמינים</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>מאוזן</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>שבוע {0}</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` אנימה</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>לא נמצאו שחקנים.</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>אני כרגע בשיפוצים, נסה שוב מאוחר יותר!</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, את/ה לא יכול/ה להשתמש בפקודה `{2}stopg` יותר מפעם אחת כל {1} דקות.</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__כל הזמנים__</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>הניקוד של {0}</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>עזור לשמור את RinBot בחיים!</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>מאז שבוע שעבר</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>שודר בין השנים {1}-{0}</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>מתכנן סיבובחדש…</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: **שיפוצים**</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>הסיבוב יתחיל בעוד {0} שניות…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, ישנם יותר מידי סיבובים המתוכננים כרגע. נסה שוב בקרוב.</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>נקודות</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>מיקום: {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` סיבובים נוצחו</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` נקודות סיבוב</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>ראה את [הפרפיל שלך]({1}/profile/{2}) בשביל נתונים בעולם</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>הראה את השחקנים הטובים ביותר של כל הזמנים בשרת</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>הראה את השחקים הטובים ביותר של השבוע</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>בשביל רשימה מלאה של הפקודות בבקשה [בקר/י באתר]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>התחל משחק תמונות חדש של ויז'ואל נובל</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` נקודות הישג</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[הפוך לתומך]({1}), [קנה לי קפה]({2}) או [הצבע]({0}/#support)!</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>הראה את רשימת המובילים המותאמת</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>הראה את סכום הנקודות של כל השרת</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>הראה את השחקנים המהירים ביותר בכל הזמנים של השרת</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>הראה את השחקנים המהירים ביותר השבוע של השרת</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>המראה את סטטיסטיקה המשחק</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, כדי להשתמש בתכונה הזאת את/ה צריכ/ה לפחות אחת מהגישות האלו: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>שונות</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>משחקים</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>נקודות</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>התחל סבב משחקי קול</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>הפסק סבב משחקי קול</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>משחקי קול</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>התחל משחק דמויות אנימה חדש</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, לא הבנתי את הפקודה.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>התחל סבב משחקי קול חדש עם דוגמאות</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>מזג רשימת אנימה</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, יש כבר סיבוב שרץ. השתמש/י ב-`{1}stopg` כדי לעצור אותו.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, אני לא מבין את הפקודה.</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} השיג/ה את ההשיג הזה</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>רשימת ההסגים של {0}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>מהז'אנר **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, הפקודה הזאת זמינה רק לתורמים (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, את/ה התחלת יותר מידי משחקים היום. תוכל לתרום כדי להגדיל את מספר המשחקים (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>השגים</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` points</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}'s server score</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__כל הזמנים__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__בשבוע האחרון__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__השבוע הזה__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` שחקנים</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>מהירות</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**השחקן הכי מהיר ב__{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW חייב להייות פועל בצ'אט הזה בשביל שהבוט יעבוד.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>זמן: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>ניחוש: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} נקודות** הושגו</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Song type: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>המנצח של שבוע שעבר</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>הנקודות ולוח המובילים מעובדים כל שעה.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>מ{0} ל{1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>התחיל לפני {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(מסתיים בעוד{0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>רשימת המובילים המותאמת בצ'אט הזה הסתיימה.
+את/ה תוכל/י לאתחל אותה באמצעות `{0}resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>אף רשימת מובילים מותאמת לא פועלת כרגע.
+תוכל/י להתחיל אחת באמצעות `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>אף רשימת מובילים מותאמת לא נמצא.
+תוכל/י להתחיל אחת באמצעות `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>רשימת המובילים המותאמת אותחלה.
+תוכל/י להתחיל אחת חדשה באמצעות `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` סיבובי אנימה</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` סיבובי אודיו</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Database__</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Servers__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` משחקי תמונות</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` משתמשים</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__שחקנים__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` ניצח &gt; 1000 משחקים</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` ניצח &gt; 100 משחקים</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` ניצח &gt; 10 משחקים</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` משחקים בוטלו</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` משחקים שסוימו</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` שירים</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` משחקי וידאו</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` וויז'ואל נובל</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` משחקי וויז'ואל נובל</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__משחקים__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>סטטיסטיקת משחק</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>רשימת מובילים מותאמת בשביל #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, לא נמצא רשימת מובילים מותאמת. תוכל/י להתחיל אחת חדשה באמצעות `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, רשימת מובילים מותאמת כבר פעילה בצ'אט הזה.
+תוכל/י להפסיק אותה על ידי `{1}endctop` או אתחל אותה לגמרי על ידי `{1}resetctop`.</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Servers__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Insert song</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Image song</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>יש כבר סבב משחקים פעיל</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>לא יכול להתחיל משחק בצורה ידנית בזמן שיש משחקי קול פעילים.
+כדי לעצור אותם את/ה יכול/ה להשתמש ב`{0}stopgs`.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>הצ'אט חייב להייות NSFW בשביל להשתמש בסנן הזה.</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot command list</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>משחק יתחיל בצורה אוטומטית.
+
+כדי לדלג על משחק, השתמש/י ב`{0}stopg` וכדי לבטל את הסבב משחקים השתמש/י ב`{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>התחל סבב משחקים עם {0} סיבובים</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>כדי לחסוך במשאבי השרת, המספר המקסימלי של משחקים בסבב משחקים אחד בשבילך הוא {0}.
+
+כדי להגדיל את מגבלה זו, אתה יכול לעזור לממן באמצעות [תרומה]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>מספר משחקים מקסימלי הוסג בסבב הזה</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>סבב משחקים בוטל</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>סנן סבב משחקי קול שונה</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>משחקים יתחילו בצורה אוטומטית.
+
+כדי לשנות את הסינון, השתמש/י ב`{0}sgs` שוב. כדי לדלג על סיבוב, השתמש/י ב`{0}stopg` וכדי לבטל סבב משחקים השתמש/י ב`{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>התחיל סבב משחקי קול בצ'אט **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>מתכנן משחק {0} מתוך {1}…</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, יש סבב משחקים שרץ עכשיו. השתמש/י ב`{1}stopgs` כדי לעצור אותו.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Databases/API's</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}'s command prefix</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - מספר סיבובים בסבב משחקים אחד (מקסימום 10)
+`im:` - מניפולצית תמונה: פיקסלים `im:p`, הפוך `im:i`, ציור שמן `im:o`, שחור ולבן `im:g`, הפיכה אנכית `im:f` או כמה שילובים `im:p,i,o,g,f` (כל שילוב)
+`nh:` - אל תראה רמזים `nh:1`
+`aggr:` -</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>פעולות</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - רמת קושי `d:0` עד ל-`d:5` (`0` מבטל את סינון רמת הקושי)
+`y:` - שנה `y:2010` או טווח של שנים `y:1995-2005`
+`g:` - ז'אנר `g:action` או כמה ז'אנרות `g:action,-sliceoflife,!kids`, כאשר `-` או `!` מוציא מן הכלל את הז'אנר (השתמש ב`{0}genres` בשביל כל הז'אנרות)
+`t:` - סוג השיר: פתיח `t:op`, סייום `t:ed` או בחר שירים `t:in` (`in` עובד אך ורק עם `sga`)
+`sl:` - אורך הדוגמא בשניות, בין 5 ל30 שניות (ניתן להשתמש רק עם `{0}sgsa`)
+`mal:` - משתמש MyAnimeList של רשימת אנימות `mal:שם` או כמה משתמשים `mal:משתמש1,משתמש2`
+`anilist:` - משתמש AniList של רשימת אנימות `anilist:שם` או כמה משתמשים `anilist:משתמש1,משתמש2`</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>united</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>מיקום בשביל הסבב הזה</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>התחל משחק דמויות אנימה מפוקסל חדש</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>מתחיל סיבוב קול חדש</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>הפסק את רשימת המובילים המותאמת</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>אתחל את רשימת המובילים המותאמת</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>לוח מנהיגים בהתאמה אישית התחיל הרגע לערוץ הזה.</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>רק סבבים עם מאגר הגדול מ1000 נחשבים</value>
+  </data>
+</root>

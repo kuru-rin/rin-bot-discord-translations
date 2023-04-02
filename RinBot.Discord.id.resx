@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} mendapatkan pencapaian ini</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>daftar pencapaian {0}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Dari genre **{0}**</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, Anda memulai terlalu banyak game hari ini. Jadilah pelanggan untuk meningkatkan batas ini (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, Anda sudah memiliki ronde aktif yang berjalan di tempat lain.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Pencapaian</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Minggu lalu__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` poin</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Peringkat {0}</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>Skor server {0}</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Kecepatan</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Pemain tercepat di __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW harus diaktifkan di saluran ini untuk menggunakan bot ini.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Waktu: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Tebak: **{0}**</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Hanya ronde dengan pool lebih dari 1000 yang dihitung</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Tipe lagu: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Pemenang minggu lalu</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Dari {0} hingga {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Telah dimulai {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Minggu {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(berakhir {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Papan peringkat khusus di saluran ini telah berakhir.
+Anda sekarang dapat menyetel ulang menggunakan `{0}resettop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Tidak ada papan peringkat khusus yang aktif.
+Anda dapat memulainya menggunakan `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Tidak ada papan peringkat khusus yang ditemukan.
+Anda dapat memulainya menggunakan `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` Anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` ronde anime</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Basis data__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` server</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` ronde gambar</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` pengguna</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Pemain__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` menang &gt; 1000 putaran</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` menang &gt; 100 putaran</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` menang &gt; 10 putaran</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` ronde dibatalkan</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` lagu</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` ronde video</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` visual novel</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` ronde visual novel</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Ronde__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Statistik permainan</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Papan peringkat khusus untuk #{0}</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, Anda tidak dapat menggunakan perintah `{2}stopg` lebih dari sekali setiap {1} menit.</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Minggu lalu__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Minggu ini__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` pemain</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning:  **Pemeliharaan**</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Ditayangkan antara tahun {0} dan {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Kesulitan **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Mempersiapkan ronde baru…</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Ronde akan dimulai dalam {0} detik…</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, saya tidak mengerti parameternya.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, tidak ada ronde yang sedang dimainkan. Anda dapat memulainya menggunakan `{1}sg`.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Papan poin peringkat sepanjang waktu telah diatur ulang</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Mungkin perlu beberapa saat agar papan peringkat dapat dipulihkan.</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Saat ini saya dalam masa pemeliharaan, coba lagi nanti!</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, sudah ada ronde yang sedang berlangsung. Gunakan `{1}stopg` untuk menghentikannya.</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, ada terlalu banyak ronde yang sedang dipersiapkan saat ini. Coba sebentar lagi.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Anda akan diberikan poin lebih sedikit untuk ronde kesulitan di bawah**{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>dan memperoleh {0} poin!</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, perintah ini hanya tersedia untuk pelanggan (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Poin</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` ronde dimenangkan</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Sepanjang Masa__</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Poin</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} poin** telah diperoleh</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Skor dan papan peringkat akan diproses setiap jam.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Papan peringkat khusus telah disetel ulang.
+Anda dapat memulai yang baru lagi dengan `{0}startctop`.</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} sekarang level {1}</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` ronde audio</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Server__</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` ronde selesai</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} telah menang!</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` poin</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Peringkat {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Tangkapan</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Petunjuk</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Kamu mempunyai {0} detik tersisa untuk menebak!**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Mohon maaf atas mengganggu permainan anda, tetapi saya harus menyalakan ulang untuk memberikan fitur terbaru yang lebih menarik!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Kamu bisa memulai ronde baru sebentar lagi.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning:  **Menyalakan ulang**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Pemain</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Judul alternatif</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}`poin prestasi</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Sepanjang masa__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Secara Global</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Minggu ini__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, anda belum pernah memenangkan satu ronde pun.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>Skor {0}</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` poin putaran</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Kunjungi [halaman profil kamu]({1}/profile/{2})untuk melihat statistik global</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Jadilan pelanggan]({1}), [belikan aku kopi]({2}) atau [voting harian]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Bantu agar RinBot tetap hidup!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Tidak ada pemain yang ditemukan.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Sejak minggu lalu</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} poin** diperoleh</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Ronde telah dibatalkan dikarenakan tangkapan gambar yang hilang. Coba lagi di ronde lainnya dengan filter yang dibatasi.</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Tidak ada yang menebak dengan benar**</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Pemain teratas di__{0}__**</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Untuk meningkatkan batas ini, Anda bisa [menjadi pelanggan]({0}).</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, tidak ditemukan papan peringkat khusus. Anda dapat memulai yang baru menggunakan `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Papan peringkat khusus baru saja dimulai untuk saluran ini.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, papan peringkat khusus sudah aktif di saluran ini.
+Anda dapat mengakhirinya dengan menggunakan `{1}endctop` atau menyetel ulang sepenuhnya dengan menggunakan `{1}resetctop`.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Untuk mendapatkan proses yang lebih cepat, anda dapat [meningkatkan server Anda]({0}).</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Mudah</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Susah</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Ekstrim</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Mimpi buruk</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Pembukaan</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Penutup</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Masukkan lagu</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Gambar lagu</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` ronde mudah</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` ronde normal</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` ronde susah</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` ronde ekstrim</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` ronde mimpi buruk</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` ronde tanpa kesulitan</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Sebuah sesi sudah aktif</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} ronde saat ini tidak tersedia</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Tidak dapat memulai permainan secara manual saat ronde suara aktif.
+Untuk menghentikannya, anda dapat menggunakan `{0}stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` ronde karakter anime</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` memenangkan setidaknya 1 ronde</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Dari pengguna **{0}** pada {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Daftar animenya adalah **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>genre harus salah satu dari yang terdaftar di `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>anda memilih rentang tahun yang tidak valid</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>Anda tidak dapat menggunakan kesulitan Mimpi buruk dengan filter lain</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>saluran harus diatur ke NSFW untuk menggunakan filter ini.</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>awal tahun harus ≤ tahun ini</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>awal tahun harus &gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>akhir tahun harus ≥ untuk memulai tahun</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>filter jenis lagu hanya dapat digunakan pada ronde audio</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>genre ini tidak tersedia</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>filter daftar anime hanya berfungsi untuk ronde karakter anime dan ronde anime</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>Daftar perintah RinBot</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Menampilkan skor pribadi Anda</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Menampilkan pemain teratas sepanjang masa di server</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Untuk daftar lengkap perintah silakan [kunjungi situs web]({0}).</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Memulai ronde baru gambar</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Memulai ronde baru video</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Memulai ronde baru audio</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Memulai ronde baru gambar visual novel</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Menampilkan papan peringkat khusus</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Menampilkan statistik permainan</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Menampilkan pemain tercepat minggu ini di server</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Menampilkan semua genre anime yang tersedia</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Lain-lain</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Skor</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Perintah</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Putaran</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Memulai sesi putaran suara</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Menghentikan sesi putaran suara</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Putaran suara</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Memulai ronde baru karakter anime</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, saya tidak mengerti parameternya.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Memulai sesi putaran suara baru dengan sampel</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Mensinkronkan daftar anime</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Manajemen</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Pastikan izin diatur dengan benar. Saya memerlukan setidaknya izin Menghubungkan dan Berbicara.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Tidak dapat tersambung ke saluran suara '{0}'</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Tidak dapat menemukan saluran suara yang dapat digunakan</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Memulai sesi dengan {0} putaran</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Masuklah kedalam saluran suara **{0}**untuk bisa mendengar dan menebak.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Ronde telah dimulai!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Mencapai putaran maksimum sesi ini</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Mungkin kami kehabisan tangkapan untuk filter yang satu ini, coba filter yang lain.</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Sesi telah dibatalkan</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Filter sesi telah berubah</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Memulai sesi suara di saluran **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Mempersiapkan ronde {0} dari {1}…</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, ada sesi yang sedang berlangsung. Gunakan `{1}stopgs` untuk menghentikannya.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Memulai papan peringkat kustom baru</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Mengakhiri papan peringkat kustom</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Putaran akan dimulai secara otomatis.
+
+Untuk melewati satu putaran, gunakan `{0}stopg` dan untuk membatalkan sesi gunakan `{0}stopgs`.</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Bantuan lebih lanjut__
+Pertanyaan: `{0}help query`</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Menyetel ulang papan peringkat kuston</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Memulai babak permainan baru</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Memulai ronde baru karakter anime piksel</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Menampilkan kredit</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Gunakan perintah ini untuk menyinkronkan daftar anime anda. Hanya bisa dilakukan sekali sehari.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>nama pengguna</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Kredit</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Terima kasih yang sebesar-besarnya kepada semua orang dan situs web yang telah membantu mewujudkan {0}.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Basis data/API</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Pelanggan</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Terima kasih khusus</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Terjemahan</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Awalan perintah saya sekarang: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Awalan perintah saya saat ini adalah `{0}`
+
+Gunakan `{0}prefix prefix_kamu` atau `@{1} prefix prefix_kamu` untuk mengubahnya.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Awalan perintah saya tidak dapat diubah.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Awalan harus diantara 1 dan 5 karakter.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>awalan perintah {0}</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Fitur ini saat ini hanya tersedia dalam versi beta.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Fitur ini saat ini hanya tersedia dalam pengembangan.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Operasi</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Bantuan untuk pertanyaan</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Fitur ini tidak tersedia di bot ini.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Daftar anime disinkronisasi</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Kamu bukan Kururin, iyakan?</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Daftar ini sudah disinkronkan.
+Status saat ini adalah **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Antrian</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Berhasil</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Anda memberikan nama pengguna yang buruk.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Daftar ini disinkronkan baru-baru ini.
+Harap tunggu {0} sebelum mencoba lagi.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Sinkronisasi diantrikan untuk {0} pengguna '{1}</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Anda akan menerima pembaruan status di pesan langsung.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Anda hanya dapat mengantri satu pekerjaan sinkronisasi dalam satu waktu.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Anda hanya dapat mengantri pekerjaan sinkronisasi setiap 15 menit.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Status saat ini **{0}**.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Status sinkronisasi untuk {0} pengguna '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Gagal</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Dihapus</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Dibatalkan</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Memproses</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Memaksa pembaruan informasi server ini (saluran, peran, dan semacamnya)</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Anda dapat memiliki maksimum `{0}` putaran per sesi.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>berpotongan</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>kesatuan</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Juga dikenal sebagai</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Dari</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>oleh</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Lagu</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Genre</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} membutuhkanmu!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Bahasa tidak dapat diubah.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Kode bahasa `{0}` tidak didukung.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Mengganti bahasa</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Bahasa telah diganti ke `{0}`.</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Menampilkan bahasa saat ini atau merubahnya</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Termasuk genre **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Tidak termasuk genre **{0}**</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Tidak ada sesi yang aktif di saluran ini.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Papan peringkat kecepatan sepanjang masa telah diatur ulang</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Mungkin perlu beberapa saat agar papan peringkat dapat disegarkan.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Menyinkronkan {0} pengguna '{1}'</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Server__</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Basis data {0} tidak dapat dijangkau saat ini. Coba lagi nanti.
+
+Periksa [halaman status]({1}) atau [server dukungan RinBot]({2}) untuk informasi lebih lanjut.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>akhir tahun harus ≤ tahun ini</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>Daftar **{0}** di {1} belum disinkronkan. gunakan `!sync` terlebih dahulu untuk menyingkronkan daftar.</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Menghentikan ronde saat ini</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Menampilkan pemain teratas minggu ini di server</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Menampilkan skor total di server ini</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, untuk menggunakan fitur ini, anda memerlukan setidaknya satu izin berikut: `{1}`</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Sedang menemukan saluran suara untuk bergabung…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Saya tidak dapat menemukan saluran suara untuk bergabung.
+
+Anda dapat membuatnya dengan nama yang sama dengan saluran teks ini, atau bergabung ke tempat saluran suara yang anda inginkan saya memasukinya.</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Untuk menghemat sumber daya server, putaran maksimum dalam satu sesi untuk Anda adalah {0}.
+
+Untuk meningkatkan batas ini, Anda dapat membantu dengan penggalangan dana[menjadi pelanggan]({1})!</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Putaran akan dimulai secara otomatis.
+
+Untuk mengubah filter Anda, cukup gunakan `{0}sgs` lagi. Untuk melewati satu ronde, gunakan `{0}stopg` dan untuk membatalkan sesi saat ini gunakan `{0}stopgs`.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Anda dapat membuat kueri dengan menggabungkan operasi dan filter.
+
+Misalnya: `{0}sg n:5 d:3 y:1995-2005` untuk memulai sesi dengan 5 ronde anime dengan kesulitan sulit antara tahun 1995 dan 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Kesulitan `d:0` hingga `d:5` (`0` menonaktifkan filter kesulitan)
+`y:` - Tahun `y:2010` atau rentang tahun `y:1995-2005`
+`g:` - Genre `g:action` atau beberapa `g:action,-sliceoflife,!kids`, di mana `-` atau `!` mengecualikan genre (gunakan `{0}genres` untuk semua genre)
+`t:` - Jenis lagu: pembuka `t:op`, penutup `t:ed` atau masukka lagu `t:in` (`in` hanya berfungsi dengan `sga`)
+`sl:` - Panjang sampel dalam detik, antara 5 dan 30 (hanya dapat digunakan dengan `{0}sgsa`)
+`mal:` - daftar anime pengguna MyAnimeList `mal:nama pengguna` atau beberapa `mal:pengguna1,pengguna2`
+`anilist:` - daftar anime pengguna AniList `anilist:nama pengguna` atau beberapa `anilist:pengguna1,pengguna2`</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>seimbang</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Peringkat untuk sesi ini</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Menampilkan awalan saat ini atau mengubahnya</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Bahasa saat ini adalah `{3}` ({4}).
+
+Anda dapat mengubah bahasa {1} menggunakan `{0}lang kode_bahasa`.
+Bahasa yang saat ini didukung:
+{2}
+
+Anda dapat membantu meningkatkannya atau bahkan menambahkan lebih banyak bahasa di [situs web terjemahan kerumunan]({5}).</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Periksa [statistik terjemahan]({0}) untuk daftar semua orang yang berkontribusi!</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Jumlah putaran untuk dimainkan dalam satu sesi (maks 10)
+`im:` - Manipulasi gambar: `im:p` berpiksel, `im:i` terbalik, `im:o` yang dilukis dengan cat minyak, skala abu-abu `im:g`, dibalik secara vertikal `im:f` atau beberapa `im: p,i,o,g,f` (kombinasi apa saja)
+`nh:` - Jangan tampilkan petunjuk `nh:1`
+`aggr:` - Ubah metode agregasi saat menggunakan daftar anime: semua gabungan `aggr:union`, ada di semua daftar `aggr:intersect` atau ukuran sampel yang sama per daftar `aggr:balance` (default)</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Shard anda adalah `{0}`
+
+Ada `{1}` server yang terhubung ke shard ini.
+Putaran `{2}` sedang dimainkan.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Melebihi putaran maksimum yang diizinkan untuk sesi</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` putaran</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>Putaran video hanya tersedia bagi pelanggan</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Pastikan Anda telah memberikan nama pengguna yang benar dan daftar Anda __dapat diakses oleh publik__.
+
+Jika masalah masih berlanjut, minta bantuan di [server dukungan]({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Sekarang anda dapat mulai menggunakan filter `{0}:{1}`.</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Menampilkan pemain tercepat sepanjang masa di server</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Terjadwal</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>Biaya operasional {0} saat ini adalah **${1} per bulan**
+
+Saat ini hanya **{2}%** dari jumlah ini yang ditanggung.
+
+Jika anda menikmati memainkan {0}, bisa dipertimbangkan untuk [menyumbang $2 atau lebih di Patreon]({3}) untuk membantunya tetap hidup.
+
+Bahkan sumbangan kecil sangat membantu dan Anda bahkan akan mendapatkan beberapa fasilitas sebagai imbalannya!</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Ada ronde yang aktif di saluran ini. Coba gunakan `{0}stopg` atau `{0}stopgs` untuk menghentikannya.</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Masalah validasi ini terjadi:</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Tidak dapat membuat sesi baru, coba gunakan `{0}stopg` atau `{0}stopgs` atau filter yang berbeda.</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Manipulasi audio: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Manipulasi gambar: **{0}**</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Menghentikan semua ronde di server ini</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>panjang sampel harus ≥ 5 dan ≤ 30 detik</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Filter salah</value>
+  </data>
+</root>

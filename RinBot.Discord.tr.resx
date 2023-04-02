@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} doğru yanıtladı!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} puan** kazanıldı</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` puan</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>İpucu</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Sıra {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Kesit</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Tahmin etmek için {0} saniye kaldı!**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Oyuncu</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Alternatif isimler</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` başarım puanı</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Tüm zamanlar__</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Bu hafta__</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning:  **Yeniden başlatılıyor**</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, henüz hiç raunt kazanmadın.</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` raunt puanı</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Dünya çapındaki istatistikler için [profil sayfanı]({1}/profile/{2}) ziyaret et</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Oyuncu bulunamadı.</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Şu an için bakım altındayım, daha sonra tekrar dene!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning:  **Bakım**</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Zorluk seviyesi **{0}**</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, parametreyi anlamadım.</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>{0} ve {1} yılları arasında yayınlandı</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Raunt {0} saniye içinde başlayacak…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, aynı anda çok fazla raunt hazırlanıyor. Az sonra tekrar dene.</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Geçen hafta__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` puan</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Puan</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Puan</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Tüm zamanlar__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Geçen hafta__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Bu hafta__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` oyuncu</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, bu komut yalnızca destekçiler için geçerlidir (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, `{2}stopg` komutunu {1} dakika içinde birden fazla kez kullanamazsın.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, şu anda devam eden bir raunt yok. `{1}sg` yazarak bir tane başlatabilirsin.</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} bu başarımı kazandı</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>ve {0} puan kazandı!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} şu an seviye {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>**{0}** türünden</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Sıra {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` raunt kazanıldı</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Hız</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Geçen haftanın kazananı</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} puan** kazanıldı</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Süre: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Tahmin: **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Şarkı türü: **{0}**</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>{0}. Hafta</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Özel sıralama sıfırlandı.
+`{0}startctop` yazarak yeni bir tane başlatabilirsin.</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` anime raundu</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` ses raundu</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Veritabanı__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` sunucu</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Sunucular__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` görsel raundu</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` kullanıcı</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Özel sıralama bulunamadı.
+`{0}startctop` yazarak bir tane başlatabilirsin.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Kolay</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Zor</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Evrensel</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>1000 raunttan fazla kazanan kişi sayısı `{0}`</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>100 raunttan fazla kazanan kişi sayısı `{0}`</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>10 raunttan fazla kazanan kişi sayısı `{0}`</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>İptal edilen rauntlar `{0}`</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` şarkı</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` video raundu</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` görsel roman</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` görsel roman raundu</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Rauntlar__</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>#{0} için özel sıralama</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Bu kanal için bir özel sıralama başlatıldı.</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Sunucular__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Aşırı Zor</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Kabus</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Açılış Müziği</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Kapanış Müziği</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>OST</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` kolay seviye raunt</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` zor seviye raunt</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` aşırı zor seviye raunt</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` kabus seviye raunt</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` seviye seçilmemiş raunt</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Mevcut raunt devam ediyor</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} rauntları şu anda kullanılabilir değil</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Sesli raunt mevcutken yeni bir oyun başlatılamaz.
+Durdurmak için `{0}stopgs` yazabilirsin.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` anime karakteri raundu</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>En az 1 raunt kazanan kişi sayısı `{0}`</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Yeni bir görsel raundu başlatır</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Yeni bir video raundu başlatır</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Yeni bir ses raundu başlatır</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Kendi skorunuzu gösterir</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Sunucunun bu haftaki en yüksek puanlı oyuncularını gösterir</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>bu tür mevcut değil</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>anime listesi yalnızca anime ve anime karakteri rauntları için geçerlidir</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Sunucunun tüm zamanların en hızlı oyuncularını gösterir</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Sunucunun bu haftaki en hızlı oyuncularını gösterir</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Oyun istatistiklerini gösterir</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Tüm mevcut anime türlerini gösterir</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Komutlar</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Gereken yetkilerin verildiğinden emin olun. En azından Bağlan ve Konuş izinleri gereklidir.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Raunt başladı!</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Bu özelliğe şu an için sadece beta sürümünde erişilebilir.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Destekçiler</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Şarkı</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Türler</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Dili değiştir</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Mevcut dili göster veya değiştir</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Kimse doğru yanıtlamadı**</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Bir dakika içinde yeniden bir raunt başlatabilirsin.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>{0} veritabanına şu anda erişilemiyor. Daha sonra tekrar deneyin.
+
+Daha fazla bilgi için[Sunucu durumunu]({1}) veya [RinBot destek sunucusunu]({2}) kontrol edin.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Geçen haftadan beri</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Yeni raunt hazırlanıyor…</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Başarımlar</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>Bu kanalda bu botu kullanabilmek için NSFW açık olmalıdır.</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Oyun istatistikleri</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot komut listesi</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Mevcut raundu durdurur</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Sunucunun tüm zamanların en yüksek puanlı oyuncularını gösterir</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Yeni bir görsel roman raundu başlatır</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Sunucunun toplam skorunu gösterir</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Yeni bir anime karakteri raundu başlatır</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Katılabileceğim bir ses kanalı arıyorum…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Katılabilecek bir ses kanalı bulamadım.
+
+Bu yazı kanalının isminde bir kanal oluşturabilir ya da katılmamı istediğin bir ses kanalına girebilirsin.</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Yeni bir oyun raundu başlatır</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, halihazırda çalışan bir raundun var.</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>yanlış bir yıl aralığı seçtin</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Puanlar ve sıralamalar her saat güncellenir.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Daha hızlı güncellenmesini sağlamak için, sunucuna [takviye yapabilirsin]({0}).</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>RinBot'u ayakta tutmaya yardımcı ol!</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, Bugün çok fazla oyun başlattın. Bu limiti artırmak için destekçi ol. (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Destekçi ol]({1}), [bana bir kahve ısmarla]({2}) veya [günlük oy ver]({0}/#support)!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Sunucu kaynaklarını korumak için, tek seferde oynayabileceğin maksimum raunt senin için {0}.
+
+Bu limiti artırmak için, bize yardımcı olabilirsin [destekçi olarak]({1})!</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, halihazırda çalışan bir raunt var. Durdurmak için `{1}stopg` yaz.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>**{0}** zorluk seviyesinin altındaki rauntlar daha az puan verecek</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Oyuncular__</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>Bitirilen rauntlar `{0}`</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, özel sıralama bulunamadı. `{1}startctop` yazarak bir tane başlatabilirsin</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, bu kanalda halihazırda bir özel sıralama mevcut.
+`{1}endctop` yazarak sonra erdirebilir veya `{1}resetctop` yazarak tamamen sıfırlayabilirsin.</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` orta seviye raunt</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Oyununu böldüğüm için üzgünüm, ama size yeni özelliklerimle hizmet verebilmem için kendimi yeniden başlatmam gerek!</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Yeterli kesit bulunamadığı için raunt iptal edildi. Daha az kısıtlayıcı filtrelerle tekrar deneyin.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Bu kanaldaki özel sıralama sona erdi.
+`{0}resetctop` yazarak sıfırlayabilirsin.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Aktif olan bir özel sıralama yok.
+`{0}startctop` yazarak bir tane başlatabilirsin.</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Bu oturum için maksimum raunt sayısına ulaşıldı</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Özel sıralamayı sıfırlar</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Özel sıralamayı bitirir</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Yeni bir özel sıralama başlatır</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Çeviriler</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Bu özellik bu bot için kullanılabilir değil.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Raunt için filtreleme değiştirildi</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Oturum iptal edildi</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Büyük ihtimalle bu filtreye uygun kesit bulunamadı, başka bir şekilde deneyin.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>bitiş yılı günümüzden ileride olamaz</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>bu filtreyi kullanabilmek için kanal NSFW olarak ayarlanmalıdır.</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>kabus seviye zorluğu başka filtrelerle birlikte kullanamazsın</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Sadece 1000'den fazla anime içeren rauntlarda geçerlidir</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>**{0}** kanalında sesli raunt başlatıldı</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Rauntlar otomatik olarak başlayacak.
+
+Filtre değiştirmek için, tekrar `{0}sgs` kullan. Raundu atlamak için `{0}stopg` kullan ve oturumu iptal etmek için `{0}stopgs` kullan.</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, parametreyi anlamadım.</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Raundu durdurur</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Yeni bir sesli raunt başlatır</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Sesli rauntlar</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Skorlar</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Rauntlar</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, bu özelliği kullanabilmek için en azından bu yetkilerden birine sahip olmalısın: `{1}`</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Özel sıralamayı gösterir</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Bütün komutların bir listesi için lütfen [websitesini ziyaret edin]({0}).</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>şarkı türü filtreleme yalnızca ses rauntlarında kullanılabilir</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>bitiş yılı başlangıç yılından küçük olamaz</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>başlangıç yılı 1900'den ileride olmalıdır</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>başlangıç yılı günümüzden ileride olamaz</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filtreler</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>İşlemleri ve filtreleri bir araya getirerek yeni sorular oluşturabilirsin.
+
+Örnek: `{0}sg n:5 d:3 y:1995-2005` 1995 ve 2005 yılları arasında yayınlanan zor seviyede 5 rauntluk bir oturum başlatır.</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Sen Kururin değilsin, değil mi?</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Ön ek 1 ve 5 karakter arasında olmalıdır.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Komut ön eki değiştirilemedi.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Şu an komutlar için ön ek: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Şu anki ön ekim `{0}`
+
+Değiştirmek için `{0}prefix your_prefix` veya `@{1} prefix your_prefix` yaz.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Ayrıca teşekkürler</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Veritabanları/API'ler</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>{0}'u yapmayı mümkün kıldıkları için tüm bu websitelerine ve insanlara çok teşekkürler.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Emeği Geçenler</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>kullanıcı adı</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Anime listeni senkronize etmek için bu komutu kullan. Günde bir defa yapılabilir.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Anime listesi senkronizasyonu</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Emeği geçenleri gösterir</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Yeni bir piksel anime karakteri raundu başlatır</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, devam etmekte olan bir oturum mevcut. Durdurmak için `{1}stopgs` yaz.</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Daha fazla yardım__
+Sorular: `{0}help query`</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>{1} raunt arasından {0}. raunt hazırlanıyor…</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Dinlemek ve tahmin edebilmek için ses kanalına bağlan **{0}**.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>{0} raunt içeren bir oturum başlatıldı</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Rauntlar otomatik olarak başlayacak.
+
+Raundu atlamak için, `{0}stopg` yaz ve oturumu iptal etmek için `{0}stopgs` yaz.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Kullanılabilir ses kanalı bulunamadı</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>'{0}' sesli kanalına katılamadım</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Mevcut ön eki göster veya değiştir</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Yönetim</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Bir anime listesi senkronize eder</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Örnek içeren yeni bir sesli raunt başlatır</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Dünya çapında</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0} adlı kişinin skoru</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**__{0}__ içerisindeki en iyi oyuncular**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0} için başarım listesi</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0} adlı kişinin sunucu skoru</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**__{0}__ içerisindeki en hızlı oyuncular**</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>{0} tarihinden {1} tarihine kadar</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>{0} gün önce başladı</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>({0} gün sonra sona erecek)</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>İmaj Şarkısı</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>**{0}** adlı kişi veya kişilerin {1} hesabından</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Anime listeleri **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>seçilecek tür `!genres` yazdığınızda listelenen türlerden biri olmalıdır</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}** adlı kişinin {1} hesabındaki listesi henüz bağlanmadı</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0} komutunun ön eki</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Bu özellik şu an için geliştirme aşamasında.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Bir oturumda oynanacak raunt sayısını değiştirir
+`im:` - Görsele etki eder `im:p,i,o,g,f` (herhangi kombinasyon)
+`nh:` - İpucu göstermez `nh:1`
+`aggr:` - Anime listelerini kullanırken bir araya gelme yöntemini değiştirir: `aggr:union`, `aggr:intersect` or `aggr:balance` (varsayılan)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>İşlemler</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Sorular için yardım</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Zorluk seviyesi `d:0` to `d:5` (`0` zorluk filtresini devre dışı bırakır)
+`y:` - Yıl `y:2010` veya yıl aralığı `y:1995-2005`
+`g:` - Tür `g:action` veya birden fazla `g:action,-sliceoflife,!kids`, where `-` veya `!` türü dahil etmez (tüm türler için `{0}genres` kullan)
+`t:` - Şarkı türü `t:op`,`t:ed` veya`t:in` (`in` sadece `sga` için geçerlidir)
+`mal:` - MyAnimeList kullanıcı anime listesi `mal:username`
+`anilist:` - AniList kullanıcı anime listesi `anilist:username`</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>dengelendirildi</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>kesiştirildi</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>birleştirildi</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Bu oturum için sıralama</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Ayrıca bilinir</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Bu animeden</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>tarafından</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}'un işletim masrafları şu anlık aylık **${1}**
+
+Şu anda bu miktarın yalnızca **{2}%**'lik bir kısmı karşılandı.
+
+Eğer {0} ile oynamaktan keyif alıyorsanız, lütfen onu ayakta tutabilmek için [Patreon'da $2 veya daha fazla bağış yapmayı ]({3}) göz önünde bulundurun.
+
+Aslında küçük bağışlar bile çok büyük bir destek ve karşılığında bazı ödüller bile alacaksın!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star:  {0} sana ihtiyaç duyuyor!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Dil değiştirilemedi.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Şu anki mevcut dil `{3}` ({4}).
+
+{1}'un dilini `{0}lang language_code` kullanarak değiştirebilirsin.
+Şimdilik sadece bu diller desteklenmektedir:
+{2}
+
+Bunları geliştirmeye yardımcı olabilir hatta [bu websiteden]({5}) daha fazla dil ekleyebilirsin.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>`{0}` dil kodu desteklenmiyor.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Dil `{0}` diline değiştirildi.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>**{0}** türleri dahil ediliyor</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>**{0}** devre dışı bırakılıyor</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Katkıda bulunan herkesin listesini görmek için [çeviri istatistiklerine]({0}) göz at!</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Bu sunucudaki tüm rauntları durdurur</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Oturumda izin verilen maksimum raunt sayısı aşıldı</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Bu limiti artırmak için [patron olun]({0}).</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Her oturumda maksimum `{0}` raunda sahip olabilirsiniz.</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` raunt</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Bu kanalda aktif bir oturum bulunmuyor.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Bu kanalda aktif bir raunt mevcut. Durdurmak için `{0}stopg` ya da `{0}stopgs` kullanmayı deneyin.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Mevcut raunt durduruluyor…</value>
+  </data>
+</root>

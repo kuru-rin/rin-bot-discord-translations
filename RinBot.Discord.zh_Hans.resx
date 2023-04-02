@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**没有人猜对**</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>获得了**{0}分**</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}`分</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>排名{0}</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**你还有{0}秒可以猜！**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>很抱歉打断了你的游戏，但我必须重新启动自己，为你提供闪亮的新功能！</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>你可以在一分钟内再次开始新一轮。</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: **重新启动**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>玩家</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>替代标题</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__所有时间__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>全球范围</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__本周__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}，你一轮都还没赢。</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}的分数</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}`轮分</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0}赢了！</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>帮助RinBot活下来！</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>没有玩家发现。</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>从上周开始</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**__{0}__的顶级玩家**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>我目前正在维修,稍后再试!</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>{0}年至{1}年间播出</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>难度级别 **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>正在准备新一轮…</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>轮将在{0}秒后开始…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}，目前正在准备的轮太多了。 请稍后再试。</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}，我不明白参数。</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>您不能每123分钟使用一次以上的`{2}stopg'命令。</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>对于低于**{0}**的难度，你会得到较少的分数</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} 获得了这个成就</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0} 的成就列表</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>得到了{0}分!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0}现在是{1}级</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>从类型: **{0}**</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}，你已经有一个活跃轮在其他地方运行。</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>成就</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__上周__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}`分</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>积分</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>范围 {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` 轮获胜</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}的服务器上的分数</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__上周__</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>积分</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**__{0}__ 中最快的玩家**</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>所用时间: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>猜测: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**获得了 {0} 分**</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>只计算池数超过1000的轮</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>歌曲类型: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>上周的冠军</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>分数和排行榜每小时处理一次。</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>从{0}到{1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>{0}开始</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>第 {0} 周</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>({0}结束)</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` 动漫</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` 个音频轮</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` 个动漫轮</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__资料库__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` 台服务器</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__服务器__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` 个图像轮</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` 用户</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}`首歌</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>全球</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>游戏统计</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>简单</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>难</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>极端</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>恶梦</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>开场曲</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>闭幕曲</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>背景音乐</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>由于缺少捕获，该轮被取消。 尝试另一轮限制较少的过滤器。</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}`成就点</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>访问[你的个人资料页面]({1}/profile/{2})获取全球统计数据</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[成为赞助人]({1})，[给我买杯咖啡]({2})或[每日投票]({0}/#support)！</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: **维修**</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}，已经有一轮正在进行中。 使用`{1}stopg`来阻止它。</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}，目前没有一个轮正在进行。你可以使用 `{1}sg` 开始一个。</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, 此命令仅适用于订阅会员 (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>必须在此通道上启用NSFW才能使用此机器。</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__玩家__</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` 部视觉小说</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__ 这个星期__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` 赢了 &gt; 1000轮</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>显示所有有的动漫类型</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>分数</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>同步动漫列表</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>无法连接到语音通“{0}”</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>正在寻找一个可以加入的语音频道……</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>找不到可用的语音频道</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>这轮比赛已经开始了!</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>从</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>歌</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>改变语言失败了。</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>改变语言</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__所有时间__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` 玩家</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>这个频道的自定义排行榜已经结束。
+你现在可以用`{0}resetctop`重置它。</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>没有自定义的排行榜是活跃的。
+你可以使用`{0}startctop`开始一个。</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>没有发现自定义排行榜。
+你可以使用`{0}startctop`开始一个。</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>自定义排行榜被重置了。
+你可以用`{0}startctop`重新开始一个新的。</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` 赢了 &gt; 10轮</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` 赢了 &gt; 100轮</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` 轮已取消</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` 轮已完成</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` 个视频轮</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` 个视觉小说轮</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__轮__</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>为#{0}定制的排行榜。</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>这个频道的自定义排行榜刚刚开始。</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>为了获得更快的处理，你可以[提升你的服务器]({0})。</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__服务器__</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>主歌</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` 个简单的轮</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` 个正常的轮</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` 个困难的轮</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` 个极端的轮</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` 个恶梦的轮</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` 个无难度的轮</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>已经有一个活动会议</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0}目前无法使用轮次</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` 赢了至少一轮</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>{1}中的**{0}**用户</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>你选择了一个无效的年份范围</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>你不能将恶梦难度与任何其他过滤器一起使用</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, 没有发现自定义排行榜。你可以使用`{1}startctop`开始一个新的排行榜。</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}，一个自定义的排行榜已经在这个频道中激活。
+你可以用`{1}endctop`来结束它，或者用`{1}resetctop`完全重置它。</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>{0}数据库目前无法到达。请稍后再试。
+
+请查看[状态页面]({1})或[RinBot支持服务器]({2})了解更多信息。</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` 个动漫人物轮</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>动漫列表是**{0}**</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>完成年份必须 ≤ 当年</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>发行年份必须 ≤ 当年</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>发行年份必须 &gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>完成年份必须 ≥ 发行年份</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>歌曲类型过滤器只能用于音频轮</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>这种类型不可用</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>动漫列表过滤器只适用于动漫和动漫人物轮回</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot命令列表</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>开始一个新的图像轮</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>开始一个新的视频轮</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>开始一个新的音频轮</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>停止这轮</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>显示你的分数</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>显示服务器中所有时间的顶级玩家</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>显示本周服务器中的顶级玩家</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>有关完整的命令清单，请[访问网站]({0})。</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>开始一个新的视觉小说图像轮</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>显示自定义排行榜</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>显示该服务器的总分</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>显示服务器中所有时间最快的玩家</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>显示本周服务器中最快的玩家</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>显示游戏统计</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, 要使用这个功能，你至少需要其中一个权限: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>轮次</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>语音轮</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>开始一个语音轮会话</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>停止一个回合的会议</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>开始一个新的动漫角色轮</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}，我不明白这个参数。</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>开始一个新带样本的语音轮会话</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>显示当前的前缀或改变它</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>确保权限设置正确。我至少需要连接和讲话的权限。</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>我找不到可以加入的语音频道。
+
+你可以创建一个与这个文本频道同名的频道，或者加入你想让我去的语音频道。</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>各轮将自动开始。
+
+要跳过一轮的话，使用`{0}stopg`，要取消会话的话，使用`{0}stopgs`。</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>一个{0}轮的会话开始了</value>
+  </data>
+</root>

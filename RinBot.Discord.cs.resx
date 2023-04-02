@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Odhad: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Čas: **{0}**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>Abyste mohli použít bota pro tento kanál, je třeba mít povolené NSFW.</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Nejrychlejší hráč na __{0}__**</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Rychlost</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` hráčů</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Tento týden__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Minulý týden__</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Celkové hodnocení__</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>Skóre serveru {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` kol vyhráno</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Umístění {0}</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` bodů</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Minulý týden__</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Úspěchy</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, již máš aktivní kolo někde jinde.</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, dnes jsi zahájil/a příliš mnoho her. Staň se patronem pro zvýšení tohoto limitu (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, tento příkaz je dostupný pouze pro patrony (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Ze žánru **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} je nyní na úrovni {1}</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>a získal/a {0} bodů!</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>Seznam úspěchů {0}</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} získal/a toto ocenění</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Za kola s obtížností pod **{0}** dostanete méně bodů</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, právě se nehraje žádné kolo. Můžete ho začít pomocí `{1}sg`.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, nemůžete použít příkaz `{2}stopg` častěji než za {1} minut.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, nerozumím tomuto parametru.</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, momentálně se připravuje příliš mnoho kol. Zkuste to za chvíli.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Kolo začne za {0} sekund…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, již probíhá kolo. Použij `{1}stopg` pro jeho zastavení.</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Připravuji nové kolo…</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Obtížnost je **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Vysíláno mezi roky {0} a {1}</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: **Údržba**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Právě jsem pod údržbou, zkuste to za chvíli!</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Nejlepší hráči na __{0}__**</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Od posledního týdne</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Nebyli nalezeni žádní hráči.</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Pomož udržet RinBot naživu!</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Staň se patronem]({1}), [kup mi kafe]({2}) nebo [denně hlasuj]({0}/#support)!</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Navštiv [svojí profilovou stránku]({1}/profile/{2}) pro celosvětové statistky</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>Skóre {0}</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, nevyhráli jste zatím žádné kolo.</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Tento týden__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Světově</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Alternativní názvy</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Hráč</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: **Restartování**</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Nové kolo můžete začít za minutu.</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Omlouvám se za přerušení Vaší hry, ale musím se restartovat, abych Vám mohla nabídnout nové funkce!</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Zbývá {0} sekund na odpověď!**</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Nápověda</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Umístění {0}</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Zastaví hlasovou relaci</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Začne hlasovou relaci</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Příkazy</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Skóre</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Relace</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Různé</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, pro použítí této funkce musíš mít alespoň jedno z těchto oprávnění: `{1}`</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Zobrazí všechny dostupný anime žánry</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Zobrazí statistiky hry</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Ukáže nejrychlejší hráče tohoto týdne na tomto serveru</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Ukáže nejrychlejší hráče všech dob na tomto serveru</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Ukáže celkové skóre tohoto serveru</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Ukáže vlastní žebříček</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Začne novou relaci s vizuálními novelami</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Seznam všech příkazů nalezneš na [webstránce]({0}).</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Ukáže nejlepší hráče tohoto týdne na tomto serveru</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Ukáže nejlepší hráče všech dob na tomto serveru</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Ukáže vaše osobní skóre</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Zastaví aktuální kolo</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Začne novou zvukovou relaci</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Začne novou video relaci</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Začne novou obrázkovou relaci</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot seznam příkazů</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>anime list filtr funguje jenom s anime koly nebo s koly anime postav</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>List uživatele **{0}** na {1} ještě nebyl synchronizován</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>tento žánr není dostupný</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>filtr typů písní může být použit pouze na relace s hudbou</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>konečný rok musí být ≥ jak začáteční rok</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>začáteční rok musí být &gt; 1900</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>konečný rok musí být ≤ než aktuální rok</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>začáteční rok musí být ≤ než aktuální rok</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>aby jsi mohl/a použít tento filtr, musí být kanál nastaven jako NSFW.</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>nemůžeš použít Děsivou obtížnost s jinými filtry</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>zvolili jste neplatný rozsah let</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>žánr musí být jedním ze žánrů uvedených v `!genres`</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Anime listy jsou **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Od uživatele(ů) **{0}** na {1}</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` vyhrál/a alespoň 1 kolo</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` kol s anime postavami</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Nemůžeš zapnout hru manuálně, pokud jsou zapnutá hlasová kola.
+Pro jejich zastavení můžeš použít `{0}stopgs`.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} kol je momentálně nedostupných</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Databáze {0} není v tuto chvíli dostupná. Zkus to později.
+
+Zkontroluj [stavovou stránku]({1}) nebo [RinBot server pro podporu]({2}) pro víc informacií.</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Relace je již aktívní</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` kol bez obtížnosti</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` děsivých kol</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` extrémních kol</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` těžkých kol</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` normálních kol</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` jednoduchých kol</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Image píseň</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Insert píseň</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Ending</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Opening</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Děsivá</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Extrémní</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Těžká</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Podívej se na [statistiky překladů]({0}) pro seznam všech, co se na nich podíleli!</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` bodů</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>Bylo získáno **{0} bodů**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} vyhrál!</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Nikdo neodpověděl správně**</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Kolo bylo zrušeno kvůli chybějícím záznamům. Zkus další kolo s méně omezujícími filtry.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filtry</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Zobrazí aktuální jazyk, nebo ho změní</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Jazyk byl změněn na `{0}`.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Použité žánry **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Mimo žánry **{0}**</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(končí {0})</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Týden {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Začátek {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Od {0} do {1}</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Skóre a žebříčky jsou zpracovávány každou hodinu.</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Výherce minulého týdne</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Typ písně: **{0}**</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Jsou započítány pouze relace se společnou kolekcí větší než 1000</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` bodů za kolo</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Celočasový__</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` body úspěchu</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Záznam</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>Bylo získáno **{0} bodů**</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Poděkování</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>přezdívka</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Použij tento příkaz pro synchronizaci tvého anime listu. Můžeš tak udělat jednou za den.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Synchronizace anime listu</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Zobrazí poděkování</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Začne nové pixelové kolo s anime postavami</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Začne nové herní kolo</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Resetuje vlastní žebříček</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Ukončí vlastní žebříček</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Založí nový vlastní žebříček</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, právě probíhá kolo. Použij `{1}stopgs` pro jeho zastavení.</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Další pomoc__
+Příkazy: `{0}help query`</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Připravuji kolo {0} z {1}…</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Změna jazyka</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Relace s {0} koly začala</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Hlasová relace začala v kanále **{0}**</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Relace byla zrušena</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Dosažen limit kol v této relaci</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Kolo začalo!</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Nenašla jsem žádné použitelné hlasové kanály</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Nemohla jsem najít hlasový kanál, kam bych se mohla připojit.
+
+Můžeš vytvořit jeden se stejným jménem jako má tento textový kanál, nebo se připoj do hlasového kanálu kde mě chceš mít.</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Hledám hlasový kanál, kam bych se mohla připojit…</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Nemohla jsem se připojit do hlasového kanálu '{0}'</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Ukázat aktuální prefix nebo ho změnit</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Manažment</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Synchronizuje tvůj anime list</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Začne novou hlasovou relaci</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, nerozumim tomuto parametru.</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Začne novou relaci s anime postavami</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Hlasové relace</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normální</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Snadná</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Servery__</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Vlastní žebříček byl právě započat v tomto kanále.</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, nebyly nalezeny žádné vlastní žebříčky. Můžeš začít nový pomocí `{1}startctop`</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Vlastní žebříček pro #{0}</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Statistiky hry</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Relace__</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Globální</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` visual novel kol</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` visual novel</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` video kol</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` písní</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` bylo dokončeno</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}`´kol bylo zrušeno</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` vyhrál/a &gt; 10 kol</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` vyhrál/a &gt; 100 kol</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` vyhrál/a &gt; 1000 kol</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Hráči__</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` použivatelů</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` obrázkových kol</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Servery__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` serverů</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Databáze__</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` zvukových kol</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` anime kol</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Vlastní žebříček byl resetován.
+Můžeš začít nový pomocí `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Vlastní žebříček nebyl nalezen.
+Můžeš ho začít pomocí `{0}startctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Vlastní žebříček není aktivní.
+Můžeš ho začít pomocí `{0}startctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Vlastní žebříček v tomto kanále byl ukončen.
+Můžeš ho resetovat pomocí `{0}resetctop`.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Jazykový kód `{0}` není podporován.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Operace</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Počet kol k odehrání v této relaci (maximálně 10)
+`im:` - Úprava obrázků: pixelovaná `im:p`, v negativu `im:i`, olejomalba `im:o`, černo-bílá `im:g`, převrácená vertikálně `im:f`, či více najednou `im:p,i,o,g,f` (v jakékoliv kombinaci)
+`nh:` - Nezobrazovat nápovědy `nh:1`
+`aggr:` - Upraví výběr z anime listů: ze všech listů dohromady `aggr:union`, přítomné ve všech listech `aggr:intersect` nebo ekvivalentní počet z každého listu `aggr:balance` (základní nastavení)</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Velké díky všem těmto lidem a stránkám za pomoc s {0}.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Prefix musí být mezi 1 až 5 znaky.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Můj prefix nemohl být změněn.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Můj prefix je nyní: **{0}**</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Překlady</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Speciální poděkování</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Patroni</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Databáze/API's</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Můj aktuální prefix je `{0}`
+
+Použij `{0}prefix tvůj_prefix` nebo `@{1} prefix tvůj_prefix`, abys ho změnil.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Jazyk nemohl být změněn.</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star:  {0} tě potřebuje!</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Žánry</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Píseň</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Také známý/á jako</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Hodnocení pro tuto relaci</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>sjednocené</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>společné</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>vyvážené</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Obtížnost `d:0` až `d:5` (`0` zruší filtr obtížnosti)
+`y:` - Rok `y:2010` nebo rozmezí let `y:1995-2005`
+`g:` - Žánr `g:action` nebo více `g:action,-sliceoflife,!kids`, kde `-` nebo `!` vyřazuje žánr (použij `{0}genres` pro seznam všech žánrů)
+`t:` - Typ písně: openingy `t:op`, endingy `t:ed` nebo inserty `t:in` (`in` funguje pouze s `sga`)
+`mal:` - Účet uživatele MyAnimeListu `mal:jméno` nebo více `mal:jméno1,jméno2`
+`anilist:` - Účet uživatele AniListu `anilist:jméno` nebo více `anilist:jméno1,jméno2`</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Tato funkce není dostupná v tomto botovi.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Pomoc s příkazy</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Tato funkce je aktuálně dostupná pouze v betě.</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Ty nejsi Kururin, nebo ano?</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>Prefix příkazu pro {0}</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Aktuální jazyk je `{3}` ({4}).
+
+Použitím `{0}lang kód_jazyku` změníš jazyk {1}a.
+Aktuálně podporované jazyky:
+{2}
+
+Také můžeš pomoc překlad vylepšit, nebo vytvořit překlad do dalších jazyků na [hlavní stránce překladů]({5}).</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Kola budou začínat automaticky.
+
+Pro změnu filtru použij `{0}sgs` znova. Pro přeskočení kola použij `{0}stopg` a pro ukončení relace použij `{0}stopgs`.</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>Provozní cena {0} je aktuálně **${1} měsíčně**
+
+Momentálně je pokryto **{2}%** z této částky.
+
+Pokud si užíváš {0} hry, zvaž prosím [darování $2 nebo více na Patreonu]({3}), aby jsi ji pomohl udžet na živu.
+
+I malé dary jsou velkou pomocí a na oplátku dostaneš nějaké výhody!</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Můžeš vytvářet příkazy kombinováním operací a filtrů.
+
+Například: `{0}sg n:5 d:3 y:1995-2005` pro start relace s 5 koly anime, na těžkou obtížnost, mezi roky 1995 a 2005.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Tato funkce je aktuálně dostupná pouze ve vývoji.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Filtr pro hlasovou relaci změněn</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Patrně nám došli možnosti pro tento filtr, vyzkoušej další.</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Pro šetření výkonu serveru je počet kol na relaci maximálně {0}.
+
+Pro zvýšení limitu můžeš pomoc finanční podporou tím, že se [staneš patronem]({1})!</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Připoj se do hlasového kanálu **{0}** pro poslech a možnost hádat.</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Kola budou začínat automaticky.
+
+Pro přeskočení kola použij `{0}stopg` a pro skončení relace použij `{0}stopgs`.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Ujisti se, že mám správně nastavené oprávnění. Potřebuji minimálně oprávnění (pro hlasový kanál) "Připojit"/"Connect" a "Mluvit"/"Speak".</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Pro získání rychlejšího zpracovávání můžeš [vylepšit server]({0}).</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>Vlastní žebříček hráče {0} je již aktivní na tomto kanále.
+Můžeš ho ukončit použitím `{1}endctop` nebo ho kompletně resetovat použitím `{1}resetctop`.</value>
+  </data>
+</root>
