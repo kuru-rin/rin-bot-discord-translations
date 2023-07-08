@@ -1106,4 +1106,82 @@ Er zijn `{1}` servers verbonden met dit cluster.
   <data name="Execute_Help_sgq" xml:space="preserve">
     <value>Begin een nieuwe animepersonage quote ronde</value>
   </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Te veel fout gegokt</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Start een nieuwe audioronde met meerkeuzeknoppen</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime rondes</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Speler</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Mannelijk</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Inclusief platform(en) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Exclusief platform(en) **{0}**</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Videospel rondes</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Alle mogelijke spelplatforms weergeven</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Toon alle mogelijke spelgenres</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Standaard moeilijkheidsgraad wijzigen</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}Je hebt te vaak '{1}' of iets dergelijks geraden. Ik zal het een tijdje negeren.</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` videospel rondes</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` videospellen</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Karakter geslacht: **{0}**</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Vrouwelijk</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Inclusief karakterrollen: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Exclusief karakterrollen: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Geen drops</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Geen hints</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Begin een nieuwe Pokémon-ronde</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Levens: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Start een nieuwe videoronde met meerkeuzeknoppen</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Taal van de server - {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Sorry, dat was **{0}** , wat onjuist is.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Begin een nieuwe ronde van omgekeerd raden van afbeeldingen</value>
+  </data>
 </root>
