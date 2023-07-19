@@ -520,4 +520,44 @@
   <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
     <value>グローバル</value>
   </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>カスタムリーダーボードが見つかりません。
+`{0}startctop` を使って自分で作成できますよ。</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}`人が1000ラウンド以上勝ちました</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}`人が10ラウンド以上勝ちました</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>終了年は現在の年以下である必要があります</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>放送年は現在の年よりも小さいか同じである必要があります</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>放送年は1900より大きくなければなりません</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}、現在ラウンドは進行中ではありません。`{1}sg`を使って新しいラウンドを始めることができます。</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>{0} yori hikui nan'ido no raundo de wa, pointo ga sukunaku narimasu</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>このチャンネルのカスタムリーダーボードは終了しました。
+`{0}resetctop`を使用してリセットできます。</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}`人が100ラウンド以上勝ちました</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>早い処理を得るために、 [サーバーをブースト]({0})することができます。</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>{0}データベースに現在アクセスできません。後でもう一度お試しください。
+
+詳細は[ステータスページ]({1})または[RinBotサポートサーバー]({2})をご確認ください。</value>
+  </data>
 </root>
