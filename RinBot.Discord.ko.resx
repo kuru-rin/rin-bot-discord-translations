@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,1071 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>원산지 제외: **{0}**</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>비디오 게임 라운드</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>애니메이션 라운드</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>가능한 모든 게임 플랫폼 표시</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>가능한 모든 게임 장르 표시</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>남성</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>여성</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>캐릭터 역할도 포함됩니다: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>원산지 포함: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>이제 애니메이션 속 캐릭터를 맞추고 **{0} 포인트를 추가로 획득하세요**!</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>새로운 역 이미지 맞추기 라운드 시작</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}'{1}' 또는 이와 유사한 것을 너무 자주 맞혔습니다. 당분간은 무시하겠습니다.</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>캐릭터 성별: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>방울 없음</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>힌트 없음</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**의 목록( {1} )이 아직 동기화되지 않았습니다. 목록을 동기화하려면 먼저 `sync` 명령을 사용하세요.</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>새로운 포켓몬 라운드 시작</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Lives: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>서버의 언어 {0}</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>반전</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__이번 주__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` 라운드 승리</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>플레이어</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>대체 제목</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>전 세계</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>플랫폼 포함 **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>플랫폼 제외 **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` 비디오 게임 라운드</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` 비디오 게임</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>기본 난이도 변경</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>플레이어</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>캐릭터 역할은 제외됩니다: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>새로운 애니메이션 캐릭터 견적 라운드 시작</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` 업적 포인트</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__역대__</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>캡처가 누락되어 라운드가 취소되었습니다. 덜 제한적인 필터로 다른 라운드를 시도해 보세요.</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**아무도 맞히지 못했습니다.**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} 이 승리했습니다!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} 포인트** 획득</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` 포인트</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>순위 {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>캡</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>힌트</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>** {0} 초가 남았습니다!**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>게임을 방해해서 죄송합니다만, 반짝이는 새로운 기능을 제공하기 위해 다시 시작해야 합니다!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>잠시 후 새 라운드를 다시 시작할 수 있습니다.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:경고: **재시작**</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}아직 라운드에서 이기지 못했습니다.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}의 점수</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` 라운드 포인트</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>글로벌 통계는 [프로필 페이지]({1}/profile/{2})를 방문하세요.</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[후원자 되기]({1}), [커피 한 잔 사주기]({2}) 또는 [매일 투표하기]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>린봇을 살리도록 도와주세요!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>플레이어를 찾을 수 없습니다.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>지난 주부터</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**상위 플레이어 __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>현재 점검 중입니다. 곧 다시 시도하세요!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:경고: **유지 관리**</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>난이도는 다음과 같습니다. **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>새 라운드 준비 중…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}이미 라운드가 진행 중입니다. `{1} stopg` 을 사용하여 중지합니다.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>라운드는 {0} 초 후에 시작됩니다…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}현재 준비 중인 라운드가 너무 많습니다. 잠시 후 다시 시도하세요.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}매개 변수를 이해하지 못합니다.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0} `{2}stopg 명령은 분에 한 번 이상 사용할 수 없습니다.` {1}</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}현재 진행 중인 라운드가 없습니다. `{1} sg` 을 사용하여 시작할 수 있습니다.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>아래의 난이도 라운드에서는 점수가 적게 부여됩니다. **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} 이 업적 달성</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}의 업적 목록</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>{0} 포인트를 획득했습니다!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} 이제 평평해졌습니다. {1}</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>년 사이에 출시 {0} 과 {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>장르에서 **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}이 명령은 후원자만 사용할 수 있습니다(https://patreon.com/rinbot?fan_landing=true).</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}오늘 너무 많은 게임을 시작하셨습니다. 이 한도를 늘리려면 후원자가 되세요(https://patreon.com/rinbot?fan_landing=true).</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}를 선택하면 이미 다른 곳에서 진행 중인 라운드가 있습니다.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>업적</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__지난 주__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` 포인트</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>포인트</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>순위 {0}</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}의 서버 점수</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__역대__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__지난 주__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__이번 주__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` 플레이어</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>포인트</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>속도</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**가장 빠른 선수 __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>이 봇을 사용하려면 이 채널에서 NSFW를 사용하도록 설정해야 합니다.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>시간: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>추측하세요: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} 포인트** 획득</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>풀이 1000명 이상인 라운드만 계산됩니다.</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>노래 유형: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>지난주 우승자</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>점수 및 순위표는 매 시간마다 처리됩니다.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>{0} 에서 {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>시작됨 {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>주 {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(종료 {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>이 채널의 사용자 지정 리더보드가 종료되었습니다.
+이제 `{0}resetctop` 을 사용하여 재설정할 수 있습니다.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>사용자 지정 순위표가 활성화되어 있지 않습니다.
+ `{0}startctop` 을 사용하여 시작할 수 있습니다.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>사용자 지정 순위표를 찾을 수 없습니다.
+ `{0}startctop` 을 사용하여 시작할 수 있습니다.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>사용자 지정 순위표가 재설정되었습니다.
+ `{0}startctop` 으로 다시 시작할 수 있습니다.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` 애니메이션</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` 애니메이션 라운드</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` 오디오 라운드</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__데이터베이스__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` 서버</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__서버__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` 이미지 라운드</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` 사용자</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__플레이어__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` 원 &gt; 1000 라운드</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` 원 &gt; 100 라운드</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` 승리 &gt; 10라운드</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` 라운드 취소</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` 라운드 완료</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` 노래</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` 비디오 라운드</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` 비주얼 노벨</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` 비주얼 노벨 라운드</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>글로벌</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__라운드__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>게임 통계</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>에 대한 사용자 지정 리더보드{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}사용자 지정 순위표를 찾을 수 없습니다. `{1} startctop을 사용하여 새로 시작할 수 있습니다.`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}를 클릭하면 이 채널에 사용자 지정 리더보드가 이미 활성화되어 있습니다.
+ `{1}endctop` 을 사용하여 종료하거나 `{1}resetctop` 을 사용하여 완전히 재설정할 수 있습니다.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>이 채널에 대한 사용자 지정 리더보드가 막 시작되었습니다.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>처리 속도를 높이려면 [서버 부스트]({0})를 사용하세요.</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__서버__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>쉬운</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>보통</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>하드</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>익스트림</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>악몽</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>오프닝</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>엔딩</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>노래 삽입</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>이미지 노래</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` 쉬운 라운드</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` 일반 라운드</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` 하드 라운드</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` 익스트림 라운드</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` 악몽 라운드</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` 어려움 없는 라운드</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>세션이 이미 활성화되어 있습니다.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>{0} 데이터베이스에 지금 연결할 수 없습니다. 나중에 다시 시도하세요.
+
+자세한 내용은 [상태 페이지]({1}) 또는 [린봇 지원 서버]({2})를 확인하세요.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} 현재 라운드를 사용할 수 없습니다.</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>음성 라운드가 활성화된 상태에서는 수동으로 게임을 시작할 수 없습니다.
+이를 중지하려면 `{0}stopgs` 를 사용하세요.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` 애니메이션 캐릭터 라운드</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` 최소 1라운드에서 승리</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>사용자(들)로부터 **{0}** on {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>애니메이션 목록은 다음과 같습니다. **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>장르는 `!genres에 나열된 장르 중 하나여야 합니다.`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>잘못된 연도 범위를 선택했습니다.</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>악몽 난이도는 다른 필터와 함께 사용할 수 없습니다.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>이 필터를 사용하려면 채널이 NSFW로 설정되어 있어야 합니다.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>연말 연도는 현재 연도보다 작아야 합니다.</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>시작 연도는 현재 연도보다 작아야 합니다.</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>시작 연도는 1900년 이상이어야 합니다.</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>시작 연도에 비해 종료 연도가 ≥여야 합니다.</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>노래 유형 필터는 오디오 라운드에서만 사용할 수 있습니다.</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>이 장르는 사용할 수 없습니다.</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>애니메이션 목록 필터는 애니메이션 및 애니메이션 캐릭터 라운드에서만 작동합니다.</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>린봇 명령 목록</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>새 이미지 라운드 시작</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>새 비디오 라운드 시작</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>새 오디오 라운드 시작</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>현재 라운드를 중지합니다.</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>개인 점수 표시</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>서버에서 역대 최고 플레이어를 표시합니다.</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>서버에서 이번 주 상위 플레이어를 표시합니다.</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>전체 명령어 목록은 [웹사이트 방문]({0})을 참조하세요.</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>새로운 비주얼 노벨 이미지 라운드 시작</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>사용자 지정 순위표 표시</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>이 서버의 총 점수를 표시합니다.</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>서버에서 가장 빠른 플레이어를 표시합니다.</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>서버에서 이번 주에 가장 빠른 플레이어를 표시합니다.</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>게임 통계 표시</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>사용 가능한 모든 애니메이션 장르 표시</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}이 기능을 사용하려면 이 권한 중 하나 이상이 필요합니다: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>라운드</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>점수</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>명령</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>음성 라운드 세션 시작</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>라운드 세션 중지</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>음성 회진</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>새로운 애니메이션 캐릭터 라운드 시작</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}매개 변수를 이해하지 못합니다.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>샘플로 새 음성 라운드 세션 시작</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>애니메이션 목록 동기화</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>관리</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>현재 접두사 표시 또는 변경</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>권한이 올바르게 설정되어 있는지 확인합니다. 최소한 연결 및 말하기 권한이 필요합니다.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>음성 채널 '{0}' 에 연결할 수 없습니다.</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>참여할 음성 채널 찾기…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>참여할 음성 채널을 찾을 수 없습니다.
+
+이 문자 채널과 같은 이름으로 채널을 만들거나 원하는 음성 채널에 참여하실 수 있습니다.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>사용 가능한 음성 채널을 찾을 수 없습니다.</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>라운드가 자동으로 시작됩니다.
+
+라운드를 건너뛰려면 `{0}stopg` 을 사용하고 세션을 취소하려면 `{0}stopgs` 을 사용합니다.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>{0} 라운드로 세션 시작</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>음성 채널 **{0}** 에 가입하여 듣고 맞혀보세요.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>라운드가 시작되었습니다!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>서버 리소스를 절약하기 위해 한 세션의 최대 라운드 수는 {0} 입니다.
+
+이 한도를 늘리려면 [후원자 되기]({1})를 통해 크라우드 펀딩을 도울 수 있습니다!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>이번 세션에서 최대 라운드에 도달했습니다.</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>이 필터의 캡이 부족할 수 있으니 다른 필터를 사용해 보세요.</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>세션이 취소되었습니다.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>라운드 세션 필터 변경</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>라운드가 자동으로 시작됩니다.
+
+필터를 변경하려면 `{0}sgs` 을 다시 입력하세요. 라운드를 건너뛰려면 `{0}stopg` 을 사용하고 세션을 취소하려면 `{0}stopg` 을 사용하세요.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>채널에서 음성 세션 시작 **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>{1}의 {0} 라운드 준비 중 …</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__추가 도움말__
+쿼리: `{0}도움말 쿼리`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}를 누르면 세션이 진행 중입니다. `{1} stopgs` 을 사용하여 중지하세요.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>새로운 사용자 지정 순위표 시작</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>사용자 지정 순위표 종료</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>사용자 지정 순위표 초기화</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>새 게임 라운드 시작</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>새로운 애니메이션 캐릭터 픽셀 라운드 시작하기</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>크레딧 표시</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>애니메이션 목록 동기화</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>이 명령을 사용하여 애니메이션 목록을 동기화합니다. 하루에 한 번만 실행할 수 있습니다.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>사용자 이름</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>크레딧</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>{0} 를 가능하게 하는 데 도움을 주신 모든 분들과 웹사이트에 큰 감사를 드립니다.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>데이터베이스/API</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>후원자</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>특별한 감사</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>번역</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>현재 내 명령 접두사는 `{0}`
+
+ `{0}접두사 당신의_접두사` 또는 `@{1} 접두사 당신의_접두사` 를 사용하여 변경하세요.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>내 명령 접두사는 지금입니다: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>명령 접두사를 변경할 수 없습니다.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>접두사는 1~5자 사이여야 합니다.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}의 명령 접두사</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>쿠루린은 아니죠?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>이 기능은 현재 베타 버전에서만 사용할 수 있습니다.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>이 기능은 현재 개발 중일 때만 사용할 수 있습니다.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>작업과 필터를 결합하여 쿼리를 만들 수 있습니다.
+
+예: `{0}sg n:5 d:3 y:1995-2005` 1995년부터 2005년까지 어려운 난이도의 애니메이션 5라운드로 세션을 시작하려면 다음과 같이 입력합니다.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>필터</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - 한 세션에서 플레이할 라운드 수(최대 10회)
+`im:` - 이미지 조작: 픽셀화 `im:p`, 반전 `im:i`, 유화 `im:o`, 회색조 `im:g`, 세로로 뒤집기 `im:f` 또는 다중 `im:p,i,o,g,f` (모든 조합 가능)
+`nh:` - 힌트 표시 안 함 `nh:1`
+`aggr:` - 애니메이션 목록 사용 시 집계 방법 변경: 모두 결합 `aggr:union`, 모든 목록에 존재 `aggr:intersect` 또는 목록당 동일한 샘플 크기 `aggr:balance` (기본값)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>운영</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>쿼리 관련 도움말</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>이 봇에서는 이 기능을 사용할 수 없습니다.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>쪽지로 상태 업데이트를 받게 됩니다.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>한 번에 하나의 동기화 작업만 대기열에 넣을 수 있습니다.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>동기화 작업은 15분마다만 대기열에 넣을 수 있습니다.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>이 한도를 늘리려면 [후원자 되기]({0})를 이용하세요.</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` 라운드</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - 난이도 `d:0` ~ `d:5` (`0` 난이도 필터 비활성화)
+`y:` - 연도 `y:2010` 또는 연도 범위 `y:1995-2005`
+`g:` - 장르 `g:액션` 또는 복수 `g:액션,-슬라이스오브라이프,!키즈`, 여기서 `-` 또는 `!` 장르는 제외(모든 장르에 `{0}장르` 사용)
+`t:` - 곡 유형: 오프닝 `t:op`, 엔딩 `t:ed` 또는 삽입곡 `t:in` (`in` 은 `sga` 에서만 작동)
+`sl:` - 샘플 길이(초), 5~30 ( `{0}sgsa` 에서만 사용 가능)
+`mal:` - MyAnimeList 사용자 애니메이션 목록 `mal:사용자명` 또는 복수 `mal:사용자1,사용자2`
+`anilist:` - 애니리스트 사용자 애니메이션 목록 `anilist:사용자이름` 또는 복수 `anilist:사용자1,사용자2`</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>균형 잡힌</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>교차</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>유나이티드</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>이 세션의 순위</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>다른 이름으로도 알려져 있습니다.</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>에서</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>으로</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>노래</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>장르</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}의 운영 비용은 현재 **${1} 월입니다.**
+
+현재 이 금액의 **{2}%** 만 보장됩니다.
+
+ {0} 의 게임을 즐기신다면, [Patreon에서 2달러 이상 기부]({3})를 통해 그녀를 계속 살릴 수 있도록 도와주세요.
+
+작은 기부라도 큰 도움이 되며, 그 대가로 몇 가지 특전도 받을 수 있습니다!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>별: {0} 당신이 필요합니다!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>언어를 변경할 수 없습니다.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>현재 언어는 `{3}` ({4}).
+
+ {1} 의 언어는 `{0}lang language_code` 를 사용하여 변경할 수 있습니다.
+현재 지원되는 언어는 다음과 같습니다:
+{2}
+
+크라우드 번역 웹사이트]({5})에서 이러한 언어를 개선하거나 더 많은 언어를 추가하는 데 도움을 줄 수 있습니다.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>언어 코드 `{0}` 는 지원되지 않습니다.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>언어 변경</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>언어가 `{0}` 으로 변경되었습니다.</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>현재 언어 표시 또는 변경</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>장르 포함 **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>장르 제외 **{0}**</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>번역 통계]({0})에서 기여한 모든 사람의 목록을 확인하세요!</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>이 서버의 정보(채널, 역할 등)를 강제로 업데이트합니다.</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>샤드는 `{0}` 클러스터 `{3}` 에 있습니다.
+
+이 클러스터에 연결된 `{1}` 서버가 있습니다.
+`{2}` 현재 라운드가 진행 중입니다.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>세션당 최대 `{0}` 라운드를 진행할 수 있습니다.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>세션에 허용되는 최대 라운드를 초과했습니다.</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>이 채널에 활성 세션이 없습니다.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>이 채널에 활성 라운드가 있습니다. `{0} stopg` 또는 `{0}stopgs` 를 사용하여 중지하세요.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>비디오 라운드는 고객만 이용할 수 있습니다.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>{0} 사용자 '{1}' 동기화</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>이 목록은 이미 동기화 중입니다.
+현재 상태는 다음과 같습니다. **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>대기 중</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>성공</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>잘못된 사용자 아이디를 입력했습니다.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>이 목록은 최근에 동기화되었습니다.
+ {0} 에서 잠시 기다렸다가 다시 시도하세요.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>{0} 사용자 '{1}'에 대해 동기화 대기열에 추가됨</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>상태는 이제 **{0}** 입니다.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>올바른 사용자 아이디를 입력했는지, 목록이 __공개적으로 액세스할 수 있는__ 인지 확인하세요.
+
+문제가 지속되면 [지원 서버]({0})에 도움을 요청하세요.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>이제 `{0}:{1}` 필터를 사용할 수 있습니다.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>{0} 사용자 '{1}'의 동기화 상태</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>실패</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>삭제됨</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>취소됨</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>예약됨</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>처리</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>순위표가 새로 고쳐지는 데 시간이 조금 걸릴 수 있습니다.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>역대 속도 순위표가 초기화되었습니다.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>순위표가 새로 고쳐지는 데 시간이 조금 걸릴 수 있습니다.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>역대 포인트 순위표가 초기화되었습니다.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>역대 포인트 순위표 초기화</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>역대 최고 속도 순위표 초기화</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>이 서버의 모든 라운드를 중지합니다.</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>새 세션을 만들 수 없습니다. `{0}stopg` 또는 `{0}stopgs` 또는 다른 필터를 사용해 보세요.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>샘플 **{0} 초**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>샘플 길이는 5초 이상 30초 미만이어야 합니다.</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>이러한 유효성 검사 문제가 발생했습니다:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>잘못된 필터</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>오디오 조작: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>이미지 조작: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>템포 증가</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>픽셀화</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>반전된 색상</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>유화</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>그레이스케일</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Flipped</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>명령 실행 중 오류</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>객관식 버튼으로 새 이미지 라운드를 시작하세요.</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>샘플 및 객관식 버튼으로 새 음성 라운드 세션을 시작하세요.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>한 번만 맞출 수 있습니다!</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>무슨 애니메이션인가요?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>죄송합니다. 잘못된 정보입니다.</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>채널 액세스 제어 설정으로 인해 여기에는 권한이 없습니다.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>현재 라운드 중지 중…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>현재 라운드 세션 중지 중…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>기본 난이도 선택</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>난이도 없음</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>포인트에 따른 난이도</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>이제 슬래시 명령을 사용할 수 있습니다!</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>활성화하는 방법은 [이 페이지]({0})를 참조하세요.</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>이 명령은 후원자만 사용할 수 있습니다. 후원자가 되는 방법은 [이 페이지]({0})를 참조하세요.
+</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>노래 유형이어야 합니다: {0}</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>'{0}' 에서 음성 라운드를 시작하기 위한 권한이 올바르게 설정되지 않았습니다.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>해당 채널에 대해 **채널 보기**, **연결** 및 **말하기** 권한 이상을 부여해야 합니다.</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` 테마</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` 문자</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>년도 {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>죄송합니다. **{0}** 이 잘못되었습니다.</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>너무 많은 잘못된 추측</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>객관식 버튼으로 새 비디오 라운드를 시작하세요.</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>객관식 버튼으로 새 오디오 라운드를 시작하세요.</value>
+  </data>
 </root>

@@ -907,4 +907,281 @@ Der aktuelle Status ist **{0}**</value>
   <data name="AnimeListSyncState_Deleted" xml:space="preserve">
     <value>Gelöscht</value>
   </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Ausgenommen die Ursprünge: **{0}**</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Diese Validierungsprobleme sind aufgetreten:</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Ohne Plattform(en) **{0}**</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Überschreitung der maximal erlaubten Runden für die Sitzung</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` Videospiele</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Bildmanipulationen: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Umgekehrt</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tempo erhöht</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Verpixelt</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Invertierte Farben</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Graustufen</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Ölgemalt</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Umgeklappt</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` Runden</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Lesen Sie auf [dieser Seite] ({0}) nach, wie Sie sie aktivieren können.</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Audio-Manipulationen: **{0}**</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Dieser Befehl ist nur für Mäzene verfügbar. Siehe [diese Seite]({0}), wie man einer wird.
+</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Sie haben einen falschen Benutzernamen angegeben.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Diese Liste wurde kürzlich synchronisiert.
+Bitte warten Sie {0} bevor Sie es erneut versuchen.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Synchronisierung in der Warteschlange für {0} Benutzer '{1}'</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Der Status ist jetzt **{0}** .</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>Songtyp muss sein: {0}</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Synchronisationsstatus für {0} Benutzer '{1}'</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` Zeichen</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Die Allzeit-Geschwindigkeitsrangliste wurde zurückgesetzt</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Du kannst nur einmal raten!</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Was ist das für ein Anime?</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Vergewissern Sie sich, dass Sie den richtigen Benutzernamen angegeben haben und dass Ihre Liste __öffentlich zugänglich ist__.
+
+Wenn das Problem weiterhin besteht, wenden Sie sich an [den Support-Server] ({0}).</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Es gibt eine aktive Runde in diesem Kanal. Versuchen Sie, `{0}stopg` oder `{0}stopgs` zu verwenden, um sie zu stoppen.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Zurücksetzen der Allzeit-Punkte-Rangliste</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Zurücksetzen der Allzeit-Geschwindigkeitsrangliste</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Stichproben von **{0} Sekunden**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Fehler bei der Ausführung des Befehls</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Videospiel-Runden</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Alle möglichen Spielplattformen anzeigen</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Alle möglichen Spielgenres anzeigen</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Ändern Sie Ihre Standardschwierigkeit</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Männlich</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Weiblich</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Einschließlich Charakterrollen: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Keine Hinweise</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Aufgrund der Einstellungen der Kanalzugriffskontrolle haben Sie hier keine Berechtigung.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Anhalten der laufenden Runde…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Beenden der aktuellen Runde…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Wählen Sie Ihre Standardschwierigkeit</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Keine Schwierigkeiten</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Der Schwierigkeitsgrad hängt von Ihren Punkten ab</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Einschließlich der Ursprünge: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Starte eine neue Anime-Zitierrunde</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` Themen</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>des Jahres {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Entschuldigung, das war **{0}** , was nicht korrekt ist.</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}Sie haben "{1}" oder etwas Ähnliches zu oft erraten. Ich werde es für eine Weile ignorieren.</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Einschließlich Plattform(en) **{0}**</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Zu viele falsche Vermutungen</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Geschlecht des Charakters: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Starte eine neue Pokémon-Runde</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Lebt: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Starten Sie eine neue Videorunde mit Multiple-Choice-Schaltflächen</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Starten Sie eine neue Bildrunde mit Multiple-Choice-Schaltflächen</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Es konnte keine neue Sitzung erstellt werden, versuchen Sie `{0}stopg` oder `{0}stopgs` oder einen anderen Filter zu verwenden.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Um dieses Limit zu erhöhen, können Sie [Mäzen] werden ({0}).</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` Videospielrunden</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Starten Sie eine neue Gesprächsrunde mit Beispielen und Multiple-Choice-Schaltflächen</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Slash-Befehle sind jetzt verfügbar!</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Sie erhalten Statusaktualisierungen in Direktnachrichten.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Sie können jeweils nur einen Synchronisierungsauftrag in die Warteschlange stellen.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Sie können nur alle 15 Minuten einen Synchronisierungsauftrag in die Warteschlange stellen.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Berechtigungen nicht korrekt gesetzt, um Sprachrunde in '{0}' zu starten</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Sie müssen mir mindestens die Berechtigungen **Kanal anzeigen**, **Verbinden** und **Sprechen** für diesen Kanal geben.</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Erzwingt eine Aktualisierung der Informationen über diesen Server (Kanäle, Rollen usw.)</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Ihr Shard ist `{0}` auf dem Cluster `{3}` .
+
+Es gibt `{1}` Server, die mit diesem Cluster verbunden sind.
+`{2}` Auf ihm werden derzeit Runden gespielt.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Sie können maximal `{0}` Runden pro Sitzung absolvieren.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Allzeit-Punkte-Rangliste wurde zurückgesetzt</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Es kann eine kleine Weile dauern, bis die Rangliste aktualisiert wird.</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Es gibt keine aktive Sitzung in diesem Kanal.</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Tut mir leid, das ist falsch.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Sie können nun den Filter `{0}:{1}` verwenden.</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Gescheitert</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Stoppt alle Runden auf diesem Server</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>die Länge der Probe muss ≥ 5 und ≤ 30 Sekunden sein</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Ungültige Filter</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime-Runden</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Spieler</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Ausgenommen Charakterrollen: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Versuche nun, eine Figur aus dem Anime richtig zu erraten, um weitere **{0} Punkte zu erhalten**!</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Starten Sie eine neue Runde des umgekehrten Bilderratens</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Keine Tropfen</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Starten Sie eine neue Audiorunde mit Multiple-Choice-Schaltflächen</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Die Sprache des Servers - {0}</value>
+  </data>
 </root>

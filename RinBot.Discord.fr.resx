@@ -1106,4 +1106,82 @@ L'état actuel est **{0}**</value>
   <data name="Execute_Help_sgq" xml:space="preserve">
     <value>Commencez un nouveau partie de citation de personnage d'anime</value>
   </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Hors plate-forme(s) **{0}**</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Rondes d'anime</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Homme</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Rondes de jeux vidéo</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Trop de mauvaises réponses</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` jeux vidéo</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Sexe du personnage : **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Pas de gouttes</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Commencer un nouveau tour audio avec des boutons à choix multiples</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>La vie : **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Commencer un nouveau tour vidéo avec des boutons à choix multiples</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Langue du serveur - {0}</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Y compris les plates-formes **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` rondes de jeux vidéo</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Afficher toutes les plates-formes de jeu possibles</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Afficher tous les genres de jeux possibles</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Modifier la difficulté par défaut</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Joueur</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Femme</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Y compris les rôles de personnages : **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>A l'exclusion des rôles de personnages : **{0}**</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Désolé, c'était **{0}** , ce qui est incorrect.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Commencer un nouveau tour de devinette de l'image inversée</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}Vous avez trop souvent deviné "{1}" ou quelque chose de similaire. Je vais l'ignorer pendant un certain temps.</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Pas d'indices</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Commencer une nouvelle ronde Pokémon</value>
+  </data>
 </root>

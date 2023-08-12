@@ -560,4 +560,628 @@
 
 詳細は[ステータスページ]({1})または[RinBotサポートサーバー]({2})をご確認ください。</value>
   </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>複数選択ボタンで新しい画像ラウンドを開始する</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>このような検証上の問題が発生した：</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>今大会最大ラウンドに到達</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>原産地を除く：**{0}**</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>有効にする方法については[このページ]({0})をチェック。</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` ビデオゲーム・ラウンド</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>プラットフォームを除く**{0}**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>コマンド実行中のエラー</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>ラウンドセッションの中止</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>ラウンドセッション・フィルター変更</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}** {1} のリストはまだ同期されていません。リストを同期するには、まず sync コマンドを使ってください。``</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>スラッシュコマンドが使えるようになった！</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>画像操作：**{0}**</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>このコマンドはパトロンのみが利用できる。パトロンになる方法については[このページ]({0})を参照してください。
+</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>オーディオ操作：**{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>曲のタイプはこうでなければならない：{0}</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>翻訳統計]({0})で、貢献してくれた全員のリストをチェックしよう！</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>予約済み</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>少なくとも、**View channel** 、**Connect** 、**Speak** の権限を私に与える必要があります。</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>このサーバーの情報（チャンネル、ロールなど）を強制的に更新する。</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>`{0}` 。</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>{1}のラウンド{0} を準備する…</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>カスタムリーダーボードがリセットされました。
+`{0}startctop` で再度新規に始めることができます。</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}カスタムリーダーボードが見つかりません。`{1}startctop を使って新しいものを始めることができます。`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}このチャンネルでは、カスタムリーダーボードがすでにアクティブになっています。
+`{1}endctop` を使って終了させるか、`{1}resetctop` を使って完全にリセットしてください。</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>このチャンネル用にカスタムリーダーボードが始まったばかりだ。</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>オールタイム・スピード・リーダーボードがリセットされた</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>リーダーボードが更新されるまで少し時間がかかる場合があります。</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>歴代ポイントリーダーボードがリセット</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>リーダーボードが更新されるまで少し時間がかかる場合があります。</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>ビデオラウンドは常連客のみ視聴可能</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>{0} ユーザーの同期 '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>ユーザー名が間違っています。</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>これは何のアニメですか？</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>歴代得点ランキングをリセット</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>一度しか当てられない！</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>申し訳ないが、それは正しくない。</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>このサーバーのすべてのラウンドを停止する</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>**{0} 秒のサンプル**</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>無効なフィルター</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>ビデオゲーム・ラウンド</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>アニメ・ラウンド</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>可能なゲームプラットフォームをすべて表示する</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>可能なゲームジャンルをすべて表示する</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>デフォルトの難易度を変更する</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>選手</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>男性</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>女性</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>キャラクター役も含めてね：**{0}**</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>ポイントに応じた難易度</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>チャンネル・アクセス・コントロールの設定により、ここでは許可されていない。</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>デフォルトの難易度を選ぶ</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>困難はない</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>現在のラウンドを止める…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>現在のラウンド・セッションを中断…</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>出自も含めて：**{0}**</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>新しいアニメキャラクターの引用ラウンドを開始</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` テーマ</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>**{0}** の間違いです。</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>新しい逆画像当てラウンドを開始する</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>プラットフォームを含む**{0}**</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>間違った推測が多すぎる</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}{1}"とか、似たようなことを何度も言っていますね。しばらく無視します。</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>キャラクターの性別：**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>ドロップなし</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>ノーヒント</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>複数選択ボタンで新しいオーディオラウンドを開始する</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>新しいポケモンラウンドを始める</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>生活している：**{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>複数選択ボタンで新しいビデオラウンドを開始する</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>クルリンじゃないよね？</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>新しいセッションを作成できませんでした。`{0}stopg` 、`{0}stopgs` 、または別のフィルターを使用してみてください。</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>セッションの最大許容ラウンド数を超えた</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>このジャンルはご利用いただけません</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>アニメ・リスト・フィルターは、アニメとアニメ・キャラクター・ラウンドにのみ機能します。</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>クレジット表示</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>サンプルと複数選択ボタンで新しいボイスラウンドセッションを開始する</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - セッションでプレーするラウンド数 (最大 10)
+`im:` - 画像操作: pixelated`im:p`, inverted`im:i`, oil-painted`im:o`, grayscale`im:g`, flip vertically`im:f` or multiple`im:p,i,o,g,f` (any combination)
+`nh:` - ヒントを表示しない`nh:1`
+`aggr:` - アニメリストを使用する場合、集計方法を変更する: すべて結合`aggr:union`, すべてのリストに存在`aggr:intersect` またはリストごとに同じサンプルサイズ`aggr:balance` (デフォルト)</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>このチャンネルにアクティブなセッションはない。</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} ラウンドは現在使用できません</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - 難易度`d:0` to`d:5` (`0` 難易度フィルタを無効にする)
+`y`:- 年`y:2010` または年範囲`y:1995-2005`
+`g：` - ジャンル`g:アクション` または複数`g:アクション,-sliceoflife,!キッズ` 、ここで`-` または`!` はジャンルを除く（すべてのジャンルには`{0}ジャンル` を使用）。
+`t:` - 曲のタイプ: オープニング`t:op`, エンディング`t:ed` または挿入歌`t:in` (`in` は`sga` のみで動作)
+`sl:` - サンプルの長さ (秒)、5 から 30 の間 (`{0}sgsa` でのみ使用可能)
+`mal:` - MyAnimeList ユーザーアニメリスト`mal:username` または複数`mal:user1,user2`
+`anilist：` - AniList ユーザアニメリスト`anilist:username` または複数`anilist:user1,user2`</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>逆転</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>テンポアップ</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>ピクセル化</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>反転カラー</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>グレースケール</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>オイル塗装</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>反転</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>このリストはすでに同期化されている。
+現在の状態は**{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>{0} ユーザー '{1}' のために同期がキューに入っている。</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>ダイレクトメッセージで近況をお知らせします。</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>一度にキューに入れられる同期ジョブは1つだけです。</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>同期ジョブは15分ごとにしかキューに入れることができない。</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>現在のステータスは**{0}** 。</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>__正しいユーザー名を入力し、リストが__ に公開されていることを確認してください。
+
+それでも問題が解決しない場合は、[サポートサーバー]({0})に問い合わせてください。</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>これで、`{0}:{1}` フィルタの使用を開始できる。</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>{0} ユーザー '{1}' の同期ステータス</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>予定</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>加工</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>このフィルターのキャップを使い切った可能性があるので、別のものを試してみてほしい。</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>{0}' で音声ラウンドを開始するためのパーミッションが正しく設定されていない。</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>あなたのシャードは`{0}` on cluster`{3}` 。
+
+このクラスタには`{1}` サーバーが接続されています。
+`{2}` 現在、ラウンドが行われています。</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>この制限を増やすには、[パトロンになる]({0})。</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` ラウンド</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>ボイスラウンドが有効な場合、手動で対局を開始することはできない。
+止めるには`{0}stopgs` を使ってください.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` アニメキャラクターラウンド</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` 少なくとも1勝</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>ユーザーから**{0}** on{1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>アニメリストは**{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>ジャンルは、`!genresにリストされているものでなければならない。`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>無効な年の範囲を選択した</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>ナイトメアの難易度を他のフィルターで使用することはできない。</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>このフィルターを使用するには、チャンネルをNSFWに設定する必要があります。</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>終了年は開始年に対して≧でなければならない</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>曲タイプフィルターはオーディオラウンドでのみ使用可能</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>新しい画像ラウンドを開始する</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>新しいビデオラウンドを開始する</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>新しいオーディオラウンドを開始する</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>現在のラウンドを停止する</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>パーソナルスコアを表示</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>サーバー内の歴代トッププレーヤーを表示します。</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>サーバー内の今週のトッププレーヤーを表示します。</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>コマンドの完全なリストは[ウェブサイトをご覧ください]({0})。</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>新しいビジュアルノベルのイメージラウンドを開始する</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>カスタムリーダーボードを表示</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>このサーバーの合計スコアを表示</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>サーバー内の歴代最速プレイヤーを表示します。</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>今週の最速プレイヤーを表示します。</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>試合統計を表示する</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>視聴可能なアニメのジャンルをすべて表示する</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}この機能を使用するには、少なくともこれらの権限の1つが必要です：`{1}`</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>ボイスラウンドセッションの開始</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>新しいアニメキャラクターラウンドを始めよう</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>サンプルを使って新しいボイスラウンドセッションを開始する</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>現在の接頭辞を表示または変更</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>パーミッションが正しく設定されているか確認してください。少なくともConnectとSpeakのパーミッションが必要です。</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>音声チャンネル「{0} 」に接続できませんでした。</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>参加する音声チャンネルを探す…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>参加できる音声チャンネルが見つからなかった。
+
+このテキストチャンネルと同じ名前のチャンネルを作るか、音声チャンネルに参加してください。</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>使用可能な音声チャンネルが見つかりません</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>ラウンドは自動的に開始される。
+
+ラウンドをスキップするには、`{0}stopg` を使用し、セッションをキャンセルするには、`{0}stopgs` を使用します。</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>{0} 、セッションを開始した。</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>音声チャンネル**{0}** に参加し、聴き、当てることができる。</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>サーバーのリソースを節約するため、1セッションの最大ラウンド数は{0} です。
+
+この上限を増やすには、[パトロンになる]({1})ことでクラウドファンディングに協力することができます！</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>ラウンドは自動的に開始される。
+
+フィルターを変更するには、`{0}sgs` をもう一度使ってください。ラウンドをスキップするには`{0}stopg` を、セッションをキャンセルするには`{0}stopgs` を使ってください。</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>チャンネルで音声セッションを開始**{0}**</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__その他のヘルプ__
+クエリ:`{0}ヘルプクエリ`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}セッションが進行中です。停止するには`{1}stopgs` を使ってください。</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>新しいカスタムリーダーボードを開始する</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>カスタム・リーダーボードの終了</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>カスタムリーダーボードをリセットする</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>新しいゲームラウンドを開始する</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>アニメキャラクターのピクセルラウンドを開始</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>アニメリストの同期</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>アニメリストを同期するにはこのコマンドを使う。このコマンドは1日1回実行できます。</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>{0} 、これらの人々やウェブサイトに多大なる感謝を捧げる。</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>データベース／API</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>私の現在のコマンドプレフィックスは`{0}`
+
+`{0}prefix your_prefix` または`@{1} prefix your_prefix` を使って変更してください。</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>私のコマンドプレフィックスはこうなった：**{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>私のコマンドプレフィックスは変更できなかった。</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>プレフィックスは1文字以上5文字以下でなければならない。</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}コマンドプレフィックス</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>この機能は現在ベータ版でしか利用できない。</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>この機能は現在、開発版でしか利用できない。</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>オペレーションとフィルターを組み合わせてクエリーを作成することができます。
+
+たとえば、`{0}sg n:5 d:3 y:1995-2005` とすると、1995年から2005年までの間に、難易度の高いアニメを5周するセッションが開始されます。</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>この機能はこのボットでは使用できません。</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>交差</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>ユナイテッド</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>このセッションの順位</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}の運営費は現在、月額**${1} である。**
+
+現時点では、このうち**{2}%** しかカバーされていない。
+
+{0}'のゲームを楽しんでいる方は、[Patreonで2ドル以上寄付する]({3})ことを検討してください。
+
+少額の寄付でも大きな助けになりますし、お返しに特典もあります！</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star:{0} ！</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>言語は変更できなかった。</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>現在の言語は`{3}` ({4})。
+
+`{0}lang language_code` を使用して{1} の言語を変更できます。
+現在、これらの言語がサポートされています：
+{2}
+
+これらの言語を改善したり、[クラウド翻訳サイト]({5})で言語を追加したりすることができます。</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>言語コード`{0}` はサポートされていません。</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>言語は`{0}` に変更された。</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>現在の言語を表示または変更する</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>ジャンルを含む**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>ジャンルを除く**{0}**</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>このリストは最近同期されました。
+再試行する前に、{0} 。</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>このチャンネルにはアクティブなラウンドがある。`{0}stopg` または`{0}stopgs` を使って止めてみてください。</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>オールタイム・スピード・リーダーボードをリセット</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>サンプルの長さは5秒以上30秒以下でなければならない。</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>キャラクター役は除く：**{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>今度はアニメのキャラクターを当てて、さらに**{0} ポイントを獲得しよう。** ！</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` 文字</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>年{0}</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` ビデオゲーム</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>サーバーの言語{0}</value>
+  </data>
 </root>

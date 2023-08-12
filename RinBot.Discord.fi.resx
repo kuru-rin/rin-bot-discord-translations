@@ -153,4 +153,1035 @@
   <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
     <value>Auta pitämään RinBot hengissä!</value>
   </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Ilman alustaa (alustoja) **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` videopelien kierrokset</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` videopelit</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Aloita uusi äänikierroksen istunto näytteillä ja monivalintapainikkeilla.</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Käänteinen</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Öljymaalattu</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>kappaleen tyypin on oltava: {0}</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Voit aloittaa uuden kierroksen minuutissa.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:varoitus: **Käynnistetään uudelleen**</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Pakottaa päivittämään tämän palvelimen tiedot (kanavat, roolit ja muut).</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` merkit</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Sinulla voi olla enintään `{0}` kierroksia istuntoa kohti.</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Tällä kanavalla ei ole aktiivista istuntoa.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Voi kestää hetken, ennen kuin tulostaulu päivittyy.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Nollaa kaikkien aikojen pistetaulukko</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Pysäyttää kaikki kierrokset tällä palvelimella</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Virheelliset suodattimet</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Mies</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Ei vihjeitä</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Sinulla ei ole lupaa tähän kanavan käyttöoikeuksien valvonta-asetusten vuoksi.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Nykyisen kierroksen pysäyttäminen…</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Mukaan lukien alkuperä: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Yritä nyt arvata anime-hahmo oikein saadaksesi lisää **{0} pisteitä**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Aloita uusi anime-hahmon lainauskierros</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>vuoden {0}</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, olet arvannut liian usein '{1}' tai jotain vastaavaa. Jätän sen hetkeksi huomiotta.</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Mukaan lukien alusta(t) **{0}**</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Videopelien kierrokset</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Hahmon sukupuoli: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Ei pisaroita</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Aloita uusi äänikierros monivalintapainikkeilla.</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Aloita uusi videokierros monivalintapainikkeilla.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Palvelimen kieli - {0}</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Aloita uusi kuvakierros monivalintapainikkeilla</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Uutta istuntoa ei voitu luoda, yritä käyttää `{0}stopg` tai `{0}stopgs` tai muuta suodatinta.</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Näitä validointiongelmia ilmeni:</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Katso [tältä sivulta]({0}), miten ne otetaan käyttöön.</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Virhe komennon suorittamisen aikana</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Ylitti istunnon suurimman sallitun kierrosmäärän</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Jos haluat nostaa tätä rajaa, voit [liittyä mesenaatiksi]({0}).</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Pyöreän istunnon suodatin muutettu</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Slash-komennot ovat nyt käytettävissä!</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tempo kiihtyi</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pikselöity</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Käänteiset värit</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Harmaasävyt</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Flipped</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Tämä komento on vain suojelijoiden käytettävissä. Katso [tältä sivulta]({0}), miten voit ryhtyä suojelijaksi.
+</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Äänimanipulaatiot: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Kuvankäsittelyt: **{0}**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Pelaaja</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Vaihtoehtoiset nimet</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` saavutuspisteet</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Kaikkien aikojen__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Maailmanlaajuisesti</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Tällä viikolla__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, et ole vielä voittanut yhtään kierrosta.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}'s pisteet</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` pyöreät pisteet</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Käy [profiilisivullasi]({1}/profile/{2}) saadaksesi yleisiä tilastotietoja.</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Ryhdy tukijaksi]({1}), [osta minulle kahvi]({2}) tai [äänestä päivittäin]({0}/#tuki)!</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Viime viikosta lähtien</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Huippupelaajat __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Olen tällä hetkellä ylläpidossa, yritä pian uudelleen!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:varoitus: **Huolto**</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Vaikeus on **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Uuden kierroksen valmistelu…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, kierros on jo käynnissä. Käytä `{1}stopg` pysäyttääksesi sen.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Kierros alkaa {0} sekunnin kuluttua…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, tällä hetkellä valmistellaan liian monta kierrosta. Yritä pian uudelleen.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, en ymmärrä parametria.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, et voi käyttää komentoa `{2}stopg` useammin kuin kerran {1} minuutin välein.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, tällä hetkellä ei ole pelattu kierrosta. Voit aloittaa kierroksen käyttämällä `{1}sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Vähemmän pisteitä saa seuraavista vaikeusasteista. **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} sain tämän saavutuksen</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}'s saavutusluettelo</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>ja sai {0} pisteitä!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} on nyt tasolla {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Genrestä **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, tämä komento on käytettävissä vain asiakkaille (https://patreon.com/rinbot?fan_landing=true).</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, olet aloittanut tänään liian monta peliä. Ryhdy mesenaatiksi lisätäksesi tätä rajaa (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, sinulla on jo aktiivinen kierros käynnissä muualla.</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Viime viikolla__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` pisteet</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Pisteet</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Sijoitus {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` Voitetut kierrokset</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}palvelimen pisteet</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Kaikkien aikojen__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Viime viikolla__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Tällä viikolla__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` pelaajat</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Pisteet</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Nopeus</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Nopeimmat pelaajat __{0}__ __**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW on otettava käyttöön tällä kanavalla, jotta voit käyttää tätä bottia.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Aika: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Arvaa: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} kohta** saatiin</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Vain kierrokset, joissa on yli 1000 pelaajaa, lasketaan mukaan.</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Kappaleen tyyppi: Kappaleen tyyppi: Kappaleen tyyppi: Kappaleen tyyppi: Kappaleen tyyppi: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Viime viikon voittaja</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Pisteet ja pistetaulukot käsitellään tunnin välein.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Osoitteesta {0} osoitteeseen {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Aloitettu {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Viikko {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(päättyy {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Tämän kanavan mukautettu tulostaulu lopetettiin.
+Voit nyt nollata sen käyttämällä `{0}resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Mukautettu pistetaulukko ei ole aktiivinen.
+Voit aloittaa sellaisen käyttämällä `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Mukautettua pistetaulukkoa ei löytynyt.
+Voit aloittaa sellaisen käyttämällä `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Mukautettu pistetaulukko nollattiin.
+Voit aloittaa uuden uudelleen osoitteessa `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` anime kierroksia</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` äänikierrokset</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Tietokanta__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` palvelimet</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Palvelimet__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` kuvakierrokset</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` käyttäjät</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` voitti &gt; 100 laukausta</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` voitti &gt; 10 erää</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` kierrokset peruttu</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` kierrokset päättyneet</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` laulut</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` videokierrokset</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` visuaaliset romaanit</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` visuaalinen romaani kierroksia</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Maailmanlaajuinen</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Kierrokset__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Pelin tilastot</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Mukautettu tulostaulu #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, ei löydetty mukautettua tulostaulua. Voit aloittaa uuden käyttämällä `{1}startctop:ia.`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, mukautettu tulostaulu on jo aktiivinen tällä kanavalla.
+Voit lopettaa sen käyttämällä `{1}endctop` tai nollata sen kokonaan käyttämällä `{1}resetctop`.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Tälle kanavalle perustettiin juuri oma tulostaulukko.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Jos haluat nopeamman käsittelyn, voit [tehostaa palvelintasi]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Palvelimet__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Helppo</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normaali</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Kova</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Extreme</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Painajainen</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Avaaminen</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Lopetus</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Lisää kappale</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Kuvan laulu</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` helpot kierrokset</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` normaalit kierrokset</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` kovat kierrokset</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` äärimmäiset kierrokset</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` painajainen kierroksia</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` kierrokset ilman vaikeuksia</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Istunto on jo aktiivinen</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>{0} -tietokantaan ei pääse tällä hetkellä. Yritä myöhemmin uudelleen.
+
+Tarkista [tilasivulta]({1}) tai [RinBotin tukipalvelimelta]({2}) lisätietoja.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} kierrokset eivät ole tällä hetkellä käytettävissä</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Peliä ei voi aloittaa manuaalisesti, kun äänikierrokset ovat aktiivisia.
+Voit pysäyttää ne käyttämällä `{0}stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` anime hahmo kierroksia</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` voitti vähintään 1 kierroksen</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Käyttäjältä **{0}** on: . {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Anime-luettelot ovat **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>lajityypin on oltava jokin niistä, jotka on lueteltu osoitteessa `!lajityypit.`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>valitsit virheellisen vuosiluvun</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>Et voi käyttää painajaisvaikeutta minkään muun suodattimen kanssa.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>kanavan on oltava NSFW-asetuksella, jotta tätä suodatinta voidaan käyttää.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>loppuvuoden on oltava ≤ kuluva vuosi</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>alkuvuoden on oltava ≤ kuluva vuosi</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>alkuvuoden on oltava &gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>loppuvuoden on oltava ≥ alkuvuoden</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>kappaleen tyyppistä suodatinta voidaan käyttää vain äänikierroksilla.</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>tätä lajia ei ole saatavilla</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>anime-luettelon suodatin toimii vain anime- ja anime-hahmokierroksilla.</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot-komentoluettelo</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Aloita uusi kuvakierros</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Aloita uusi videokierros</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Aloita uusi äänikierros</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Pysäyttää nykyisen kierroksen</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Näyttää henkilökohtaisen pistemäärän</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Näyttää kaikkien aikojen parhaat pelaajat palvelimella.</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Näyttää tämän viikon parhaat pelaajat palvelimella.</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Täydellinen luettelo komennoista löytyy [verkkosivuilta]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Aloita uusi visuaalisen romaanin kuvakierros</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Näyttää mukautetun tulostaulun</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Näyttää tämän palvelimen kokonaispisteet</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Näyttää kaikkien aikojen nopeimmat pelaajat palvelimella.</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Näyttää tämän viikon nopeimmat pelaajat palvelimella</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Näytä pelitilastot</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Näytä kaikki saatavilla olevat anime-genret</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, jotta voit käyttää tätä ominaisuutta, tarvitset vähintään yhden näistä oikeuksista: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Sekalaiset</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Kierrokset</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Pisteet</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Komennot</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Aloita äänikierroksen istunto</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Äänikierrokset</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Aloita uusi anime-hahmokierros</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, en ymmärrä parametria.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Aloita uusi voice round -istunto näytteillä</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Synkronoi anime-luettelo</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Kierroksen istunnon pysäyttäminen</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Hallinto</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Näytä nykyinen etuliite tai muuta sitä</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Varmista, että käyttöoikeudet on asetettu oikein. Tarvitsen ainakin Connect- ja Speak-oikeudet.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Yhteyttä puhekanavaan '{0}' ei saatu muodostettua.</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Löytää äänikanava, johon liittyä…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>En löytänyt äänikanavaa, johon liittyä.
+
+Voit luoda kanavan, jolla on sama nimi kuin tällä tekstikanavalla, tai liittyä äänikanavaan, johon haluat minun menevän.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Ei löydetty käyttökelpoista äänikanavaa</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Kierrokset alkavat automaattisesti.
+
+Voit ohittaa kierroksen käyttämällä `{0}stopg` ja peruuttaa istunnon käyttämällä `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Aloitin istunnon {0} kierroksilla</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Liity äänikanavaan **{0}** kuunnellaksesi ja voidaksesi arvata.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Kierros on alkanut!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Palvelimen resurssien säästämiseksi maksimikierrokset yhdessä istunnossa ovat {0}.
+
+Jos haluat nostaa tätä rajaa, voit auttaa joukkorahoituksella [ryhtymällä mesenaatiksi]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Saavutti maksimikierrokset tässä istunnossa</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Kierrokset alkavat automaattisesti.
+
+Jos haluat vaihtaa suodattimen, käytä uudelleen `{0}sgs`. Voit ohittaa kierroksen käyttämällä `{0}stopg` ja peruuttaa istunnon käyttämällä `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Aloitti puheistunnon kanavalla **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Pyöreän {0} valmistelu {1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Lisää apua__
+Kyselyt: `{0}help query`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, istunto on käynnissä. Pysäytä se käyttämällä `{1}stopgs`.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Aloita uusi mukautettu tulostaulu</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Lopeta mukautettu tulostaulu</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Nollaa mukautettu tulostaulu</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Aloita uusi pelikierros</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Aloita uusi anime-hahmo pikselikierros</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Näytä krediitit</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Anime-luettelon synkronointi</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Tällä komennolla voit synkronoida anime-luettelon. Se voidaan tehdä kerran päivässä.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>käyttäjätunnus</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Krediitit</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Suuret kiitokset kaikille näille ihmisille ja verkkosivustoille, jotka ovat auttaneet tekemään {0} mahdolliseksi.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Tietokannat/API:t</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Suojelijat</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Erityiset kiitokset</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Käännökset</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Nykyinen komentoesimerkkini on `{0}`
+
+Käytä `{0}prefix your_prefix` tai `@{1} prefix your_prefix` muuttaaksesi sitä.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Komentoesimerkkini on nyt: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Komentoetuliitettäni ei voitu muuttaa.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Etuliitteen on oltava 1-5 merkkiä.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}'s komento etuliite</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Sinä et ole Kururin, ethän?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Tämä ominaisuus on tällä hetkellä saatavilla vain beta-versiossa.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Tämä ominaisuus on tällä hetkellä saatavilla vain kehitystyössä.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Voit luoda kyselyjä yhdistelemällä toimintoja ja suodattimia.
+
+Esimerkiksi: `{0}sg n:5 d:3 y:1995-2005` aloittaa istunnon, jossa on 5 kierrosta animea vaikealla vaikeustasolla vuosien 1995 ja 2005 välillä.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Suodattimet</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Toiminta</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Apua kyselyihin</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Tämä ominaisuus ei ole käytettävissä tässä botissa.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>tasapainoinen</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>risteävät</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>Yhdistetty</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Tämän istunnon sijoitus</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Tunnetaan myös nimellä</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Osoitteesta</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>by</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Laulu</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Genres</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}toimintakustannukset ovat tällä hetkellä **{1} dollaria kuukaudessa.**
+
+Tällä hetkellä tästä määrästä katetaan vain **{2}%**.
+
+Jos nautit {0}'n pelien pelaamisesta, harkitse [lahjoittaa 2 dollaria tai enemmän Patreonissa]({3}), jotta voit auttaa pitämään hänet hengissä.
+
+Pienetkin lahjoitukset ovat valtava apu ja saat jopa joitakin etuja vastineeksi!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} tarvitsee sinua!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Kieltä ei voitu muuttaa.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Nykyinen kieli on `{3}` ({4}).
+
+Voit vaihtaa {1}'n kieltä käyttämällä `{0}lang language_code`.
+Näitä kieliä tuetaan tällä hetkellä:
+{2}
+
+Voit auttaa parantamaan niitä tai jopa lisätä uusia kieliä [yleisökääntämissivustolla]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Kielikoodia `{0}` ei tueta.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Vaihda kieltä</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Kieli on muutettu muotoon `{0}` .</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Näytä nykyinen kieli tai vaihda se</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Mukaan lukien genre(t) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Lukuun ottamatta genre(iä) **{0}**</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Istunnossa pelattavien kierrosten määrä (enintään 10).
+`im:` - Kuvankäsittely: pikselöity `im:p`, käänteinen `im:i`, öljymaalattu `im:o`, harmaasävy `im:g`, käännetty pystysuoraan `im:f` tai useita `im:p,i,o,g,f` (mikä tahansa yhdistelmä).
+`nh:` - Älä näytä vihjeitä `nh:1`
+`aggr:` - Vaihda aggregointimenetelmää, kun käytät anime-listoja: kaikki yhdistetty `aggr:union`, esiintyy kaikissa listoissa `aggr:intersect` tai yhtä suuri otoskoko listaa kohti `aggr:balance` (oletus).</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Anteeksi, se on väärin.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Sinun on annettava minulle ainakin **Näytä kanava**, **Yhdistä** ja **Puhu** -oikeudet kyseiselle kanavalle.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Tämä luettelo on jo synkronoitu.
+Tämänhetkinen tila on **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Enqueued</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Menestyi</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Annoit huonon käyttäjätunnuksen.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Tämä luettelo synkronoitiin hiljattain.
+Odota {0} ennen kuin yrität uudelleen.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Synkronointi jonossa {0} käyttäjälle '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Saat tilapäivityksiä suorissa viesteissä.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Voit asettaa jonoon vain yhden synkronointityön kerrallaan.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Voit asettaa synkronointityön jonoon vain 15 minuutin välein.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Tila on nyt **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Voit nyt alkaa käyttää `{0}:{1}` -suodatinta.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Synkronoinnin tila {0} käyttäjälle '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Epäonnistunut</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Poistettu</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Peruutettu</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Aikataulutettu</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Käsittely</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Tarkista [käännöstilastot]({0}), josta löydät luettelon kaikista, jotka osallistuivat käännöksiin!</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Istunto on peruttu</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Mahdollisesti tämän suodattimen korkit ovat loppuneet, kokeile toista suodatinta.</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Pelaajat__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` voitti &gt; 1000 laukausta</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Saavutukset</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Käyttöoikeuksia ei ole asetettu oikein äänikierroksen aloittamiseksi osoitteessa '{0}'</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` teemat</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Shardisi on `{0}` klusterissa `{3}` .
+
+Tähän klusteriin on liitetty `{1}` palvelimia.
+`{2}` Siinä pelataan parhaillaan kierroksia.</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` kierrokset</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Kaikkien aikojen nopeusjohtotaulukko on nollattu.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Voi kestää hetken, ennen kuin tulostaulu päivittyy.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Kaikkien aikojen pistetaulukko on nollattu.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>videokierrokset ovat vain asiakkaiden saatavilla</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Synkronointi {0} käyttäjä '{1}'</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Mikä anime tämä on?</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Varmista, että olet antanut oikean käyttäjätunnuksen ja että listasi on __julkisesti saatavilla__.
+
+Jos ongelma jatkuu, pyydä apua [tukipalvelimelta] ({0}).</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Tällä kanavalla on aktiivinen kierros. Yritä käyttää `{0}stopg` tai `{0}stopgs` pysäyttääksesi sen.</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Nollaa kaikkien aikojen nopeusjohtotaulukko</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Voit arvata vain kerran!</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Vaikeus `d:0` - `d:5` (`0` poistaa vaikeussuodattimen käytöstä).
+`y:` - Vuosi `y:2010` tai vuosiväli `y:1995-2005`
+`g:` - Genre `g:action` tai useita `g:action,-sliceoflife,!kids`, jossa `-` tai `!` sulkee pois genren (käytä `{0}genrejä` kaikille genreille).
+`t:` - Kappaleen tyyppi: aloitus `t:op`, lopetus `t:ed` tai insert songs `t:in` (`in` toimii vain `sga` kanssa).
+`sl:` - Näytteen pituus sekunteina, välillä 5 ja 30 (voidaan käyttää vain `{0}sgsa` kanssa).
+`mal:` - MyAnimeList käyttäjän anime-luettelo `mal:username` tai useita `mal:user1,user2`
+`anilist:` - AniList käyttäjän animen lista `anilist:username` tai useampi `anilist:user1,user2`</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Näytteet **{0} sekuntia**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>näytteen pituuden on oltava ≥ 5 ja ≤ 30 sekuntia.</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Julkaistu vuosina {0} ja {1}</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime-kierrokset</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Näytä kaikki mahdolliset pelialustat</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Näytä kaikki mahdolliset peligenret</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Vaihda oletusvaikeusasteesi</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Pelaaja</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Nainen</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Mukaan lukien hahmoroolit: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Lukuun ottamatta hahmorooleja: **{0}**</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Valitse oletusvaikeusasteesi</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Ei vaikeuksia</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Vaikeus perustuu pisteisiisi</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Nykyisen kierroksen istunnon pysäyttäminen…</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Lukuun ottamatta alkuperää: **{0}**</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Anteeksi, se oli **{0}** , mikä on väärin.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Aloita uusi käänteisen kuvan arvauskierros</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Liian monta väärää arvausta</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}** {1} -listaa ei ole vielä synkronoitu. Käytä ensin komentoa sync listan synkronoimiseksi. ``</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Aloita uusi Pokémon-kierros</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Elää: **{0}**</value>
+  </data>
 </root>

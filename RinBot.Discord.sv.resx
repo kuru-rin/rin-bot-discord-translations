@@ -231,4 +231,957 @@
   <data name="StopGame_CooldownNotification" xml:space="preserve">
     <value>{0}, du kan inte använda kommandot `{2}stopg` mer än en gång var {1} minut.</value>
   </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Starta en ny bildrunda med flervalsknappar</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Gissa: **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` rundor för videospel</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Anpassad leaderboard för #{0}</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>En session är redan aktiv</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>Slutåret måste vara ≥ till startåret</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Resultat</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Hitta en röstkanal att gå med i…</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Rundan har börjat!</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Avsluta den anpassade topplistan</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Starta en ny pixelrunda för anime-karaktärer</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>balanserad</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Från</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Inklusive ursprung: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Exklusive ursprung: **{0}**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Fel vid utförande av kommando</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Exklusive plattform(ar) **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Starta en ny voice round-session med exempel och flervalsknappar</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>För att öka denna gräns kan du [bli mecenat]({0}).</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Detta kommando är endast tillgängligt för låntagare. Se [denna sida]({0}) om hur du blir en.
+</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Inverterade färger</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Ljudmanipulationer: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Bildmanipulering: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Upphävd</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>låt typ måste vara: {0}</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Rundor</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Ändra språk</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Visa aktuellt språk eller ändra det</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Se [översättningsstatistiken]({0}) för en lista över alla som har bidragit!</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Sessionen har ställts in</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Eventuellt har vi slut på kapslar för detta filter, prova ett annat.</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Lyckades</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Denna lista håller redan på att synkroniseras.
+Det aktuella läget är **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>I kö</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Du angav ett felaktigt användarnamn.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Denna lista synkroniserades nyligen.
+Vänligen vänta {0} innan du försöker igen.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Synkronisering i kö för {0} användare '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Du kommer att få statusuppdateringar i direktmeddelanden.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Behörigheter inte korrekt angivna för att starta röstningsrunda i '{0}'</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Du måste ge mig minst behörigheterna **Visa kanal**, **Anslut** och **Tala** för den kanalen.</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Tvingar fram en uppdatering av denna servers information (kanaler, roller och liknande)</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` teman</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` karaktärer</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` rundor</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` visuella romaner</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Du kommer att få färre poäng för svårighetsgraderna nedan **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} fick den här prestationen</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}'s prestationslista</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>och fick {0} poäng!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} är nu på nivå {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Från genren **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, detta kommando är endast tillgängligt för kunder (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Alla tiders hastighetstopplista har återställts</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Det kan ta en liten stund innan topplistan uppdateras.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Det kan ta en liten stund innan topplistan uppdateras.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>Videorundor är endast tillgängliga för kunder</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Kontrollera att du har angett rätt användarnamn och att din lista är __offentligt tillgänglig__.
+
+Om problemet kvarstår kan du be om hjälp på [supportservern]({0}).</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Vilken anime är det här?</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Återställ poängligan genom tiderna</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Återställ alla tiders topplista för hastighet</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Det finns ingen aktiv session i denna kanal.</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Stoppar alla rundor på denna server</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Prov på **{0} sekunder**</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Dessa valideringsproblem uppstod:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Ogiltiga filter</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Rundor för videospel</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Man</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Kvinna</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Inklusive karaktärsroller: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Inga droppar</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Du har inget tillstånd här, på grund av inställningarna för kanalåtkomstkontroll.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Stoppar den pågående rundan…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Stoppar pågående runda…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Välj din förvalda svårighetsgrad</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Inga svårigheter</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Svårighetsgrad baserad på dina poäng</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Försök nu att gissa en karaktär från anime rätt för att få ytterligare **{0} poäng**!</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>år {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Ursäkta, det var **{0}** , vilket är felaktigt.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Starta en ny omvänd bildgissningsrunda</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, har du gissat på '{1}' eller något liknande för ofta. Jag kommer att ignorera det ett tag.</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Starta en ny Pokémonrunda</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Inklusive plattform(ar) **{0}**</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>För många felaktiga gissningar</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` Videospel</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Karaktärens kön: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Inga ledtrådar</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Starta en ny videorunda med flervalsknappar</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Starta en ny ljudrunda med flervalsknappar</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Liv: **{0}**</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Det gick inte att skapa en ny session, försök använda `{0}stopg` eller `{0}stopgs` eller ett annat filter.</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, ingen anpassad topplista hittades. Du kan starta en ny med `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, en anpassad leaderboard är redan aktiv i den här kanalen.
+Du kan avsluta den genom att använda `{1}endctop` eller återställa den helt genom att använda `{1}resetctop`.</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>Filter för låttyp kan endast användas på ljudrundor</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>denna genre är inte tillgänglig</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>filtret för anime-listan fungerar endast för anime- och anime-karaktärsrundor</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Starta en ny bildrunda</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Starta en ny videorunda</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Starta en ny ljudrunda</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Kommandon</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Starta en röstrunda</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Röstrundor</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Stoppa en rund session</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Starta en ny runda för anime-karaktärer</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Se till att behörigheterna är korrekt inställda. Jag behöver åtminstone behörigheterna Connect och Speak.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Kunde inte ansluta till röstkanalen '{0}'</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Ingen användbar röstkanal hittades</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Återställ den anpassade topplistan</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Starta en ny spelrunda</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Visa meriter</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Synkronisering av anime-lista</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Använd detta kommando för att synkronisera din anime-lista. Det kan göras en gång per dag.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>användarnamn</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Krediter</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Databaser/API:er</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Särskilt tack</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Översättningar</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Status är nu **{0}** .</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Mitt nuvarande kommandoprefix är `{0}`
+
+Använd `{0}prefix your_prefix` eller `@{1} prefix your_prefix` för att ändra det.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Mitt kommandoprefix är nu: **{0}**</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Du är inte Kururin, eller hur?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Denna funktion är för närvarande endast tillgänglig i betaversionen.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Denna funktion är för närvarande endast tillgänglig för utveckling.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Du kan skapa frågor genom att kombinera operationer och filter.
+
+Exempel: `{0}sg n:5 d:3 y:1995-2005` för att starta en session med 5 omgångar anime på svår svårighetsgrad mellan åren 1995 och 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Verksamhet</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Hjälp för frågor</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Denna funktion är inte tillgänglig på denna bot.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Språket kunde inte ändras.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>korsade</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} behöver dig!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Det aktuella språket är `{3}` ({4}).
+
+Du kan ändra {1}'s språk med `{0}lang language_code`.
+Dessa språk stöds för närvarande:
+{2}
+
+Du kan hjälpa till att förbättra dessa eller till och med lägga till fler språk på [webbplatsen för crowd translation]({5}).</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**s lista på {1} har inte synkroniserats ännu. Använd kommandot `sync` först för att synkronisera en lista.</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Se [denna sida]({0}) för information om hur du aktiverar dem.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Filter för rundabordssamtal ändrat</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Antal rundor att spela i en session (max 10)
+`im:` - Bildmanipulering: pixlad `im:p`, inverterad `im:i`, oljemålad `im:o`, gråskala `im:g`, vänd vertikalt `im:f` eller flera `im:p,i,o,g,f` (valfri kombination)
+`nh:` - Visa inte tips `nh:1`
+`aggr:` - Ändra aggregeringsmetod vid användning av anime-listor: alla kombinerade `aggr:union`, finns i alla listor `aggr:intersect` eller lika stort urval per lista `aggr:balance` (standard)</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Slash-kommandon är nu tillgängliga!</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Du kan ha högst `{0}` rundor per session.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Överskridit maximalt antal tillåtna rundor för sessionen</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Ökat tempo</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pixelerad</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Gråskala</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Oljemålad</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Flippad</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Du kan bara köa ett synkroniseringsjobb åt gången.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Du kan bara köa ett synkroniseringsjobb var 15:e minut.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Du kan nu börja använda filtret `{0}:{1}`.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Synkroniseringsstatus för {0} användare '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Misslyckades</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Borttagen</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Avbokad</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Schemalagd</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Bearbetning</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, du har startat för många spel idag. Bli en beskyddare för att öka denna gräns (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, har ni redan en aktiv runda igång någon annanstans.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Prestationer</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Förra veckan__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` punkter</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Poäng</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Rang {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` vunna omgångar</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}serverpoäng</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Hela tiden__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Förra veckan__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Denna vecka__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` spelare</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Poäng</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Hastighet</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Snabbaste spelarna i __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW måste vara aktiverat på denna kanal för att du ska kunna använda denna bot.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Tid: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} punkt** uppnåddes</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Endast omgångar med en pool på mer än 1000 räknas</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Typ av låt: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Förra veckans vinnare</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Poäng och topplistor bearbetas varje timme.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Från {0} till {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Startade {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Vecka {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(avslutar {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Den anpassade topplistan i den här kanalen avslutades.
+Du kan nu återställa den med `{0}resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Ingen anpassad topplista är aktiv.
+Du kan starta en med `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Ingen anpassad leaderboard hittades.
+Du kan starta en med `{0}startctop`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Startade en session med {0} rundor</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Den anpassade topplistan har återställts.
+Du kan starta en ny igen med `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` Anime-rundor</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` ljudrundor</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Databas__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` servrar</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Servrar__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` Bildrundor</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` användare</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Spelare__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` vunnit &gt; 1000 skott</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` vann &gt; 100 skott</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` vunnit &gt; 10 ronder</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` rundor inställda</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` rundor avslutade</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` sånger</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` Videorundor</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` rundor med visuella romaner</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Globalt</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Rundor__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Statistik från matchen</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>En anpassad leaderboard har precis startats för den här kanalen.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>För att få snabbare bearbetning kan du [öka din server]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Servrar__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Lätt</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Hård</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Extrem</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Mardröm</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Öppning</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Avslutande</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Infoga sång</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Bild låt</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` enkla rundor</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` normala rundor</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` hårda rundor</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` extrema rundor</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` Mardrömsrundor</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` rundor utan problem</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Databasen {0} kan inte nås för närvarande. Försök igen senare.
+
+Kontrollera [statussidan]({1}) eller [RinBot support server]({2}) för mer information.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} rundor är för närvarande inte tillgängliga</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Det går inte att starta ett spel manuellt när röstrundor är aktiva.
+För att stoppa dem kan du använda `{0}stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` rundor för anime-karaktärer</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` vunnit minst 1 rond</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Från användare **{0}** på {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Anime-listor är **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>genren måste vara en av de som listas i `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>du valde ett ogiltigt årtal</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>du kan inte använda svårighetsgraden Mardröm med några andra filter</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>kanalen måste vara inställd på NSFW för att detta filter ska kunna användas.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>Slutåret måste vara ≤ innevarande år</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>Startåret måste vara ≤ innevarande år</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>startår måste vara &gt; 1900</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>Kommandolista för RinBot</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Stoppar den pågående rundan</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Visar din personliga poäng</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Visar de bästa spelarna genom tiderna på servern</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Visar veckans bästa spelare på servern</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>För en fullständig förteckning över kommandon, vänligen [besök webbplatsen]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Starta en ny bildrunda för visuella romaner</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Visar den anpassade topplistan</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Visar den här serverns totala poäng</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Visar de snabbaste spelarna genom tiderna på servern</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Visar veckans snabbaste spelare på servern</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Visa spelstatistik</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Visa alla tillgängliga anime-genrer</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, för att använda denna funktion behöver du minst en av dessa behörigheter: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}Jag förstår inte parametern.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Starta en ny voice round-session med prover</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Synkronisera en anime-lista</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Ledning</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Visa det aktuella prefixet eller ändra det</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Jag kunde inte hitta någon röstkanal att ansluta mig till.
+
+Du kan skapa en med samma namn som den här textkanalen, eller gå med i den röstkanal där du vill att jag ska gå.</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Rundorna startar automatiskt.
+
+För att hoppa över en runda, använd `{0}stopg` och för att avbryta sessionen använd `{0}stopgs`.</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Gå med i röstkanalen **{0}** för att lyssna och kunna gissa.</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>För att spara serverresurser är det maximala antalet rundor i en session för dig {0}.
+
+För att öka denna gräns kan du hjälpa till med crowd-funding genom att [bli en beskyddare]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Nådde maximalt antal rundor denna session</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Rundorna startar automatiskt.
+
+För att ändra ditt filter, använd bara `{0}sgs` igen. För att hoppa över en runda, använd `{0}stopg` och för att avbryta sessionen använd `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Startade en röstsession i kanalen **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Förberedande runda {0} av {1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Mer hjälp__
+Frågor: `{0}hjälpfråga`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, det pågår en session. Använd `{1}stopgs` för att stoppa det.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Starta en ny anpassad topplista</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Ett stort tack till alla dessa människor och webbplatser som har hjälpt till att göra {0} möjligt.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Beskyddare</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Mitt kommandoprefix kunde inte ändras.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Prefixet måste vara mellan 1 och 5 tecken.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}'s kommandoprefix</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>förenade</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Rangordning för detta sammanträde</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Även känd som</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>av</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Sång</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Genrer</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}'s driftskostnader är för närvarande **${1} per månad**
+
+För närvarande täcks endast **{2}%** av detta belopp.
+
+Om du tycker om att spela {0}:s spel kan du överväga att [donera 2 USD eller mer på Patreon]({3}) för att hjälpa till att hålla henne vid liv.
+
+Även små donationer är till stor hjälp och du kommer till och med att få några förmåner i gengäld!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Språkkoden `{0}` stöds inte.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Språket har ändrats till `{0}` .</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Inklusive genre(r) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Uteslutande genre(r) **{0}**</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Poängligan för alla tider har återställts</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Synkronisering av {0} användare '{1}'</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Tyvärr, det stämmer inte.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Det finns en aktiv runda i denna kanal. Försök att använda `{0}stopg` eller `{0}stopgs` för att stoppa den.</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Din shard är `{0}` på klustret `{3}` .
+
+Det finns `{1}` servrar anslutna till detta kluster.
+`{2}` rundor spelas för närvarande på den.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Du får bara gissa en gång!</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Svårighet `d:0` till `d:5` (`0` inaktiverar svårighetsfilter)
+`y:` - År `y:2010` eller årsintervall `y:1995-2005`
+`g:` - Genre `g:action` eller flera `g:action,-sliceoflife,!kids`, där `-` eller `!` utesluter genren (använd `{0}genres` för alla genrer)
+`t:` - Typ av låt: öppningar `t:op`, avslutningar `t:ed` eller infoga låtar `t:in` (`in` fungerar endast med `sga` )
+`sl:` - Provlängd i sekunder, mellan 5 och 30 (endast användbar med `{0}sgsa`)
+`mal:` - MyAnimeList användaranime-lista `mal:användarnamn` eller flera `mal:user1,user2`
+`anilist:` - AniList användaranime lista `anilist:användarnamn` eller flera `anilist:user1,user2`</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>provets längd måste vara ≥ 5 och ≤ 30 sekunder</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime-rundor</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Visa alla möjliga spelplattformar</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Visa alla möjliga spelgenrer</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Ändra din förvalda svårighetsgrad</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Spelare</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Starta en ny runda med citat om anime-karaktärer</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Exklusive karaktärsroller: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Servern språk - (engelska) {0}</value>
+  </data>
 </root>

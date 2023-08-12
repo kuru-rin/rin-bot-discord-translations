@@ -59,7 +59,7 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -117,4 +117,1071 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Új képkör indítása feleletválasztós gombokkal</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Beleértve a származást: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Platform(ok) kizárása **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` videojátékok</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Új hangkörös munkamenet indítása mintákkal és feleletválasztós gombokkal</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - A játszandó fordulók száma egy ülésben (max. 10)
+`im:` - Képmanipuláció: pixeles `im:p`, invertált `im:i`, olajfestményes `im:o`, szürkeárnyalatos `im:g`, függőlegesen megfordítva `im:f` vagy többszörös `im:p,i,o,g,f` (bármilyen kombináció).
+`nh:` - Ne jelenítsen meg tippeket `nh:1`
+`aggr:` - Változtassa meg az aggregációs módszert, ha anime listákat használ: minden kombinált `aggr:union`, minden listában jelen van `aggr:intersect` vagy egyenlő mintaméret listánként `aggr:balance` (alapértelmezett).</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>A Slash parancsok mostantól elérhetőek!</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Olajjal festett</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Flipped</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Hangmanipulációk: **{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>A dal típusának a következőnek kell lennie: {0}</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} pontokat** szereztek</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` pontok</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} nyert!</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Legalább a **View channel**, **Connect** és **Speak** jogosultságokat kell megadnod a csatornához.</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Új vizuális regény képkör indítása</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Megmutatja az e heti leggyorsabb játékosokat a szerveren</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Új hangkörös munkamenet indítása mintákkal</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Egy anime lista szinkronizálása</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Lehetséges, hogy elfogytak a szűrőhöz való kupakok, próbáljon meg egy másikat.</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>A fordulót a hiányzó felvételek miatt törölték. Próbáljon meg egy másik kört kevésbé korlátozó szűrőkkel.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Nem megfelelően beállított jogosultságok a hangkör elindításához a '{0}' oldalon.</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Kényszeríti a szerver információinak frissítését (csatornák, szerepek és hasonlók)</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` felhasználók</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Sajnálom, hogy megzavarom a játékodat, de újra kell indítanom magam, hogy csillogó új funkciókkal lássak el téged!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Egy perc múlva újra kezdhetsz egy új kört.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: **A  újraindítása.**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Játékos</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` karakterek</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` forduló</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Minden idők sebességi ranglistája visszaállt</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>A ranglista frissítése eltarthat egy kis ideig.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>a videókörök csak a vendégek számára elérhetőek</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>A {0} felhasználó szinkronizálása '{1}'</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Sajnálom, ez nem helyes.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Csak egyszer tippelhetsz!</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Milyen anime ez?</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Az örökranglista visszaállítása</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Az összesített sebességi ranglista visszaállítása</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Leállítja az összes kört ezen a szerveren</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Érvénytelen szűrők</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>A {0} és a {1}</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Játékos</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Férfi</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Női</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Beleértve a karakterszerepeket is: **{0}**</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>A jelenlegi kör megállítása…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Válassza ki az alapértelmezett nehézséget</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Most próbáld meg helyesen kitalálni az anime egy karakterét, hogy újabb **{0} pontokat szerezz**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Új anime karakter idéző kör indítása</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` témák</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Bocsánat, ez a **{0}** volt, ami helytelen.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Kezdj egy új fordított kép kitalálási kört</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Beleértve a platform(ok)at **{0}**</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Az alapértelmezett nehézség megváltoztatása</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, túl gyakran tippelted a '{1}' vagy valami hasonlót. Egy ideig nem veszek róla tudomást.</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Karakter neme: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Nincs csepp</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Nincsenek tippek</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Új hangkör indítása feleletválasztós gombokkal</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Új Pokémon kör indítása</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Él: **{0}**</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Képdal</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` könnyű körök</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` normál forduló</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` kemény körök</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` extrém körök</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` rémálom körök</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` körök nehézség nélkül</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>A munkamenet már aktív</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>A {0} adatbázis jelenleg nem érhető el. Próbálja meg később újra.
+
+További információért nézze meg [az állapotlapot]({1}) vagy [a RinBot támogatási szerverét]({2}).</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} a körök jelenleg nem állnak rendelkezésre</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Nem lehet manuálisan elindítani egy játékot, ha a hangos forduló aktív.
+A leállításhoz használhatja a `{0}stopgs` címet.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` anime karakter körök</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` legalább 1 menetet nyert</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Felhasználó(k)tól **{0}** on {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Anime listák **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>a műfajnak a `!műfajok listában felsorolt műfajok egyikének kell lennie.`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>érvénytelen évszámot választottál</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Ezek az érvényesítési problémák előfordultak:</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>A származás nélkül: **{0}**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Hiba a parancs végrehajtása közben</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Nézze meg [ezen az oldalon]({0}), hogyan engedélyezheti őket.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Túllépte a maximálisan megengedett fordulószámot az ülésen</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Ha növelni szeretné ezt a limitet, akkor [váljon mecénássá]({0}).</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Elindult {0}</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` videojáték körök</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Nehézség `d:0` - `d:5` (`0` kikapcsolja a nehézségi szűrőt)
+`y:` - `y:2010` vagy évszámtartomány `y:1995-2005`
+`g:` - Műfaj `g:action` vagy többszörös `g:action,-sliceoflife,!kids`, ahol `-` vagy `!` kizárja a műfajt (használja a `{0}műfajokat` minden műfajra).
+`t:` - A dal típusa: nyitó rész `t:op`, befejezés `t:ed` vagy betétdalok `t:in` (`in` csak a `sga` esetén működik).
+`sl:` - A minta hossza másodpercben, 5 és 30 között (csak a `{0}sgsa` esetén használható).
+`mal:` - MyAnimeList felhasználói anime lista `mal:username` vagy több `mal:user1,user2`
+`anilist:` - AniList felhasználó anime lista `anilist:username` vagy többszörös `anilist:user1,user2`</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Képmanipulációk: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Fordított</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>A tempó megnövekedett</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pixelált</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Invertált színek</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Szürkeárnyalatos</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Ez a parancs csak a védnökök számára érhető el. Lásd [ezen az oldalon]({0}), hogyan válhatsz védnökké.
+</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Rangsor {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Cap</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Hint</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**A kitalálásra {0} másodperced maradt!**</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Alternatív címek</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` teljesítménypontok</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Minden idők__</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Ezen a héten__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, még nem nyertél egy kört sem.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}pontszáma</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` kerek pontok</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Látogasson el [a profiloldalára]({1}/profile/{2}) a globális statisztikákért.</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Legyél mecénás]({1}), [vegyél nekem egy kávét]({2}) vagy [szavazz naponta]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Segíts életben tartani RinBotot!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Nem találtunk játékosokat.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Múlt hét óta</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**A legjobb játékosok __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Jelenleg karbantartás alatt állok, próbáld újra hamarosan!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: **Karbantartás**</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>A nehézség **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Új forduló előkészítése…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, már folyamatban van egy forduló. Használja a `{1}stopg` megállításához.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>A forduló {0} másodperc múlva kezdődik…</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Hét {0}</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, jelenleg túl sok menet van előkészítés alatt. Próbálja újra rövidesen.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, nem értem a paramétert.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, a `{2}stopg` parancsot legfeljebb minden {1} percben egyszer használhatja.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, jelenleg nincs játszott forduló. A `{1}sg` segítségével indíthat egyet.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Kevesebb pontot kap az alábbi nehézségi fokú fordulókért **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} megkaptam ezt a teljesítményt</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}teljesítménylistája</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>és megszerezte a {0} pontokat!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} most már vízszintes {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>A műfajból **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, ez a parancs csak a patrónusok számára érhető el (https://patreon.com/rinbot?fan_landing=true).</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, túl sok játékot kezdtél ma. Légy mecénás, hogy növeld ezt a limitet (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, már van egy aktív fordulója máshol.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Eredmények</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Múlt héten__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` pontok</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Pontok</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Rangsor {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` megnyert körök</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}'s szerver pontszáma</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Minden idők__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Múlt héten__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Ezen a héten__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` játékosok</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Pontok</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Sebesség</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**A leggyorsabb játékosok __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>A bot használatához engedélyezni kell az NSFW-t ezen a csatornán.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Idő: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Találd ki: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} pont:**</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Csak az 1000-nél több résztvevőt számláló fordulók számítanak.</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Dal típusa: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>A múlt heti győztes</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>A pontszámok és ranglisták óránként kerülnek feldolgozásra.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>A {0} -tól a {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(vége: {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Az egyéni ranglista ezen a csatornán megszűnt.
+Most visszaállíthatja a `{0}resetctop` segítségével.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Nincs egyéni ranglista aktív.
+A `{0}startctop` segítségével indíthatsz egyet.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Nem találtak egyéni ranglistát.
+Elindíthat egyet a `{0}startctop` segítségével.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Az egyéni ranglistát visszaállították.
+Újraindíthatsz egy újat a `{0}startctop` segítségével.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` anime körök</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` hangkörök</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Adatbázis__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` szerverek</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Szerverek__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` képkörök</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Játékosok__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` nyert &gt; 1000 lövés</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` nyert &gt; 100 lövés</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` &gt; 10 menetet nyert</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` törölt körök</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` befejezett körök</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` dalok</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` videó körök</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` vizuális regények</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` vizuális regény körök</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Globális</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Forduló__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Játék statisztikák</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Egyéni ranglista #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, nem találtak egyéni ranglistát. A `{1}startctop segítségével indíthatsz újat.`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, egy egyéni ranglista már aktív ezen a csatornán.
+Ezt a `{1}endctop` segítségével fejezheted be, vagy a `{1}resetctop` segítségével teljesen visszaállíthatod.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Egy egyéni ranglistát indítottunk ezen a csatornán.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>A gyorsabb feldolgozás érdekében [boost your server]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Szerverek__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Easy</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normál</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Kemény</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Extreme</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Rémálom</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Megnyitás</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Befejezés</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Insert song</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>a Rémálom nehézséget nem használhatod más szűrőkkel.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>a csatornának NSFW-re kell állítani a szűrő használatához.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>a záró évnek ≤ folyó évnek kell lennie</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>a kezdő évnek ≤ folyó évnek kell lennie</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>a kezdő évnek &gt; 1900-nak kell lennie</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>a záró évnek ≥ a kezdő évnek kell lennie</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>a dal típusú szűrő csak audio körökben használható</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>ez a műfaj nem elérhető</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>az anime lista szűrő csak anime és anime karakter körökre működik</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot parancslista</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Új képkör indítása</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Új videókör indítása</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Új hangkör indítása</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Megállítja az aktuális kört</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Megmutatja a személyes pontszámát</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Megmutatja a szerver minden idők legjobb játékosait.</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Megmutatja az e heti legjobb játékosokat a szerveren</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>A parancsok teljes listáját [látogasson el a weboldalra]({0}).</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Megjeleníti az egyéni ranglistát</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Megjeleníti a szerver teljes pontszámát</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Megmutatja minden idők leggyorsabb játékosát a szerveren</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Nézd meg [a fordítási statisztikát]({0}), ahol mindenki szerepel, aki hozzájárult a fordításhoz!</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Játékstatisztikák megjelenítése</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Minden elérhető anime műfaj megjelenítése</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, a funkció használatához legalább az alábbi jogosultságok egyikére szükséged van: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Egyéb</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Forduló</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Pontszámok</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Parancsok</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Kezdje el a hangosbeszélgetés munkamenetét</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Körös munkamenet leállítása</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Hangos forduló</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Új anime karakter kör indítása</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, nem értem a paramétert.</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Menedzsment</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Az aktuális előtag megjelenítése vagy módosítása</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Győződjön meg róla, hogy az engedélyek helyesen vannak beállítva. Legalább a Connect és a Speak engedélyekre van szükség.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Nem tudott csatlakozni a hangcsatornához '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Egy hangcsatornát találni, amihez csatlakozhatsz…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Nem találtam olyan hangcsatornát, amelyhez csatlakozhatnék.
+
+Létrehozhatsz egyet ugyanolyan névvel, mint ez a szöveges csatorna, vagy csatlakozhatsz ahhoz a hangcsatornához, ahová szeretnéd, hogy menjek.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Nem találtak használható hangcsatornát</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>A fordulók automatikusan indulnak.
+
+Egy forduló kihagyásához használja a `{0}stopg` parancsot, a munkamenet leállításához pedig a `{0}stopgs` parancsot.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Kezdett egy munkamenetet {0} körökkel</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Csatlakozzon a **{0}** hangcsatornához, hogy meghallgassa és kitalálhassa.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>A forduló megkezdődött!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>A szerver erőforrásainak kímélése érdekében az Ön számára egy munkamenetben a maximális fordulószám a {0}.
+
+Ennek a limitnek a növeléséhez segíthetsz a tömegfinanszírozással, ha [mecénássá válsz]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Elérte a maximális fordulószámot ebben az ülésszakban</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Kerek munkamenet szűrő megváltozott</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>A fordulók automatikusan indulnak.
+
+A szűrő cseréjéhez csak használja újra a `{0}sgs` címet. Egy forduló kihagyásához használja a `{0}stopg` parancsot, a munkamenet leállításához pedig a `{0}stopgs` parancsot.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Hangbeszélgetés indítása a csatornán **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Kerek {0} előkészítése {1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__További segítség__
+Kérdések: `{0}segítségkérés`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, folyamatban van egy munkamenet. Használja a `{1}stopgs` leállításához.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Új egyéni ranglista indítása</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Az egyéni ranglista befejezése</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Az egyéni ranglista visszaállítása</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Új játékkör indítása</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Új anime karakter pixel kör indítása</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Mutassa a kreditpontokat</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Anime lista szinkronizálása</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Ezzel a paranccsal szinkronizálhatja az anime listát. Ezt naponta egyszer lehet megtenni.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>felhasználónév</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Hitelek</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Hatalmas köszönet ezeknek az embereknek és weboldalaknak, hogy segítettek a {0} létrehozásában.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Adatbázisok/API-k</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Védnökök</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Külön köszönet</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Fordítások</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>A jelenlegi parancs előtagom a következő `{0}`
+
+Használja a `{0}prefix your_prefix` vagy `@{1} prefix your_prefix` prefixet a megváltoztatásához.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>A parancs előtagom most: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>A parancs előtagomat nem lehetett megváltoztatni.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Az előtagnak 1 és 5 karakter között kell lennie.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}'s parancs előtag</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Te nem Kururin vagy, ugye?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Ez a funkció jelenleg csak a béta verzióban érhető el.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Ez a funkció jelenleg csak a fejlesztés során érhető el.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>A műveletek és szűrők kombinálásával lekérdezéseket hozhat létre.
+
+Például: `{0}sg n:5 d:3 y:1995-2005`, hogy elindítson egy munkamenetet, amely 5 fordulónyi anime-t tartalmaz kemény nehézségen 1995 és 2005 között.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Szűrők</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Műveletek</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Segítség a lekérdezésekhez</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Ez a funkció nem érhető el ezen a boton.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>kiegyensúlyozott</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>metszett</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>egyesült</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Az ülésszak rangsora</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Más néven is ismert</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>A  címről</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Song</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Műfajok</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}működési költségei jelenleg **${1} $ havonta.**
+
+Jelenleg ennek az összegnek csak **{2}%-a** fedezett.
+
+Ha élvezed a {0}'s játékokat, kérlek fontold meg, hogy [adományozz 2 dollárt vagy többet a Patreonon]({3}), hogy segítsd életben tartani őt.
+
+Még a kis adományok is nagy segítség, és még néhány kedvezményt is kapsz cserébe!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} szüksége van rád!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>A nyelvet nem lehetett megváltoztatni.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>A jelenlegi nyelv: `{3}` ({4}).
+
+A {1}'nyelvét a `{0}lang language_code` segítségével változtathatja meg.
+Jelenleg ezek a nyelvek támogatottak:
+{2}
+
+Segíthetsz ezek javításában vagy akár további nyelvek hozzáadásában [a tömeges fordítás weboldalán] ({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>A `{0}` nyelvkód nem támogatott.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Nyelvváltoztatás</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>A nyelvváltozat `{0}` .</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Az aktuális nyelv megjelenítése vagy megváltoztatása</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Beleértve a műfaj(ok)at **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Műfaj(ok) kizárása **{0}**</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Ez a lista már szinkronizálásra került.
+A jelenlegi állapot **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Enqueued</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Sikerült</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Rossz felhasználónevet adtál meg.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Ezt a listát nemrégiben szinkronizálták.
+Kérjük, várjon {0} mielőtt újra megpróbálná.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Szinkronizálás várakozik a {0} felhasználó számára '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>A közvetlen üzenetekben állapotfrissítéseket fogsz kapni.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Egyszerre csak egy szinkronizálási feladat állítható sorba.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Egy szinkronizálási feladatot csak 15 percenként állíthat sorba.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>A státusz mostantól **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Győződjön meg róla, hogy a helyes felhasználónevet adta meg, és hogy a lista a __nyilvánosan elérhető__.
+
+Ha a probléma továbbra is fennáll, kérjen segítséget [a támogatási szerveren] ({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Most már használhatja a `{0}:{1}` szűrőt.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>A {0} felhasználó szinkronizálási állapota '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Sikertelen</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Törölt</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Törölt</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Tervezett</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Feldolgozás</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>A munkamenet törlésre került</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Senki sem tippelt helyesen**</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Globálisan</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Az Ön shardja `{0}` a `{3}` fürtön.
+
+Ehhez a fürthöz `{1}` kiszolgálók vannak csatlakoztatva.
+`{2}` Jelenleg fordulók játszanak rajta.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Egy foglalkozáson legfeljebb `{0}` fordulókra van lehetőség.</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Nincs aktív munkamenet ezen a csatornán.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>A ranglista frissítése eltarthat egy kis ideig.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Az összesített pontlistát visszaállították</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Ezen a csatornán egy aktív forduló zajlik. Próbálja meg a `{0}stopg` vagy a `{0}stopgs` segítségével megállítani.</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>A csatorna hozzáférés-szabályozási beállításai miatt itt nincs engedélye.</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Nem tudott új munkamenetet létrehozni, próbálja meg a `{0}stopg` vagy a `{0}stopgs` vagy egy másik szűrőt használni.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>A **{0} másodpercek mintái**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>a minta hossza legalább 5 és legfeljebb 30 másodperc lehet.</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Videójáték körök</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime körök</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Az összes lehetséges játékplatform megjelenítése</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Minden lehetséges játékműfaj megjelenítése</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>A karakterszerepek kivételével: **{0}**</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Az aktuális forduló munkamenet leállítása…</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Nincs nehézség</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Nehézség a pontjaid alapján</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>év {0}</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Túl sok rossz tipp</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**A {1} oldalon található listát még nem szinkronizálták. A lista szinkronizálásához először a `sync` parancsot használja.</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Új videókör indítása feleletválasztós gombokkal</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>A kiszolgáló nyelve - {0}</value>
+  </data>
 </root>

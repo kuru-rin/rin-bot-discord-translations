@@ -875,4 +875,312 @@ Pro přeskočení kola použij `{0}stopg` a pro skončení relace použij `{0}st
     <value>Vlastní žebříček hráče {0} je již aktivní na tomto kanále.
 Můžeš ho ukončit použitím `{1}endctop` nebo ho kompletně resetovat použitím `{1}resetctop`.</value>
   </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>S výjimkou původu: **{0}**</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Tyto problémy s validací se vyskytly:</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Včetně platformy (platforem) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>S výjimkou platformy (platforem) **{0}**</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Překročení maximálního povoleného počtu kol pro relaci</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` kola videoher</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` videohry</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Obrácený</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tempo se zvýšilo</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pixelated</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Invertované barvy</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Stupně šedi</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Olejomalba</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Obrácený</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Příkazy lomítka jsou nyní k dispozici!</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` kola</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Podívejte se na [tuto stránku]({0}), jak je povolit.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Tento seznam je již synchronizován.
+Aktuální stav je **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Enqueued</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Úspěšný</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Zadali jste špatné uživatelské jméno.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Tento seznam byl nedávno synchronizován.
+Před dalším pokusem vyčkejte na adrese {0}.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Synchronizace ve frontě pro uživatele {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Aktualizace stavu budete dostávat v přímých zprávách.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Do fronty můžete zařadit vždy pouze jednu synchronizační úlohu.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Stav je nyní **{0}** .</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Manipulace se zvukem: **{0}**</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Tento příkaz je k dispozici pouze patronům. Jak se jím stát, se dozvíte na [této stránce]({0}).
+</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Nyní můžete začít používat filtr `{0}:{1}`.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Stav synchronizace pro uživatele {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Neúspěšný</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Odstraněno</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Zrušeno</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Zpracování</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Manipulace s obrázky: **{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>typ skladby musí být: {0}</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Spuštění nového kola obrázků s tlačítky s možností výběru z několika možností</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Oprávnění nejsou správně nastavena pro spuštění hlasového kola v '{0}'</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` témata</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` znaky</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Vynutí aktualizaci informací o tomto serveru (kanály, role a podobně).</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Váš shard je `{0}` na clusteru `{3}` .
+
+K tomuto clusteru jsou připojeny servery `{1}` .
+`{2}` V současné době se na něm odehrávají kola.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Byl resetován žebříček rychlosti všech dob</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Obnovení žebříčku může chvíli trvat.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Byl resetován žebříček bodů za všechny časy</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>V tomto kanálu není aktivní žádná relace.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Obnovení žebříčku může chvíli trvat.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>videokroužky jsou k dispozici pouze patronům</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Synchronizace uživatele {0} '{1}'</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Co je to za anime?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Omlouváme se, ale to není správně.</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Plánované</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Obnovení žebříčku všech dob</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Resetování žebříčku rychlosti všech dob</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Hádat můžete jen jednou!</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Zastaví všechna kola na tomto serveru</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Nelze vytvořit novou relaci, zkuste použít `{0}stopg` nebo `{0}stopgs` nebo jiný filtr.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Ukázky z **{0} sekund**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Chyba při provádění příkazu</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Neplatné filtry</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime kola</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Zobrazit všechny možné herní platformy</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Zobrazit všechny možné herní žánry</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Změna výchozí obtížnosti</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Pohlaví postavy: **{0}**</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Muži</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Ženy</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Včetně charakterních rolí: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>S výjimkou charakterních rolí: **{0}**</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Vzhledem k nastavení řízení přístupu ke kanálu zde nemáte žádné oprávnění.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Zastavení aktuálního kola…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Zastavení aktuální kruhové relace…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Vyberte si výchozí obtížnost</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Bez obtíží</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Včetně původu: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Nyní se pokuste správně uhodnout postavu z anime a získejte další **{0} body**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Začněte nové kolo citací anime postav</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>roku {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Omlouvám se, bylo to **{0}** , což není správně.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Zahájení nového kola hádání obráceného obrázku</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Příliš mnoho špatných odhadů</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Kola videoher</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Žádné kapky</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Zahájení nového kola Pokémonů</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Spuštění nového kola videa s tlačítky s možností výběru z několika možností</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Spuštění nového zvukového kola s tlačítky s možností výběru z několika možností</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Žije: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Jazyk serveru - {0}</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Chcete-li tento limit zvýšit, můžete se [stát patronem]({0}).</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Spuštění nového hlasového kola s ukázkami a tlačítky s možností výběru z několika odpovědí.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Synchronizační úlohu lze zařadit do fronty pouze každých 15 minut.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Ujistěte se, že jste zadali správné uživatelské jméno a že je váš seznam __veřejně přístupný__.
+
+Pokud problém přetrvává, požádejte o pomoc na [serveru podpory]({0}).</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Musíte mi dát alespoň oprávnění **Zobrazit kanál**, **Připojit** a **Mluvit** pro tento kanál.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>V jednom sezení můžete absolvovat maximálně `{0}` kol.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>V tomto kanálu probíhá aktivní kolo. Zkuste k jeho zastavení použít `{0}stopg` nebo `{0}stopg`.</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>délka vzorku musí být ≥ 5 a ≤ 30 sekund.</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Hráč</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Obtížnost na základě vašich bodů</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, příliš často jste hádali '{1}' nebo něco podobného. Na chvíli to budu ignorovat.</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Žádné nápovědy</value>
+  </data>
 </root>

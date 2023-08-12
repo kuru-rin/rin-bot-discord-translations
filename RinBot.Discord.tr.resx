@@ -840,4 +840,288 @@ Bunları geliştirmeye yardımcı olabilir hatta [bu websiteden]({5}) daha fazla
   <data name="StopGame_Stopping" xml:space="preserve">
     <value>Mevcut raunt durduruluyor…</value>
   </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Kökenler dahil: **{0}**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Komut yürütülürken hata oluştu</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Platform(lar) dahil **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Örnekler ve çoktan seçmeli düğmelerle yeni bir ses turu oturumu başlatın</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Kesik çizgi komutları artık kullanılabilir!</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Bu komut sadece kullanıcılar tarafından kullanılabilir. Nasıl üye olunacağı konusunda [bu sayfaya]({0}) bakınız.
+</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Ses manipülasyonları: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Tersine çevrildi</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>şarkı türü olmalıdır: {0}</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Çoktan seçmeli düğmelerle yeni bir resim turu başlatın</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Bu liste zaten senkronize ediliyor.
+Geçerli durum şudur **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Kaydedildi</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Başarılı</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Kötü bir kullanıcı adı vermişsiniz.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Senkronizasyon {0} kullanıcısı için sıraya alındı '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Doğrudan mesajlarda durum güncellemeleri alacaksınız.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Bir seferde yalnızca bir senkronizasyon işini sıraya koyabilirsiniz.</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Bu sunucunun bilgilerinin (kanallar, roller ve benzeri) güncellenmesini zorlar</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` temalar</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` karakterler</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Liderlik tablosunun yenilenmesi biraz zaman alabilir.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Tüm zamanların hız lider tablosu sıfırlandı</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>video turları yalnızca müşteriler tarafından kullanılabilir</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Senkronizasyon {0} kullanıcı '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Bu liste yakın zamanda senkronize edildi.
+Tekrar denemeden önce lütfen {0} adresini bekleyin.</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Yeni bir oturum oluşturulamadı, `{0}stopg` veya `{0}stopgs` veya farklı bir filtre kullanmayı deneyin.</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Bu doğrulama sorunları ortaya çıktı:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Geçersiz filtreler</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime turları</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Tüm olası oyun platformlarını göster</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Tüm olası oyun türlerini göster</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Varsayılan zorluk derecenizi değiştirin</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Kanal erişim kontrolü ayarları nedeniyle burada izniniz yok.</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Geçerli tur oturumu durduruluyor…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Varsayılan zorluk derecenizi seçin</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Zorluk yok</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Puanlarınıza göre zorluk derecesi</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Yeni bir anime karakteri alıntı turu başlatın</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>Yılın {0}</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Yeni bir Pokémon turu başlatın</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Video oyunu turları</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Çok fazla yanlış tahmin</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Karakter cinsiyeti: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>İpucu yok</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Çoktan seçmeli düğmelerle yeni bir video turu başlatın</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Çoktan seçmeli düğmelerle yeni bir ses turu başlatın</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Yaşıyor: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Sunucunun dili - {0}</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Artık `{0}:{1}` filtresini kullanmaya başlayabilirsiniz.</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` video oyunu turları</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Kökenler hariç: **{0}**</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Bunların nasıl etkinleştirileceği konusunda [bu sayfaya] ({0}) göz atın.</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Platform(lar) hariç **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` video oyunları</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Görüntü manipülasyonları: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tempo arttı</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pikselli</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Ters çevrilmiş renkler</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Gri Tonlama</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Yağlı boya</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Flipped</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Bana bu kanal için en azından **Kanalı görüntüle**, **Bağlan** ve **Konuş** izinlerini vermeniz gerekiyor.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>'{0}' adresinde ses turunu başlatmak için izinler doğru ayarlanmamış</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Bir senkronizasyon işini yalnızca 15 dakikada bir sıraya koyabilirsiniz.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Durum artık **{0}** şeklindedir.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Doğru kullanıcı adını verdiğinizden ve listenizin __genel erişime açık__ olduğundan emin olun.
+
+Sorun devam ederse, [destek sunucusundan] ({0}) yardım isteyin.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>{0} kullanıcısı için senkronizasyon durumu '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Başarısız</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Silinmiş</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>İptal Edildi</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Planlanmış</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>İşleme</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Liderlik tablosunun yenilenmesi biraz zaman alabilir.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Tüm zamanların puan sıralaması sıfırlandı</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Parçanız `{0}` kümesi üzerinde `{3}` .
+
+Bu kümeye bağlı `{1}` sunucuları vardır.
+`{2}` Turlar şu anda üzerinde oynanmaktadır.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Sadece bir kez tahmin edebilirsin!</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Hangi anime bu?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Üzgünüm, bu yanlış.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Tüm zamanların puan sıralamasını sıfırla</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Tüm zamanların hız lider tablosunu sıfırlayın</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>**{0} saniye örnekleri**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>örnek uzunluğu ≥ 5 ve ≤ 30 saniye olmalıdır</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Oyuncu</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Erkek</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Kadın</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Karakter rolleri de dahil: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Karakter rolleri hariç: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Damla yok</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Şimdi bir **{0} puanı daha kazanmak için animeden bir karakteri doğru tahmin etmeye çalışın**!</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Pardon, bu **{0}** şeklindeydi, ki bu yanlış.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Yeni bir ters görüntü tahmin turu başlatın</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}'{1}' ya da benzer bir şeyi çok sık tahmin ettiniz. Bir süreliğine görmezden geleceğim.</value>
+  </data>
 </root>

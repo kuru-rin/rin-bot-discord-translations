@@ -156,4 +156,973 @@
 
 Dacă problema persistă, solicitați asistență în [serverul de asistență]({0}).</value>
   </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Începeți o nouă rundă de imagini cu butoane cu alegere multiplă</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` runde de jocuri video</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Cu excepția originilor: **{0}**</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**de pe {1} nu a fost încă sincronizată. Utilizați mai întâi comanda `sync` pentru a sincroniza o listă.</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Inclusiv platforma (platformele) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Cu excepția platformei (platformelor) **{0}**</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Filtru de sesiune rotundă schimbat</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Eroare în timpul executării comenzii</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Începeți o nouă sesiune de runde vocale cu mostre și butoane cu alegere multiplă</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Comenzile Slash sunt acum disponibile!</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Consultați [această pagină]({0}) pentru a afla cum să le activați.</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Sincronizarea unei liste de anime</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>tipul de cântec trebuie să fie: {0}</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Sesiunea a fost anulată</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Posibil să nu mai avem capace pentru acest filtru, încercați altul.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Permisiunile nu sunt setate corect pentru a începe runda vocală în '{0}'</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Trebuie să-mi acordați cel puțin permisiunile **Vizualizare canal**, **Conectare** și **Vorbire** pentru canalul respectiv.</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` teme</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` caractere</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Shard-ul dvs. este `{0}` pe clusterul `{3}` .
+
+Există `{1}` servere conectate la acest cluster.
+`{2}` În prezent se joacă runde pe acesta.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Ce anime este acesta?</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Poți ghici doar o singură dată!</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Lansat între anii {0} și {1}</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Runde de anime</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Afișați toate platformele de joc posibile</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Afișați toate genurile de jocuri posibile</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Schimbați dificultatea implicită</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Jucător</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Dificultatea este **{0}**</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>rundele video sunt disponibile doar pentru patroni</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Sincronizarea {0} utilizator '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Această listă este deja în curs de sincronizare.
+Starea actuală este **{0}**</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Masculin</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Femeie</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Inclusiv roluri de personaje: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Fără picături</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Nu aveți permisiune aici, din cauza setărilor de control al accesului la canal.</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Alegeți dificultatea implicită</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Fără dificultate</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Oprirea rundei actuale…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Oprirea sesiunii actuale de rundă…</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Inclusiv originile: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Începe o nouă rundă de citate despre personaje anime</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>de an {0}</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, ați ghicit de prea multe ori '{1}' sau ceva similar. O voi ignora pentru o vreme.</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Runde de jocuri video</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Prea multe presupuneri greșite</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` jocuri video</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Sexul personajului: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Începeți o nouă rundă video cu butoane cu alegere multiplă</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Începeți o nouă rundă audio cu butoane cu alegere multiplă</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Începe o nouă rundă Pokémon</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Trăiește: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Limba serverului - {0}</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` runde extreme</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} a obținut această realizare</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Această comandă este disponibilă numai pentru patroni. Consultați [această pagină]({0}) pentru a afla cum să deveniți unul.
+</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Management</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Afișează prefixul curent sau îl modifică</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Îmi pare rău, dar nu este corect.</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>În prezent sunt plasat în întreținere, încercați din nou în curând!</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Pregătirea unei noi runde…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, există deja o rundă în curs de desfășurare. Folosiți `{1}stopg` pentru a o opri.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Runda va începe în {0} secunde…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, sunt prea multe runde în curs de pregătire în acest moment. Încercați din nou în scurt timp.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, nu înțeleg parametrul.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, nu puteți utiliza comanda `{2}stopg` mai mult de o dată la fiecare {1} minute.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, nu există nicio rundă în curs de desfășurare. Puteți începe una folosind `{1}sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Se vor acorda mai puține puncte pentru rundele de dificultate mai mici **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}'s lista de realizări</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>și a câștigat {0} puncte!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} este acum la nivel {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Din genul **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, această comandă este disponibilă doar pentru patroni (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, ați început prea multe jocuri astăzi. Deveniți patron pentru a mări această limită (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, aveți deja o rundă activă în desfășurare în altă parte.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Realizări</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Săptămâna trecută__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` puncte</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Puncte</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Clasament {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` runde câștigate</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}'s server score</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Toate timpurile__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Săptămâna trecută__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Săptămâna aceasta__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` jucători</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Puncte</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Viteză</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Cei mai rapizi jucători din __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW trebuie să fie activat pe acest canal pentru a folosi acest robot.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Timp: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Ghiciți: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} punctul** a fost câștigat</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Sunt luate în considerare doar rundele cu un număr de participanți mai mare de 1000.</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Tipul de cântec: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Câștigătorul de săptămâna trecută</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Scorurile și clasamentele sunt procesate la fiecare oră.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>De la {0} la {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>A început cu {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Săptămâna {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(se încheie {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Clasamentul personalizat din acest canal a fost încheiat.
+Acum îl puteți reseta folosind `{0}resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Nu este activ niciun clasament personalizat.
+Puteți începe unul folosind `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Nu s-a găsit niciun clasament personalizat.
+Puteți începe unul folosind `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Clasamentul personalizat a fost resetat.
+Puteți începe din nou unul nou cu `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` runde anime</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` runde audio</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Baza de date__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` servere</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Servere__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` runde de imagini</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` utilizatori</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Jucători__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` a câștigat &gt; 1000 runde</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` a câștigat &gt; 100 de cartușe</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` a câștigat &gt; 10 runde</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` runde anulate</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` runde terminate</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` cântece</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` runde video</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` romane vizuale</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` runde de romane vizuale</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Global</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Rânduri__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Statistici de joc</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Clasament personalizat pentru #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, nu s-a găsit niciun clasament personalizat. Puteți începe unul nou folosind `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, un clasament personalizat este deja activ în acest canal.
+Îl puteți încheia folosind `{1}endctop` sau îl puteți reseta complet folosind `{1}resetctop`.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Un clasament personalizat tocmai a fost inițiat pentru acest canal.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Pentru a obține o procesare mai rapidă, puteți să vă [măriți serverul]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Servere__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Ușor</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Hard</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Extreme</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Coșmar</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Deschidere</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Sfârșitul</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Inserați un cântec</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Cântec de imagine</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` runde ușoare</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` runde normale</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` runde tari</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` runde de coșmar</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` runde fără dificultate</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>O sesiune este deja activă</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Baza de date {0} nu poate fi accesată în acest moment. Încercați din nou mai târziu.
+
+Verificați [pagina de stare]({1}) sau [serverul de asistență RinBot]({2}) pentru mai multe informații.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} rundele sunt momentan indisponibile</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Nu se poate începe un joc manual atunci când rundele vocale sunt active.
+Pentru a le opri, puteți folosi `{0}stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` runde de caractere anime</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` a câștigat cel puțin o rundă</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>De la utilizator(i) **{0}** pe {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Listele anime sunt **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>genul trebuie să fie unul dintre cele enumerate în `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>ați ales un interval de ani invalid</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>nu poți folosi dificultatea Nightmare cu alte filtre.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>canalul trebuie să fie setat la NSFW pentru a putea utiliza acest filtru.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>anul final trebuie să fie ≤ anul curent</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>anul de început trebuie să fie ≤ anul curent</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>anul de început trebuie să fie &gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>anul final trebuie să fie ≥ la anul de început</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>filtrul de tip melodie poate fi utilizat numai pentru runde audio</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>acest gen nu este disponibil</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>filtrul listei anime funcționează numai pentru rundele de anime și de personaje anime</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>Lista de comenzi RinBot</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Începeți o nouă rundă de imagini</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Începeți o nouă rundă video</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Începeți o nouă rundă audio</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Oprește runda curentă</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Afișează scorul tău personal</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Arată cei mai buni jucători din toate timpurile pe server</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Arată jucătorii de top din această săptămână pe server</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Pentru o listă completă a comenzilor, vă rugăm să [vizitați site-ul web]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Începe o nouă rundă de imagini de roman vizual</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Afișează clasamentul personalizat</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Afișează scorul total al acestui server</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Arată cei mai rapizi jucători din toate timpurile pe server</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Arată cei mai rapizi jucători din această săptămână pe server</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Arată statisticile jocului</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Afișați toate genurile de anime disponibile</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, pentru a utiliza această funcție aveți nevoie de cel puțin una dintre aceste permisiuni: `{1}`</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Rânduri</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Scoruri</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Comenzi</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Începeți o sesiune de rundă vocală</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Runde vocale</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Începe o nouă rundă de personaje anime</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, nu înțeleg parametrul.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Începeți o nouă sesiune de rundă vocală cu mostre</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Opriți o sesiune rotundă</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Asigurați-vă că permisiunile sunt setate corect. Am nevoie cel puțin de permisiunile Connect și Speak.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Nu s-a putut conecta la canalul de voce '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Găsirea unui canal de voce la care să te alături…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Nu am putut găsi un canal vocal la care să mă alătur.
+
+Puteți crea unul cu același nume ca și acest canal de text sau puteți intra pe canalul de voce unde doriți să mă duc.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Nu s-a găsit niciun canal de voce utilizabil</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Rundele vor începe automat.
+
+Pentru a sări peste o rundă, utilizați `{0}stopg` și pentru a anula sesiunea utilizați `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>A început o sesiune cu {0} runde</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Alăturați-vă canalului de voce **{0}** pentru a asculta și a putea ghici.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Runda a început!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Pentru a economisi resursele serverului, numărul maxim de runde într-o sesiune este {0}.
+
+Pentru a mări această limită, puteți ajuta cu finanțare publică [devenind patron]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>A atins numărul maxim de runde în această sesiune</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Rundele vor începe automat.
+
+Pentru a schimba filtrul, utilizați din nou `{0}sgs`. Pentru a sări peste o rundă, utilizați `{0}stopg` și pentru a anula sesiunea utilizați `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>A început o sesiune de voce în canal **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Pregătirea rotundului {0} de {1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Mai mult ajutor__
+Interogări: `{0}help query`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, există o sesiune în curs de desfășurare. Folosiți `{1}stopgs` pentru a o opri.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Începeți un nou clasament personalizat</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Încheie clasamentul personalizat</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Resetați clasamentul personalizat</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Începeți o nouă rundă de joc</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Începe o nouă rundă de pixeli cu personaje anime</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Credite de spectacol</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Sincronizarea listei Anime</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Folosiți această comandă pentru a vă sincroniza lista de anime-uri. Se poate face o dată pe zi.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>nume de utilizator</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Credite</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Mulțumim tuturor acestor persoane și site-uri web pentru că au contribuit la realizarea {0}.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Baze de date/API's</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Patroni</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Mulțumiri speciale</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Traduceri</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Prefixul comenzii mele actuale este `{0}`
+
+Folosiți `{0}prefix your_prefix` sau `@{1} prefix your_prefix` pentru a-l schimba.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Prefixul comenzii mele este acum: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Prefixul comenzii mele nu a putut fi modificat.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Prefixul trebuie să aibă între 1 și 5 caractere.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}'s prefixul de comandă</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Tu nu ești Kururin, nu-i așa?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Această funcție este disponibilă în prezent doar în versiunea beta.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Această funcție este disponibilă în prezent doar pentru dezvoltare.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Puteți crea interogări prin combinarea operațiunilor și a filtrelor.
+
+De exemplu: `{0}sg sg n:5 d:3 y:1995-2005` pentru a începe o sesiune cu 5 runde de anime pe dificultate grea între anii 1995 și 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filtre</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Numărul de runde de jucat într-o sesiune (max. 10)
+`im:` - Manipulare imagine: pixelată `im:p`, inversată `im:i`, pictată cu ulei `im:o`, în tonuri de gri `im:g`, răsturnată vertical `im:f` sau mai multe `im:p,i,o,o,g,f` (orice combinație)
+`nh:` - Nu afișați indicii `nh:1`
+`aggr:` - Schimbați metoda de agregare atunci când folosiți liste anime: toate combinate `aggr:union`, prezente în toate listele `aggr:intersect` sau eșantion de dimensiuni egale pentru fiecare listă `aggr:balance` (implicit)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Operațiuni</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Ajutor pentru interogări</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Această funcție nu este disponibilă pe acest robot.</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Nu există nicio sesiune activă în acest canal.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Există o rundă activă în acest canal. Încearcă să folosești `{0}stopg` sau `{0}stopgs` pentru a o opri.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Dificultate `d:0` până la `d:5` (`0` dezactivează filtrul de dificultate)
+`y:` - An `y:2010` sau interval de ani `y:1995-2005`
+`g:` - Gen `g:acțiune` sau mai multe `g:acțiune,-sliceoflife,!copii`, unde `-` sau `!` exclude genul (utilizați `{0}genuri` pentru toate genurile)
+`t:` - Tip de cântec: deschideri `t:op`, finaluri `t:ed` sau inserare de cântece `t:in` (`in` funcționează numai cu `sga` )
+`sl:` - Lungimea eșantionului în secunde, între 5 și 30 (utilizabil numai cu `{0}sgsa`)
+`mal:` - Lista de anime-uri a utilizatorului MyAnimeList `mal:username` sau multiple `mal:user1,user2`
+`anilist:` - AniList - listă anime utilizator `anilist:username` sau mai multe `anilist:user1,user2`</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>echilibrat</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>intersectat</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>unite</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Clasament pentru această sesiune</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Cunoscut și ca</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>De la</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Cântec</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Genuri</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}Costurile de operare ale companiei sunt în prezent **${1} pe lună.**
+
+În prezent, doar **{2}%** din această sumă este acoperită.
+
+Dacă vă place să jucați jocurile lui {0}'s, vă rugăm să luați în considerare [donarea a 2 $ sau mai mult pe Patreon]({3}) pentru a ajuta la menținerea ei în viață.
+
+Chiar și donațiile mici sunt de mare ajutor și veți primi chiar și unele avantaje în schimb!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} are nevoie de tine!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Limba nu a putut fi schimbată.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Limba curentă este `{3}` ({4}).
+
+Puteți schimba limba {1} folosind `{0}lang language_code`.
+Aceste limbi sunt acceptate în prezent:
+{2}
+
+Puteți contribui la îmbunătățirea acestora sau chiar la adăugarea altor limbi pe [site-ul web de traducere a mulțimii]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Codul de limbă `{0}` nu este acceptat.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Schimbați limba</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Limba a fost modificată la `{0}` .</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Afișați limba curentă sau schimbați-o</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Inclusiv genul (genurile) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Excluzând genul (genurile) **{0}**</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Verificați [statisticile de traducere]({0}) pentru o listă cu toți cei care au contribuit!</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Forțează o actualizare a informațiilor acestui server (canale, roluri și altele asemenea)</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Puteți avea un maxim de `{0}` runde pe sesiune.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>A depășit numărul maxim de runde permise pentru sesiune</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Pentru a mări această limită, puteți [deveni patron]({0}).</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` runde</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Ați furnizat un nume de utilizator greșit.</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>În așteptare</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>A reușit</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Această listă a fost sincronizată recent.
+Vă rugăm să așteptați {0} înainte de a încerca din nou.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Sincronizare în coadă pentru {0} utilizator '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Veți primi actualizări de stare în mesajele directe.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Puteți pune la coadă doar o singură sarcină de sincronizare la un moment dat.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Puteți pune la coadă o sarcină de sincronizare doar la fiecare 15 minute.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Statutul este acum **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Stare de sincronizare pentru {0} utilizator '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>A eșuat</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Șters</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Anulat</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Programat</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Prelucrare</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Este posibil să dureze puțin timp până când clasamentul va fi actualizat.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Clasamentul vitezei din toate timpurile a fost resetat</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Este posibil să dureze puțin timp până când clasamentul va fi actualizat.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Clasamentul punctelor din toate timpurile a fost resetat</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Resetează clasamentul punctelor din toate timpurile</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Resetează clasamentul de viteză din toate timpurile</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Eșantioane de **{0} secunde**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>durata eșantionului trebuie să fie ≥ 5 și ≤ 30 de secunde</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Au apărut aceste probleme de validare:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Filtre nevalabile</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Manipulări audio: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Manipulări de imagini: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Inversat</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tempo crescut</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pixelat</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Culori inversate</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Pictat în ulei</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Scară de griuri</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Flipped</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Cu excepția rolurilor de personaje: **{0}**</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Dificultate bazată pe punctele tale</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Acum încearcă să ghicești corect un personaj din anime pentru a câștiga alte **{0} puncte**!</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Scuze, a fost **{0}** , ceea ce este incorect.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Începeți o nouă rundă de ghicire a imaginii inverse</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Nu există indicii</value>
+  </data>
 </root>

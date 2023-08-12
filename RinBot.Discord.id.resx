@@ -1000,4 +1000,188 @@ Bahkan sumbangan kecil sangat membantu dan Anda bahkan akan mendapatkan beberapa
   <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
     <value>Filter salah</value>
   </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Tidak termasuk platform **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` putaran video game</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>jenis lagu yang harus dipilih: {0}</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Anime apa ini?</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Mengatur ulang papan peringkat poin sepanjang masa</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Putaran anime</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Memulai ronde kutipan karakter anime baru</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` tema</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>tahun {0}</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Memulai ronde tebak gambar terbalik yang baru</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Termasuk platform(-platform) **{0}**</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Terlalu banyak tebakan yang salah</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Jenis kelamin karakter: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Tidak ada tetes</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Tidak ada petunjuk</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Memulai babak audio baru dengan tombol pilihan ganda</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Memulai ronde Pokémon baru</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Nyawa: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Memulai babak video baru dengan tombol pilihan ganda</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Bahasa server - {0}</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Memulai putaran gambar baru dengan tombol pilihan ganda</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Termasuk asal-usul: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Tidak termasuk negara asal: **{0}**</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Lihat [halaman ini]({0}) tentang cara mengaktifkannya.</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Kesalahan saat menjalankan perintah</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` video game</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Memulai sesi ronde suara baru dengan sampel dan tombol pilihan ganda</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Perintah garis miring sekarang tersedia!</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Terbalik</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tempo meningkat</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pixelated</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Skala abu-abu</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Dicat dengan cat minyak</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Terbalik</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Perintah ini hanya tersedia untuk pelanggan. Lihat [halaman ini] ({0}) tentang cara menjadi anggota.
+</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Warna terbalik</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Anda harus memberikan setidaknya izin **View channel**, **Connect** dan **Speak** untuk saluran tersebut.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Izin tidak disetel dengan benar untuk memulai putaran suara di '{0}'</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` karakter</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Maaf, itu tidak benar.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Anda hanya bisa menebak sekali saja!</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Mengatur ulang papan peringkat kecepatan sepanjang masa</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Sampel dari **{0} detik**</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Tampilkan semua platform game yang memungkinkan</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Menampilkan semua genre game yang memungkinkan</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Mengubah tingkat kesulitan default Anda</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Pemain</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Laki-laki</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Perempuan</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Termasuk peran karakter: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Tidak termasuk peran karakter: **{0}**</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Anda tidak memiliki izin di sini, karena pengaturan kontrol akses saluran.</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Pilih tingkat kesulitan default Anda</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Tidak ada kesulitan</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Kesulitan berdasarkan poin Anda</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Menghentikan putaran saat ini…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Menghentikan sesi putaran saat ini…</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Sekarang cobalah menebak karakter dari anime dengan benar untuk mendapatkan poin **{0}** lagi!</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Maaf, yang benar adalah **{0}** , yang salah.</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Putaran video game</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}Anda pasti sudah terlalu sering menebak '{1}' atau sesuatu yang serupa. Saya akan mengabaikannya untuk sementara waktu.</value>
+  </data>
 </root>

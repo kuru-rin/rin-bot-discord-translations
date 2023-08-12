@@ -1047,4 +1047,82 @@ Existem `{1}` servidores ligados a este cluster.
   <data name="AddTopPlayerDescription_Year" xml:space="preserve">
     <value>do ano {0}</value>
   </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Incluindo plataforma(s) **{0}**</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Ronda de anime</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Mostrar todas as plataformas de jogo possíveis</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Mostrar todos os géneros de jogos possíveis</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Alterar a dificuldade predefinida</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Jogador</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Incluindo papéis de personagens: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Excluindo os papéis de personagens: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Sem gotas</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Desculpe, era **{0}** , o que está incorreto.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Iniciar uma nova ronda de adivinhação de imagens invertidas</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Excluindo a(s) plataforma(s) **{0}**</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Rodadas de jogos de vídeo</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Demasiados palpites errados</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` jogos de vídeo</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Sexo da personagem: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Sem sugestões</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Iniciar uma nova ronda de vídeo com botões de escolha múltipla</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Língua do servidor - {0}</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` rondas de jogos de vídeo</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, adivinhou "{1}" ou algo semelhante demasiadas vezes. Vou ignorá-lo durante algum tempo.</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Iniciar uma nova ronda áudio com botões de escolha múltipla</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Iniciar uma nova ronda Pokémon</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Vidas: **{0}**</value>
+  </data>
 </root>

@@ -414,4 +414,774 @@
   <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
     <value>Τα σκορ και οι κατατάξεις επεξεργάζονται κάθε ώρα.</value>
   </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` ακραία γύρους</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Επεξεργασία</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Πάρα πολλές λανθασμένες εικασίες</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Φύλο χαρακτήρα: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Ζει: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Γλώσσα διακομιστή - {0}</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Διακοπή μιας συνεδρίας γύρου</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Φωνητικοί γύροι</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο γύρο χαρακτήρων anime</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, δεν καταλαβαίνω την παράμετρο.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Ξεκινήστε μια νέα συνεδρία φωνητικού γύρου με δείγματα</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Συγχρονισμός μιας λίστας anime</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Είδη</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η δημιουργία νέας συνεδρίας, προσπαθήστε να χρησιμοποιήσετε το `{0}stopg` ή το `{0}stopgs` ή ένα διαφορετικό φίλτρο.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Εξαιρουμένης της προέλευσης: **{0}**</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Αυτά τα προβλήματα επικύρωσης εμφανίστηκαν:</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Συμπεριλαμβανομένης της πλατφόρμας (των πλατφορμών) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Εξαιρώντας την πλατφόρμα(ες) **{0}**</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Υπέρβαση των μέγιστων επιτρεπόμενων γύρων για τη σύνοδο</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Για να αυξήσετε αυτό το όριο, μπορείτε να [γίνετε προστάτης]({0}).</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**Η λίστα στο {1} δεν έχει συγχρονιστεί ακόμα. Χρησιμοποιήστε πρώτα την εντολή `sync` για να συγχρονίσετε μια λίστα.</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` γύροι βιντεοπαιχνιδιών</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` βιντεοπαιχνίδια</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Ξεκινήστε μια νέα συνεδρία φωνητικού γύρου με δείγματα και κουμπιά πολλαπλών επιλογών</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Αριθμός γύρων που θα παιχτούν σε μια συνεδρία (μέγιστο 10)
+`im:` - Επεξεργασία εικόνας: pixelated `im:p`, inverted `im:i`, oil-painted `im:o`, grayscale `im:g`, flipped vertical `im:f` ή πολλαπλές `im:p,i,o,g,f` (οποιοσδήποτε συνδυασμός)
+`nh:` - Μην εμφανίζετε υποδείξεις `nh:1`
+`aggr:` - Αλλαγή μεθόδου συνάθροισης όταν χρησιμοποιείτε λίστες anime: όλοι μαζί `aggr:union`, παρόντες σε όλες τις λίστες `aggr:intersect` ή ίσο μέγεθος δείγματος ανά λίστα `aggr:balance` (προεπιλογή)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Δυσκολία `d:0` έως `d:5` (`0` απενεργοποιεί το φίλτρο δυσκολίας)
+`y:` - Έτος `y:2010` ή εύρος ετών `y:1995-2005`
+`g:` - Είδος `g:action` ή πολλαπλά `g:action,-sliceoflife,!kids`, όπου `-` ή `!` αποκλείει το είδος (χρησιμοποιήστε `{0}είδη` για όλα τα είδη)
+`t:` - Τύπος τραγουδιού: ανοίγματα `t:op`, τελειώματα `t:ed` ή εισαγωγή τραγουδιών `t:in` (`in` λειτουργεί μόνο με `sga` )
+`sl:` - Μήκος δείγματος σε δευτερόλεπτα, μεταξύ 5 και 30 (μπορεί να χρησιμοποιηθεί μόνο με `{0}sgsa`)
+`mal:` - MyAnimeList χρήστης λίστα anime `mal:username` ή πολλαπλές `mal:user1,user2`
+`anilist:` - AniList user anime list `anilist:username` or multiple `anilist:user1,user2`</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Οι εντολές Slash είναι τώρα διαθέσιμες!</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Επεξεργασία εικόνας: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Αντίστροφη</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Αυξημένος ρυθμός</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pixelated</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Αντεστραμμένα χρώματα</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Κλίμακα του γκρι</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Ελαιοχρωματισμένο</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Αναποδογυρισμένο</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` γύροι</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Δείτε [αυτή τη σελίδα]({0}) για το πώς να τις ενεργοποιήσετε.</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Χειρισμοί ήχου: **{0}**</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Αυτή η εντολή είναι διαθέσιμη μόνο στους προστάτες. Δείτε [αυτή τη σελίδα]({0}) για το πώς μπορείτε να γίνετε προστάτες.
+</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Μετρούνται μόνο οι γύροι με σύνολο άνω των 1000.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Ο προσαρμοσμένος πίνακας κατάταξης μηδενίστηκε.
+Μπορείτε να ξεκινήσετε ξανά μια νέα με `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` γύροι εικόνας</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` κέρδισε &gt; 1000 γύρους</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` κέρδισε &gt; 100 γύρους</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` κέρδισε &gt; 10 γύρους</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` ακυρωμένοι γύροι</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` τελειωμένοι γύροι</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Γύροι__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Στατιστικά στοιχεία παιχνιδιού</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Προσαρμοσμένος πίνακας κατάταξης για #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, δεν βρέθηκε προσαρμοσμένος πίνακας κατάταξης. Μπορείτε να ξεκινήσετε ένα νέο χρησιμοποιώντας το `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, ένας προσαρμοσμένος πίνακας κατάταξης είναι ήδη ενεργός σε αυτό το κανάλι.
+Μπορείτε να το τερματίσετε χρησιμοποιώντας `{1}endctop` ή να το επαναφέρετε εντελώς χρησιμοποιώντας `{1}resetctop`.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Μόλις ξεκίνησε ένας προσαρμοσμένος πίνακας κατάταξης για αυτό το κανάλι.</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Άνοιγμα</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Τερματισμός</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Εισάγετε τραγούδι</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Τραγούδι εικόνας</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` εύκολοι γύροι</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` κανονικοί γύροι</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` σκληροί γύροι</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` γύροι εφιάλτη</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` γύρους χωρίς δυσκολία</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Μια σύνοδος είναι ήδη ενεργή</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Η βάση δεδομένων {0} δεν είναι προσβάσιμη προς το παρόν. Δοκιμάστε ξανά αργότερα.
+
+Ελέγξτε [τη σελίδα κατάστασης]({1}) ή [τον διακομιστή υποστήριξης RinBot]({2}) για περισσότερες πληροφορίες.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} οι γύροι δεν είναι προς το παρόν διαθέσιμοι</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Δεν είναι δυνατή η χειροκίνητη εκκίνηση ενός παιχνιδιού όταν είναι ενεργοί οι φωνητικοί γύροι.
+Για να τους σταματήσετε μπορείτε να χρησιμοποιήσετε το `{0}stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` γύροι χαρακτήρων anime</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` κέρδισε τουλάχιστον 1 γύρο</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Οι λίστες Anime είναι **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>το είδος πρέπει να είναι ένα από αυτά που αναφέρονται στο `!genres`</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>δεν μπορείτε να χρησιμοποιήσετε τη δυσκολία Nightmare με άλλα φίλτρα</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>το κανάλι πρέπει να έχει οριστεί σε NSFW για να χρησιμοποιηθεί αυτό το φίλτρο.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>το έτος τέλους πρέπει να είναι ≤ τρέχον έτος</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>το έτος έναρξης πρέπει να είναι ≤ τρέχον έτος</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>το έτος έναρξης πρέπει να είναι &gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>το έτος τέλους πρέπει να είναι ≥ του έτους έναρξης</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>το φίλτρο τύπου τραγουδιού μπορεί να χρησιμοποιηθεί μόνο σε γύρους ήχου</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>αυτό το είδος δεν είναι διαθέσιμο</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>το φίλτρο λίστας anime λειτουργεί μόνο για γύρους anime και χαρακτήρων anime</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>Κατάλογος εντολών RinBot</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο γύρο εικόνας</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο γύρο βίντεο</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο γύρο ήχου</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Σταματά τον τρέχοντα γύρο</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Εμφανίζει την προσωπική σας βαθμολογία</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Εμφανίζει τους κορυφαίους παίκτες όλων των εποχών στο διακομιστή</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Δείχνει τους κορυφαίους παίκτες αυτής της εβδομάδας στο διακομιστή</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Για πλήρη κατάλογο των εντολών παρακαλούμε [επισκεφθείτε τον ιστότοπο]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο γύρο εικόνων οπτικού μυθιστορήματος</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Εμφανίζει τον προσαρμοσμένο πίνακα κατάταξης</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Εμφανίζει τη συνολική βαθμολογία αυτού του διακομιστή</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Εμφανίζει τους ταχύτερους παίκτες όλων των εποχών στον διακομιστή</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Δείχνει τους πιο γρήγορους παίκτες αυτής της εβδομάδας στο διακομιστή</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Εμφάνιση στατιστικών στοιχείων παιχνιδιού</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Εμφάνιση όλων των διαθέσιμων ειδών anime</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, για να χρησιμοποιήσετε αυτή τη λειτουργία χρειάζεστε τουλάχιστον ένα από αυτά τα δικαιώματα: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Διάφορα</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Γύροι</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Αποτελέσματα</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Εντολές</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Ξεκινήστε μια συνεδρία στρογγυλής φωνής</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Διαχείριση</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Εμφάνιση του τρέχοντος προθέματος ή αλλαγή του</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Βεβαιωθείτε ότι τα δικαιώματα έχουν ρυθμιστεί σωστά. Χρειάζομαι τουλάχιστον τα δικαιώματα Connect και Speak.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η σύνδεση στο φωνητικό κανάλι '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Βρίσκοντας ένα φωνητικό κανάλι για να συμμετάσχετε…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Δεν μπόρεσα να βρω ένα φωνητικό κανάλι για να συμμετάσχω.
+
+Μπορείτε να δημιουργήσετε ένα με το ίδιο όνομα με αυτό το κανάλι κειμένου ή να συμμετάσχετε στο κανάλι φωνής στο οποίο θέλετε να πάω.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Δεν βρέθηκε χρησιμοποιήσιμο κανάλι φωνής</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Οι γύροι θα ξεκινήσουν αυτόματα.
+
+Για να παραλείψετε έναν γύρο, χρησιμοποιήστε `{0}stopg` και για να ακυρώσετε τη συνεδρία χρησιμοποιήστε `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Ξεκίνησε μια συνεδρία με {0} γύρους</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Εγγραφείτε στο φωνητικό κανάλι **{0}** για να ακούσετε και να είστε σε θέση να μαντέψετε.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Ο γύρος ξεκίνησε!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Για την εξοικονόμηση πόρων του διακομιστή, οι μέγιστοι γύροι σε μία συνεδρία για εσάς είναι {0}.
+
+Για να αυξήσετε αυτό το όριο, μπορείτε να βοηθήσετε με τη χρηματοδότηση του πλήθους, [γίνετε υποστηρικτής]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Έφτασε το μέγιστο αριθμό γύρων σε αυτή τη σύνοδο</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Οι γύροι θα ξεκινήσουν αυτόματα.
+
+Για να αλλάξετε το φίλτρο σας, απλά χρησιμοποιήστε ξανά το `{0}sgs`. Για να παραλείψετε έναν γύρο, χρησιμοποιήστε `{0}stopg` και για να ακυρώσετε τη συνεδρία χρησιμοποιήστε `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Ξεκίνησε μια φωνητική συνεδρία στο κανάλι **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Προετοιμασία γύρου {0} του {1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Περισσότερη βοήθεια__
+Ερωτήματα: `{0}help query`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, υπάρχει μια σύνοδος σε εξέλιξη. Χρησιμοποιήστε το `{1}stopgs` για να τη σταματήσετε.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο προσαρμοσμένο πίνακα κατάταξης</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Τερματισμός του προσαρμοσμένου πίνακα κατάταξης</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Επαναφορά του προσαρμοσμένου πίνακα κατάταξης</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο γύρο παιχνιδιού</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο γύρο με χαρακτήρες anime pixel</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Πιστωτικές μονάδες προβολής</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Συγχρονισμός λίστας Anime</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Χρησιμοποιήστε αυτή την εντολή για να συγχρονίσετε τη λίστα anime. Μπορεί να γίνει μία φορά την ημέρα.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>όνομα χρήστη</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Πιστώσεις</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Αλλαγή φίλτρου συνεδρίας γύρου</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Ένα τεράστιο ευχαριστώ σε όλους αυτούς τους ανθρώπους και τους ιστότοπους που βοήθησαν να γίνει δυνατή η λειτουργία του {0}.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Βάσεις δεδομένων/API</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Προστάτες</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Ιδιαίτερες ευχαριστίες</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Μεταφράσεις</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Το τρέχον πρόθεμα εντολών μου είναι `{0}`
+
+Χρησιμοποιήστε `{0}πρόθεμα το_πρόθεμά σας` ή `@{1} πρόθεμα το_πρόθεμά σας` για να το αλλάξετε.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Το πρόθεμα της εντολής μου είναι τώρα: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Το πρόθεμα της εντολής μου δεν μπορούσε να αλλάξει.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Το πρόθεμα πρέπει να είναι μεταξύ 1 και 5 χαρακτήρων.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}'s πρόθεμα εντολής</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Δεν είσαι ο Κουρούριν, έτσι δεν είναι;</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Αυτή η λειτουργία είναι προς το παρόν διαθέσιμη μόνο στην beta έκδοση.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Αυτή η λειτουργία είναι προς το παρόν διαθέσιμη μόνο στην ανάπτυξη.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Μπορείτε να δημιουργήσετε ερωτήματα συνδυάζοντας λειτουργίες και φίλτρα.
+
+Για παράδειγμα: `{0}sg n:5 d:3 y:1995-2005` για να ξεκινήσετε μια συνεδρία με 5 γύρους anime σε σκληρή δυσκολία μεταξύ των ετών 1995 και 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Φίλτρα</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Λειτουργίες</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Βοήθεια για ερωτήματα</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Αυτή η λειτουργία δεν είναι διαθέσιμη σε αυτό το ρομπότ.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>ισορροπημένο</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>τέμνονται</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>United</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Κατάταξη για αυτή τη σύνοδο</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Επίσης γνωστό ως</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Από το</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>από</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Τραγούδι</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}Το λειτουργικό κόστος της εταιρείας είναι σήμερα **${1} ανά μήνα.**
+
+Προς το παρόν καλύπτεται μόνο το **{2}%** του ποσού αυτού.
+
+Αν σας αρέσει να παίζετε τα παιχνίδια του {0}, παρακαλώ σκεφτείτε να [δωρίσετε 2 δολάρια ή περισσότερα στο Patreon]({3}) για να βοηθήσετε να την κρατήσετε ζωντανή.
+
+Ακόμα και μικρές δωρεές είναι μια τεράστια βοήθεια και θα πάρετε ακόμα και κάποια προνόμια σε αντάλλαγμα!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: Το {0} σας χρειάζεται!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Η γλώσσα δεν μπορούσε να αλλάξει.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Η τρέχουσα γλώσσα είναι `{3}` ({4}).
+
+Μπορείτε να αλλάξετε τη γλώσσα του {1} χρησιμοποιώντας `{0}lang language_code`.
+Αυτές οι γλώσσες υποστηρίζονται επί του παρόντος:
+{2}
+
+Μπορείτε να βοηθήσετε στη βελτίωσή τους ή ακόμη και να προσθέσετε περισσότερες γλώσσες στον [ιστότοπο μετάφρασης του πλήθους]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Ο κωδικός γλώσσας `{0}` δεν υποστηρίζεται.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Αλλαγή της γλώσσας</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Η γλώσσα έχει αλλάξει σε `{0}` .</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Εμφάνιση της τρέχουσας γλώσσας ή αλλαγή της</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Συμπεριλαμβανομένων των ειδών **{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>Ο τύπος τραγουδιού πρέπει να είναι: {0}</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Εξαιρώντας είδος(-α) **{0}**</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Αυτός ο κατάλογος συγχρονίζεται ήδη.
+Η τρέχουσα κατάσταση είναι **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Σε αναμονή</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Επιτυχία</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Αυτός ο κατάλογος συγχρονίστηκε πρόσφατα.
+Παρακαλούμε περιμένετε {0} πριν προσπαθήσετε ξανά.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Αναμονή συγχρονισμού για τον χρήστη {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Θα λαμβάνετε ενημερώσεις κατάστασης σε άμεσα μηνύματα.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Μπορείτε να βάλετε σε ουρά μόνο μία εργασία συγχρονισμού κάθε φορά.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Μπορείτε να βάζετε μια εργασία συγχρονισμού στην ουρά μόνο κάθε 15 λεπτά.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Η κατάσταση είναι τώρα **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Κατάσταση συγχρονισμού για τον χρήστη {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Αποτυχημένο</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Διαγράφηκε</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Ακυρωμένο</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Συμπεριλαμβανομένων των ρόλων χαρακτήρων: **{0}**</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Πρέπει να μου δώσετε τουλάχιστον τα δικαιώματα **Προβολή καναλιού**, **Σύνδεση** και **Μίλα** για το συγκεκριμένο κανάλι.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Ελέγξτε [τα στατιστικά στοιχεία της μετάφρασης]({0}) για μια λίστα με όλους όσους συνέβαλαν!</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Η σύνοδος ακυρώθηκε</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο γύρο εικόνων με κουμπιά πολλαπλής επιλογής</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Πιθανόν να ξεμείναμε από καπάκια για αυτό το φίλτρο, δοκιμάστε κάποιο άλλο.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Τα δικαιώματα δεν έχουν οριστεί σωστά για την έναρξη του γύρου φωνής στο '{0}'</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` χαρακτήρες</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Επιβάλλει την ενημέρωση των πληροφοριών αυτού του διακομιστή (κανάλια, ρόλοι και άλλα παρόμοια)</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Το shard σας είναι `{0}` στη συστάδα `{3}` .
+
+Υπάρχουν `{1}` διακομιστές συνδεδεμένοι σε αυτό το cluster.
+`{2}` Αυτή τη στιγμή παίζονται γύροι σε αυτό.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Μπορείτε να έχετε το πολύ `{0}` γύρους ανά συνεδρία.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Ο πίνακας ταχύτητας όλων των εποχών έχει μηδενιστεί</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Μπορεί να χρειαστεί λίγη ώρα για να ανανεωθεί ο πίνακας κατάταξης.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Η βαθμολογία όλων των εποχών έχει μηδενιστεί</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Δεν υπάρχει ενεργή συνεδρία σε αυτό το κανάλι.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Μπορεί να χρειαστεί λίγη ώρα για να ανανεωθεί ο πίνακας κατάταξης.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>οι γύροι βίντεο είναι διαθέσιμοι μόνο στους πελάτες</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Συγχρονισμός του χρήστη {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Παρέχετε ένα κακό όνομα χρήστη.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Μπορείτε να μαντέψετε μόνο μία φορά!</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Τι anime είναι αυτό;</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Συγγνώμη, αυτό είναι λάθος.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Βεβαιωθείτε ότι έχετε δώσει το σωστό όνομα χρήστη και ότι η λίστα σας είναι __δημόσια προσβάσιμη__.
+
+Εάν το πρόβλημα επιμένει, ζητήστε βοήθεια στον [διακομιστή υποστήριξης]({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Τώρα μπορείτε να αρχίσετε να χρησιμοποιείτε το φίλτρο `{0}:{1}`.</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Προγραμματισμένο</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Δεν υπάρχουν σταγόνες</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Υπάρχει ένας ενεργός γύρος σε αυτό το κανάλι. Προσπαθήστε να χρησιμοποιήσετε το `{0}stopg` ή το `{0}stopgs` για να το σταματήσετε.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Επαναφορά του πίνακα κατάταξης πόντων όλων των εποχών</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Επαναφέρετε τον πίνακα ταχύτητας όλων των εποχών</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Σταματά όλους τους γύρους σε αυτόν τον διακομιστή</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Δείγματα των **{0} δευτερολέπτων**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>η διάρκεια του δείγματος πρέπει να είναι ≥ 5 και ≤ 30 δευτερόλεπτα</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Σφάλμα κατά την εκτέλεση της εντολής</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Μη έγκυρα φίλτρα</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Γύροι βιντεοπαιχνιδιών</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Γύροι Anime</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Εμφάνιση όλων των πιθανών ειδών παιχνιδιών</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Αλλάξτε την προεπιλεγμένη δυσκολία σας</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Παίκτης</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Αρσενικό</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Γυναίκα</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Εξαιρούνται οι ρόλοι χαρακτήρων: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Δεν υπάρχουν υποδείξεις</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Δεν έχετε καμία άδεια εδώ, λόγω των ρυθμίσεων ελέγχου πρόσβασης στο κανάλι.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Διακοπή του τρέχοντος γύρου…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Διακοπή τρέχουσας συνεδρίας γύρου…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Επιλέξτε την προεπιλεγμένη δυσκολία σας</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Καμία δυσκολία</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Δυσκολία βάσει των πόντων σας</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Συμπεριλαμβανομένης της προέλευσης: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Τώρα προσπαθήστε να μαντέψετε έναν χαρακτήρα από το anime σωστά για να κερδίσετε άλλους **{0} πόντους**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Ξεκινήστε ένα νέο γύρο για το anime character</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` θέματα</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>του έτους {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Συγγνώμη, αυτό ήταν **{0}** , το οποίο είναι λανθασμένο.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο γύρο μαντεψιάς αντίστροφης εικόνας</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, έχετε μαντέψει πολύ συχνά το '{1}' ή κάτι παρόμοιο. Θα το αγνοήσω για λίγο.</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Εμφάνιση όλων των πιθανών πλατφορμών παιχνιδιού</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο γύρο ήχου με κουμπιά πολλαπλών επιλογών</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο γύρο Pokémon</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Ξεκινήστε έναν νέο γύρο βίντεο με κουμπιά πολλαπλών επιλογών</value>
+  </data>
 </root>

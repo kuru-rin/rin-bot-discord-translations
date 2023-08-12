@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,1071 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Rundas prasidės po {0} sekundžių…</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, ši komanda prieinama tik globėjams (https://patreon.com/rinbot?fan_landing=true).</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, jau turite aktyvų raundą, vykstantį kitur.</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Daina</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Atsiprašome, tai buvo **{0}** , o tai neteisinga.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Pradėkite naują atvirkštinio vaizdo spėjimo raundą</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Įskaitant platformą (-as) **{0}**</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**sąrašas svetainėje {1} dar nesinchronizuotas. Norėdami sinchronizuoti sąrašą, pirmiausia naudokite komandą `sync`.</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Pradėkite naują garso raundą su kelių atsakymų mygtukais</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Gyvena: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Pradėkite naują vaizdo įrašų raundą su kelių atsakymų mygtukais</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Serverio kalba - {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Dangtelis</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Užuomina</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Rungtynės buvo atšauktos dėl trūkstamų įkalčių. Bandykite kitą raundą su mažiau ribojančiais filtrais.</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Niekas teisingai nenuspėjo**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} laimėjo!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} taškų** buvo surinkta</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` taškai</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Rangas {0}</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Jums liko {0} sekundžių atspėti!**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Atsiprašau, kad nutraukiu jūsų žaidimą, bet turiu iš naujo paleisti save, kad suteikčiau jums naujų blizgančių funkcijų!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Po minutės vėl galėsite pradėti naują raundą.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:įspėjimas: **Iš naujo paleidžiamas**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Žaidėjas</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Alternatyvūs pavadinimai</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` pasiekimų taškai</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Visų laikų__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Visame pasaulyje</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Šią savaitę__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, dar nelaimėjote nė vieno raundo.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}"rezultatas</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` apvalūs taškai</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Apsilankykite [savo profilio puslapyje]({1}/profile/{2}), kad gautumėte visuotinę statistiką.</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Rundai__</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Tapkite globėju]({1}), [nupirkite man kavos]({2}) arba [balsuokite kasdien]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Padėkite išlaikyti RinBot gyvybę!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Žaidėjų nerasta.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Nuo praėjusios savaitės</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Geriausi __{0}__ žaidėjai**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Šiuo metu man atliekama techninė priežiūra, pabandykite dar kartą netrukus!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:įspėjimas: **Techninė priežiūra**</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Nuo {0} iki {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Sunkumas yra **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Ruošiant naują raundą…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, jau vyksta raundas. Norėdami jį sustabdyti, naudokite `{1}stopg`.</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, šiuo metu rengiama per daug raundų. Netrukus pabandykite dar kartą.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, nesuprantu parametro.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, komandą `{2}stopg` galite naudoti ne dažniau kaip kartą per {1} minutes.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, šiuo metu raundas nėra žaidžiamas. Jį galite pradėti naudodami `{1}sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Už žemesnio sudėtingumo raundus gausite mažiau taškų. **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} gavo šį pasiekimą</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}"pasiekimų sąrašas</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>ir surinko {0} taškų!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} dabar yra lygus {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Iš žanro **{0}**</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, šiandien pradėjote per daug rungtynių. Tapkite globėju, kad padidintumėte šį limitą (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Pasiekimai</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Praėjusią savaitę__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` taškai</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Taškai</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Rangas {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` laimėti raundai</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}"serverio rezultatą</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Visų laikų__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Praėjusią savaitę__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Šią savaitę__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` žaidėjai</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Taškai</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Greitis</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Greičiausi žaidėjai __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>Norint naudoti šį botą, šiame kanale turi būti įjungtas NSFW.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Laikas: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Atspėkite: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} taškas** buvo gautas</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Skaičiuojami tik tie raundai, kuriuose surinkta daugiau nei 1000 taškų.</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Dainos tipas: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Praėjusios savaitės nugalėtojas</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Rezultatai ir lyderių lentelės apdorojami kas valandą.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Nuo {0} iki {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Pradžia {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Savaitė {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(baigiasi {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Buvo baigta naudoti šio kanalo pasirinktinė lyderių lenta.
+Dabar galite ją iš naujo nustatyti naudodami `{0}resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Pasirinktinė lyderių lenta nėra aktyvi.
+Ją galite pradėti naudodami `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Nerastas joks pasirinktinis reitingas.
+Galite ją pradėti naudodami `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Buvo iš naujo nustatyta pasirinktinė lyderių lentelė.
+Galite vėl pradėti naują, naudodami `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` anime raundai</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` garso raundai</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Duomenų bazė__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` serveriai</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Serveriai__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` vaizdo raundai</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` vartotojai</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Žaidėjai__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` laimėta &gt; 1000 šovinių</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` laimėta &gt; 100 šovinių</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` laimėta &gt; 10 raundų</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` atšauktos rungtys</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` baigti raundai</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` dainos</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` vaizdo įrašų raundai</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` vaizdiniai romanai</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` vizualinių romanų turai</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Pasaulinis</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Žaidimo statistika</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Pasirinktinis lyderių skydelis #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, nerasta jokios pasirinktinės lyderių lentelės. Galite pradėti naują, naudodami `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, šiame kanale jau veikia pasirinktinė lyderių lenta.
+Ją galite nutraukti naudodami `{1}endctop` arba visiškai iš naujo nustatyti naudodami `{1}resetctop`.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Šiam kanalui ką tik pradėta kurti pasirinktinė lyderių lenta.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Jei norite sparčiau apdoroti duomenis, galite [padidinti serverį]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Serveriai__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Lengva</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normalus</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Hard</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Ekstremalus</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Košmaras</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Atidarymas</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Pabaiga</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Įterpti dainą</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Vaizdo daina</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` lengvi raundai</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` įprasti raundai</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` kieti apvalumai</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` ekstremalūs raundai</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` košmariški raundai</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` raundai be jokių sunkumų</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Sesija jau aktyvi</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Šiuo metu {0} duomenų bazės pasiekti neįmanoma. Pabandykite dar kartą vėliau.
+
+Daugiau informacijos ieškokite [būsenos puslapyje]({1}) arba [RinBot palaikymo serveryje]({2}).</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} raundai šiuo metu neprieinami</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Negalima pradėti žaidimo rankiniu būdu, kai vyksta balso raundai.
+Norėdami juos sustabdyti, galite naudoti `{0}stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` anime personažų apvalumai</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` laimėjo bent 1 raundą</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Nuo naudotojo (-ų) **{0}** dėl {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Anime sąrašai **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>žanras turi būti vienas iš išvardytų `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>pasirinkote neteisingą metų intervalą</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>negalite naudoti "Nightmare" sudėtingumo su jokiais kitais filtrais.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>norint naudoti šį filtrą, kanalas turi būti nustatytas kaip NSFW.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>pabaigos metai turi būti ≤ einamieji metai</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>pradžios metai turi būti ≤ einamieji metai.</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>pradžios metai turi būti &gt; 1900 m.</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>pabaigos metai turi būti ≥ pradžios metų.</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>dainos tipo filtrą galima naudoti tik garso įrašams.</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>šio žanro nėra</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>anime sąrašo filtras veikia tik anime ir anime personažų turuose</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot komandų sąrašas</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Pradėkite naują vaizdų raundą</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Pradėkite naują vaizdo įrašų ciklą</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Pradėkite naują garso įrašų raundą</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Sustabdo dabartinį raundą</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Rodo jūsų asmeninį rezultatą</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Rodomi geriausi visų laikų serverio žaidėjai</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Rodomi geriausi šios savaitės serverio žaidėjai</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Išsamų komandų sąrašą rasite [apsilankę svetainėje]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Pradėkite naują vaizdinio romano vaizdų ratą</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Rodoma pasirinktinė lyderių lenta</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Rodomas bendras šio serverio rezultatas</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Rodomi greičiausi visų laikų serverio žaidėjai</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Rodomi greičiausi šios savaitės serverio žaidėjai</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Rodyti žaidimo statistiką</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Rodyti visus prieinamus anime žanrus</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, kad galėtumėte naudotis šia funkcija, reikia bent vieno iš šių leidimų: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Įvairūs</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Rundai</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Rezultatai</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Komandos</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Pradėkite balso apklausos seansą</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Sustabdyti apvaliojo seanso sesiją</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Balso raundai</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Pradėkite naują anime personažų turą</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, nesuprantu parametro.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Pradėkite naują balso raundo seansą su pavyzdžiais</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Anime sąrašo sinchronizavimas</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Valdymas</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Parodykite dabartinį priešdėlį arba jį pakeiskite</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Įsitikinkite, kad leidimai nustatyti teisingai. Man reikia bent jau Prisijungti ir Kalbėti leidimų.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Speciali padėka</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Nepavyko prisijungti prie balso kanalo '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Balso kanalo, prie kurio galima prisijungti, paieška…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Negalėjau rasti balso kanalo, prie kurio galėčiau prisijungti.
+
+Galite sukurti kanalą tokiu pačiu pavadinimu kaip šis tekstinis kanalas arba prisijungti prie balso kanalo, į kurį norite, kad eičiau.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Nerastas naudingas balso kanalas</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Rungtys bus pradedamos automatiškai.
+
+Norėdami praleisti raundą, naudokite `{0}stopg`, o norėdami atšaukti sesiją, naudokite `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Pradėta sesija nuo {0} raundų</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Prisijunkite prie balso kanalo **{0}** , kad galėtumėte klausytis ir spėti.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Ratas prasidėjo!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Kad būtų taupomi serverio ištekliai, per vieną seansą galite atlikti ne daugiau kaip {0}.
+
+Norėdami padidinti šį limitą, galite padėti su minios finansavimu [tapdami mecenatu]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Šioje sesijoje pasiektas maksimalus rungčių skaičius</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Galbūt šiam filtrui baigėsi dangteliai, pabandykite kitą.</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Sesija atšaukta</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Pakeistas apvaliosios sesijos filtras</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Rungtys bus pradedamos automatiškai.
+
+Norėdami pakeisti filtrą, tiesiog vėl naudokite `{0}sgs`. Norėdami praleisti raundą, naudokite `{0}stopg`, o norėdami atšaukti sesiją, naudokite `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Pradėta balso sesija kanale **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Apvalių {0} {1} …</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Daugiau pagalbos__
+Užklausos: `{0}pagalbos užklausa`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, vyksta sesija. Norėdami ją sustabdyti, naudokite `{1}stopgs`.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Pradėkite naują pasirinktinę lyderių lentelę</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Pasirinktinės lyderių lentelės pabaiga</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Iš naujo nustatykite pasirinktinę lyderių lentelę</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Pradėkite naują žaidimo raundą</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Pradėkite naują anime personažų pikselių raundą</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Rodyti kreditus</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Anime sąrašo sinchronizavimas</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Naudokite šią komandą norėdami sinchronizuoti anime sąrašą. Tai galima atlikti vieną kartą per dieną.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>vartotojo vardas</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Kreditai</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Didžiulė padėka visiems šiems žmonėms ir interneto svetainėms už pagalbą kuriant {0}.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Duomenų bazės / API</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Mecenatai</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Vertimai</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Dabartinis mano komandos priešdėlis yra `{0}`
+
+Norėdami jį pakeisti, naudokite `{0}prefiksą jūsų_prefiksas` arba `@{1} prefiksas jūsų_prefiksas`.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Dabar mano komandos priešdėlis yra: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Mano komandos prefikso pakeisti nepavyko.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Priešdėlis turi būti nuo 1 iki 5 simbolių.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}komandos priešdėlis</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Jūs nesate Kururinas, ar ne?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Šiuo metu ši funkcija veikia tik beta versijoje.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Ši funkcija šiuo metu prieinama tik kuriant.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Užklausas galite kurti derindami operacijas ir filtrus.
+
+Pavyzdžiui: `{0}sg n:5 d:3 y:1995-2005`, norėdami pradėti seansą su 5 anime raundais pagal sunkų sudėtingumą nuo 1995 iki 2005 metų.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filtrai</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - raundų, kuriuos reikia sužaisti per sesiją, skaičius (ne daugiau kaip 10)
+`im:` - Vaizdų tvarkymas: pikseliuotas `im:p`, apverstas `im:i`, dažytas aliejiniais dažais `im:o`, pilkos spalvos `im:g`, apverstas vertikaliai `im:f` arba kelios `im:p,i,o,g,f` (bet koks derinys)
+`nh:` - nerodyti užuominų `nh:1`
+`aggr:` - pakeisti agregavimo metodą, kai naudojami anime sąrašai: visi kartu `aggr:union`, esantys visuose sąrašuose `aggr:intersect` arba vienodas imties dydis kiekviename sąraše `aggr:balance` (numatytasis)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Operacijos</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Pagalba užklausoms</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Ši funkcija šiame bote nepasiekiama.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Sudėtingumas `d:0` iki `d:5` (`0` išjungia sudėtingumo filtrą)
+`y:` - Metai `y:2010` arba metų intervalas `y:1995-2005`
+`g:` - Žanras `g:veiksmo` arba keli `g:action,-sliceoflife,!kids`, kur `-` arba `!` neįtraukia žanro (visiems žanrams naudokite `{0}žanrus` )
+`t:` - dainos tipas: pradžios `t:op`, pabaigos `t:ed` arba įterpti dainas `t:in` (`in` veikia tik su `sga` )
+`sl:` - Pavyzdžio ilgis sekundėmis, nuo 5 iki 30 (galima naudoti tik su `{0}sgsa`)
+`mal:` - MyAnimeList vartotojo anime sąrašas `mal:username` arba daugkartinis `mal:user1,user2`
+`anilist:` - AniList vartotojo anime sąrašas `anilist:username` arba kelis `anilist:user1,user2`</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>subalansuotas</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>susikirto</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>vieningas</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Šios sesijos reitingas</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Taip pat žinomas kaip</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Iš</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>pagal</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Žanrai</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}veiklos sąnaudos šiuo metu yra **${1} per mėnesį.**
+
+Šiuo metu padengiama tik **{2}%** šios sumos.
+
+Jei jums patinka žaisti {0}'s žaidimus, apsvarstykite galimybę [paaukoti 2 ar daugiau dolerių Patreon]({3}), kad padėtumėte išlaikyti jos gyvavimą.
+
+Net ir nedidelės aukos yra didžiulė pagalba, o mainais netgi gausite tam tikrų privilegijų!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} reikia tavęs!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Kalba negalėjo būti pakeista.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Dabartinė kalba yra `{3}` ({4}).
+
+Galite pakeisti {1}'kalbą naudodami `{0}lang language_code`.
+Šiuo metu palaikomos šios kalbos:
+{2}
+
+Jūs galite padėti jas patobulinti ar net pridėti daugiau kalbų [minios vertimo svetainėje]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Kalbos kodas `{0}` nepalaikomas.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Keisti kalbą</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Kalba pakeista į `{0}` .</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Rodyti esamą kalbą arba ją pakeisti</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Įskaitant žanrą (-us) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Išskyrus žanrą (-us) **{0}**</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Peržiūrėkite [vertimų statistiką]({0}), kur rasite visų prisidėjusiųjų sąrašą!</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Atnaujina šio serverio informaciją (kanalus, vaidmenis ir pan.)</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Jūsų skirsnis yra `{0}` klasteryje `{3}` .
+
+Prie šio klasterio prijungti `{1}` serveriai.
+`{2}` Jame šiuo metu žaidžiami raundai.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Per vieną sesiją galite atlikti ne daugiau kaip `{0}` raundų.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Viršytas maksimalus leistinas sesijos raundų skaičius</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Norėdami padidinti šią ribą, galite [tapti globėju]({0}).</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` raundai</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Šiame kanale nėra aktyvios sesijos.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Šiame kanale vyksta aktyvus raundas. Pabandykite jį sustabdyti naudodami `{0}stopg` arba `{0}stopgs`.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>vaizdo įrašai prieinami tik globėjams.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>{0} naudotojo sinchronizavimas '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Šis sąrašas jau sinchronizuojamas.
+Dabartinė būsena yra **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Užregistruota</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Perėmė</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Pateikėte blogą vartotojo vardą.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Šis sąrašas neseniai buvo sinchronizuotas.
+Prieš bandydami dar kartą palaukite {0}.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Sinchronizavimo eilėje laukiama {0} naudotojo '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Būsenos atnaujinimus gausite tiesioginėmis žinutėmis.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Galite spėti tik vieną kartą!</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Vienu metu galima įrašyti tik vieną sinchronizavimo užduotį.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Sinchronizavimo užduotį į eilę galima įrašyti tik kas 15 minučių.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Būklė dabar yra **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Įsitikinkite, kad nurodėte teisingą vartotojo vardą ir kad jūsų sąrašas yra __viešai prieinamas__.
+
+Jei problema išlieka, kreipkitės pagalbos į [pagalbos serverį]({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Dabar galite pradėti naudoti `{0}:{1}` filtrą.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>{0} naudotojo sinchronizavimo būsena '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Nepavyko</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Sustabdo visus šio serverio raundus</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Ištrintas</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Atšauktas</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Suplanuota</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Apdorojimas</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Gali šiek tiek užtrukti, kol lyderių lentelė bus atnaujinta.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Iš naujo nustatyta visų laikų greičio lyderių lentelė</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Gali šiek tiek užtrukti, kol lyderių lentelė bus atnaujinta.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Iš naujo nustatyta visų laikų taškų reitingų lentelė</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Iš naujo nustatykite visų laikų taškų reitingą</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Iš naujo nustatykite visų laikų greičio lyderių lentelę</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Nepavyko sukurti naujos sesijos, pabandykite naudoti `{0}stopg` arba `{0}stopgs` arba kitą filtrą.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>**{0} sekundžių pavyzdžiai**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>mėginio trukmė turi būti ≥ 5 ir ≤ 30 sekundžių.</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Kilo šių patvirtinimo problemų:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Netinkami filtrai</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Garso manipuliacijos: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Manipuliavimas vaizdais: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Atvirkštinis</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Padidėjęs tempas</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pikselinis</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Apverstos spalvos</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Aliejiniais dažais dažytas</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Pilka skalė</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Apversta</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Klaida vykdant komandą</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Pradėkite naują vaizdų raundą su kelių atsakymų mygtukais</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Pradėkite naują balso raundą su pavyzdžiais ir kelių atsakymų mygtukais</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Koks tai anime?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Atsiprašome, tai neteisinga.</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Dėl kanalo prieigos kontrolės nustatymų čia neturite leidimo.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Dabartinio raundo sustabdymas…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Dabartinės raundo sesijos sustabdymas…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Pasirinkite numatytąjį sudėtingumą</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Jokių sunkumų</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Sunkumas pagal jūsų taškus</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Dabar galima naudoti "Slash" komandas!</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Kaip juos įjungti, skaitykite [šiame puslapyje]({0}).</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Šią komandą gali naudoti tik globėjai. Kaip juo tapti, skaitykite [šiame puslapyje]({0}).
+</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>dainos tipas turi būti: {0}</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Leidimai neteisingai nustatyti, kad būtų galima pradėti balso raundą adresu '{0}'</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Turite man suteikti bent **Peržiūrėti kanalą**, **Prisijungti** ir **Kalbėti** leidimus tam kanalui.</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` temos</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` ženklai</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>metų {0}</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Pradėkite naują anime personažų citatų turą</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Įskaitant kilmę: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Išskyrus kilmę: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>O dabar pabandykite teisingai atspėti anime personažą ir gaukite dar **{0} taškų**!</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` vaizdo žaidimų turai</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Išskyrus platformą (-as) **{0}**</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Vaizdo žaidimų turai</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime raundai</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Rodyti visas galimas žaidimo platformas</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Rodyti visus galimus žaidimų žanrus</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Pakeiskite numatytąjį sudėtingumą</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Žaidėjas</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Per daug neteisingų spėjimų</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` vaizdo žaidimai</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Personažo lytis: **{0}**</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Vyras</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Moteris</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Įskaitant personažų vaidmenis: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Išskyrus personažų vaidmenis: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Jokių lašų</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Jokių užuominų</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, per dažnai spėjate, kad "{1}" ar panašiai. Kurį laiką į tai nekreipsiu dėmesio.</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Pradėkite naują pokemonų raundą</value>
+  </data>
 </root>

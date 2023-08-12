@@ -1057,4 +1057,131 @@ Se il problema persiste, chiedete aiuto a [il server di supporto]({0}).</value>
   <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
     <value>Non hai nessun permesso qui, a causa di impostazioni di controllo sull'accesso del canale</value>
   </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Escluse le origini: **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` giri di videogiochi</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>I comandi Slash sono ora disponibili!</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>il tipo di brano deve essere: {0}</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` caratteri</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Giri di videogiochi</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Mostra tutti i generi di gioco possibili</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Cambiare la difficoltà predefinita</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Donna</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Uomo</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Compresi i ruoli dei personaggi: **{0}**</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Scegliere la difficoltà predefinita</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Nessuna difficoltà</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Difficoltà in base ai punti ottenuti</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Comprese le origini: **{0}**</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` temi</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>dell'anno {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Scusate, era **{0}** , che non è corretto.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Iniziare un nuovo giro di immagini invertite</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Esclusa la(e) piattaforma(e) **{0}**</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Troppe ipotesi sbagliate</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}Hai indovinato troppo spesso "{1}" o qualcosa di simile. Lo ignorerò per un po'.</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Genere del personaggio: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Nessuna goccia</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Nessun suggerimento</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Avviare un nuovo round audio con i pulsanti a scelta multipla</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Iniziare un nuovo round Pokémon</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Vite: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Lingua del server - {0}</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Compresa la piattaforma (o le piattaforme) **{0}**</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Per sapere come abilitarli, consultare [questa pagina]({0}).</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Questo comando è disponibile solo per i patroni. Vedere [questa pagina]({0}) per sapere come diventarlo.
+</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>I permessi non sono stati impostati correttamente per avviare il giro vocale in '{0}'.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Dovete darmi almeno i permessi **View channel**, **Connect** e **Speak** per quel canale.</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Giri di Anime</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Mostra tutte le possibili piattaforme di gioco</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Giocatore</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Esclusi i ruoli dei personaggi: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Ora cerca di indovinare un personaggio dell'anime per guadagnare altri **{0} punti**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Iniziare un nuovo giro di citazioni di personaggi anime</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` videogiochi</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Avvio di un nuovo ciclo di video con pulsanti a scelta multipla</value>
+  </data>
 </root>

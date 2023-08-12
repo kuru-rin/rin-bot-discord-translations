@@ -295,4 +295,893 @@
     <value>Эта команда доступна только меценатам. Как им стать, смотрите на [этой странице]({0}).
 </value>
   </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Все время__</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Фильтры</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>сбалансированный</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` раунды видеоигр</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Без учета происхождения: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Начните новую сессию голосового обхода с образцами и кнопками множественного выбора</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Превышение максимально допустимого количества раундов за сессию</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Раунды</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Аудиоманипуляции: **{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>тип композиции должен быть: {0}</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Проверьте [статистику переводов]({0}), чтобы узнать список всех, кто внес свой вклад!</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}В настоящее время раунд не проводится. Вы можете начать его, используя `{1}sg`.</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Сеанс отменен</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>В зачет идут только раунды с количеством участников более 1000</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Пользовательская таблица лидеров была сброшена.
+Вы можете начать новую с помощью `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` аниме</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` аниме-раунды</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` звуковые раунды</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__База данных__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` серверы</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Серверы__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` раунды изображений</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` пользователи</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Игроки__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` произведено &gt; 1000 выстрелов</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` выиграл &gt; 10 раундов</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Синхронизация {0} пользователя '{1}'</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Возможно, для этого фильтра закончились колпачки, попробуйте другой.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Неправильно установлены права для запуска голосового раунда в '{0}'</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` раунды визуальных новелл</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` темы</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` символы</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} получил это достижение</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Пользовательская таблица лидеров для #{0}</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Для этого канала была запущена пользовательская таблица лидеров.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Обновление таблицы лидеров может занять некоторое время.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Обновление таблицы лидеров может занять некоторое время.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>видео раунды доступны только для посетителей</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Этот список уже синхронизируется.
+Текущее состояние **{0}**</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Статус теперь **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Убедитесь, что вы указали правильное имя пользователя и что ваш список __находится в открытом доступе__.
+
+Если проблема не решена, обратитесь за помощью на [сервер поддержки]({0}).</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Остановить все раунды на данном сервере</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Возникли проблемы с валидацией:</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Аниме-раунды</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Игрок</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Капли отсутствуют</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>года {0}</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Начните новый раунд угадывания обратного изображения</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Без учета платформы (платформ) **{0}**</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Показать все возможные игровые платформы</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Слишком много неверных предположений</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` видеоигры</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Пол персонажа: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Никаких намеков</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Начните новый раунд с помощью кнопок с несколькими вариантами ответов</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Жизнь: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Язык сервера - {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Начало {0}</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Не удалось создать новую сессию, попробуйте использовать `{0}stopg` или `{0}stopgs` или другой фильтр.</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Открытие</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Начните новый раунд с изображениями, используя кнопки с несколькими вариантами ответов</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}Я не понимаю, что это за параметр.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Начните новый сеанс голосового обхода с образцами</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Синхронизация списка аниме</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Показать текущий префикс или изменить его</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Изменение фильтра круглой сессии</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Раунды будут начинаться автоматически.
+
+Чтобы сменить фильтр, достаточно снова использовать `{0}sgs`. Чтобы пропустить раунд, используйте `{0}stopg`, а для отмены сеанса - `{0}stopgs`.</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, идет сеанс работы. Для ее остановки используйте `{1}stopgs`.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Запуск новой пользовательской таблицы лидеров</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Завершение работы пользовательской таблицы лидеров</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Сброс пользовательской таблицы лидеров</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Начать новый раунд игры</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Начните новый пиксельный раунд аниме-персонажей</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Показать кредиты</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Синхронизация списка аниме</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Эта команда используется для синхронизации списка аниме. Это можно сделать один раз в день.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Патроны</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Особая благодарность</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Переводы</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Мой текущий командный префикс `{0}`
+
+Для его изменения используйте `{0}prefix your_prefix` или `@{1} prefix your_prefix`.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Количество раундов для игры в сессии (не более 10)
+`im:` - Работа с изображениями: пикселизированное `im:p`, инвертированное `im:i`, окрашенное маслом `im:o`, полутоновое `im:g`, перевернутое по вертикали `im:f` или несколько `im:p,i,o,g,f` (любая комбинация)
+`nh:` - Не показывать подсказки `nh:1`
+`aggr:` - Изменить метод агрегирования при использовании аниме-списков: все вместе `aggr:union`, присутствующие во всех списках `aggr:intersect` или равный размер выборки для каждого списка `aggr:balance` (по умолчанию)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Вы можете создавать запросы, комбинируя операции и фильтры.
+
+Например: `{0}sg n:5 d:3 y:1995-2005` для запуска сессии с 5 раундами аниме на сложности hard между 1995 и 2005 годами.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Операции</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Справка по запросам</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>В данном боте эта функция недоступна.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>пересекаются</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>объединенный</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>по ссылке</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Включая происхождение: **{0}**</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**'список на {1} еще не синхронизирован. Для синхронизации списка сначала используйте команду `sync`.</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Ошибка при выполнении команды</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Включая платформу (платформы) **{0}**</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - сложность `d:0` - `d:5` (`0` отключает фильтр сложности)
+`y:` - Год `y:2010` или диапазон лет `y:1995-2005`
+`g:` - Жанр `g:action` или несколько `g:action,-sliceoflife,!kids`, где `-` или `!` исключает жанр (используйте `{0}жанры` для всех жанров)
+`t:` - Тип композиции: openings `t:op`, endings `t:ed` или insert songs `t:in` (`in` работает только с `sga` )
+`sl:` - Длина сэмпла в секундах, от 5 до 30 (работает только с `{0}sgsa`)
+`mal:` - Список аниме пользователя MyAnimeList `mal:username` или несколько `mal:user1,user2`
+`anilist:` - AniList пользовательский список аниме `anilist:username` или несколько `anilist:user1,user2`</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>За один сеанс можно провести не более `{0}` раундов.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Чтобы увеличить этот лимит, вы можете [стать меценатом] ({0}).</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Манипуляции с изображениями: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Перевернутый</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Увеличение темпа</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Пикселизированный</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Инвертированные цвета</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Градации серого</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Окрашенные маслом</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Перевернутый</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Вы должны предоставить мне как минимум разрешения **View channel**, **Connect** и **Speak** для этого канала.</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__На прошлой неделе__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__На этой неделе__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` игроки</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>За раунды с уровнем сложности ниже вы получите меньше баллов **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>и набрал {0} баллов!</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Из жанра **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, эта команда доступна только для патронов (https://patreon.com/rinbot?fan_landing=true).</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}Вы начали слишком много игр сегодня. Станьте меценатом, чтобы увеличить этот лимит (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}При этом у вас уже есть активный раунд в другом месте.</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__На прошлой неделе__</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Баллы</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Рейтинг {0}</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}оценка сервера</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Баллы</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Скорость</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Самые быстрые игроки в __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>Для использования этого бота на канале должен быть включен режим NSFW.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Время: **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Тип песни: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Победитель прошлой недели</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Результаты и таблицы лидеров обрабатываются каждый час.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>С сайта {0} по {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Неделя {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(окончание {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Пользовательская таблица лидеров не активна.
+Вы можете начать его, используя `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Пользовательская таблица лидеров не найдена.
+Вы можете запустить его, используя `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` раунды отменены</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` завершенные раунды</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` песни</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` видео раунды</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` визуальные новеллы</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Глобальный</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Раунды__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Статистика игр</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Записано</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Преемник</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Вы указали неверное имя пользователя.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Этот список был недавно синхронизирован.
+Пожалуйста, подождите {0}, прежде чем повторить попытку.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Синхронизация поставлена в очередь для пользователя {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Вы будете получать обновления статуса в прямых сообщениях.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Одновременно в очередь можно поставить только одно задание синхронизации.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Задание на синхронизацию можно ставить в очередь только раз в 15 минут.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Теперь можно начать использовать фильтр `{0}:{1}`.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Состояние синхронизации для пользователя {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Неудачный</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Удалено</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Отменено</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Планируемый</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Обработка</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Пользовательская таблица лидеров в этом канале была закрыта.
+Теперь вы можете сбросить его, используя `{0}resetctop`.</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Принудительное обновление информации об этом сервере (каналы, роли и т.п.)</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` раунды</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` выиграно &gt; 100 выстрелов</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}Не найдена пользовательская таблица лидеров. Вы можете создать новую, используя `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}В этом канале уже действует пользовательская таблица лидеров.
+Вы можете завершить его с помощью команды `{1}endctop` или полностью сбросить с помощью команды `{1}resetctop`.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Чтобы ускорить обработку, можно [boost your server]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Серверы__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Легко</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Нормальный</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Hard</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Экстрим</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Кошмар</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Конец</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Вставить песню</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Композиция с изображением</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` простые раунды</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` обычные раунды</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` твёрдые снаряды</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` экстремальные раунды</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` кошмарные раунды</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` раунды без затруднений</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Сессия уже активна</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Доступ к базе данных {0} в данный момент невозможен. Повторите попытку позже.
+
+Для получения дополнительной информации обратитесь к [странице состояния]({1}) или [серверу поддержки RinBot]({2}).</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} патроны в настоящее время недоступны</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Невозможно начать игру вручную, когда активны голосовые раунды.
+Для их остановки можно воспользоваться командой `{0}stopgs`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` круги для персонажей аниме</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` выиграл не менее 1 раунда</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>От пользователя(ей) **{0}** на {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Списки аниме **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>жанр должен быть одним из перечисленных в `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>выбран неверный диапазон лет</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>вы не можете использовать сложность "Кошмар" с другими фильтрами</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>для использования этого фильтра канал должен быть настроен на NSFW.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>конечный год должен быть ≤ текущего года</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>начальный год должен быть ≤ текущего года</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>начальный год должен быть &gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>конечный год должен быть ≥ начальному году</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>Фильтр типа композиции может использоваться только для звуковых раундов</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>этот жанр недоступен</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>Фильтр списка аниме работает только для аниме и раундов аниме-персонажей</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Начните новый цикл обработки изображений</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Начать новый раунд видеосъемки</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Начать новый аудиораунд</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Остановка текущего раунда</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Показывает ваш личный счет</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Показывает лучших игроков за все время существования сервера</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Показывает лучших игроков этой недели на сервере</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Полный список команд можно найти [на сайте]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Начать новый раунд изображения визуального романа</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Показывает пользовательскую таблицу лидеров</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Показывает общую оценку данного сервера</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Показывает самых быстрых игроков за все время существования сервера</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Показывает самых быстрых игроков этой недели на сервере</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Показать статистику игры</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Показать все доступные жанры аниме</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}Для использования этой функции необходимо иметь хотя бы одно из этих разрешений: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Баллы</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Команды</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Начать сеанс голосового обхода</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Голосовые раунды</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Начать новый раунд аниме-персонажей</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Убедитесь, что права доступа установлены правильно. Нужны как минимум разрешения Connect и Speak.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Не удалось подключиться к голосовому каналу '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Поиск голосового канала, к которому можно присоединиться…</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Теперь попробуйте правильно угадать персонажа из аниме, чтобы получить еще **{0} очков**!</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Я не смог найти голосовой канал, к которому можно было бы присоединиться.
+
+Вы можете создать такой канал с тем же именем, что и этот текстовый канал, или присоединиться к голосовому каналу, куда вы хотели бы меня направить.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Не найден ни один пригодный для использования голосовой канал</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Раунды будут начинаться автоматически.
+
+Чтобы пропустить раунд, используйте команду `{0}stopg`, а для отмены сеанса - `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Начал сессию с {0} раундов.</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Присоединяйтесь к голосовому каналу **{0}** , чтобы слушать и уметь гадать.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Раунд начался!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Для экономии ресурсов сервера максимальное количество раундов в одной сессии для вас составляет {0}.
+
+Чтобы увеличить этот лимит, вы можете помочь с краудфандингом, [став меценатом]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Достигнуто максимальное количество раундов в этой сессии</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Начало голосовой сессии в канале **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Подготовка круглого {0} сайта {1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Дополнительная помощь__
+Запросы: `{0}запрос на помощь`</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>имя пользователя</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Остановить сеанс раунда</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Кредиты</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Огромное спасибо всем этим людям и сайтам за помощь в создании сайта {0}.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Базы данных/API</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Теперь мой командный префикс имеет следующий вид: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Изменить командный префикс не удалось.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Префикс должен содержать от 1 до 5 символов.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}командный префикс</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Вы ведь не Курурин?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>В настоящее время эта функция доступна только в бета-версии.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>В настоящее время эта функция доступна только в стадии разработки.</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Рейтинг для данной сессии</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Также известен как</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>С сайта</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Начните новый цикл цитат о персонажах аниме</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}В настоящее время операционные расходы составляют **${1} в месяц.**
+
+На данный момент покрывается только **{2}%** от этой суммы.
+
+Если вам нравится играть в {0}'игры, пожалуйста, рассмотрите возможность [пожертвовать 2 или более долларов на Patreon]({3}), чтобы помочь поддержать ее жизнь.
+
+Даже небольшие пожертвования - это огромная помощь, а взамен вы даже получите некоторые привилегии!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} Вы нужны!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Язык не может быть изменен.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Текущий язык: `{3}` ({4}).
+
+Вы можете изменить язык {1} с помощью команды `{0}lang language_code`.
+В настоящее время поддерживаются следующие языки:
+{2}
+
+Вы можете помочь улучшить их или даже добавить новые языки на [сайте крауд-перевода] ({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Языковой код `{0}` не поддерживается.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Изменить язык</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Язык изменен на `{0}` .</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Показать текущий язык или изменить его</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Включая жанр (жанры) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Исключение жанра (жанров) **{0}**</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Таблица лидеров по скорости за все время обнулена</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Обнулена таблица лидеров по количеству очков за все время</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Ваш шард - `{0}` на кластере `{3}` .
+
+К этому кластеру подключены серверы `{1}` .
+`{2}` В настоящее время на нем проводятся раунды.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Обнуление таблицы лидеров по количеству набранных очков</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Сбросить таблицу лидеров по скорости за все время</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>В этом канале нет активной сессии.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>В этом канале идет активный раунд. Попробуйте использовать для его остановки `{0}stopg` или `{0}stopgs`.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Образцы **{0} секунд**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>продолжительность образца должна составлять ≥ 5 и ≤ 30 секунд</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Недопустимые фильтры</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Изменение сложности по умолчанию</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Мужчина</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Женщина</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>В том числе и роли персонажей: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>За исключением ролей персонажей: **{0}**</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Извините, это было **{0}** , что неверно.</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Начать новый раунд игры с покемонами</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}Вы слишком часто угадывали '{1}' или что-то подобное. Я буду игнорировать это некоторое время.</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Видеоигровые раунды</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Показать все возможные жанры игр</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Начните новый аудиораунд с помощью кнопок с несколькими вариантами ответов</value>
+  </data>
 </root>

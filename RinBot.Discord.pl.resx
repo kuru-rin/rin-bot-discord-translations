@@ -912,4 +912,275 @@ Użyj `{0}prefix twój_prefiks` lub `@{1} prefix swój_prefiks`, aby to zmienić
   <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
     <value>Przekroczono maksymalną ilość rund dozwolonych na jedną sesję</value>
   </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Nie można utworzyć nowej sesji, spróbuj użyć `{0}stopg` lub `{0}stopgs` lub innego filtra.</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` rundy gier wideo</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Sprawdź [tę stronę]({0}), jak je włączyć.</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Z wyłączeniem pochodzenia: **{0}**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Błąd podczas wykonywania polecenia</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>W tym platformy **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Z wyłączeniem platform(y) **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Rozpocznij nową sesję rundy głosowej z próbkami i przyciskami wielokrotnego wyboru</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Komendy Slash są już dostępne!</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Manipulacje obrazem: **{0}**</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>To polecenie jest dostępne tylko dla patronów. Zobacz [tę stronę]({0}), aby dowiedzieć się, jak zostać patronem.
+</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Manipulacje dźwiękiem: **{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>typem utworu musi być: {0}</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Musisz nadać mi co najmniej uprawnienia **Wyświetl kanał**, **Połącz** i **Mów** dla tego kanału.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Podałeś złą nazwę użytkownika.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Ta lista została niedawno zsynchronizowana.
+Poczekaj {0} przed ponowną próbą.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Synchronizacja w kolejce dla użytkownika {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Jednocześnie w kolejce można umieścić tylko jedno zadanie synchronizacji.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Zadanie synchronizacji można ustawić w kolejce tylko co 15 minut.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Status to teraz **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Status synchronizacji dla użytkownika {0} '{1}'</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Uprawnienia nie zostały poprawnie ustawione, aby rozpocząć rundę głosową w '{0}'</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` tematy</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` znaki</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Odświeżenie tabeli liderów może trochę potrwać.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Tabela liderów wszech czasów została zresetowana</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Odświeżenie tabeli liderów może trochę potrwać.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Będziesz otrzymywać aktualizacje statusu w wiadomościach bezpośrednich.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Upewnij się, że podałeś prawidłową nazwę użytkownika i że Twoja lista jest __publicznie dostępna__.
+
+Jeśli problem nie ustąpi, poproś o pomoc na [serwerze pomocy technicznej]({0}).</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Co to za anime?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Przepraszamy, to jest nieprawidłowe.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Zresetuj tabelę liderów wszech czasów</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Zresetuj tabelę liderów prędkości wszech czasów</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Możesz zgadywać tylko raz!</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Próbki **{0} sekund**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>długość próbki musi wynosić ≥ 5 i ≤ 30 sekund</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Nieprawidłowe filtry</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Rundy anime</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Pokaż wszystkie możliwe platformy gry</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Pokaż wszystkie możliwe gatunki gier</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Zmień domyślny poziom trudności</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Gracz</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Mężczyzna</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Kobieta</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>W tym role postaci: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Z wyłączeniem ról postaci: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Brak kropli</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Nie masz tutaj uprawnień ze względu na ustawienia kontroli dostępu do kanału.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Zatrzymanie bieżącej rundy…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Zatrzymanie bieżącej sesji rundy…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Wybierz domyślny poziom trudności</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Brak trudności</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Teraz spróbuj odgadnąć postać z anime, aby zdobyć kolejne punkty **{0}** !</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>roku {0}</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Rozpocznij nową rundę zgadywania odwróconego obrazu</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, zbyt często zgadywałeś '{1}' lub coś podobnego. Zignoruję to na jakiś czas.</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Rundy gier wideo</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Zbyt wiele błędnych odpowiedzi</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` gry wideo</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Brak wskazówek</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Rozpocznij nową rundę wideo z przyciskami wielokrotnego wyboru</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Rozpocznij nową rundę Pokémonów</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Życie: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Język serwera - {0}</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Odwrócony</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Rozpocznij nową rundę obrazkową z przyciskami wielokrotnego wyboru</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Wystąpiły te problemy z walidacją:</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Odwrócony</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Zwiększone tempo</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Rozpikselowany</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Odwrócone kolory</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Skala szarości</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Malowany olejem</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Można teraz rozpocząć korzystanie z filtra `{0}:{1}`.</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Nie powiodło się</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Usunięto</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Anulowane</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Zaplanowane</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Przetwarzanie</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Twój shard to `{0}` na klastrze `{3}` .
+
+Do tego klastra podłączone są serwery `{1}` .
+`{2}` Obecnie rozgrywane są na nim rundy.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Tabela liderów prędkości wszech czasów została zresetowana</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Zatrzymuje wszystkie rundy na tym serwerze</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Trudność na podstawie zdobytych punktów</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>W tym pochodzenie: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Rozpocznij nową rundę cytowania postaci z anime</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Przepraszam, to było **{0}** , co jest niepoprawne.</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Płeć postaci: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Rozpocznij nową rundę audio z przyciskami wielokrotnego wyboru</value>
+  </data>
 </root>
