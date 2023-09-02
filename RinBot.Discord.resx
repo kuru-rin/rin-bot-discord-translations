@@ -1187,4 +1187,31 @@ If the problem persists, ask for assistance in [the support server]({0}).</value
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>To reduce this cooldown, you can [become a supporter]({0}).</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Including type(s): **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Excluding type(s): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>TV Series</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Movie</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Music video</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
 </root>
