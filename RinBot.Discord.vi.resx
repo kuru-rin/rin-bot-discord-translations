@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Không ai đoán đúng**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} đã thắng!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>Đã nhận được **{0} điểm**</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` điểm</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Thứ hạng: {0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Tư liệu</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Gợi ý</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Bạn còn {0} giây để đoán!**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Tôi xin lỗi vì đã gián đoạn trò chơi của bạn, nhưng tôi phải khởi động lại để cung cấp các tính năng mới!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Bạn có thể bắt đầu một vòng mới trong một phút.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning:  **Đang khởi động lại**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Người chơi</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Vòng đã bị hủy do thiếu tư liệu. Vui lòng thử lại vòng khác với bộ lọc ít hạn chế hơn.</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Tiêu đề thay thế</value>
+  </data>
 </root>
