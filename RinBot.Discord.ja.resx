@@ -594,20 +594,20 @@
     <value>{1} の **{0}** のリストはまだ同期されていません。リストを同期するには、まず `sync` コマンドを使ってください。</value>
   </data>
   <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
-    <value>スラッシュコマンドが使えるようになった！</value>
+    <value>スラッシュコマンドが使えるようになりました！</value>
   </data>
   <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
     <value>画像操作：**{0}**</value>
   </data>
   <data name="RequirePatronTier_Error" xml:space="preserve">
-    <value>このコマンドはパトロンのみが利用できる。パトロンになる方法については[このページ]({0})を参照してください。
+    <value>このコマンドはパトロンのみが利用できます。パトロンになるには、[このページ]({0})を参照してください。
 </value>
   </data>
   <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
     <value>オーディオ操作：**{0}**</value>
   </data>
   <data name="SongType_MustBe" xml:space="preserve">
-    <value>曲のタイプはこうでなければならない：{0}</value>
+    <value>曲タイプは {0} でなければなりません</value>
   </data>
   <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
     <value>[翻訳統計]({0})で、貢献してくれた全員のリストをチェックしましょう！</value>
@@ -723,13 +723,13 @@
     <value>デフォルトの難易度を選ぶ</value>
   </data>
   <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
-    <value>困難はない</value>
+    <value>難易度なし</value>
   </data>
   <data name="StopGame_Stopping" xml:space="preserve">
-    <value>現在のラウンドを止める…</value>
+    <value>現在のラウンドを停止中…</value>
   </data>
   <data name="RoundSession_Stop_Stopping" xml:space="preserve">
-    <value>現在のラウンド・セッションを中断…</value>
+    <value>現在のラウンドセッションを停止中…</value>
   </data>
   <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
     <value>出自も含めて：**{0}**</value>
@@ -888,7 +888,7 @@
     <value>このフィルターで画像を使い切った可能性があるので、別のものを試してください。</value>
   </data>
   <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
-    <value>{0}' で音声ラウンドを開始するためのパーミッションが正しく設定されていない。</value>
+    <value>'{0}' で音声ラウンドを開始するための権限が正しく設定されていません。</value>
   </data>
   <data name="SendStatistics_Description" xml:space="preserve">
     <value>あなたのシャードはクラスター`{3}`のシャード`{0}`です。
