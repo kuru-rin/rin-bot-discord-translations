@@ -1214,4 +1214,22 @@ If the problem persists, ask for assistance in [the support server]({0}).</value
   <data name="AnimeTypes_Undefined" xml:space="preserve">
     <value>-</value>
   </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Visual novels</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Video games</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Anime characters</value>
+  </data>
 </root>
