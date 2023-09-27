@@ -1184,4 +1184,7 @@ Ehhez a fürthöz `{1}` kiszolgálók vannak csatlakoztatva.
   <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
     <value>A kiszolgáló nyelve - {0}</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Ennek a lehűlési időnek a csökkentéséhez [támogatóvá válhatsz]({0}).</value>
+  </data>
 </root>

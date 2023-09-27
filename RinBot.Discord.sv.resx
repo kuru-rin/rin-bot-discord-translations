@@ -1184,4 +1184,7 @@ Det finns `{1}` servrar anslutna till detta kluster.
   <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
     <value>Servern språk - (engelska) {0}</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>För att minska denna nedkylning kan du [bli en supporter]({0}).</value>
+  </data>
 </root>

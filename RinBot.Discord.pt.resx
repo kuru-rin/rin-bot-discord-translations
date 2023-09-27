@@ -1125,4 +1125,7 @@ Existem `{1}` servidores ligados a este cluster.
   <data name="CreateFilterDescription_Lives" xml:space="preserve">
     <value>Vidas: **{0}**</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Para reduzir este tempo de espera, podes [tornar-te um apoiante]({0}).</value>
+  </data>
 </root>

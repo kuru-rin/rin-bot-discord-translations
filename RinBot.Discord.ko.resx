@@ -1125,4 +1125,7 @@
   <data name="Execute_Help_sba" xml:space="preserve">
     <value>객관식 버튼으로 새 오디오 라운드를 시작하세요.</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>이 재사용 대기시간을 줄이려면 [서포터 되기]({0})를 이용하세요.</value>
+  </data>
 </root>

@@ -1125,4 +1125,7 @@ Hvis problemet vedvarer, kan du be om hjelp på [supportserveren]({0}).</value>
   <data name="CreateFilterDescription_Lives" xml:space="preserve">
     <value>Liv: **{0}**</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>For å redusere denne nedkjølingen kan du [bli en støttespiller]({0}).</value>
+  </data>
 </root>

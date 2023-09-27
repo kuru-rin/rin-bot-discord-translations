@@ -1125,4 +1125,7 @@ Vă rugăm să așteptați {0} înainte de a încerca din nou.</value>
   <data name="CreateFilterDescription_NoHints" xml:space="preserve">
     <value>Nu există indicii</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Pentru a reduce această perioadă de răcire, poți [deveni un susținător]({0}).</value>
+  </data>
 </root>

@@ -1184,4 +1184,7 @@
   <data name="Execute_Help_sbv" xml:space="preserve">
     <value>Ξεκινήστε έναν νέο γύρο βίντεο με κουμπιά πολλαπλών επιλογών</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Για να μειώσετε αυτή την αναμονή, μπορείτε να [γίνετε υποστηρικτής]({0}).</value>
+  </data>
 </root>

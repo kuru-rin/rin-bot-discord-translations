@@ -1184,4 +1184,7 @@
   <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
     <value>サーバーの言語{0}</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>このクールダウンを短縮するには、【サポーターになる】({0})。</value>
+  </data>
 </root>

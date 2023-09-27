@@ -1125,4 +1125,7 @@ Jei problema išlieka, kreipkitės pagalbos į [pagalbos serverį]({0}).</value>
   <data name="Execute_Help_sgp" xml:space="preserve">
     <value>Pradėkite naują pokemonų raundą</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Kad sutrumpintumėte šį laiką, galite [tapti palaikytoju]({0}).</value>
+  </data>
 </root>

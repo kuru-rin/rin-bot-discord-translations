@@ -1184,4 +1184,7 @@ Bahkan sumbangan kecil sangat membantu dan Anda bahkan akan mendapatkan beberapa
   <data name="TooManyWrongGuesses_Description" xml:space="preserve">
     <value>{0}Anda pasti sudah terlalu sering menebak '{1}' atau sesuatu yang serupa. Saya akan mengabaikannya untuk sementara waktu.</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Untuk mengurangi cooldown ini, Anda dapat [menjadi pendukung]({0}).</value>
+  </data>
 </root>

@@ -1125,4 +1125,7 @@ Si el problema persiste, pide ayuda en [el servidor de soporte]({0}).</value>
   <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
     <value>Idioma del servidor - {0}</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Para reducir este enfriamiento, puedes [convertirte en partidario]({0}).</value>
+  </data>
 </root>

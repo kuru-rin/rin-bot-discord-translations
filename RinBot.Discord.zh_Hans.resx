@@ -1125,4 +1125,7 @@
   <data name="SendHelp_GameRounds" xml:space="preserve">
     <value>电子游戏回合</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>要缩短冷却时间，你可以 [成为支持者]({0})。</value>
+  </data>
 </root>

@@ -1184,4 +1184,7 @@ Jos ongelma jatkuu, pyydä apua [tukipalvelimelta] ({0}).</value>
   <data name="CreateFilterDescription_Lives" xml:space="preserve">
     <value>Elää: **{0}**</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Voit lyhentää tätä jäähdytysaikaa [ryhtymällä kannattajaksi]({0}).</value>
+  </data>
 </root>

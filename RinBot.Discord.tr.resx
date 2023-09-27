@@ -1124,4 +1124,7 @@ Bu kümeye bağlı `{1}` sunucuları vardır.
   <data name="TooManyWrongGuesses_Description" xml:space="preserve">
     <value>{0}'{1}' ya da benzer bir şeyi çok sık tahmin ettiniz. Bir süreliğine görmezden geleceğim.</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Bu bekleme süresini azaltmak için [destekçi olabilirsiniz]({0}).</value>
+  </data>
 </root>

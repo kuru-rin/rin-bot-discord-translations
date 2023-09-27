@@ -1184,4 +1184,7 @@ Du kan hjælpe med at forbedre dem eller endda tilføje flere sprog på [crowd t
   <data name="Execute_Help_sbv" xml:space="preserve">
     <value>Start en ny videorunde med multiple choice-knapper</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>For at reducere denne nedkøling kan du [blive en supporter]({0}).</value>
+  </data>
 </root>

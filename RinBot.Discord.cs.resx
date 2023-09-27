@@ -1183,4 +1183,7 @@ Pokud problém přetrvává, požádejte o pomoc na [serveru podpory]({0}).</val
   <data name="CreateFilterDescription_NoHints" xml:space="preserve">
     <value>Žádné nápovědy</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Chcete-li zkrátit dobu odezvy, můžete se [stát příznivcem]({0}).</value>
+  </data>
 </root>

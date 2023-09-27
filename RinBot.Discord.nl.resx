@@ -1184,4 +1184,7 @@ Er zijn `{1}` servers verbonden met dit cluster.
   <data name="Execute_Help_sr" xml:space="preserve">
     <value>Begin een nieuwe ronde van omgekeerd raden van afbeeldingen</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Om deze cooldown te verminderen, kun je [supporter worden]({0}).</value>
+  </data>
 </root>

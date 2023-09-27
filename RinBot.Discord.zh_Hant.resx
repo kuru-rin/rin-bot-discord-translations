@@ -1125,4 +1125,7 @@
   <data name="Execute_Help_sba" xml:space="preserve">
     <value>使用多选按钮开始新一轮音频播放</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>要缩短冷却时间，你可以 [成为支持者]({0})。</value>
+  </data>
 </root>

@@ -1184,4 +1184,7 @@ L'état actuel est **{0}**</value>
   <data name="Execute_Help_sgp" xml:space="preserve">
     <value>Commencer une nouvelle ronde Pokémon</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Pour réduire ce temps de recharge, vous pouvez [devenir un supporter] ({0}).</value>
+  </data>
 </root>

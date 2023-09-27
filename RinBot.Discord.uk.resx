@@ -1125,4 +1125,7 @@
   <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
     <value>Мова сервера - Мова сервера {0}</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Щоб зменшити час охолодження, ви можете [стати прихильником]({0}).</value>
+  </data>
 </root>

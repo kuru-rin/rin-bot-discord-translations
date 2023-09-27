@@ -1184,4 +1184,7 @@ Es gibt `{1}` Server, die mit diesem Cluster verbunden sind.
   <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
     <value>Die Sprache des Servers - {0}</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Um diese Abklingzeit zu verkürzen, können Sie [Unterstützer werden]({0}).</value>
+  </data>
 </root>

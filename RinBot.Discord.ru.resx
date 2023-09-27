@@ -1184,4 +1184,7 @@
   <data name="Execute_Help_sba" xml:space="preserve">
     <value>Начните новый аудиораунд с помощью кнопок с несколькими вариантами ответов</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Чтобы сократить время действия, вы можете [стать сторонником]({0}).</value>
+  </data>
 </root>

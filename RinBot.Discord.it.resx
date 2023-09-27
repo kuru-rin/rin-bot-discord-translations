@@ -1184,4 +1184,7 @@ Se il problema persiste, chiedete aiuto a [il server di supporto]({0}).</value>
   <data name="Execute_Help_sbv" xml:space="preserve">
     <value>Avvio di un nuovo ciclo di video con pulsanti a scelta multipla</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Per ridurre il tempo di attesa, è possibile [diventare sostenitore]({0}).</value>
+  </data>
 </root>

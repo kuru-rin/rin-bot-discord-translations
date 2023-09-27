@@ -1183,4 +1183,7 @@ Do tego klastra podłączone są serwery `{1}` .
   <data name="Execute_Help_sba" xml:space="preserve">
     <value>Rozpocznij nową rundę audio z przyciskami wielokrotnego wyboru</value>
   </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Aby skrócić ten czas odnowienia, możesz [zostać wspierającym]({0}).</value>
+  </data>
 </root>
