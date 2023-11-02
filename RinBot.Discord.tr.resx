@@ -1127,4 +1127,49 @@ Bu kümeye bağlı `{1}` sunucuları vardır.
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>Bu bekleme süresini azaltmak için [destekçi olabilirsiniz]({0}).</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Tip(ler) dahil: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Tip(ler) hariç: **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>TV Dizileri</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Müzik videosu</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Görsel romanlar</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Video oyunları</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Anime karakterleri</value>
+  </data>
 </root>

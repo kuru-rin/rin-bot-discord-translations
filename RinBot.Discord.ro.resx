@@ -1128,4 +1128,49 @@ Vă rugăm să așteptați {0} înainte de a încerca din nou.</value>
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>Pentru a reduce această perioadă de răcire, poți [deveni un susținător]({0}).</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Cu excepția tipului (tipurilor): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>Serie TV</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Videoclipul muzical</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Altele</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Inclusiv tipul(ele): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Romane vizuale</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Jocuri video</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Personaje anime</value>
+  </data>
 </root>

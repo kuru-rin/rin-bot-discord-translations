@@ -1187,4 +1187,49 @@
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>Чтобы сократить время действия, вы можете [стать сторонником]({0}).</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Исключающий тип(ы): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>Телесериал</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Фильм</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Музыкальный клип</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Включая тип(ы): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Аниме</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Манга</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Визуальные новеллы</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Видеоигры</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Покемон</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Персонажи аниме</value>
+  </data>
 </root>

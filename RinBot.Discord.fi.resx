@@ -1187,4 +1187,49 @@ Jos ongelma jatkuu, pyydä apua [tukipalvelimelta] ({0}).</value>
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>Voit lyhentää tätä jäähdytysaikaa [ryhtymällä kannattajaksi]({0}).</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Lukuun ottamatta tyyppiä (tyyppejä): **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Mukaan lukien tyyppi(t): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>TV-sarja</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Elokuva</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Musiikkivideo</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Muut</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Visuaaliset romaanit</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Videopelit</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Anime-hahmot</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
 </root>

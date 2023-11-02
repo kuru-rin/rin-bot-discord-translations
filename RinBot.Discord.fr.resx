@@ -1187,4 +1187,49 @@ L'état actuel est **{0}**</value>
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>Pour réduire ce temps de recharge, vous pouvez [devenir un supporter] ({0}).</value>
   </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>Série TV</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Vidéo musicale</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Autres</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Y compris le(s) type(s) : **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Type(s) d'exclusion : **{0}**</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Romans visuels</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Jeux vidéo</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Personnages d'animation</value>
+  </data>
 </root>

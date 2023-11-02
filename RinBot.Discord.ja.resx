@@ -1187,4 +1187,49 @@
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>このクールダウンを短縮するには、【サポーターになる】({0})。</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>含まれるタイプ（複数可）：**{0}**</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>映画</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>ミュージック・ビデオ</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>タイプを除く：**{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>TVシリーズ</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>ウェブ</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>アニメ</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>アニメキャラクター</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>マンガ</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>ビジュアル・ノベル</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>ビデオゲーム</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>ポケモン</value>
+  </data>
 </root>

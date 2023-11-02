@@ -1186,4 +1186,49 @@ Do tego klastra podłączone są serwery `{1}` .
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>Aby skrócić ten czas odnowienia, możesz [zostać wspierającym]({0}).</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>W tym typ(y): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Wyłączając typ(y): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>Serial telewizyjny</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Teledysk</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Sieć</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Inne</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Postacie z anime</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Powieści wizualne</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Gry wideo</value>
+  </data>
 </root>

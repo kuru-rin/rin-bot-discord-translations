@@ -1187,4 +1187,49 @@ Det finns `{1}` servrar anslutna till detta kluster.
   <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
     <value>För att minska denna nedkylning kan du [bli en supporter]({0}).</value>
   </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Exkluderande typ(er): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>TV-serie</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Inkluderande typ(er): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Musikvideo</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Webb</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Andra</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Videospel</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Visuella romaner</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Anime-karaktärer</value>
+  </data>
 </root>
