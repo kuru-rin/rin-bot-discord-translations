@@ -1232,4 +1232,7 @@ If the problem persists, ask for assistance in [the support server]({0}).</value
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Anime characters</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Start a new manga round</value>
+  </data>
 </root>
