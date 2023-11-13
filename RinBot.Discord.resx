@@ -1235,4 +1235,17 @@ If the problem persists, ask for assistance in [the support server]({0}).</value
   <data name="Execute_Help_sgm" xml:space="preserve">
     <value>Start a new manga round</value>
   </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Anime types for the filter</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>You can combine them in a filter using a "," (comma). 
+Exclusions can be set using a "-" or "!" before the type.</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV Specials</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Types:</value>
+  </data>
 </root>
