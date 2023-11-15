@@ -1248,4 +1248,10 @@ Exclusions can be set using a "-" or "!" before the type.</value>
   <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
     <value>Types:</value>
   </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` manga rounds</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
 </root>
