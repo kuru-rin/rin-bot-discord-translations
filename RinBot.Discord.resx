@@ -1254,4 +1254,22 @@ Exclusions can be set using a "-" or "!" before the type.</value>
   <data name="SendStatistics_MangaCount" xml:space="preserve">
     <value>`{0}` manga</value>
   </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Distortion</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
 </root>
