@@ -1272,4 +1272,7 @@ Exclusions can be set using a "-" or "!" before the type.</value>
   <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
     <value>Rotation</value>
   </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Measure bot and discord latency </value>
+  </data>
 </root>
