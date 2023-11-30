@@ -1239,7 +1239,7 @@ If the problem persists, ask for assistance in [the support server]({0}).</value
     <value>Anime types for the filter</value>
   </data>
   <data name="Help_AnimeTypes_Description" xml:space="preserve">
-    <value>You can combine them in a filter using a "," (comma). 
+    <value>You can combine them in a filter using a "," (comma).  
 Exclusions can be set using a "-" or "!" before the type.</value>
   </data>
   <data name="AnimeTypes_TvSpecial" xml:space="preserve">
@@ -1273,6 +1273,6 @@ Exclusions can be set using a "-" or "!" before the type.</value>
     <value>Rotation</value>
   </data>
   <data name="Execute_Help_ping" xml:space="preserve">
-    <value>Measure bot and discord latency </value>
+    <value>Measure bot and discord latency</value>
   </data>
 </root>

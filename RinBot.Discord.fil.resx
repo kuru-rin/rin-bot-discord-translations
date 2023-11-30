@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
-    <value>Ang larong ito'y hindi masimulan dahil kulang ang kailangan. Simulan uli ang laro!</value>
+    <value>Ang larong ito'y hindi masimulan dahil kulang ang kailangan. Simulan uli ang laro.</value>
   </data>
   <data name="Player" xml:space="preserve">
     <value>Manlalaro</value>
