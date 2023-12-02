@@ -1173,4 +1173,47 @@ Si el problema persiste, pide ayuda en [el servidor de soporte]({0}).</value>
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Personajes de anime</value>
   </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Especiales de TV</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Tipos:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Al azar</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Trémolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Distorsión</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotación</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Iniciar una nueva ronda de manga</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Tipos de anime para el filtro</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Puede combinarlos en un filtro utilizando "," (coma).  
+Las exclusiones pueden establecerse utilizando un "-" o "!" antes del tipo.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Medir la latencia de bots y discordia</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` rondas manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

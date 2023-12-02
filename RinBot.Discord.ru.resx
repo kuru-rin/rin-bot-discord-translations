@@ -1232,4 +1232,47 @@
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Персонажи аниме</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Начните новый раунд манги</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Телевизионные спецвыпуски</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Типы:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` манга</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Случайный</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Вибрато</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Тремоло</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Искажение</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Вращение</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Виды аниме для фильтра</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Вы можете объединить их в фильтр с помощью "," (запятой).  
+Исключения можно задать с помощью знака "-" или "!" перед типом.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Измерьте время ожидания бота и раздора</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` манга-раунды</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Караоке</value>
+  </data>
 </root>

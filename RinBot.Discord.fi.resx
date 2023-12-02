@@ -1232,4 +1232,47 @@ Jos ongelma jatkuu, pyydä apua [tukipalvelimelta] ({0}).</value>
   <data name="MediaTypes_Anime" xml:space="preserve">
     <value>Anime</value>
   </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV-erikoisohjelmat</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Tyypit:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Satunnainen</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Särö</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Kierto</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Aloita uusi mangakierros</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Anime-tyypit suodatinta varten</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Voit yhdistää ne suodattimessa käyttämällä "," (pilkkua).  
+Poissulkemiset voidaan asettaa käyttämällä "-" tai "!" ennen tyyppiä.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Mittaa bottien ja erimielisyyksien viive</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` manga kierroksia</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

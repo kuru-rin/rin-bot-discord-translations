@@ -1172,4 +1172,47 @@ Bu kümeye bağlı `{1}` sunucuları vardır.
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Anime karakterleri</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Yeni bir manga turu başlat</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV Özel Programları</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Türleri:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Distorsiyon</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotasyon</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Rastgele</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Filtre için anime türleri</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>"," (virgül) kullanarak bunları bir filtrede birleştirebilirsiniz.  
+Dışlamalar, türden önce bir "-" veya "!" kullanılarak ayarlanabilir.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Bot ve uyumsuzluk gecikmesini ölçün</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` manga turları</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

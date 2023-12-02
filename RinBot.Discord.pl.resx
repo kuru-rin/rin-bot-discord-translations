@@ -1231,4 +1231,47 @@ Do tego klastra podłączone są serwery `{1}` .
   <data name="MediaTypes_VideoGame" xml:space="preserve">
     <value>Gry wideo</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Rozpocznij nową rundę mangi</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Specjalne programy telewizyjne</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Rodzaje:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Losowo</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Zniekształcenie</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotacja</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Typy anime dla filtra</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Można je łączyć w filtrze za pomocą "," (przecinka).  
+Wykluczenia można ustawić za pomocą znaku "-" lub "!" przed typem.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Pomiar opóźnienia bota i niezgody</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` rundy mangi</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

@@ -1232,4 +1232,47 @@ Du kan hjælpe med at forbedre dem eller endda tilføje flere sprog på [crowd t
   <data name="MediaTypes_Pokemon" xml:space="preserve">
     <value>Pokémon</value>
   </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV-specials</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Typer:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` Manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Tilfældig</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Forvrængning</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Start en ny manga-runde</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Anime-typer til filteret</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Du kan kombinere dem i et filter ved hjælp af et "," (komma).  
+Udelukkelser kan indstilles med et "-" eller "!" før typen.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Mål bot- og discord-forsinkelse</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` Manga-runder</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

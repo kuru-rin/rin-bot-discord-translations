@@ -1232,4 +1232,47 @@ Det finns `{1}` servrar anslutna till detta kluster.
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Anime-karaktärer</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Starta en ny mangaomgång</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV-specialerbjudanden</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Typer:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` Manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Slumpmässig</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Distorsion</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Anime-typer för filtret</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Du kan kombinera dem i ett filter med hjälp av "," (kommatecken).  
+Undantag kan anges med hjälp av "-" eller "!" före typen.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Mät bot- och discord-fördröjning</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` Manga-rundor</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

@@ -1232,4 +1232,47 @@ Er zijn `{1}` servers verbonden met dit cluster.
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Anime personages</value>
   </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV-specials</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Soorten:</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Willekeurig</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Vervorming</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotatie</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Begin een nieuwe mangaronde</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Kalksoorten voor het filter</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Meet bot en discord latentie</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` manga rondes</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Je kunt ze in een filter combineren met een "," (komma).  
+Uitsluitingen kunnen worden ingesteld met een "-" of "!" voor het type.</value>
+  </data>
 </root>

@@ -1173,4 +1173,47 @@ Vă rugăm să așteptați {0} înainte de a încerca din nou.</value>
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Personaje anime</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Începe o nouă rundă de manga</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Speciale TV</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Tipuri:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Aleatoriu</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Distorsiune</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotație</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Tipuri de anime pentru filtru</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Puteți să le combinați într-un filtru cu ajutorul unui "," (virgulă).  
+Excluderile pot fi setate folosind un "-" sau "!" înaintea tipului.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Măsurați latența botului și a discordiei</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` runde manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

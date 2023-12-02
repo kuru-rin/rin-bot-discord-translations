@@ -1232,4 +1232,47 @@ Es gibt `{1}` Server, die mit diesem Cluster verbunden sind.
   <data name="MediaTypes_Pokemon" xml:space="preserve">
     <value>Pokémon</value>
   </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Typen:</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV-Specials</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` Manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Zufällig</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Verzerrung</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Drehung</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Beginne eine neue Manga-Runde</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Anime-Typen für den Filter</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Sie können sie in einem Filter mit einem "," (Komma) kombinieren.  
+Ausschlüsse können mit einem "-" oder "!" vor dem Typ festgelegt werden.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Messung der Bot- und Diskord-Latenzzeit</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` Manga-Runden</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

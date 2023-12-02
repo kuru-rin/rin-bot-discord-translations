@@ -1232,4 +1232,47 @@ Ehhez a fürthöz `{1}` kiszolgálók vannak csatlakoztatva.
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Anime karakterek</value>
   </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV Specials</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Típusok:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Torzítás</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Forgatás</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Új manga kör indítása</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Anime típusok a szűrőhöz</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>A szűrőben a "," (vessző) segítségével kombinálhatja őket.  
+Kizárásokat a típus előtt egy "-" vagy "!" betűvel lehet beállítani.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>A bot és a diszharmónia késleltetésének mérése</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` manga körök</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
 </root>

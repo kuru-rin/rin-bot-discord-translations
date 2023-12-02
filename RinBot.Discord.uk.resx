@@ -1173,4 +1173,47 @@
   <data name="MediaTypes_Manga" xml:space="preserve">
     <value>Манга</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Почніть новий раунд манґи</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Типи аніме для фільтрації</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Спеціальні телепрограми</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Типи:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` манга</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Випадковість</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Вібрато</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Тремоло</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Спотворення</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Ротація</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Ви можете об'єднати їх у фільтрі за допомогою "," (кома).  
+Винятки можна встановити за допомогою "-" або "!" перед типом.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Виміряйте затримку ботів і розбіжностей</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` манга-раунди</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Караоке</value>
+  </data>
 </root>

@@ -1232,4 +1232,47 @@
   <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
     <value>Аниме герои</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Започнете нов кръг манга</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Специални телевизионни предавания</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Видове:</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` кръгове на мангата</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` манга</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Случаен</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Вибрато</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Тремоло</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Изкривяване</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Видове аниме за филтъра</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Можете да ги комбинирате във филтър, като използвате "," (запетая).  
+Изключенията могат да се задават с помощта на "-" или "!" преди типа.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Измерване на латентността на бота и раздора</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Караоке</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Завъртане</value>
+  </data>
 </root>

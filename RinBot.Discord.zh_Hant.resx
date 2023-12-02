@@ -1173,4 +1173,47 @@
   <data name="MediaTypes_Pokemon" xml:space="preserve">
     <value>神奇宝贝</value>
   </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>开始新一轮漫画创作</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>电视特辑</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` 漫画回合</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` 漫画</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>颤音</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>颤音</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>失真</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>卡拉 OK</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>随机</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>过滤器的动画类型</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>您可以使用","（逗号）将它们合并到一个过滤器中。  
+可以在类型前使用"-"或"！"设置排除项。</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>测量机器人和不和谐延迟</value>
+  </data>
 </root>

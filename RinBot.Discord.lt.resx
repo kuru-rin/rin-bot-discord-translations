@@ -1173,4 +1173,47 @@ Jei problema išlieka, kreipkitės pagalbos į [pagalbos serverį]({0}).</value>
   <data name="MediaTypes_Pokemon" xml:space="preserve">
     <value>Pokemonai</value>
   </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Specialūs televizijos laidų įrašai</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Tipai:</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Atsitiktinis</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Iškraipymas</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Sukimasis</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Pradėti naują manga raundą</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Filtro animacijos tipai</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Filtre juos galite sujungti naudodami "," (kablelį).  
+Išimtis galima nustatyti naudojant "-" arba "!" prieš tipą.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Matuokite botų ir nesutarimų vėlavimą</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` manga raundai</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaokė</value>
+  </data>
 </root>
