@@ -1275,4 +1275,7 @@ Exclusions can be set using a "-" or "!" before the type.</value>
   <data name="Execute_Help_ping" xml:space="preserve">
     <value>Measure bot and discord latency</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Last update</value>
+  </data>
 </root>
