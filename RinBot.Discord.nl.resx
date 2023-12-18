@@ -1275,4 +1275,7 @@ Er zijn `{1}` servers verbonden met dit cluster.
     <value>Je kunt ze in een filter combineren met een "," (komma).  
 Uitsluitingen kunnen worden ingesteld met een "-" of "!" voor het type.</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Laatste update</value>
+  </data>
 </root>
