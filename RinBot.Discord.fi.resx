@@ -1275,4 +1275,7 @@ Poissulkemiset voidaan asettaa käyttämällä "-" tai "!" ennen tyyppiä.</valu
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Viimeisin päivitys</value>
+  </data>
 </root>

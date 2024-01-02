@@ -1275,4 +1275,7 @@
   <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
     <value>Завъртане</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Последна актуализация</value>
+  </data>
 </root>

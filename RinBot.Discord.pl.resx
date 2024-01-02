@@ -1274,4 +1274,7 @@ Wykluczenia można ustawić za pomocą znaku "-" lub "!" przed typem.</value>
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Ostatnia aktualizacja</value>
+  </data>
 </root>

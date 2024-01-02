@@ -1216,4 +1216,7 @@ Išimtis galima nustatyti naudojant "-" arba "!" prieš tipą.</value>
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaokė</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Paskutinis atnaujinimas</value>
+  </data>
 </root>

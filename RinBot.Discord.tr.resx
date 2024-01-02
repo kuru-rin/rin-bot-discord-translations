@@ -1215,4 +1215,7 @@ Dışlamalar, türden önce bir "-" veya "!" kullanılarak ayarlanabilir.</value
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Son güncelleme</value>
+  </data>
 </root>

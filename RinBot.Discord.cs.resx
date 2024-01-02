@@ -1274,4 +1274,7 @@ Vyloučení lze nastavit pomocí znaku "-" nebo "!" před typem.</value>
   <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
     <value>Rotace</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Poslední aktualizace</value>
+  </data>
 </root>

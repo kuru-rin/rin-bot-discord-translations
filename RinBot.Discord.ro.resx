@@ -1216,4 +1216,7 @@ Excluderile pot fi setate folosind un "-" sau "!" înaintea tipului.</value>
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Ultima actualizare</value>
+  </data>
 </root>

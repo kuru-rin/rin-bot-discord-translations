@@ -1216,4 +1216,7 @@ As exclusões podem ser definidas utilizando um "-" ou "!" antes do tipo.</value
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Última atualização</value>
+  </data>
 </root>

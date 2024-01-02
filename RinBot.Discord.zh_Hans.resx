@@ -1216,4 +1216,7 @@
   <data name="Execute_Help_ping" xml:space="preserve">
     <value>测量机器人和不和谐延迟</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>最后更新</value>
+  </data>
 </root>

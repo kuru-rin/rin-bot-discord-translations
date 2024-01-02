@@ -1216,4 +1216,7 @@
   <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
     <value>트레몰로</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>마지막 업데이트</value>
+  </data>
 </root>

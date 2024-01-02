@@ -1216,4 +1216,7 @@ Utelukkelser kan angis ved hjelp av "-" eller "!" foran typen.</value>
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Siste oppdatering</value>
+  </data>
 </root>

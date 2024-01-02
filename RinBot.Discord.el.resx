@@ -1275,4 +1275,7 @@
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Καραόκε</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Τελευταία ενημέρωση</value>
+  </data>
 </root>

@@ -1216,4 +1216,7 @@
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Караоке</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Останнє оновлення</value>
+  </data>
 </root>

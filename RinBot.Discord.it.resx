@@ -1275,4 +1275,7 @@ Le esclusioni possono essere impostate utilizzando un "-" o un "!" prima del tip
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Ultimo aggiornamento</value>
+  </data>
 </root>

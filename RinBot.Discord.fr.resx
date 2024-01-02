@@ -1275,4 +1275,7 @@ Les exclusions peuvent être définies en utilisant un "-" ou un " !" avant le t
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoké</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Dernière mise à jour</value>
+  </data>
 </root>

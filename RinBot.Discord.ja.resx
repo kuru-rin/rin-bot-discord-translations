@@ -1275,4 +1275,7 @@
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>カラオケ</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>最終更新日</value>
+  </data>
 </root>

@@ -1275,4 +1275,7 @@ Kizárásokat a típus előtt egy "-" vagy "!" betűvel lehet beállítani.</val
   <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
     <value>Karaoke</value>
   </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Utolsó frissítés</value>
+  </data>
 </root>
