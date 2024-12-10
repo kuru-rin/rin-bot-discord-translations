@@ -1094,4 +1094,173 @@
   <data name="AddTopPlayerDescription_Year" xml:space="preserve">
     <value>من السنة {0}</value>
   </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>باستثناء المنصة (المنصات) **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>جولات ألعاب الفيديو `{{0}}`</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{{0}}` ألعاب الفيديو</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>جولات ألعاب الفيديو</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>جولات الأنيمي</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>عرض جميع أنواع الألعاب الممكنة</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>اللاعب</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>جنس الشخصية: **{0}**</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>الذكور</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>بما في ذلك أدوار الشخصيات: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>باستثناء أدوار الشخصيات: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>لا توجد قطرات</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>بما في ذلك النوع: **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>مسلسل تلفزيوني</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>فيلم</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>فيديو موسيقي</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>الويب</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>أخرى</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>باستثناء النوع المستثناة: **{0}**</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>عذرًا، كان ذلك **{0}**، وهو أمر غير صحيح.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>ابدأ جولة تخمين صورة عكسية جديدة</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>لا توجد تلميحات</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>الحياة: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>ابدأ جولة صوتية جديدة بأزرار الاختيار من متعدد</value>
+  </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>لتقليل فترة التهدئة هذه، يمكنك [أن تصبح مؤيدًا]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>ابدأ جولة مانغا جديدة</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>أنواع الرسوم المتحركة للمرشح</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>العروض التلفزيونية الخاصة</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>الأنواع:</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>الروايات المرئية</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>شخصيات الأنيمي</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>الأنيمي</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>مانغا</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>ألعاب الفيديو</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>بوكيمون</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>مانجا `{0}`</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>جولات المانجا `{0}`</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>كاريوكي</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>تشويه</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>التناوب</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>الذبذبات</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>يمكنك دمجها في عامل تصفية باستخدام "," (فاصلة).  
+يمكن تعيين الاستثناءات باستخدام " -" أو "!" قبل النوع.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>قياس كمون الروبوت والخلاف</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>عشوائي</value>
+  </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>آخر تحديث</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}، لقد خمنت "{1}" أو ما شابه ذلك كثيرًا. سأتجاهلها لفترة من الوقت.</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>ابدأ جولة بوكيمون جديدة</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>عرض جميع منصات الألعاب الممكنة</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>الكثير من التخمينات الخاطئة</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>تريمولو</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>تغيير مستوى الصعوبة الافتراضي</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>ابدأ جولة فيديو جديدة بأزرار الاختيار من متعدد</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>لغة الخادم - {0}</value>
+  </data>
 </root>
