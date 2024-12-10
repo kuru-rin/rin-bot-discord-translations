@@ -1263,4 +1263,19 @@
   <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
     <value>لغة الخادم - {0}</value>
   </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>بما في ذلك الأصول: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>حاول الآن تخمين شخصية من الأنمي بشكل صحيح لتحصل على **{0} نقطة أخرى**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>ابدأ جولة اقتباس شخصية أنيمي جديدة</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>باستثناء الأصول: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>بما في ذلك المنصة (المنصات) **{0}**</value>
+  </data>
 </root>
