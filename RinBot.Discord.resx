@@ -1278,4 +1278,7 @@ Exclusions can be set using a "-" or "!" before the type.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Last update</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Allowing multiple winners</value>
+  </data>
 </root>
