@@ -1278,4 +1278,7 @@ Undantag kan anges med hjälp av "-" eller "!" före typen.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Senaste uppdatering</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Tillåtande av flera vinnare</value>
+  </data>
 </root>

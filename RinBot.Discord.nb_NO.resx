@@ -1219,4 +1219,7 @@ Utelukkelser kan angis ved hjelp av "-" eller "!" foran typen.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Siste oppdatering</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Tillater flere vinnere</value>
+  </data>
 </root>

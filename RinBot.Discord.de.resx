@@ -1278,4 +1278,7 @@ Ausschlüsse können mit einem "-" oder "!" vor dem Typ festgelegt werden.</valu
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Letzte Aktualisierung</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Mehrere Gewinner zulassen</value>
+  </data>
 </root>

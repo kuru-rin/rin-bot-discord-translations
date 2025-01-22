@@ -1278,4 +1278,7 @@ Les exclusions peuvent être définies en utilisant un "-" ou un " !" avant le t
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Dernière mise à jour</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Permettre à plusieurs personnes de gagner</value>
+  </data>
 </root>

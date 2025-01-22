@@ -1278,4 +1278,7 @@
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>最終更新日</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>複数の入賞者を認める</value>
+  </data>
 </root>

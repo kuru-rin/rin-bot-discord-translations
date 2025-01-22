@@ -1277,4 +1277,7 @@ Wykluczenia można ustawić za pomocą znaku "-" lub "!" przed typem.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Ostatnia aktualizacja</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Dopuszczenie wielu zwycięzców</value>
+  </data>
 </root>

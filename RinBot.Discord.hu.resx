@@ -1278,4 +1278,7 @@ Kizárásokat a típus előtt egy "-" vagy "!" betűvel lehet beállítani.</val
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Utolsó frissítés</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Több nyertes engedélyezése</value>
+  </data>
 </root>

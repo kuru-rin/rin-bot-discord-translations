@@ -1277,4 +1277,7 @@ Vyloučení lze nastavit pomocí znaku "-" nebo "!" před typem.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Poslední aktualizace</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Povolení více výherců</value>
+  </data>
 </root>

@@ -1219,4 +1219,7 @@ Išimtis galima nustatyti naudojant "-" arba "!" prieš tipą.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Paskutinis atnaujinimas</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Leidimas keliems laimėtojams</value>
+  </data>
 </root>

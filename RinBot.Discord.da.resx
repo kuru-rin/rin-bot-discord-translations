@@ -1278,4 +1278,7 @@ Udelukkelser kan indstilles med et "-" eller "!" før typen.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Sidste opdatering</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Tillader flere vindere</value>
+  </data>
 </root>

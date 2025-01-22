@@ -1219,4 +1219,7 @@ Excluderile pot fi setate folosind un "-" sau "!" înaintea tipului.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Ultima actualizare</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Permiterea câștigătorilor multipli</value>
+  </data>
 </root>

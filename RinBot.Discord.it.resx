@@ -1278,4 +1278,7 @@ Le esclusioni possono essere impostate utilizzando un "-" o un "!" prima del tip
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Ultimo aggiornamento</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Consentire la partecipazione di più vincitori</value>
+  </data>
 </root>

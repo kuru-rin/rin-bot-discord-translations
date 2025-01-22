@@ -1219,4 +1219,7 @@
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>마지막 업데이트</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>복수 당첨자 허용</value>
+  </data>
 </root>

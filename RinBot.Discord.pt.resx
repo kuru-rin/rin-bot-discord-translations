@@ -1219,4 +1219,7 @@ As exclusões podem ser definidas utilizando um "-" ou "!" antes do tipo.</value
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Última atualização</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Permitir vários vencedores</value>
+  </data>
 </root>

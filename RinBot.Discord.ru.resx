@@ -1278,4 +1278,7 @@
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Последнее обновление</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Разрешение на несколько победителей</value>
+  </data>
 </root>

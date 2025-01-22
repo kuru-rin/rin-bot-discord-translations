@@ -1278,4 +1278,7 @@ Pengecualian dapat diatur dengan menggunakan "-" atau "!" sebelum jenis.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Pembaruan terakhir</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Mengizinkan beberapa pemenang</value>
+  </data>
 </root>

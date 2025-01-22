@@ -1218,4 +1218,7 @@ Dışlamalar, türden önce bir "-" veya "!" kullanılarak ayarlanabilir.</value
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Son güncelleme</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Birden fazla kazanana izin verme</value>
+  </data>
 </root>

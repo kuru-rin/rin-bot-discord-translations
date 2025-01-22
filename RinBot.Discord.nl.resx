@@ -1278,4 +1278,7 @@ Uitsluitingen kunnen worden ingesteld met een "-" of "!" voor het type.</value>
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>Laatste update</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Meerdere winnaars toestaan</value>
+  </data>
 </root>
