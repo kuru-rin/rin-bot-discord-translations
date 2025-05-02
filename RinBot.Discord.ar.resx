@@ -1278,4 +1278,7 @@
   <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
     <value>بما في ذلك المنصة (المنصات) **{0}**</value>
   </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>السماح بتعدد الفائزين</value>
+  </data>
 </root>
