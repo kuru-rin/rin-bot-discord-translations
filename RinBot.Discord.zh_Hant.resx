@@ -248,7 +248,7 @@
     <value>__所有時間__</value>
   </data>
   <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
-    <value>由於未找到符合條件，該回合被取消。請嘗試使用限制較少的篩選項開始新一輪。</value>
+    <value>由於未找到符合條件，該回合被取消。請嘗試使用限制較少的篩選條件開始新一輪。</value>
   </data>
   <data name="HandleCapture_Cap" xml:space="preserve">
     <value>截取</value>
@@ -263,7 +263,7 @@
     <value>包含產地：**{0}**</value>
   </data>
   <data name="Update_Title" xml:space="preserve">
-    <value>題目篩選項已變更</value>
+    <value>題目篩選條件已變更</value>
   </data>
   <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
     <value>不包括平台：**{0}**</value>
@@ -317,7 +317,7 @@
     <value>`{0}` 部視覺小說</value>
   </data>
   <data name="SessionCancelled_Description" xml:space="preserve">
-    <value>這個篩選項的配額可能用完了，請試試其他的。</value>
+    <value>這個篩選條件的配額可能用完了，請試試其他的。</value>
   </data>
   <data name="SessionCancelled_Title" xml:space="preserve">
     <value>比賽已取消</value>
@@ -404,7 +404,7 @@
     <value>女</value>
   </data>
   <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
-    <value>包含人物角色：**{0}**</value>
+    <value>包含角色身分：**{0}**</value>
   </data>
   <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
     <value>無掉落</value>
@@ -458,7 +458,7 @@
     <value>角色性别：**{0}**</value>
   </data>
   <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
-    <value>不包含人物角色：**{0}**</value>
+    <value>不包含角色身分：**{0}**</value>
   </data>
   <data name="CreateFilterDescription_NoHints" xml:space="preserve">
     <value>無提示</value>
@@ -668,10 +668,10 @@
     <value>`{0}` 個伺服器</value>
   </data>
   <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
-    <value>地獄難度不能與其他篩選項一起使用</value>
+    <value>地獄難度不能與其他篩選條件一起使用</value>
   </data>
   <data name="NsfwMode_Disabled" xml:space="preserve">
-    <value>頻道必須設置為 限制級頻道 才能使用此篩選項。</value>
+    <value>頻道必須設置為 限制級頻道 才能使用此篩選條件。</value>
   </data>
   <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
     <value>結束年份必須 ≤ 今年</value>
@@ -686,13 +686,13 @@
     <value>結束年份必須 ≥ 起始年份</value>
   </data>
   <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
-    <value>歌曲類型篩選項只能用於聲音題</value>
+    <value>歌曲類型篩選條件只能用於聲音題</value>
   </data>
   <data name="GenreNotAvailable" xml:space="preserve">
     <value>此類型不可用</value>
   </data>
   <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
-    <value>動畫清單篩選項僅適用於動畫題和動畫角色題</value>
+    <value>動畫清單篩選條件僅適用於動畫題和動畫角色題</value>
   </data>
   <data name="Execute_Help_Title" xml:space="preserve">
     <value>RinBot 指令列表</value>
@@ -820,7 +820,7 @@
   <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
     <value>比賽即將自動開始。
 
-若要更改篩選項，只需再次使用`{0}sgs` 。要跳過一題，請使用`{0}stopg` ，要取消整場比賽，請使用`{0}stopgs` 。</value>
+若要更改篩選條件，只需再次使用`{0}sgs` 。要跳過一題，請使用`{0}stopg` ，要取消整場比賽，請使用`{0}stopgs` 。</value>
   </data>
   <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
     <value>已在**{0}**頻道中開始一局聲音題遊戲</value>
@@ -898,7 +898,7 @@
     <value>該功能目前僅在開發版本提供。</value>
   </data>
   <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
-    <value>您可以通過組合操作和篩選器來創建查詢。
+    <value>您可以通過組合操作符和篩選條件來創建查詢。
 
 例如：`{0}sg n:5 d:3 y:1995-2005` 開始一局 5 題困難難度、作品年代在 1995 年至 2005 年間的動畫題遊戲。</value>
   </data>
@@ -1030,7 +1030,7 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
 如果問題仍然存在，請向[支援伺服器]({0})尋求協助。</value>
   </data>
   <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
-    <value>您現在可以開始使用`{0}:{1}`篩選項。</value>
+    <value>您現在可以開始使用`{0}:{1}`篩選條件。</value>
   </data>
   <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
     <value>使用者 {0} 的同步狀態 '{1}'</value>
@@ -1072,7 +1072,7 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
     <value>停止該伺服器上的所有遊戲</value>
   </data>
   <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
-    <value>無法建立新遊戲，請嘗試使用`{0}stopg` 或`{0}stopgs`或其他篩選器。</value>
+    <value>無法建立新遊戲，請嘗試使用`{0}stopg` 或`{0}stopgs`或其他篩選條件。</value>
   </data>
   <data name="CreateFilterDescription_Samples" xml:space="preserve">
     <value>**{0} 秒的樣本**</value>
@@ -1084,7 +1084,7 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
     <value>出現了以下驗證問題：</value>
   </data>
   <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
-    <value>無效的篩選項</value>
+    <value>無效的篩選條件</value>
   </data>
   <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
     <value>音訊處理：**{0}**</value>
@@ -1129,7 +1129,7 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
     <value>想要縮短冷卻時間，你可以[成為支持者]({0})。</value>
   </data>
   <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
-    <value>不包含類型：**{0}**</value>
+    <value>不包含作品形式：**{0}**</value>
   </data>
   <data name="AnimeTypes_TvSeries" xml:space="preserve">
     <value>電視系列</value>
@@ -1153,7 +1153,7 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
     <value>-</value>
   </data>
   <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
-    <value>包含類型：**{0}**</value>
+    <value>包含作品形式：**{0}**</value>
   </data>
   <data name="MediaTypes_VideoGame" xml:space="preserve">
     <value>電子遊戲</value>
@@ -1207,10 +1207,10 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
     <value>隨機</value>
   </data>
   <data name="Help_AnimeTypes_Title" xml:space="preserve">
-    <value>動畫類型篩選項</value>
+    <value>動畫類型篩選條件</value>
   </data>
   <data name="Help_AnimeTypes_Description" xml:space="preserve">
-    <value>你可以使用 ","（逗號）來組合多個條件作為篩選項。
+    <value>你可以使用 ","（逗號）來組合多個條件作為篩選條件。
 若要排除某個類型，可在類型前加上 "-" 或 "!" 符號。</value>
   </data>
   <data name="Execute_Help_ping" xml:space="preserve">
