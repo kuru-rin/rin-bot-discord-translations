@@ -83,7 +83,7 @@
     <value>`{0}` 成就分</value>
   </data>
   <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
-    <value>‎替代標題‎</value>
+    <value>‎其他標題‎</value>
   </data>
   <data name="Player" xml:space="preserve">
     <value>玩家</value>
@@ -98,7 +98,7 @@
     <value>‎我很抱歉打斷了你的遊戲，但我需要重新啟動，為您提供閃亮的新功能！</value>
   </data>
   <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
-    <value>**還剩 {0} 秒**</value>
+    <value>**還剩下 {0} 秒**</value>
   </data>
   <data name="HandleCapture_Hint" xml:space="preserve">
     <value>提示</value>
@@ -119,13 +119,13 @@
     <value>**沒有人猜中答案**</value>
   </data>
   <data name="FinishRound_PointGained" xml:space="preserve">
-    <value>獲得 **{0}分**</value>
+    <value>獲得了 **{0}分**</value>
   </data>
   <data name="FinishRound_YourGuess" xml:space="preserve">
-    <value>玩家: **{0}**</value>
+    <value>答案：**{0}**</value>
   </data>
   <data name="FinishRound_YourTime" xml:space="preserve">
-    <value>時間:**{0}**</value>
+    <value>**時間：**{0}**</value>
   </data>
   <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
     <value>必須在這個頻道上啟用 限制級頻道，才能使用這個機器人。</value>
@@ -182,10 +182,10 @@
     <value>{0}，您今天已經開始了太多場遊戲。成為贊助者以提高限額 (https://patreon.com/rinbot?fan_landing=true)</value>
   </data>
   <data name="StartGame_OnlyForPatrons" xml:space="preserve">
-    <value>{0}，該指令僅適用於贊助者 (https://patreon.com/rinbot?fan_landing=true)</value>
+    <value>{0}，該指令僅限贊助者使用 (https://patreon.com/rinbot?fan_landing=true)</value>
   </data>
   <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
-    <value>{0}現在是等級 {1}</value>
+    <value>{0} 現在是等級 {1}</value>
   </data>
   <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
     <value>並獲得了 {0} 分！</value>
@@ -236,10 +236,10 @@
     <value>**在__{0}__中的最佳玩家**</value>
   </data>
   <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
-    <value>讓RinBot無止境活下去！</value>
+    <value>讓 RinBot 無止境活下去！</value>
   </data>
   <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
-    <value>[成為贊助者]({1})，[送我一杯咖啡]({2})或參與[每日投票]({0}/#support)!</value>
+    <value>[成為贊助者]({1})，[送我一杯咖啡]({2})或參與[每日投票]({0}/#support)！</value>
   </data>
   <data name="SendMyScore_RoundPoints" xml:space="preserve">
     <value>`{0}` 回合分</value>
@@ -248,10 +248,10 @@
     <value>__所有時間__</value>
   </data>
   <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
-    <value>由於未找到符合條件，該回合被取消。請嘗試使用限制較少的篩選條件開始新一輪。</value>
+    <value>由於未找到可用的擷取，該回合被取消。請嘗試使用限制較少的篩選條件開始新的一輪。</value>
   </data>
   <data name="HandleCapture_Cap" xml:space="preserve">
-    <value>截取</value>
+    <value>擷取</value>
   </data>
   <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
     <value>`{0}` 回合電子遊戲題</value>
@@ -317,7 +317,7 @@
     <value>`{0}` 部視覺小說</value>
   </data>
   <data name="SessionCancelled_Description" xml:space="preserve">
-    <value>這個篩選條件的配額可能用完了，請試試其他的。</value>
+    <value>這個篩選條件的截圖或聲音片段可能用完了，請試試其他的。</value>
   </data>
   <data name="SessionCancelled_Title" xml:space="preserve">
     <value>比賽已取消</value>
@@ -335,13 +335,13 @@
     <value>`{0}` 回合地獄難度</value>
   </data>
   <data name="SendStatistics_EverythingRounds" xml:space="preserve">
-    <value>`{0}` 回合無難度</value>
+    <value>`{0}` 回合無特定難度</value>
   </data>
   <data name="SendStatistics_Description" xml:space="preserve">
-    <value>目前執行於分片（shard）`{0}`，所屬叢集（cluster）為`{3}`。
+    <value>目前您的伺服器所屬分片（shard）為`{0}`，叢集（cluster）為`{3}`。
 
-此叢集目前連接的伺服器數量為 `{1}`。
-當前執行中的回合數為 `{2}`。</value>
+此叢集目前連接的伺服器數量為`{1}`。
+當前執行中的回合數為`{2}`。</value>
   </data>
   <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
     <value>這是哪一部動畫？</value>
@@ -356,7 +356,7 @@
     <value>作品類型：**{0}**</value>
   </data>
   <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
-    <value>只計算總人數超過 1000 人的回合</value>
+    <value>只計算動畫池中作品數超過 1000 部的回合</value>
   </data>
   <data name="Execute_Help_stopg" xml:space="preserve">
     <value>停止當前回合</value>
@@ -638,7 +638,7 @@
   </data>
   <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
     <value>本頻道的自定義排行榜已結束。
-您現在可以使用`{0}resetctop` 重新設置。</value>
+您現在可以使用`{0}resetctop`重新設置。</value>
   </data>
   <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
     <value>沒有啟用中的自定義排行榜。
@@ -948,13 +948,13 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
 目前支援以下語言：
 {2}
 
-您可以在[開源翻譯網站]({5})上幫助改善翻譯，甚至新增更多語言。</value>
+您可以在[開源翻譯網站]({5})上幫忙改善翻譯，甚至新增更多語言。</value>
   </data>
   <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
     <value>不支援語言代碼`{0}` 。</value>
   </data>
   <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
-    <value>更改語言</value>
+    <value>變更語言</value>
   </data>
   <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
     <value>語言已更改為`{0}` 。</value>
@@ -996,11 +996,11 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
     <value>正在同步使用者 '{1}' 的 {0} 清單</value>
   </data>
   <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
-    <value>該清單已經在同步中。
-當前狀態為**{0}**</value>
+    <value>該清單已在同步中。
+當前狀態為 **{0}**</value>
   </data>
   <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
-    <value>已排入列隊</value>
+    <value>已排入佇列</value>
   </data>
   <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
     <value>已完成</value>
@@ -1013,36 +1013,36 @@ aggr: - 使用動漫清單時的整合方式：合併全部 `aggr:union`，交�
 請等待 {0} 後再試一次。</value>
   </data>
   <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
-    <value>同步已排程給 {0} 用戶 '{1}'</value>
+    <value>已將使用者 '{1}' 的 {0} 清單同步排入佇列</value>
   </data>
   <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
     <value>一次只能排程一個同步作業。</value>
   </data>
   <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
-    <value>每 15 分鐘只能排程一次同步工作。</value>
+    <value>每 15 分鐘內只能排程一次同步作業。</value>
   </data>
   <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
-    <value>現在的狀態是**{0}** 。</value>
+    <value>目前狀態是 **{0}**。</value>
   </data>
   <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
-    <value>確保您提供了正確的使用者名稱，並確保您的清單是__可公開存取的__ 。
+    <value>請確保您提供了正確的使用者名稱，並確保您的清單是__可公開存取的__。
 
 如果問題仍然存在，請向[支援伺服器]({0})尋求協助。</value>
   </data>
   <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
-    <value>您現在可以開始使用`{0}:{1}`篩選條件。</value>
+    <value>您現在可以開始使用`{0}:{1}`做為篩選條件。</value>
   </data>
   <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
-    <value>使用者 {0} 的同步狀態 '{1}'</value>
+    <value>使用者 '{1}' 的 {0} 清單同步狀態</value>
   </data>
   <data name="AnimeListSyncState_Failed" xml:space="preserve">
-    <value>失敗</value>
+    <value>同步失敗</value>
   </data>
   <data name="AnimeListSyncState_Deleted" xml:space="preserve">
     <value>已刪除</value>
   </data>
   <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
-    <value>已取消</value>
+    <value>同步已取消</value>
   </data>
   <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
     <value>已排程</value>
