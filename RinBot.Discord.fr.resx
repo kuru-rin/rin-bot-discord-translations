@@ -295,7 +295,7 @@ Pour augmenter cette limite, vous pouvez aider en [devenant mon Patreon]({1}) 
     <value>Je suis désolé d'interrompre votre partie, mais je dois redémarrer pour vous donner mes toutes nouvelles fonctions !</value>
   </data>
   <data name="InterruptAllGames_Title" xml:space="preserve">
-    <value>:warning:**Redémarrage**</value>
+    <value>:warning:  **Redémarrage**</value>
   </data>
   <data name="FinishRound_NoWinner" xml:space="preserve">
     <value>**Personne n'a trouvé la réponse**</value>
@@ -319,7 +319,7 @@ Pour augmenter cette limite, vous pouvez aider en [devenant mon Patreon]({1}) 
     <value>**Il vous reste {0} secondes pour deviner!**</value>
   </data>
   <data name="InterruptAllGames_Description2" xml:space="preserve">
-    <value>Vous pouvez recommencer une nouvelle partie dans quelques minutes.</value>
+    <value>Vous pouvez lancer une nouvelle partie dans quelques minutes.</value>
   </data>
   <data name="Player" xml:space="preserve">
     <value>Joueur</value>
