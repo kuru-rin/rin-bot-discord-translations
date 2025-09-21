@@ -1086,10 +1086,10 @@ L'état actuel est **{0}**</value>
     <value>Difficulté en fonction de vos points</value>
   </data>
   <data name="SendStatistics_ThemesCount" xml:space="preserve">
-    <value>`{0}` thèmes</value>
+    <value>`{0}` thèmes</value>
   </data>
   <data name="SendStatistics_CharactersCount" xml:space="preserve">
-    <value>`{0}` caractères</value>
+    <value>`{0}` Personnages</value>
   </data>
   <data name="AddTopPlayerDescription_Year" xml:space="preserve">
     <value>de l'année {0}</value>
@@ -1110,13 +1110,13 @@ L'état actuel est **{0}**</value>
     <value>Hors plate-forme(s) **{0}**</value>
   </data>
   <data name="SendHelp_AnimeRounds" xml:space="preserve">
-    <value>Rondes d'anime</value>
+    <value>Manches d'anime</value>
   </data>
   <data name="CharacterGender_Male" xml:space="preserve">
     <value>Homme</value>
   </data>
   <data name="SendHelp_GameRounds" xml:space="preserve">
-    <value>Rondes de jeux vidéo</value>
+    <value>Manches de jeux vidéo</value>
   </data>
   <data name="TooManyWrongGuesses_Title" xml:space="preserve">
     <value>Trop de mauvaises réponses</value>
@@ -1128,7 +1128,7 @@ L'état actuel est **{0}**</value>
     <value>Sexe du personnage : **{0}**</value>
   </data>
   <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
-    <value>Pas de gouttes</value>
+    <value>Pas de drops</value>
   </data>
   <data name="Execute_Help_sba" xml:space="preserve">
     <value>Commencer un nouveau tour audio avec des boutons à choix multiples</value>
