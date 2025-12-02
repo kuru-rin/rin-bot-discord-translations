@@ -165,4 +165,1118 @@
   <data name="InterruptAllGames_Description" xml:space="preserve">
     <value>ฉันขอโทษที่ขัดจังหวะเกมของคุณ แต่ฉันต้องรีสตาร์ทตัวเองเพื่อมอบฟีเจอร์ใหม่ให้กับคุณ!</value>
   </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>ไม่พบผู้เล่น</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>จากประเภท**{0}**</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>ความสำเร็จ</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**ผู้เล่นที่เร็วที่สุดใน __{0}__**</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>สัปดาห์{0}</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__เซิร์ฟเวอร์__</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` ฝันร้ายวนเวียน</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>ไม่สามารถเริ่มเกมด้วยตนเองได้เมื่อรอบเสียงกำลังทำงานอยู่
+เพื่อหยุดรอบเสียง คุณสามารถใช้คำสั่ง`{0}stopgs`.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>ตัวกรองเซสชันแบบหมุนเปลี่ยนแล้ว</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>ไม่รวมแพลตฟอร์ม**{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` รอบเกมวิดีโอ</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>เริ่มรอบการร้องใหม่พร้อมตัวอย่างและปุ่มตัวเลือกหลายตัวเลือก</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>คำสั่งแบบสแลชพร้อมใช้งานแล้ว!</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[สนับสนุนเรา]({1}), [ซื้อกาแฟให้ฉัน]({2}) หรือ [โหวตทุกวัน]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>ช่วยกันรักษา RinBot ให้อยู่รอด!</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>รอบนี้ถูกยกเลิกเนื่องจากไม่มีการจับภาพที่ครบถ้วน กรุณาลองเล่นรอบใหม่โดยใช้ฟิลเตอร์ที่จำกัดน้อยลง</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>อันดับ{0}</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>ขีดจำกัด</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>ชื่อเรื่องทางเลือก</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` คะแนนความสำเร็จ</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__ตลอดเวลา__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>ทั่วโลก</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` ปลายกลม</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>เยี่ยมชม [หน้าโปรไฟล์ของคุณ]({1}/profile/{2}) เพื่อดูสถิติทั่วโลก</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>คุณสามารถมีได้สูงสุด`{0}` รอบต่อเซสชั่น</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>เกินจำนวนรอบสูงสุดที่อนุญาตสำหรับเซสชัน</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>เพื่อเพิ่มขีดจำกัดนี้ คุณสามารถ [เป็นผู้สนับสนุน]({0})</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>คุณสมบัตินี้สามารถใช้งานได้เฉพาะในเวอร์ชันเบต้าเท่านั้น</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>คุณสมบัตินี้สามารถใช้งานได้เฉพาะในโหมดการพัฒนาเท่านั้น</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>คำสั่งนี้มีให้เฉพาะสมาชิกเท่านั้น ดู [หน้านี้]({0}) เพื่อดูวิธีการสมัครสมาชิก
+</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>การปรับแต่งภาพ:**{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>กลับด้าน</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>จังหวะเร็วขึ้น</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>พิกเซลแตก</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>สีกลับด้าน</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>เกรย์สเกล</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>ทาสีน้ำมัน</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>พลิกกลับ</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>การปรับแต่งเสียง:**{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>ประเภทเพลงต้องเป็น:{0}</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>ตรวจสอบ [สถิติการแปล]({0}) เพื่อดูรายชื่อทุกคนที่มีส่วนร่วม!</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>รายการนี้กำลังถูกซิงโครไนซ์อยู่แล้ว
+สถานะปัจจุบันคือ**{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>คิวรอ</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>คุณให้ชื่อผู้ใช้ไม่ถูกต้อง</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>รายการนี้ได้รับการซิงโครไนซ์เมื่อเร็วๆ นี้
+กรุณารอ{0} ก่อนลองอีกครั้ง</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>การซิงโครไนซ์คิวสำหรับผู้ใช้{0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>คุณจะได้รับการอัปเดตสถานะในข้อความโดยตรง</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>คุณสามารถจัดคิวงานซิงโครไนซ์ได้เพียงงานเดียวในแต่ละครั้ง</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>คุณสามารถเริ่มใช้ตัวกรอง`{0} ได้แล้ว:{1}`</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>สถานะการซิงโครไนซ์สำหรับผู้ใช้{0} '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>ล้มเหลว</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>ถูกลบ</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>สิทธิ์ไม่ได้รับการตั้งค่าอย่างถูกต้องเพื่อเริ่มรอบเสียงใน '{0}'</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>คุณต้องให้สิทธิ์ฉันอย่างน้อยดังนี้:**ดูช่อง**,**เชื่อมต่อ** และ**พูด** สำหรับช่องนั้น</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>บังคับให้มีการอัปเดตข้อมูลของเซิร์ฟเวอร์นี้ (ช่อง, บทบาท และอื่นๆ)</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` ธีม</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` ตัวอักษร</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` รอบ</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` รอบง่าย</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` จุด</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>เริ่มเซสชั่นด้วย{0} รอบ</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>โดย</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>เพลง</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>ประเภท</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star:{0} ต้องการคุณ!</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>ไม่สามารถสร้างเซสชันใหม่ได้ กรุณาลองใช้`{0}stopg` หรือ`{0}stopgs` หรือฟิลเตอร์อื่น</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**รายการใน{1} ยังไม่ได้รับการซิงค์ กรุณาใช้คำสั่ง`sync` เพื่อซิงโครไนซ์รายการก่อน</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>ตั้งแต่สัปดาห์ที่แล้ว</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**ผู้เล่นชั้นนำใน __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>ฉันกำลังอยู่ในช่วงบำรุงรักษา กรุณาลองใหม่อีกครั้งเร็วๆ นี้!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: การบำรุงรักษา****</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, มีรอบกำลังดำเนินอยู่ ใช้`{1}stopg` เพื่อหยุดมัน</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}ขณะนี้มีการเตรียมรอบมากเกินไป กรุณาลองใหม่อีกครั้งในภายหลัง</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, ฉันไม่เข้าใจพารามิเตอร์</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}คุณไม่สามารถใช้คำสั่ง`{2}stopg` ได้มากกว่าหนึ่งครั้งทุก ๆ{1} นาที</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}ขณะนี้ไม่มีการแข่งขันกำลังดำเนินอยู่ คุณสามารถเริ่มการแข่งขันได้โดยใช้`{1}sg`</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>คุณจะได้รับคะแนนน้อยลงสำหรับรอบที่มีความยากต่ำกว่า**{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} ได้รับความสำเร็จนี้</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}'s รายการความสำเร็จ</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>และได้รับคะแนน{0}!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} ตอนนี้อยู่ที่ระดับ{1}</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}คำสั่งนี้สามารถใช้ได้เฉพาะสำหรับผู้สนับสนุน (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}คุณเริ่มเกมมากเกินไปในวันนี้. กลายเป็นผู้สนับสนุนเพื่อเพิ่มขีดจำกัดนี้ (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}คุณมีรอบที่กำลังดำเนินอยู่ ณ ที่อื่นแล้ว</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>ต้องเปิดใช้งาน NSFW บนช่องนี้เพื่อใช้บอทนี้</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>เวลา:**{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>เดา:**{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} ได้รับคะแนน**</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>นับเฉพาะรอบที่มีจำนวนผู้เล่นมากกว่า 1000 คน</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(สิ้นสุดที่{0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>กระดานผู้นำแบบกำหนดเองในช่องนี้ได้สิ้นสุดลงแล้ว
+คุณสามารถรีเซ็ตได้ตอนนี้โดยใช้`{0}resetctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` อนิเมะ</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>เพื่อให้การประมวลผลเร็วขึ้น คุณสามารถ [เพิ่มประสิทธิภาพเซิร์ฟเวอร์ของคุณ]({0})</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>ง่าย</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>ปกติ</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>ยาก</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>สุดขั้ว</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>ฝันร้าย</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>จบ</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` ลูกกระสุนทรงกลมแข็ง</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` รอบสุดขีด</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` รอบที่ไม่มีอุปสรรค</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>เซสชันกำลังใช้งานอยู่</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} ขณะนี้ไม่มีรอบให้บริการ</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>รวมแหล่งที่มา:**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>ไม่รวมแหล่งที่มา:**{0}**</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` ตัวละครอนิเมะหน้าตากลม</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` ชนะอย่างน้อย 1 รอบ</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>จากผู้ใช้**{0}** เมื่อวันที่{1}</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>ตัวกรองรายการอนิเมะทำงานได้เฉพาะสำหรับรอบอนิเมะและตัวละครอนิเมะเท่านั้น</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>รายการคำสั่งของ RinBot</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>เริ่มรอบการสร้างภาพใหม่</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>เริ่มรอบวิดีโอใหม่</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>เริ่มรอบเสียงใหม่</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>ดู [หน้านี้]({0}) เพื่อดูวิธีการเปิดใช้งาน</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดขณะดำเนินการคำสั่ง</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>รวมถึงแพลตฟอร์ม (หากมี)**{0}**</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - จำนวนรอบที่จะเล่นในหนึ่งเซสชัน (สูงสุด 10 รอบ)
+`im:` - การปรับแต่งภาพ: พิกเซล`im:p`, กลับด้าน`im:i`, ภาพวาดสีน้ำมัน`im:o`, เฉดสีเทา`im:g`, กลับด้านแนวตั้ง`im:f` หรือหลายภาพ`im:p,i,o,g,f` (การรวมกันใด ๆ)
+`nh:` - ไม่แสดงคำแนะนำ`nh:1`
+`aggr:` - เปลี่ยนวิธีการรวมเมื่อใช้รายการอนิเมะ: รวมทั้งหมด`aggr:union`,  ปรากฏในทุกรายการ`aggr:intersect` หรือขนาดตัวอย่างเท่ากันต่อรายการ`aggr:balance` (ค่าเริ่มต้น)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>คุณสามารถสร้างการค้นหาโดยการรวมการดำเนินการและตัวกรองเข้าด้วยกัน
+
+ตัวอย่างเช่น:`{0}sg n:5 d:3 y:1995-2005` เพื่อเริ่มเซสชั่นที่มี 5 รอบของอนิเมะในระดับความยากลำบากสูงระหว่างปี 1995 ถึง 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>ตัวกรอง</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>เริ่มต้นรอบการสร้างภาพใหม่ด้วยปุ่มตัวเลือกหลายข้อ</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>เซสชั่นถูกยกเลิก</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>อาจหมดฝาปิดสำหรับตัวกรองนี้ ลองใช้ตัวอื่นดู</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>ประสบความสำเร็จ</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>คุณสามารถคิวงานซิงโครไนซ์ได้เพียงทุก 15 นาที</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>สถานะปัจจุบันคือ**{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>โปรดตรวจสอบให้แน่ใจว่าคุณได้ระบุชื่อผู้ใช้ที่ถูกต้อง และรายการของคุณสามารถเข้าถึงได้สาธารณะที่____ 
+หากปัญหายังคงอยู่ โปรดขอความช่วยเหลือที่ [เซิร์ฟเวอร์สนับสนุน]({0})</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>กำหนดไว้แล้ว</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>การประมวลผล</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__สัปดาห์ที่แล้ว__</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>คะแนน</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>อันดับ{0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` รอบที่ชนะ</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}คะแนนเซิร์ฟเวอร์ของ '</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__ตลอดเวลา__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__สัปดาห์ที่แล้ว__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__สัปดาห์นี้__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` ผู้เล่น</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>คะแนน</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>ความเร็ว</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`การแปล: "การแปล"</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>ประเภทเพลง:**{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>ผู้ชนะเมื่อสัปดาห์ที่แล้ว</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>คะแนนและตารางผู้นำจะถูกประมวลผลทุกชั่วโมง</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>จาก{0} ถึง{1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>เริ่มต้น{0}</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>ไม่มีกระดานผู้นำที่กำหนดเองที่ใช้งานอยู่
+คุณสามารถเริ่มกระดานผู้นำได้โดยใช้`{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>ไม่พบกระดานผู้นำที่กำหนดเอง
+คุณสามารถเริ่มกระดานผู้นำได้โดยใช้`{0}startctop`</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>กระดานผู้นำแบบกำหนดเองถูกรีเซ็ตแล้ว
+คุณสามารถเริ่มใหม่ได้อีกครั้งด้วย`{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` อนิเมะรอบ</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` เสียงรอบทิศ</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__ฐานข้อมูล__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` เซิร์ฟเวอร์</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__เซิร์ฟเวอร์__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` ภาพหมุน</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` ผู้ใช้</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__ผู้เล่น__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` ชนะ &gt; 1000 รอบ</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` ชนะมากกว่า 100 รอบ</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` ชนะ &gt; 10 ยก</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` ยกเลิกการแข่งขัน</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` รอบที่เสร็จสิ้น</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` เพลง</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` วิดีโอรอบ</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` นิยายภาพ</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` รอบนิยายภาพ</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>ระดับโลก</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__รอบ__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>สถิติเกม</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>กระดานผู้นำแบบกำหนดเองสำหรับ #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}ไม่พบกระดานผู้นำที่กำหนดเอง. คุณสามารถเริ่มใหม่ได้โดยใช้`{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, บอร์ดผู้นำแบบกำหนดเองได้ถูกเปิดใช้งานแล้วในช่องทางนี้
+คุณสามารถปิดการใช้งานได้โดยใช้คำสั่ง`{1}endctop` หรือรีเซ็ตทั้งหมดได้โดยใช้คำสั่ง`{1}resetctop`.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>มีการเริ่มต้นกระดานผู้นำแบบกำหนดเองสำหรับช่องนี้แล้ว</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>แทรกเพลง</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>เพลงประกอบภาพ</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` รอบปกติ</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>ไม่สามารถเข้าถึงฐานข้อมูลของ{0} ได้ในขณะนี้ กรุณาลองใหม่อีกครั้งในภายหลัง
+
+ตรวจสอบ [หน้าสถานะ]({1}) หรือ [เซิร์ฟเวอร์สนับสนุน RinBot]({2}) สำหรับข้อมูลเพิ่มเติม</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>รายการอนิเมะ**{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>ประเภทต้องเป็นหนึ่งในประเภทที่ระบุไว้ใน`!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>คุณเลือกช่วงปีที่ไม่ถูกต้อง</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>คุณไม่สามารถใช้ความยาก Nightmare กับฟิลเตอร์อื่นได้</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>ช่องต้องตั้งค่าเป็น NSFW เพื่อใช้ฟิลเตอร์นี้</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>สิ้นปีต้อง ≤ ปีปัจจุบัน</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>ปีเริ่มต้นต้อง ≤ ปีปัจจุบัน</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>ปีเริ่มต้นต้องมากกว่า 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>ปีสิ้นสุดต้อง ≥ ปีเริ่มต้น</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>ตัวกรองประเภทเพลงสามารถใช้ได้เฉพาะในรอบเสียงเท่านั้น</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>ประเภทนี้ไม่มีให้บริการ</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>หยุดรอบปัจจุบัน</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>แสดงคะแนนส่วนตัวของคุณ</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>แสดงผู้เล่นที่ดีที่สุดตลอดกาลในเซิร์ฟเวอร์</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>แสดงผู้เล่นอันดับต้น ๆ ของสัปดาห์นี้ในเซิร์ฟเวอร์</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>สำหรับรายการคำสั่งทั้งหมด โปรด [เยี่ยมชมเว็บไซต์]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>เริ่มรอบใหม่ของภาพนิยายภาพ</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>แสดงกระดานผู้นำแบบกำหนดเอง</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>แสดงคะแนนรวมของเซิร์ฟเวอร์นี้</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>แสดงผู้เล่นที่เร็วที่สุดตลอดกาลในเซิร์ฟเวอร์</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>แสดงผู้เล่นที่เร็วที่สุดของสัปดาห์นี้ในเซิร์ฟเวอร์</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>แสดงสถิติเกม</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>แสดงทุกประเภทของอนิเมะที่มีให้</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}ในการใช้คุณสมบัตินี้ คุณต้องมีอย่างน้อยหนึ่งในสิทธิ์เหล่านี้:`{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>เบ็ดเตล็ด</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>รอบ</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>คะแนน</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>คำสั่ง</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>เริ่มการประชุมรอบเสียง</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>เสียงร้องประสาน</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>เริ่มรอบตัวละครอนิเมะใหม่</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, ฉันไม่เข้าใจพารามิเตอร์</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>เริ่มรอบการร้องใหม่ด้วยตัวอย่าง</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>ซิงโครไนซ์รายการอนิเมะ</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>การจัดการ</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>แสดงคำนำหน้าปัจจุบันหรือเปลี่ยนคำนำหน้า</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>หยุดการประชุมแบบหมุนเวียน</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>ตรวจสอบให้แน่ใจว่าสิทธิ์การเข้าถึงถูกตั้งค่าไว้ถูกต้องแล้ว ฉันต้องการอย่างน้อยสิทธิ์การเชื่อมต่อและสิทธิ์การพูด</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>ไม่สามารถเชื่อมต่อกับช่องเสียง '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>กำลังค้นหาช่องเสียงเพื่อเข้าร่วม…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>ฉันไม่สามารถหาช่องเสียงเพื่อเข้าร่วมได้
+
+คุณสามารถสร้างช่องเสียงโดยใช้ชื่อเดียวกับช่องข้อความนี้ หรือเข้าร่วมช่องเสียงที่คุณต้องการให้ฉันเข้าไป</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>ไม่พบช่องเสียงที่สามารถใช้งานได้</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>รอบจะเริ่มโดยอัตโนมัติ
+
+หากต้องการข้ามรอบ ให้ใช้`{0}stopg` และหากต้องการยกเลิกเซสชัน ให้ใช้`{0}stopgs`</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>เข้าร่วมช่องเสียง**{0}** เพื่อฟังและทาย</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>รอบได้เริ่มขึ้นแล้ว!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>เพื่อประหยัดทรัพยากรของเซิร์ฟเวอร์ รอบสูงสุดในหนึ่งเซสชั่นสำหรับคุณคือ{0} 
+หากต้องการเพิ่มขีดจำกัดนี้ คุณสามารถช่วยเหลือผ่านการระดมทุนโดย [การเป็นผู้สนับสนุน]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>ถึงรอบสูงสุดในเซสชั่นนี้</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>รอบจะเริ่มโดยอัตโนมัติ
+
+หากต้องการเปลี่ยนฟิลเตอร์ของคุณ เพียงใช้`{0}sgs` อีกครั้ง หากต้องการข้ามรอบ ให้ใช้`{0}stopg` และหากต้องการยกเลิกเซสชั่น ให้ใช้`{0}stopgs`</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>เริ่มเซสชันเสียงในช่อง**{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>การเตรียมรอบการระดมทุน{0} ของบริษัท{1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__ความช่วยเหลือเพิ่มเติม__
+ข้อสงสัย:`{0}help query`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, กำลังมีการดำเนินการอยู่. ใช้`{1}stopgs` เพื่อหยุดมัน.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>เริ่มต้นตารางผู้นำแบบกำหนดเองใหม่</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>ยกเลิกกระดานผู้นำแบบกำหนดเอง</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>รีเซ็ตกระดานผู้นำแบบกำหนดเอง</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>เริ่มรอบเกมใหม่</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>เริ่มรอบการสร้างตัวละครอนิเมะพิกเซลใหม่</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>แสดงเครดิต</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>การซิงโครไนซ์รายการอนิเมะ</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>ใช้คำสั่งนี้เพื่อซิงโครไนซ์รายการอนิเมะของคุณ สามารถทำได้วันละครั้ง</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>ชื่อผู้ใช้</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>เครดิต</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>ขอขอบคุณอย่างยิ่งต่อทุกคนและเว็บไซต์เหล่านี้ที่ช่วยให้{0} เป็นไปได้</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>ฐานข้อมูล/API</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>ผู้อุปถัมภ์</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>ขอขอบคุณเป็นพิเศษ</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>การแปล</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>คำนำหน้าคำสั่งปัจจุบันของฉันคือ`{0}` 
+
+ใช้`{0}คำนำหน้า your_prefix` หรือ`@{1} คำนำหน้า your_prefix` เพื่อเปลี่ยนมัน</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>คำนำหน้าคำสั่งของฉันตอนนี้คือ:**{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนคำนำหน้าคำสั่งของฉันได้</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>คำนำหน้าต้องมีความยาวระหว่าง 1 ถึง 5 ตัวอักษร</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}'s คำสั่งนำหน้า</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>คุณไม่ใช่คูรูรินใช่ไหม?</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>การดำเนินงาน</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>ความช่วยเหลือสำหรับคำถาม</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>คุณสมบัตินี้ไม่สามารถใช้ได้บนบอทนี้</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>สมดุล</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>ตัดกัน</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>รวมกันเป็นหนึ่ง</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>การจัดอันดับสำหรับเซสชั่นนี้</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>หรือที่รู้จักในนาม</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>จาก</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>ชิ้นส่วนของคุณคือ`{0}` บนคลัสเตอร์`{3}` .
+
+มีเซิร์ฟเวอร์`{1}` ที่เชื่อมต่อกับคลัสเตอร์นี้
+ ขณะนี้กำลังเล่นรอบ`{2}` อยู่บนเซิร์ฟเวอร์นี้</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}ค่าใช้จ่ายในการดำเนินงานในปัจจุบันคือ**${1} ต่อเดือน**
+
+ขณะนี้เพียง**{2}%** ของจำนวนนี้ได้รับการครอบคลุมแล้ว
+
+หากคุณสนุกกับการเล่นเกมของ{0}'s โปรดพิจารณา [บริจาค $2 หรือมากกว่าบน Patreon]({3}) เพื่อช่วยให้เธอยังคงอยู่ต่อไป
+
+แม้แต่การบริจาคเล็กน้อยก็ช่วยได้มาก และคุณจะได้รับสิทธิพิเศษบางอย่างเป็นการตอบแทน!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>ไม่สามารถเปลี่ยนภาษาได้</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>ภาษาปัจจุบันคือ`{3}` ({4}).
+
+คุณสามารถเปลี่ยนภาษาของ{1}' ได้โดยใช้`{0}lang language_code`.
+ภาษาที่รองรับในปัจจุบันมีดังนี้:
+{2}
+
+คุณสามารถช่วยปรับปรุงภาษาเหล่านี้หรือเพิ่มภาษาใหม่ได้บน [เว็บไซต์แปลภาษาแบบกลุ่ม]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>รหัสภาษา`{0}` ไม่รองรับ</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>เปลี่ยนภาษา</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>ภาษาได้ถูกเปลี่ยนเป็น`{0}`</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>แสดงภาษาปัจจุบันหรือเปลี่ยนภาษา</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>รวมประเภท (หรือหลายประเภท)**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>ไม่รวมประเภท**{0}**</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - ระดับความยาก`d:0` ถึง`d:5` (`0` ปิดตัวกรองระดับความยาก)
+`y:` - ปี`y:2010` หรือช่วงปี`y:1995-2005`
+`g:` - ประเภท`g:action` หรือหลายประเภท`g:action,-sliceoflife,!kids`, ซึ่ง`-` หรือ`!` ยกเว้นประเภท (ใช้`{0}ประเภท` สำหรับทุกประเภท)
+`t:` - ประเภทของเพลง: เพลงเปิด`t:op`, เพลงปิด`t:ed` หรือ เพลงแทรก`t:in` (`ใน` ใช้ได้กับ`sga` เท่านั้น)
+`sl:` - ความยาวตัวอย่างเป็นวินาที ระหว่าง 5 ถึง 30(ใช้ได้เฉพาะกับ`{0}sgsa` เท่านั้น)
+`mal:` - รายชื่ออนิเมะของผู้ใช้ MyAnimeList`mal:username` หรือหลายรายการ`mal:user1,user2`
+`anilist:` - รายชื่ออนิเมะของผู้ใช้ AniList`anilist:username` หรือหลายรายการ`anilist:user1,user2`</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>อาจใช้เวลาสักครู่เพื่อให้ตารางผู้นำได้รับการอัปเดต</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>กระดานผู้นำความเร็วตลอดกาลได้ถูกรีเซ็ตแล้ว</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>อาจใช้เวลาสักครู่เพื่อให้ตารางผู้นำได้รับการอัปเดต</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>ตารางคะแนนตลอดกาลถูกรีเซ็ตแล้ว</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>วิดีโอรอบมีให้เฉพาะผู้สนับสนุนเท่านั้น</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>การซิงโครไนซ์ผู้ใช้{0} '{1}'</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>อนิเมะเรื่องนี้คืออะไร?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>ขออภัย ข้อมูลนั้นไม่ถูกต้อง</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>รีเซ็ตตารางคะแนนผู้นำตลอดกาล</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>รีเซ็ตตารางผู้นำความเร็วตลอดกาล</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>ไม่มีเซสชั่นที่กำลังใช้งานอยู่ในช่องทางนี้</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>มีรอบการทำงานอยู่ในช่องนี้ กรุณาใช้คำสั่ง`{0}stopg` หรือ`{0}stopgs` เพื่อหยุดการทำงาน</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>คุณสามารถเดาได้เพียงครั้งเดียว!</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>เว็บ</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>รวมถึงบทบาทตัวละคร:**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>อาศัยอยู่:**{0}**</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>คุณสามารถรวมพวกมันไว้ในฟิลเตอร์โดยใช้ "," (เครื่องหมายจุลภาค) 
+การยกเว้นสามารถตั้งค่าได้โดยใช้ "-" หรือ "!" ก่อนประเภท</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>หยุดการยิงทุกนัดบนเซิร์ฟเวอร์นี้</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>ตัวอย่างของวินาทีที่**{0}**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>ความยาวของตัวอย่างต้อง ≥ 5 และ ≤ 30 วินาที</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>เกิดปัญหาการตรวจสอบความถูกต้องดังต่อไปนี้:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>ตัวกรองไม่ถูกต้อง</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>ออกจำหน่ายระหว่างปี{0} ถึง{1}</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>รอบอนิเมะ</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>แสดงทุกแพลตฟอร์มเกมที่เป็นไปได้</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>แสดงประเภทเกมทั้งหมดที่เป็นไปได้</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>เปลี่ยนระดับความยากเริ่มต้นของคุณ</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>ผู้เล่น</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>ชาย</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>เพศหญิง</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>ไม่รวมบทบาทตัวละคร:**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>ไม่มีหยด</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>คุณไม่มีสิทธิ์ที่นี่ เนื่องจากการตั้งค่าการควบคุมการเข้าถึงช่อง</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>เลือกความยากเริ่มต้นของคุณ</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>ไม่มีปัญหา</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>ระดับความยากตามคะแนนของคุณ</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>หยุดรอบปัจจุบัน…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>หยุดเซสชันรอบปัจจุบัน…</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>ตอนนี้ลองทายตัวละครจากอนิเมะให้ถูกต้องเพื่อรับคะแนนเพิ่ม**{0}!**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>เริ่มรอบใหม่ของการแชร์คำพูดตัวละครอนิเมะ</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>รวมถึงประเภท:**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>ไม่รวมประเภท:**{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>ซีรีส์โทรทัศน์</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>ภาพยนตร์</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>มิวสิควิดีโอ</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>อื่นๆ</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>ของปี{0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>ขออภัย นั่นคือ**{0}** ซึ่งไม่ถูกต้อง</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>เริ่มรอบการทายภาพย้อนกลับใหม่</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}คุณเดาว่า "{1}" หรืออะไรที่คล้ายกันบ่อยเกินไปแล้ว ฉันจะละเว้นไปสักพัก</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>เริ่มรอบใหม่ของโปเกมอน</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>รอบเกมวิดีโอ</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>เดาผิดมากเกินไป</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` วิดีโอเกม</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>เพศของตัวละคร:**{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>ไม่มีคำใบ้</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>เริ่มรอบวิดีโอใหม่ด้วยปุ่มตัวเลือกแบบหลายคำตอบ</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>เริ่มรอบเสียงใหม่พร้อมปุ่มตัวเลือกหลายข้อ</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>ภาษาของเซิร์ฟเวอร์ -{0}</value>
+  </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>เพื่อลดระยะเวลาคูลดาวน์นี้ คุณสามารถ [เป็นผู้สนับสนุน]({0})</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>เริ่มรอบมังงะใหม่</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>รายการพิเศษทางโทรทัศน์</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>ประเภท:</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>อนิเมะ</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>มังงะ</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>นิยายภาพ</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>วิดีโอเกม</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>โปเกมอน</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>ตัวละครอนิเมะ</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` มังงะ</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>สุ่ม</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>วิบราโต</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>เทรมโล</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>การบิดเบือน</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>การหมุนเวียน</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>ประเภทอนิเมะสำหรับตัวกรอง</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>วัดค่าความหน่วงของบอทและดิสคอร์ด</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` มังงะรอบ</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>คาราโอเกะ</value>
+  </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>อัปเดตล่าสุด</value>
+  </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>อนุญาตให้มีผู้ชนะหลายคน</value>
+  </data>
 </root>

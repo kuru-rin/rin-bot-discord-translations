@@ -100,4 +100,1123 @@
   <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
     <value>Tiêu đề thay thế</value>
   </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Truy cập [trang hồ sơ của cậu]({1}/profile/{2}) để xem thống kê toàn cầu.</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>Trở thành nhà tài trợ ({1}), mua cho tớ một tách cà phê ({2}) hoặc bỏ phiếu hàng ngày ({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Hãy giúp RinBot tiếp tục hoạt động!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Không tìm thấy người chơi nào.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Kể từ tuần trước</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Những người chơi hàng đầu trong __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Hiện tại, hệ thống đang được bảo trì, hãy thử lại sau!</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}Hiện tại đã có một vòng đang diễn ra. Sử dụng `{1}stopg` để dừng nó.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Vòng đấu sẽ bắt đầu sau {0} giây…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}Hiện tại có quá nhiều lượt đang được chuẩn bị. Hãy thử lại sau một lúc.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}Tớ không hiểu thông số này.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}Cậu không thể sử dụng lệnh ` `{2}stopg` ` hơn một lần mỗi {1} phút.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}Hiện tại không có trận đấu nào đang diễn ra. Cậu có thể bắt đầu một trận đấu bằng cách truy cập `{1}sg`.</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}Cậu đã bắt đầu quá nhiều trò chơi hôm nay. Trở thành nhà tài trợ để tăng giới hạn này (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}Cậu đã có một vòng quay đang hoạt động ở nơi khác.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Thành tựu</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Tuần trước__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` điểm</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Xếp hạng {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` số vòng thắng</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}Điểm máy chủ của cậu</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Mọi thời đại__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Tuần trước__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Tuần này__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` các cậu</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Điểm</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Tốc độ</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Các cầu thủ nhanh nhất trong __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW phải được bật trên kênh này để có thể sử dụng bot này.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Thời gian: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Đoán: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} Điểm** đã được đạt được.</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Chỉ các vòng có số lượng người tham gia vượt quá 1000 mới được tính.</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Loại bài hát: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Người chiến thắng tuần trước</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Điểm số và bảng xếp hạng được cập nhật mỗi giờ.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Bảng xếp hạng tùy chỉnh trong kênh này đã kết thúc.
+Cậu có thể đặt lại nó bằng cách sử dụng `{0}resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Không có bảng xếp hạng tùy chỉnh nào đang hoạt động.
+Cậu có thể tạo một bảng xếp hạng bằng cách sử dụng `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Không tìm thấy bảng xếp hạng tùy chỉnh.
+Cậu có thể tạo một bảng xếp hạng bằng cách sử dụng `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Bảng xếp hạng tùy chỉnh đã được đặt lại.
+Cậu có thể bắt đầu một bảng xếp hạng mới bằng cách sử dụng lệnh sau: `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` các vòng anime</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` vòng âm thanh</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Cơ sở dữ liệu__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` máy chủ</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Máy chủ__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` vòng hình ảnh</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` các cậu</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Các cậu__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` Thắng &amp;gt; 10 hiệp</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` Các vòng thi bị hủy bỏ</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` Các vòng thi đã kết thúc</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` bài hát</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` các vòng video</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` tiểu thuyết hình ảnh</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` Các vòng chơi của visual novel</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Toàn cầu</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Vòng__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Thống kê trò chơi</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Bảng xếp hạng tùy chỉnh cho #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}Không tìm thấy bảng xếp hạng tùy chỉnh nào. Cậu có thể tạo một bảng xếp hạng mới bằng cách sử dụng `{1}startctop`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}Một bảng xếp hạng tùy chỉnh đã được kích hoạt trong kênh này.
+Cậu có thể kết thúc nó bằng cách sử dụng `{1}endctop` hoặc đặt lại hoàn toàn bằng cách sử dụng `{1}resetctop`.</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Một bảng xếp hạng tùy chỉnh vừa được khởi chạy cho kênh này.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Để có tốc độ xử lý nhanh hơn, cậu có thể [tăng cường hiệu suất máy chủ của mình]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Máy chủ__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Dễ dàng</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Mở đầu</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Chèn bài hát</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Bài hát hình ảnh</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` vòng dễ dàng</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` vòng đấu thông thường</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` viên đạn cứng</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` vòng thi đấu cực đoan</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` các vòng ác mộng</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` các vòng thi không gặp khó khăn</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Một phiên đã được kích hoạt</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Hiện tại không thể truy cập cơ sở dữ liệu {0}. Hãy thử lại sau.
+
+Kiểm tra [trang trạng thái]({1}) hoặc [máy chủ hỗ trợ RinBot]({2}) để biết thêm thông tin.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} Các vòng hiện tại không có sẵn.</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Không thể khởi động trò chơi thủ công khi các vòng trò chuyện bằng giọng nói đang hoạt động.
+Để tắt chúng, cậu có thể sử dụng `{0}stopgs`.</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>Cậu không thể sử dụng chế độ Nightmare cùng với bất kỳ bộ lọc nào khác.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>Kênh phải được đặt thành NSFW để có thể sử dụng bộ lọc này.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>Năm kết thúc phải ≤ năm hiện tại</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>Năm bắt đầu phải ≤ năm hiện tại</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>Năm bắt đầu phải lớn hơn 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>Năm kết thúc phải lớn hơn hoặc bằng năm bắt đầu.</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>Bộ lọc loại bài hát chỉ có thể được sử dụng trên các vòng âm thanh.</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>Thể loại này không có sẵn.</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>Bộ lọc danh sách anime chỉ hoạt động cho các tập anime và các nhân vật anime.</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>Danh sách lệnh RinBot</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Bắt đầu một vòng hình ảnh mới</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Bắt đầu một vòng video mới</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Dừng vòng hiện tại</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Hiển thị điểm số cá nhân của cậu</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Hiển thị những người chơi xuất sắc nhất mọi thời đại trên máy chủ.</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Hiển thị những người chơi hàng đầu của tuần này trên máy chủ</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Để xem danh sách đầy đủ các lệnh, cậu vui lòng [truy cập trang web]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Bắt đầu một vòng hình ảnh mới cho visual novel</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Hiển thị bảng xếp hạng tùy chỉnh</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Hiển thị tổng điểm của máy chủ này</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Hiển thị những người chơi nhanh nhất mọi thời đại trên máy chủ.</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Hiển thị những người chơi nhanh nhất trong tuần này trên máy chủ.</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Hiển thị thống kê trò chơi</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Vòng kiểm tra giọng nói</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Bắt đầu vòng tạo nhân vật anime mới</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}Tớ không hiểu thông số này.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Bắt đầu một phiên ghi âm giọng nói mới với các mẫu</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Đồng bộ hóa danh sách anime</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Quản lý</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Hiển thị tiền tố hiện tại hoặc thay đổi nó</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Hãy đảm bảo rằng các quyền truy cập đã được thiết lập chính xác. Tớ cần ít nhất hai quyền truy cập là "Connect" và "Speak".</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Không thể kết nối với kênh thoại '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Tìm kênh thoại để tham gia…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Tớ không thể tìm thấy kênh thoại để tham gia.
+
+Cậu có thể tạo một kênh thoại có tên giống như kênh văn bản này, hoặc tham gia kênh thoại mà cậu muốn tớ tham gia.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Không tìm thấy kênh thoại có thể sử dụng</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Các vòng sẽ bắt đầu tự động.
+
+Để bỏ qua một vòng, hãy sử dụng `{0}stopg` và để hủy phiên, hãy sử dụng `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Bắt đầu một phiên với {0} vòng</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Hãy tham gia kênh thoại **{0}** để nghe và có thể đoán.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Vòng đấu đã bắt đầu!</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Bộ lọc phiên làm việc đã được thay đổi</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Các vòng chơi sẽ bắt đầu tự động.
+
+Để thay đổi bộ lọc, cậu chỉ cần sử dụng `{0}sgs` một lần nữa. Để bỏ qua một vòng, sử dụng `{0}stopg` và để hủy phiên, sử dụng `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Bắt đầu một phiên trò chuyện bằng giọng nói trong kênh **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Chuẩn bị vòng {0} của {1}…</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Hỗ trợ thêm:__
+Câu hỏi: `{0}help query`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}Hiện tại có một phiên đang diễn ra. Sử dụng lệnh ` `{1}` và `stopgs` ` để dừng nó.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Bắt đầu một bảng xếp hạng tùy chỉnh mới</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Kết thúc bảng xếp hạng tùy chỉnh</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Đặt lại bảng xếp hạng tùy chỉnh</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Bắt đầu một vòng chơi mới</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Bắt đầu một vòng vẽ nhân vật anime bằng pixel mới</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Hiển thị thông tin tín dụng</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Đồng bộ hóa danh sách anime</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Sử dụng lệnh này để đồng bộ hóa danh sách anime của cậu. Việc này có thể thực hiện một lần mỗi ngày.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>tên người dùng</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Xin chân thành cảm ơn</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Bản dịch</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Tiền tố lệnh hiện tại của tớ là `{0}` 
+
+Sử dụng `{0}prefix your_prefix` hoặc `@{1} prefix your_prefix` để thay đổi nó.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Tiền tố lệnh của tớ bây giờ là: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Tớ không thể thay đổi tiền tố lệnh của mình.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Tiền tố phải có độ dài từ 1 đến 5 ký tự.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}Tiền tố lệnh của cậu</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Cậu không phải là Kururin, phải không?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Tính năng này hiện chỉ có sẵn trên phiên bản beta.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Tính năng này hiện tại chỉ có sẵn trên phiên bản phát triển.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Cậu có thể tạo các truy vấn bằng cách kết hợp các thao tác và bộ lọc.
+
+Ví dụ: `{0}sg n:5 d:3 y:1995-2005` để bắt đầu một phiên chơi với 5 vòng anime ở mức độ khó cao trong khoảng thời gian từ năm 1995 đến 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Bộ lọc</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Số vòng chơi trong một phiên (tối đa 10)
+`im:` - Chỉnh sửa hình ảnh: pixelated `im:p`, inverted `im:i`, oil-painted `im:o`, grayscale `im:g`, flipped vertically `im:f` hoặc nhiều tùy chọn `im:p,i,o,g,f` (bất kỳ kết hợp nào)`nh:` - Không hiển thị gợi ý `nh:1`
+`aggr:` - Thay đổi phương pháp tổng hợp khi sử dụng danh sách anime: tất cả được kết hợp `aggr:union`, có mặt trong tất cả các danh sách `aggr:intersect` hoặc kích thước mẫu bằng nhau cho mỗi danh sách `aggr:balance` (mặc định)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Hỗ trợ cho các câu hỏi</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Tính năng này không có sẵn trên bot này.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Độ khó `d:0` đến `d:5` (`0` tắt bộ lọc độ khó)  ` y:` - Năm `y:2010` hoặc khoảng thời gian `y:1995-2005`
+`g:` - Thể loại `g:action` hoặc nhiều thể loại `g:action,-sliceoflife,!kids`, nơi `-` hoặc `!` loại trừ thể loại (sử dụng `{0}genres` cho tất cả thể loại)
+`t:` - Loại bài hát: mở đầu `t:op`, kết thúc `t:ed` hoặc bài hát chèn `t:in` (`in` chỉ hoạt động với `sga` )
+`sl:` - Độ dài mẫu (giây), từ 5 đến 30 (chỉ sử dụng được với `{0}sgsa`)
+`mal:` - Danh sách anime của người dùng MyAnimeList `mal:username` hoặc nhiều `mal:user1,user2`
+`anilist:` - Danh sách anime của người dùng AniList `anilist:username` hoặc nhiều `anilist:user1,user2`</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>bởi</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Bài hát</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Thể loại</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}Chi phí hoạt động hiện tại của 's là **${1} mỗi tháng**
+
+Hiện tại, chỉ có **{2}%** của số tiền này được tài trợ.
+
+Nếu cậu thích chơi các trò chơi của {0}, vui lòng cân nhắc [đóng góp $2 hoặc hơn trên Patreon]({3}) để giúp duy trì hoạt động của cô ấy.
+
+Ngay cả những khoản đóng góp nhỏ cũng là một sự giúp đỡ lớn và cậu sẽ nhận được một số ưu đãi đặc biệt!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>{0} cần cậu!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Không thể thay đổi ngôn ngữ.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Ngôn ngữ hiện tại là `{3}` ({4}).
+
+Cậu có thể thay đổi ngôn ngữ của {1} bằng cách sử dụng `{0}lang language_code`.
+Các ngôn ngữ hiện được hỗ trợ:
+{2}
+
+Cậu có thể giúp cải thiện các ngôn ngữ này hoặc thậm chí thêm ngôn ngữ mới trên [trang web dịch thuật cộng đồng]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Mã ngôn ngữ `{0}` không được hỗ trợ.</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Bị hủy bỏ</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Xem [thống kê dịch thuật]({0}) để xem danh sách những người đã đóng góp!</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Buộc cập nhật thông tin của máy chủ này (kênh, vai trò và các thông tin khác)</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Mảnh của cậu là `{0}` trên cụm `{3}` .
+
+Có `{1}` máy chủ kết nối với cụm này.`{2}` trận đấu đang được chơi trên đó.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Cậu có thể có tối đa `{0}` lượt mỗi phiên.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Vượt quá số lượt tối đa cho phép trong phiên làm việc</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>Các vòng video chỉ dành cho ưa thích.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Đồng bộ hóa tài khoản người dùng {0} với{1}</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Danh sách này đang được đồng bộ hóa.
+Trạng thái hiện tại là **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Được xếp hàng</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Thành công</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Cậu đã cung cấp tên người dùng không hợp lệ.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Danh sách này đã được đồng bộ hóa gần đây.
+Xin hãy đợi {0} trước khi thử lại.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Hãy đảm bảo rằng cậu đã cung cấp tên người dùng chính xác và danh sách của cậu có thể truy cập công khai tại ____ .
+
+Nếu vấn đề vẫn tiếp diễn, hãy yêu cầu hỗ trợ tại [máy chủ hỗ trợ]({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Cậu có thể bắt đầu sử dụng bộ lọc " `{0}":{1}`.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Trạng thái đồng bộ hóa cho người dùng {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Thất bại</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Đã xóa</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Bảng xếp hạng tốc độ mọi thời đại đã được đặt lại</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Có thể mất một chút thời gian để bảng xếp hạng được cập nhật.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Bảng xếp hạng điểm mọi thời đại đã được đặt lại</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Đặt lại bảng xếp hạng điểm số mọi thời đại</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Đặt lại bảng xếp hạng tốc độ cao nhất mọi thời đại</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Dừng tất cả các vòng trên máy chủ này</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Không thể tạo phiên mới, hãy thử sử dụng `{0}stopg` hoặc `{0}stopgs` hoặc một bộ lọc khác.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Mẫu của **{0} giây**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>Độ dài mẫu phải lớn hơn hoặc bằng 5 giây và nhỏ hơn hoặc bằng 30 giây.</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Các vấn đề xác thực sau đây đã xảy ra:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Bộ lọc không hợp lệ</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Các thao tác âm thanh: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Chỉnh sửa hình ảnh: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Ngược lại</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tốc độ tăng lên</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Điểm ảnh</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Màu sắc đảo ngược</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>Sơn dầu</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Thang độ xám</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Đảo ngược</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Lỗi xảy ra trong quá trình thực thi lệnh</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Các lệnh Slash hiện đã có sẵn!</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Xem [trang này]({0}) để biết cách kích hoạt chúng.</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Lệnh này chỉ dành cho thành viên. Xem [trang này]({0}) để biết cách trở thành thành viên.
+</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>Loại bài hát phải là: {0}</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Quyền truy cập không được thiết lập đúng cách để bắt đầu cuộc gọi thoại trong '{0}'.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Cậu cần cấp cho tớ ít nhất các quyền sau cho kênh đó: Xem **, Kênh**, **, Kết nối** và **, Nói**.</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` chủ đề</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` nhân vật</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>của năm {0}</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Bắt đầu một vòng trích dẫn mới về nhân vật anime</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Bao gồm nguồn gốc: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Loại trừ nguồn gốc: **{0}**</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Bây giờ hãy thử đoán một nhân vật trong anime để nhận thêm điểm **{0}** !</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Loại trừ nền tảng(s) **{0}**</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Vòng chơi trò chơi điện tử</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Các vòng anime</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Hiển thị tất cả các nền tảng trò chơi có thể</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Hiển thị tất cả các thể loại trò chơi có thể có</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}Cậu đã đoán "{1}" hoặc một cụm từ tương tự quá nhiều lần. Tớ sẽ bỏ qua nó trong một thời gian.</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Giới tính của nhân vật: **{0}**</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Bao gồm các vai diễn nhân vật: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Loại trừ các vai diễn nhân vật: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Không có giọt nào</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Không có gợi ý</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` điểm thành tích</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Mọi thời đại__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Trên toàn cầu</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Tuần này__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}Cậu chưa thắng được vòng nào cả.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}Điểm số của cậu</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` điểm tròn</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>Cảnh báo: Bảo trì ****</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Được phát hành trong khoảng thời gian từ năm {0} đến {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Độ khó là **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Chuẩn bị cho một vòng mới…</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Cậu sẽ được ít điểm hơn cho các vòng có độ khó thấp hơn. **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} Đã đạt được thành tích này</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}Danh sách thành tích của cậu</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>và đã kiếm được điểm {0}!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} hiện tại là cấp độ {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Từ thể loại **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}Lệnh này chỉ khả dụng cho các thành viên (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Từ {0} đến {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Bắt đầu {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Tuần {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(kết thúc {0})</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` Thắng &amp;gt; 1000 lượt</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` thắng &amp;gt; 100 ván</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Bình thường</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Khó</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Cực đoan</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Cơn ác mộng</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` các vòng tròn nhân vật anime</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` thắng ít nhất 1 hiệp</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Từ người dùng **{0}** vào ngày {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Danh sách anime là **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>Thể loại phải là một trong những thể loại được liệt kê tại `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>Cậu đã chọn khoảng thời gian không hợp lệ.</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Bắt đầu một vòng âm thanh mới</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Hiển thị tất cả các thể loại anime có sẵn</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}Để sử dụng tính năng này, cậu cần có ít nhất một trong các quyền sau: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Phụ lục</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Vòng</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Điểm số</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Lệnh</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Bắt đầu một phiên trò chuyện bằng giọng nói</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Dừng phiên họp tròn</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>Để tiết kiệm tài nguyên máy chủ, số vòng tối đa trong một phiên cho cậu là {0}.
+
+Để tăng giới hạn này, cậu có thể tham gia gây quỹ cộng đồng bằng cách [trở thành nhà tài trợ]({1})!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Đã đạt số vòng tối đa trong phiên này</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Có thể chúng tớ đã hết nắp cho bộ lọc này, hãy thử một cái khác.</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Buổi họp đã bị hủy bỏ.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Tín dụng</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Xin chân thành cảm ơn tất cả mọi người và các trang web đã giúp đỡ để {0} trở thành hiện thực.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Cơ sở dữ liệu/Giao diện lập trình ứng dụng (API)</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Khách hàng</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>cân bằng</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>giao nhau</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>liên kết</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Xếp hạng cho phiên này</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Còn được gọi là</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Thay đổi ngôn ngữ</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Ngôn ngữ đã được thay đổi thành Tiếng Anh ( `{0} )`.</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Hiển thị ngôn ngữ hiện tại hoặc thay đổi nó</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Bao gồm thể loại(s) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Loại trừ thể loại(s) **{0}**</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Để tăng giới hạn này, cậu có thể [trở thành nhà tài trợ]({0}).</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` vòng</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Không có phiên hoạt động nào trong kênh này.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>Hiện tại có một vòng hoạt động trong kênh này. Hãy thử sử dụng `{0}stopg` hoặc `{0}stopgs` để dừng nó.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Đồng bộ hóa đã được xếp hàng cho người dùng {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Cậu sẽ nhận được các cập nhật trạng thái qua tin nhắn trực tiếp.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Cậu chỉ có thể xếp hàng một tác vụ đồng bộ hóa tại một thời điểm.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Cậu chỉ có thể xếp hàng một tác vụ đồng bộ hóa mỗi 15 phút.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Tình trạng hiện tại là **{0}** .</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Đã lên lịch</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Xử lý</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Có thể mất một chút thời gian để bảng xếp hạng được cập nhật.</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Bắt đầu một vòng hình ảnh mới với các nút chọn nhiều đáp án</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Bắt đầu một phiên ghi âm mới với các mẫu âm thanh và nút chọn đáp án</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Cậu chỉ được đoán một lần thôi!</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Đây là anime nào vậy?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Xin lỗi, điều đó không chính xác.</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Cậu không có quyền truy cập ở đây do cài đặt kiểm soát truy cập kênh.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Dừng vòng hiện tại…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Dừng phiên hiện tại…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Chọn mức độ khó mặc định của cậu</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Không có khó khăn</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Độ khó dựa trên số điểm của cậu</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` vòng chơi game</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Thay đổi mức độ khó mặc định</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Người chơi</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Quá nhiều phỏng đoán sai</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` trò chơi điện tử</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Gồm các loại: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Loại trừ loại(s): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>Phim truyền hình</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Phim</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Video ca nhạc</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Trang web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Xin lỗi, đó là **{0}** , điều này là không chính xác.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Bắt đầu vòng đoán hình ảnh ngược mới</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Bắt đầu một vòng Pokémon mới</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Bao gồm nền tảng(s) **{0}**</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**Danh sách trên {1} chưa được đồng bộ hóa. Hãy sử dụng lệnh `sync` trước để đồng bộ hóa danh sách.</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Bắt đầu một vòng âm thanh mới với các nút chọn đáp án</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Cuộc sống: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Bắt đầu một vòng video mới với các nút chọn đáp án</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Ngôn ngữ của máy chủ - {0}</value>
+  </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Để giảm thời gian chờ này, cậu có thể [trở thành người ủng hộ]({0}).</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Bắt đầu một vòng manga mới</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Các thể loại anime cho bộ lọc</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>Chương trình truyền hình đặc biệt</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Loại:</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Hoạt hình</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Truyện tranh</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Tiểu thuyết hình ảnh</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Trò chơi điện tử</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Nhân vật anime</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Ngẫu nhiên</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Xoay</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Cậu có thể kết hợp chúng trong một bộ lọc bằng cách sử dụng dấu phẩy (,).  
+Các loại trừ có thể được thiết lập bằng cách sử dụng dấu "-" hoặc "!" trước loại.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Đo độ trễ của bot và Discord</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` các vòng manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Rung giọng</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Rung</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Sự biến dạng</value>
+  </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Cập nhật lần cuối</value>
+  </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Cho phép nhiều người thắng cuộc</value>
+  </data>
 </root>

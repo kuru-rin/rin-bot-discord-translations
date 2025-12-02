@@ -556,4 +556,668 @@
   <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
     <value>רק סבבים עם מאגר הגדול מ1000 נחשבים</value>
   </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>הצטרפו לערוץ הקולי **{0}** כדי להאזין ולנסות לנחש.</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>התחל סיבוב תמונות חדש עם כפתורי בחירה מרובה</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>ידוע גם בשם</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>כולל ז'אנר/ז'אנרים **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>למעט ז'אנר/ז'אנרים **{0}**</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>הסיבוב התחיל!</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>התעוררו הבעיות הבאות באימות:</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>כולל מקורות: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>למעט מקורות: **{0}**</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>לא ניתן לגשת למסד הנתונים של {0} כרגע. נסה שוב מאוחר יותר.
+
+בדוק [את דף הסטטוס]({1}) או [את שרת התמיכה של RinBot]({2}) לקבלת מידע נוסף.</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>רשימות אנימה הן **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>הז'אנר חייב להיות אחד מהז'אנרים המפורטים ב- `!genres`</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>שנת הסיום חייבת להיות ≥ לשנת ההתחלה</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>מסנן סוג השיר ניתן לשימוש רק בסיבובי אודיו</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>שגיאה בעת ביצוע הפקודה</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>התחל סיבוב משחק חדש</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>הצג קרדיטים</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>השתמש בפקודה זו כדי לסנכרן את רשימת האנימה שלך. ניתן לבצע זאת פעם אחת ביום.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>שם משתמש</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>אתה לא קורורין, נכון?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>תכונה זו זמינה כרגע רק בגרסת בטא.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>קוד השפה `{0}` אינו נתמך.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>השפה שונתה ל- `{0}` .</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` משחקי וידאו</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>התחל סבב קולי חדש עם דוגמאות וכפתורי בחירה מרובה</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>פקודות סלאש זמינות כעת!</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>מניפולציות תמונה: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>הפוך</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>הקצב עלה</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>מרובע</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>צבעים הפוכים</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>גוון אפור</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>צבוע בשמן</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>הפוך</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>פקודה זו זמינה רק למנויים. ראה [דף זה]({0}) כדי ללמוד כיצד להפוך למנוי.
+</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>מניפולציות אודיו: **{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>סוג השיר חייב להיות: {0}</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>אתה צריך לתת לי לפחות את ההרשאות הבאות לערוץ זה: **View channel**, **Connect** ו- **Speak**.</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>בתור</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>הזנת שם משתמש שגוי.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>סנכרון בתור עבור משתמש {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>נכשל</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>ייתכן שנגמרו לנו הכובעים למסנן זה, נסה מסנן אחר.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>ההרשאות לא הוגדרו כהלכה כדי להתחיל סיבוב קולי ב-'{0}'.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>כדי להשיג עיבוד מהיר יותר, תוכל [לשדרג את השרת שלך]({0}).</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>קל</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` סיבובים קלים</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` סיבובים רגילים</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` סיבובים קשים</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}עלויות התפעול של **${1} per month**
+
+At the moment only **{2}%** of this amount is covered.
+
+If you enjoy playing {0}&amp;#x27;s games, please consider [donating $2 or more on Patreon]({3}) to help keep her alive.
+
+Even small donations are a huge help and you will even get some perks in return!</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>עזרה לשאלות</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>תכונה זו אינה זמינה בבוט זה.</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>מאלץ עדכון של המידע של שרת זה (ערוצים, תפקידים וכדומה)</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` נושאים</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` דמויות</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>ניתן לשחק לכל היותר `{0}` סיבובים בכל מפגש.</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` סיבובים</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>אין פעילות בערוץ זה.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>דירוג המהירות של כל הזמנים אופס</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` דמויות אנימה עגולות</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` ניצח לפחות בסיבוב אחד</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>מאת המשתמשים **{0}** ב- {1}</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>בחרת טווח שנים לא חוקי</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>אי אפשר להשתמש ברמת הקושי "סיוט" עם מסננים אחרים.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>שנת הסיום חייבת להיות ≤ השנה הנוכחית</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>שנת ההתחלה חייבת להיות &amp;gt; 1900</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>ז'אנר זה אינו זמין</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>מסנן רשימת האנימה פועל רק עבור סיבובי אנימה ודמויות אנימה.</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>התחל סיבוב תמונות חדש</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>עוצר את הסיבוב הנוכחי</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>מציג את הציון האישי שלך</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>ודא שההרשאות מוגדרות כהלכה. אני זקוק לפחות להרשאות "התחבר" ו"דבר".</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>לא ניתן להתחבר לערוץ הקולי '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>חיפוש ערוץ קול להצטרף אליו…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>לא הצלחתי למצוא ערוץ קול להצטרף אליו.
+
+אתה יכול ליצור ערוץ עם אותו שם כמו ערוץ הטקסט הזה, או להצטרף לערוץ הקול שבו אתה רוצה שאצטרף.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>לא נמצא ערוץ קול שמיש</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**הרשימה של 's ב- {1} טרם סונכרנה. השתמש תחילה בפקודה `sync` כדי לסנכרן רשימה.</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>כולל פלטפורמה/פלטפורמות **{0}**</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>עיין [בעמוד זה]({0}) כדי ללמוד כיצד להפעיל אותם.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>סנכרון רשימת אנימה</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>קרדיטים</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>תודה ענקית לכל האנשים והאתרים הללו שעזרו להקים את {0}.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>פטרונים</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>תודה מיוחדת</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>תרגומים</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>קידומת הפקודה הנוכחית שלי היא `{0}` 
+השתמש ב- `{0}prefix your_prefix` או `@{1} prefix your_prefix` כדי לשנות אותה.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>קידומת הפקודה שלי היא כעת: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>לא ניתן לשנות את קידומת הפקודה שלי.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>הקידומת חייבת להיות בין 1 ל-5 תווים.</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>למעט פלטפורמה/פלטפורמות **{0}**</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>תכונה זו זמינה כרגע רק בפיתוח.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>ניתן ליצור שאילתות על ידי שילוב פעולות ומסננים.
+
+לדוגמה: `{0}sg n:5 d:3 y:1995-2005` כדי להתחיל סשן עם 5 סיבובים של אנימה ברמת קושי קשה בין השנים 1995 ו-2005.</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>הצג את השפה הנוכחית או שנה אותה</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>בדקו [את סטטיסטיקת התרגום]({0}) כדי לראות רשימה של כל מי שתרם!</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>קשה</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>קיצוני</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>סיוט</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>פתיחה</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>סיום</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} הסיבובים אינם זמינים כרגע</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>שנת ההתחלה חייבת להיות ≤ השנה הנוכחית</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` סבבי משחקי וידאו</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>ניהול</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>הצג את הקידומת הנוכחית או שנה אותה</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>חריגה ממספר הסיבובים המרבי המותר לסשן</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>כדי להגדיל את המגבלה הזו, אתה יכול [להפוך לפטרון]({0}).</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>רשימה זו סונכרנה לאחרונה.
+אנא המתן {0} לפני שתנסה שוב.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>תקבל עדכוני סטטוס בהודעות ישירות.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>ניתן להוסיף לתור רק משימת סנכרון אחת בכל פעם.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>ניתן להוסיף משימת סנכרון לתור רק אחת ל-15 דקות.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>הסטטוס כעת הוא **{0}** .</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>סבבי וידאו זמינים רק ללקוחות</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>ודא שהזנת את שם המשתמש הנכון ושהרשימה שלך נגישה לציבור בכתובת ____ .
+
+אם הבעיה נמשכת, בקש עזרה ב[שרת התמיכה]({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>כעת תוכלו להתחיל להשתמש במסנן `{0}:{1}`.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>סטטוס סנכרון עבור משתמש {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>נמחק</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>בוטל</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>מתוכנן</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>עיבוד</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` סיבובים קיצוניים</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` סיבובי סיוט</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` סיבובים ללא קושי</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__עזרה נוספת__
+שאלות: `{0}help query`</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>התחל טבלת מובילים מותאמת אישית חדשה</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>הצטלב</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>מאת</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>ז'אנרים</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:כוכב: {0} זקוק לך!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>לא ניתן לשנות את השפה.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>השפה הנוכחית היא `{3}` ({4}).
+
+ניתן לשנות את שפת {1} באמצעות `{0}lang language_code`.
+השפות הבאות נתמכות כרגע:
+{2}
+
+ניתן לעזור בשיפור השפות הללו או אפילו להוסיף שפות נוספות ב[אתר התרגום הקהילתי]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>שנה את השפה</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>ייתכן שייקח זמן מה עד שהדירוג יתעדכן.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>דירוג הנקודות בכל הזמנים אופס</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>ייתכן שייקח זמן מה עד שהדירוג יתעדכן.</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>קליפ מוזיקלי</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>אינטרנט</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>אחר</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>סנכרון משתמש {0} '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>רשימה זו כבר מסונכרנת.
+המצב הנוכחי הוא **{0}**</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>השבר שלך הוא `{0}` באשכול `{3}` .
+
+ישנם `{1}` שרתים המחוברים לאשכול זה.`{2}` סיבובים מתקיימים כרגע עליו.</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>הצליח</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>מה זה האנימה הזאת?</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>יש סיבוב פעיל בערוץ זה. נסה להשתמש ב- `{0}stopg` או `{0}stopgs` כדי לעצור אותו.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>אפס את טבלת המובילים בכל הזמנים</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>אפס את טבלת המהירות של כל הזמנים</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>אתה יכול לנחש רק פעם אחת!</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>מצטער, זה לא נכון.</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>עוצר את כל הסיבובים בשרת זה</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>לא ניתן ליצור הפעלה חדשה, נסה להשתמש ב- `{0}stopg` או `{0}stopgs` או במסנן אחר.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>דוגמאות של **{0} שניות**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>אורך הדגימה חייב להיות בין 5 ל-30 שניות.</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>מסננים לא חוקיים</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>סבבי משחקי וידאו</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>סיבובי אנימה</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>הצג את כל פלטפורמות המשחק האפשריות</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>הצג את כל ז'אנרי המשחקים האפשריים</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>שנה את רמת הקושי המוגדרת כברירת מחדל</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>שחקן</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>זכר</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>נקבה</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>כולל תפקידי דמויות: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>למעט תפקידי דמויות: **{0}**</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>אין לך הרשאה כאן, בשל הגדרות בקרת הגישה לערוץ.</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>בחר את רמת הקושי המוגדרת כברירת מחדל</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>אין קושי</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>קושי בהתבסס על הנקודות שלך</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>עצירת הסיבוב הנוכחי…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>עוצר את הסבב הנוכחי…</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>כולל סוגים: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>למעט סוגים: **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>סדרת טלוויזיה</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>סרט</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>עכשיו נסה לנחש דמות מהאנימה כדי לזכות בעוד נקודות ב- **{0}** !</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>התחל סיבוב חדש של ציטוטים מדמויות אנימה</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>של השנה {0}</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>סליחה, זה היה **{0}** , וזה לא נכון.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>התחל סיבוב חדש של ניחוש תמונה הפוכה</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, ניחשתם '{1}' או משהו דומה לעתים קרובות מדי. אני אתעלם מזה לזמן מה.</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>יותר מדי ניחושים שגויים</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>מגדר הדמות: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>אין רמזים</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>ללא טיפות</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>התחל סיבוב אודיו חדש עם כפתורי בחירה מרובה</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>התחל סיבוב פוקימון חדש</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>חיים: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>התחל סיבוב וידאו חדש עם כפתורי בחירה מרובה</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>שפת השרת - {0}</value>
+  </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>כדי לקצר את זמן ההמתנה, תוכלו [להפוך לתומכים]({0}).</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>אנימה</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>תוכניות טלוויזיה מיוחדות</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>סוגים:</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>מנגה</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>רומנים חזותיים</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>משחקי וידאו</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>פוקימון</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>דמויות אנימה</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` מנגה</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>אקראי</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>ויברטו</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>טרמולו</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>עיוות</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>התחל סיבוב מנגה חדש</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>סוגי אנימה למסנן</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>ניתן לשלב אותם במסנן באמצעות "," (פסיק).  
+ניתן להגדיר אי-הכללות באמצעות "-" או "!" לפני הסוג.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>מדוד את זמן ההשהיה של הבוט ו-Discord</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` סיבובי מנגה</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>קריוקי</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>סיבוב</value>
+  </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>עדכון אחרון</value>
+  </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>הרשאת זוכים מרובים</value>
+  </data>
 </root>
