@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -58,4 +58,1166 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>Uključujući podrijetlo: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>Izuzev porijekla: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>Izuzev platforme(a) **{0}**</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` runde videoigre</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>Sada su dostupne slash naredbe!</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>Pogledajte [ovaj stranicu]({0}) o tome kako ih omogućiti.</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>Ova je naredba dostupna samo članovima. Pogledajte [ovu stranicu]({0}) kako biste saznali kako postati član.
+</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>vrsta pjesme mora biti: {0}</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>Pjesma slike</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>Sjednica je otkazana</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>Možda smo ostali bez kapa za ovaj filter, probaj drugi.</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>Dozvole nisu ispravno postavljene za pokretanje glasovnog kruga u '{0}'</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>Morate mi dati barem sljedeća dopuštenja za taj kanal: **– View;** i **– Connect;** i **– Speak;**</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` likovi</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>Rang {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>Počelo {0}</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__Poslužitelji__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` Okrugli snimci</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__Igrači__</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>Otvaranje</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>Upravo je za ovaj kanal pokrenuta prilagođena ljestvica.</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>Kraj</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>Umetnuta pjesma</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` lako runde</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>Prikazuje najbrže igrače ovog tjedna na serveru</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>Prikaži statistiku igre</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>Prikaži sve dostupne anime žanrove</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>Zaustavite aktivnu sesiju</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>Glasovni obilasci</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>Pokrenite novo kolo za anime likove.</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>Nisam mogao pronaći glasovni kanal za pridruživanje.
+
+Možete stvoriti jedan s istim imenom kao i ovaj tekstualni kanal ili se pridružiti glasovnom kanalu na koji želite da dođem.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>Pokrovitelji</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>Posebna zahvala</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>Prijevodi</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>Moj trenutni prefiks naredbi je `{0}` 
+Koristite `{0}prefix your_prefix` ili `@{1} prefix your_prefix` za promjenu.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>Moj prefiks naredbe je sada: **{0}**</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>Možete stvarati upite kombiniranjem operacija i filtara.
+
+Na primjer: `{0}sg n:5 d:3 y:1995-2005` za početak sesije s 5 rundi animea na teškoj težini između godina 1995. i 2005.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>Filtri</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>Operacije</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>{0} te treba!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>Jezik se nije mogao promijeniti.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>Jezikni kod `{0}` nije podržan.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>Provjerite [statistiku prijevoda]({0}) za popis svih koji su doprinijeli!</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>Prisiljava ažuriranje informacija o ovom poslužitelju (kanali, uloge i slično)</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>Vaš shard je `{0}` na klasteru `{3}` .
+
+Na ovaj klaster priključeno je `{1}` poslužitelja.
+Trenutno se na njemu igraju runde`{2}` .</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` krugovi</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>Možda će trebati malo vremena da se ljestvica osvježi.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>Ljestvica najboljih strijelaca svih vremena je resetirana.</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>Koji je ovo anime?</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Žao mi je, to je netočno.</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>Nemate dopuštenje ovdje zbog postavki kontrole pristupa kanalu.</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>Zaustavljanje trenutne runde…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>Zaustavljanje trenutne runde sesije…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>Odaberite zadanu težinu</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>Nema poteškoća</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>Težina na temelju vaših bodova</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>Runde videoigara</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>Anime krugovi</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>Prikaži sve moguće platforme za igru</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>Prikaži sve moguće žanrove igara</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>Promijeni zadanu težinu</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>Igrač</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>Muški</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>Žensko</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>Uključujući likove: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>Izuzev likovnih uloga: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>Uključujući tip(ove): **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>Isključujući tip(ove): **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>TV serija</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>Film</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>OVA</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>Glazbeni spot</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>Ostalo</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>Sada pokušajte pogoditi lik iz animea s desne strane kako biste osvojili još bodova u **{0} u**!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>Pokrenite novo kolo citata anime likova.</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` teme</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>od godine {0}</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` videoigre</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>Krug je otkazan zbog nedostajućih snimki. Pokušajte drugi krug s manje restriktivnim filtrima.</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**Nitko nije pogodio**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} je pobijedio!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0} Osvojeno je** bodova</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` bodovi</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>Kapa</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>Natuknica</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**Imate {0} sekundi do kraja!**</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>Žao mi je što prekidam tvoju igru, ali moram se ponovno pokrenuti kako bih ti pružio sjajne nove značajke!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>Možete ponovno započeti novi krug za minutu.</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: ** Ponovno pokretanje**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Igrač</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>Objavljeno između godina {0}. i {1}</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>Alternativni naslovi</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` bodovi postignuća</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__Sva vremena__</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>Globalno</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__Ovaj tjedan__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, još nisi osvojio nijednu rundu.</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}rezultat</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` okrugle točke</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>Posjetite [vašu stranicu profila]({1}/profile/{2}) za globalne statistike</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[Postanite pokrovitelj]({1}), [kupite mi kavu]({2}) ili [glasajte svaki dan]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>Pomozite da RinBot ostane živ!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>Nijedan igrač nije pronađen.</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>Od prošlog tjedna</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**Vrhunski igrači u __{0}__**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>Trenutno sam na održavanju, pokušajte ponovno uskoro!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: Održavanje ****</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>Teškoća je **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>Priprema nove runde…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}Već je u tijeku runda. Upotrijebite `{1}stopg` da je zaustavite.</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>Krug će započeti za {0} sekundi…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}Trenutno se priprema previše rundi. Pokušajte ponovno za kratko vrijeme.</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, ne razumijem parametar.</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}Ne možete koristiti naredbu `{2}stopg` više od jednom u svakih {1} minuta.</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}Trenutno se ne igra nijedna runda. Možete započeti jednu koristeći `{1}sg`.</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>Dobit ćete manje bodova za runde niže težine. **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} Dobio sam ovo postignuće</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}popis postignuća</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>i osvojio {0} bodova!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} sada je ravno {1}</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>Iz žanra **{0}**</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, ova je naredba dostupna samo pretplatnicima (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, danas ste započeli previše igara. Postanite pokrovitelj kako biste povećali ovaj limit (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}Već imate aktivnu rundu negdje drugdje.</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>Postignuća</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__Prošli tjedan__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` bodovi</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>Bodovi</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>Rang {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` osvojeni setovi</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}bod servera</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__Sva vremena__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__Prošli tjedan__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__Ovaj tjedan__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` igrači</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>Bodovi</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>Brzina</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**Najbrži igrači u __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>NSFW mora biti omogućen na ovom kanalu kako bi se ovaj bot mogao koristiti.</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>Vrijeme: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>Pogodi: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} Postignuta je bod**.</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>Ubrajaju se samo runde s bazenom većim od 1000.</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>Vrsta pjesme: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>Pobjednik prošlog tjedna</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>Rezultati i ljestvice obrađuju se svakog sata.</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>Od {0} do {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>Tjedan {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(završava {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>Prilagođena ljestvica na ovom kanalu je završena.
+Sada je možete resetirati pomoću `{0}resetctop`.</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>Nema aktivne prilagođene ljestvice.
+Možete pokrenuti novu koristeći `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>Nije pronađena prilagođena ljestvica.
+Možete pokrenuti novu koristeći `{0}startctop`.</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>Prilagođena ljestvica je resetirana. Možete ponovno pokrenuti novu ljestvicu pomoću naredbe `{0}startctop`.</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` anime</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` anime rundi</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` audio runde</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__Baza podataka__</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` poslužitelji</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` korisnici</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` osvojio &gt; 1000 rundi</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` dobio &gt; 100 rundi</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` pobijedio &gt; 10 rundi</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` vizualne novele</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` Kruženja otkazana</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` krugovi završeni</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` pjesme</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` videozapisi</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` runde vizualne novele</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>Globalno</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__Runde__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>Statistika igre</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value>Prilagođena ljestvica za #{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, nije pronađena prilagođena ljestvica. Možete pokrenuti novu koristeći `{1}startctop`</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>Ekstremno</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>Noćna mora</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>Uključujući platformu(e) **{0}**</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, prilagođena ljestvica je već aktivna na ovom kanalu.
+Možete je završiti pomoću naredbe `{1}endctop` ili je potpuno resetirati pomoću naredbe `{1}resetctop`.</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>Za bržu obradu možete [pojačati svoj poslužitelj]({0}).</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__Poslužitelji__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>Jednostavno</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>Normalno</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>Previše pogrešnih pogodaka</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>Teško</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` normalne runde</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` tvrde kugle</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` ekstremni krugovi</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` noćne more</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` krugovi bez poteškoća</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>Sesija je već aktivna</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>Rod lika: **{0}**</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>Baza podataka {0} trenutno nije dostupna. Pokušajte ponovno kasnije.
+
+Provjerite [stranicu sa statusom]({1}) ili [RinBot support server]({2}) za više informacija.</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} Kruženja su trenutno nedostupna</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>Nema kapanja</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>Ne možete ručno pokrenuti igru kada su aktivne glasovne runde.
+Da biste ih zaustavili, možete upotrijebiti naredbu `{0}stopgs`.</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}**Popis na {1} još nije sinkroniziran. Prvo upotrijebite naredbu `sync` kako biste sinkronizirali popis.</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` krugovi anime likova</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` osvojio barem 1. rundu</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>Od korisnika **{0}** na {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>Popisi animea su **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>Žanr mora biti jedan od onih navedenih u `!genres`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>Odabrali ste neispravan raspon godina</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>Ne možete koristiti težinu Noćna mora s bilo kojim drugim filtrima.</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>Kanal mora biti postavljen na NSFW kako bi se ovaj filtar mogao koristiti.</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>kraj godine mora biti ≤ tekuća godina</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>Početak godine mora biti ≤ tekuća godina</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>Godina početka mora biti &gt; 1900</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>Kraj godine mora biti ≥ početnoj godini</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>Filtrir po vrsti pjesme može se koristiti samo na audio krugovima.</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>Ovaj žanr nije dostupan</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>Filtrirajte listu animea samo za runde o animeima i likovima iz animea.</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>Popis naredbi RinBota</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>Pokreni novi krug slika</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>Pokrenite novi video krug</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>Pokreni novu audio rundu</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>Zaustavlja trenutnu rundu</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>Prikazuje vaš osobni rezultat</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>Prikazuje najbolje igrače svih vremena na poslužitelju</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>Prikazuje najbolje igrače ovog tjedna na serveru</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>Za potpuni popis naredbi posjetite web-stranicu{0}.</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>Pokrenite novo izdanje vizualne novele "Image Round".</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>Prikazuje prilagođenu ljestvicu</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>Prikazuje ukupan rezultat ovog poslužitelja</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>Prikazuje najbrže igrače svih vremena na serveru</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, za korištenje ove značajke potrebno vam je najmanje jedno od ovih dopuštenja: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>Razno</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>Runde</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>Rezultati</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>Naredbe</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>Pokrenite sesiju glasovnog kruga</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, ne razumijem parametar.</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>Pokrenite novu sesiju glasovnog kruga uz uzorke</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>Sinkronizirajte anime listu</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>Upravljanje</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>Prikaži trenutni prefiks ili ga promijeni</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>Provjerite jesu li dozvole ispravno postavljene. Potrebne su mi barem dozvole za povezivanje i govor.</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>Nije moguće povezati se na glasovni kanal '{0}'</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>Pronalaženje kanala za pridruživanje…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>Nije pronađen upotrebljiv glasovni kanal</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>Runde će se automatski pokretati.
+
+Za preskakanje runde upotrijebite `{0}stopg`, a za otkazivanje sesije upotrijebite `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>Počeo sam sesiju s {0} -ih rundi.</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>Pridružite se glasovnom kanalu **{0}** kako biste slušali i mogli pogoditi.</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>Krug je započeo!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>{1}Kako bismo uštedjeli poslužiteljske resurse, maksimalni broj rundi u jednoj sesiji za vas je {0}.
+
+Da biste povećali ovo ograničenje, možete pomoći crowdfundingom tako da postanete pokrovitelj!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>Postignut je maksimalni broj krugova u ovoj sesiji.</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>Promijenjen je filter okrugle sesije</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>Runde će se automatski pokretati.
+
+Da biste promijenili svoj filter, samo ponovno upotrijebite `{0}sgs`. Da biste preskočili rundu, upotrijebite `{0}stopg`, a da biste otkazali sesiju, upotrijebite `{0}stopgs`.</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>Pokrenuta je glasovna sesija u kanalu **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>Priprema kruga {0} a na {1}u …</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__Više pomoći__
+Upiti: `{0}help query`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, sesija je u tijeku. Koristite `{1}stopgs` da je zaustavite.</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>Pokrenite novu prilagođenu ljestvicu</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>Ukinite prilagođenu ljestvicu</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>Resetirajte prilagođenu ljestvicu</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>Pokreni novu rundu igre</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>Započni novo kolo pikselskog crtanja anime lika.</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>Prikaži zasluge</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>Sinhronizacija anime liste</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>Upotrijebite ovu naredbu za sinkronizaciju vaše liste animea. Može se izvršiti jednom dnevno.</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>korisničko ime</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>Zasluge</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>Ogromna zahvala svim tim ljudima i web-stranicama što su pomogli da {0} postane moguć.</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>Baze podataka/API-ji</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>Moj prefiks naredbe nije mogao biti promijenjen.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>Prefiks mora biti između 1 i 5 znakova.</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}zapovjedni prefiks</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>Nisi Kururin, zar ne?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>Ova značajka je trenutno dostupna samo u beta verziji.</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>Ova značajka je trenutno dostupna samo u razvoju.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - Broj rundi za igranje u jednoj sesiji (max 10)
+`im:` - Manipulacija slikama: pikselisana `im:p`, inverzirana `im:i`, uljano slikana `im:o`, u sivim tonovima `im:g`, okrenuta okomito `im:f` ili višestruka `im:p,i,o,g,f` (bilo koja kombinacija)
+`nh:` - Ne prikazuj savjete `nh:1`
+`aggr:` - Promijeni metodu agregacije pri korištenju anime lista: sve kombinirano `aggr:union`, prisutno u svim listama `aggr:intersect` ili jednaka veličina uzorka po listi `aggr:balance` (zadano)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>Pomoć za upite</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>Ova značajka nije dostupna na ovom botu.</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - Težina `d:0` do `d:5` (`0` onemogućuje filtar težine)
+`y:` - Godina `y:2010` ili raspon godina `y:1995-2005`
+`g:` - Žanr `g:action` ili više `g:action,-sliceoflife,!kids`, gdje `-` ili `!` isključuje žanr (koristite `{0}žanrove` za sve žanrove)
+`t:` - Vrsta pjesme: uvodi `t:op`, završeci `t:ed` ili umetanje pjesama `t:in` (`u` radi samo s `sga` )
+`sl:` - Duljina uzorka u sekundama, između 5 i 30 (može se koristiti samo s `{0}sgsa`)
+`mal:` - Anime lista korisnika MyAnimeList `mal:korisničkoime` ili više `mal:korisnik1,korisnik2`
+`anilist:` - Anime lista korisnika AniList `anilist:korisničkoime` ili više `anilist:korisnik1,korisnik2`</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>uravnotežen</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>presjekao</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>ujedinjen</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>Rangiranje za ovu sesiju</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>Također poznat kao</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>Od</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>od</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>Pjesma</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>Žanrovi</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}Operativni troškovi trenutno iznose **${1} mjesečno**
+
+Trenutno je pokriveno samo **{2}%** tog iznosa.
+
+Ako uživate u {0}-inim igrama, razmislite o [doniranju 2 $ ili više na Patreonu]({3}) kako biste joj pomogli da opstane.
+
+Čak i male donacije su velika pomoć i zauzvrat ćete dobiti neke pogodnosti!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>Trenutni jezik je `{3}` ({4}).
+
+Jezik stranice {1} možete promijeniti pomoću `{0}lang language_code`.
+Trenutno su podržani sljedeći jezici:
+{2}
+
+Možete pomoći u poboljšanju ovih ili čak dodavanju novih jezika na [stranici za zajedničko prevođenje]({5}).</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>Promijeni jezik</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>Jezik je promijenjen na `{0}` .</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>Prikaži trenutni jezik ili ga promijeni</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>Uključujući žanr(e) **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>Isključujući žanr(ove) **{0}**</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>Možete imati najviše `{0}` rundi po sesiji.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>Prekoračen je maksimalni dozvoljeni broj rundi za sesiju.</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>Da biste povećali ovaj limit, možete [postati pokrovitelj]({0}).</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>Na ovom kanalu nema aktivne sesije.</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>U ovom je kanalu aktivna runda. Pokušajte je zaustaviti koristeći `{0}stopg` ili `{0}stopgs`.</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>Videozapisi su dostupni samo članovima.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>Sinkronizacija korisnika '{1}' na {0}</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>Pokrenite novu video rundu s gumbima za višestruki izbor</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>Ovaj popis se već sinkronizira.
+Trenutno stanje je **{0}**</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>Uvršteno</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>Uspio</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>Unijeli ste neispravno korisničko ime.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>Ovaj popis je nedavno sinkroniziran.
+Molimo pričekajte {0} prije ponovnog pokušaja.</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>Sinhronizacija je zakazana za korisnika ' {0} ' '{1}'</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>Primljet ćete ažuriranja statusa u izravnim porukama.</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>Možete istovremeno poslati samo jedan zadatak sinkronizacije u red.</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>Možete zakazati zadatak sinkronizacije samo svakih 15 minuta.</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>Jezik poslužitelja - {0}</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>Status je sada **{0}** .</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>Provjerite jeste li unijeli ispravno korisničko ime i je li vaš popis javno dostupan na __i__.
+
+Ako problem i dalje traje, zatražite pomoć na [serveru za podršku]({0}).</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>Sada možete početi koristiti filtar " `{0}":{1}`.</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>Status sinkronizacije za korisnika '{1}' na poslužitelju ' {0} '</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>Neuspjelo</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>Obrišeno</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>Otkazano</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>Zakazano</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>Obrada</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>Možda će trebati malo vremena da se ljestvica osvježi.</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>Lista rekorda brzine svih vremena je resetirana.</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>Resetirajte ljestvicu najboljih poentera svih vremena</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>Resetirajte ljestvicu brzina svih vremena</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>Zaustavlja sve runde na ovom poslužitelju</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>Nije moguće stvoriti novu sesiju, pokušajte koristiti `{0}stopg` ili `{0}stopgs` ili neki drugi filtar.</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>Uzorci od **{0} sekundi**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>duljina uzorka mora biti ≥ 5 i ≤ 30 sekundi</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>Ove su se probleme validacije dogodile:</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>Neispravni filtri</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>Audio manipulacije: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>Manipulacije slikama: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>Obrnuto</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>Tempo se povećao</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>Pikselirano</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>Obrnute boje</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>ulje na platnu</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>Siva skala</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>Preokrenuto</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>Možeš pogađati samo jednom!</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>Greška pri izvršavanju naredbe</value>
+  </data>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>Pokrenite novo kolo slika s tipkama za višestruki izbor</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>Pokrenite novu sesiju glasovnog kruga s uzorcima i tipkama s višestrukim izborom</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>Žao mi je, to je bio **{0}** , što je netočno.</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>Pokrenite novo kolo pogađanja obrnutom slikom</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}, previše si puta pogodio '{1}' ili nešto slično. Ignorirat ću to neko vrijeme.</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>Nema naznaka</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>Pokrenite novu audio rundu s gumbima za višestruki izbor</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>Pokreni novu rundu Pokémon</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>Životi: **{0}**</value>
+  </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>Da biste smanjili ovo vrijeme hlađenja, možete [postati podupiratelj]({0}).</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>Anime</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>Anime likovi</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>TV specijali</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>Tipovi:</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>Manga</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>Vizualne novele</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>Videoigre</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>Pokémon</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` manga</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>Nasumičan</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>Vibrato</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>Tremolo</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>Izobličenje</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>Rotacija</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>Pokreni novu rundu mangi</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>Vrste animea za filter</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>Možete ih kombinirati u filtru pomoću "," (zarez). 
+Isključenja se mogu postaviti pomoću "-" ili "!" ispred tipa.</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>Mjeri latenciju bota i Discorda.</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` manga krugovi</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>Karaoke</value>
+  </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>Zadnje ažuriranje</value>
+  </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>Dopuštanje više dobitnika</value>
+  </data>
 </root>

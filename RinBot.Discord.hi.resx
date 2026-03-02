@@ -59,7 +59,7 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -117,4 +117,1167 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Execute_Help_sb" xml:space="preserve">
+    <value>बहुविकल्पीय बटनों के साथ एक नया इमेज राउंड शुरू करें</value>
+  </data>
+  <data name="FinishRound_NoWinner" xml:space="preserve">
+    <value>**किसी ने भी सही अनुमान नहीं लगाया।**</value>
+  </data>
+  <data name="FinishRound_PlayerWon" xml:space="preserve">
+    <value>{0} जीत गया है!</value>
+  </data>
+  <data name="FinishRound_PointsGained" xml:space="preserve">
+    <value>**{0}** अंक प्राप्त हुए</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Description" xml:space="preserve">
+    <value>ये सत्यापन समस्याएँ हुईं:</value>
+  </data>
+  <data name="StartGame_Preparing_Genre" xml:space="preserve">
+    <value>शैली से **{0}**</value>
+  </data>
+  <data name="SendServerScore_Points" xml:space="preserve">
+    <value>अंक</value>
+  </data>
+  <data name="SendStatistics_Database" xml:space="preserve">
+    <value>__डेटाबेस__</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Included" xml:space="preserve">
+    <value>मूल सहित: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeOrigins_Excluded" xml:space="preserve">
+    <value>उत्पत्ति को छोड़कर: **{0}**</value>
+  </data>
+  <data name="OnCommandExecuted_ErrorWhileExecuting" xml:space="preserve">
+    <value>कमांड निष्पादित करते समय त्रुटि</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Description" xml:space="preserve">
+    <value>उन्हें सक्षम करने के तरीके के बारे में [इस पेज]({0}) को देखें।</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
+    <value>प्लेटफ़ॉर्म(स) सहित **{0}**</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Title" xml:space="preserve">
+    <value>संचालन</value>
+  </data>
+  <data name="CreateFilterDescription_GamePlatforms_Excluded" xml:space="preserve">
+    <value>प्लेटफ़ॉर्म(ओं) को छोड़कर **{0}**</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Title" xml:space="preserve">
+    <value>सत्र के लिए अधिकतम अनुमत राउंड्स से अधिक हो गए</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description_Increase" xml:space="preserve">
+    <value>इस सीमा को बढ़ाने के लिए, आप [पैट्रन बन सकते हैं]({0})।</value>
+  </data>
+  <data name="SendStatistics_VideoGameRounds" xml:space="preserve">
+    <value>`{0}` वीडियो गेम के राउंड</value>
+  </data>
+  <data name="Execute_Help_sbsa" xml:space="preserve">
+    <value>नमूनों और बहुविकल्पीय बटनों के साथ एक नया वॉयस राउंड सत्र शुरू करें।</value>
+  </data>
+  <data name="Execute_Help_SlashCommands_Title" xml:space="preserve">
+    <value>स्लैश कमांड अब उपलब्ध हैं!</value>
+  </data>
+  <data name="CreateFilterDescription_ImageManipulations" xml:space="preserve">
+    <value>छवि हेरफेर: **{0}**</value>
+  </data>
+  <data name="AudioManipulationTypes_Reversed" xml:space="preserve">
+    <value>उल्टा</value>
+  </data>
+  <data name="AudioManipulationTypes_Tempo" xml:space="preserve">
+    <value>गति बढ़ी</value>
+  </data>
+  <data name="ImageManipulationTypes_Grayscale" xml:space="preserve">
+    <value>धूसर पैमाना</value>
+  </data>
+  <data name="ImageManipulationTypes_OilPaint" xml:space="preserve">
+    <value>तेल से चित्रित</value>
+  </data>
+  <data name="ImageManipulationTypes_Flip" xml:space="preserve">
+    <value>उल्टा</value>
+  </data>
+  <data name="CreateFilterDescription_AudioManipulations" xml:space="preserve">
+    <value>ऑडियो हेरफेर: **{0}**</value>
+  </data>
+  <data name="SongType_MustBe" xml:space="preserve">
+    <value>गीत का प्रकार होना चाहिए: {0}</value>
+  </data>
+  <data name="GetScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` अंक</value>
+  </data>
+  <data name="GetScoreFieldText_Rank" xml:space="preserve">
+    <value>रैंक {0}</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Extreme" xml:space="preserve">
+    <value>अत्यधिक</value>
+  </data>
+  <data name="SongType_1" xml:space="preserve">
+    <value>खोलना</value>
+  </data>
+  <data name="Execute_Help_startctop" xml:space="preserve">
+    <value>एक नया कस्टम लीडरबोर्ड शुरू करें</value>
+  </data>
+  <data name="ManagementCommandModule_Language_NotSupported" xml:space="preserve">
+    <value>भाषा कोड `{0}` समर्थित नहीं है।</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations_Description" xml:space="preserve">
+    <value>योगदान देने वाले सभी लोगों की सूची के लिए [अनुवाद सांख्यिकी]({0}) देखें!</value>
+  </data>
+  <data name="AnimeListSyncState_Enqueued" xml:space="preserve">
+    <value>पंक्तिबद्ध</value>
+  </data>
+  <data name="AnimeListSyncState_Succeeded" xml:space="preserve">
+    <value>सफल हुआ</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_BadUsername" xml:space="preserve">
+    <value>आपने एक गलत उपयोगकर्ता नाम प्रदान किया।</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Title" xml:space="preserve">
+    <value>{0} उपयोगकर्ता '{1}' के लिए सिंक्रोनाइज़ेशन कतारबद्ध है।</value>
+  </data>
+  <data name="AnimeListSyncState_Deleted" xml:space="preserve">
+    <value>हटाया गया</value>
+  </data>
+  <data name="AnimeListSyncState_Cancelled" xml:space="preserve">
+    <value>रद्द</value>
+  </data>
+  <data name="AnimeListSyncState_Scheduled" xml:space="preserve">
+    <value>निर्धारित</value>
+  </data>
+  <data name="SessionCancelled_Title" xml:space="preserve">
+    <value>सत्र रद्द कर दिया गया है।</value>
+  </data>
+  <data name="Execute_Help_update" xml:space="preserve">
+    <value>इस सर्वर की जानकारी (चैनल, भूमिकाएँ आदि) को अपडेट करने के लिए मजबूर करता है।</value>
+  </data>
+  <data name="SendStatistics_CharactersCount" xml:space="preserve">
+    <value>`{0}` चरित्र</value>
+  </data>
+  <data name="GetScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` राउंड्स</value>
+  </data>
+  <data name="AnimeListSync_ActiveSynchronization" xml:space="preserve">
+    <value>आप एक समय में केवल एक सिंक्रोनाइज़ेशन जॉब ही कतारबद्ध कर सकते हैं।</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Description" xml:space="preserve">
+    <value>आप केवल एक बार अनुमान लगा सकते हैं!</value>
+  </data>
+  <data name="ButtonGuess_SendButtonsMessage_Title" xml:space="preserve">
+    <value>यह कौन सा एनीमे है?</value>
+  </data>
+  <data name="RequireChannelAccess_NotPermitted" xml:space="preserve">
+    <value>चैनल एक्सेस नियंत्रण सेटिंग्स के कारण, आपको यहाँ अनुमति नहीं है।</value>
+  </data>
+  <data name="Execute_Help_stopall" xml:space="preserve">
+    <value>इस सर्वर पर सभी राउंड रुक जाते हैं।</value>
+  </data>
+  <data name="RoundSession_Start_CouldNotCreate" xml:space="preserve">
+    <value>नया सत्र नहीं बनाया जा सका, कृपया `{0}, stopg` या `{0}, stopgs` या कोई अन्य फ़िल्टर आज़माएँ।</value>
+  </data>
+  <data name="CreateFilterDescription_Samples" xml:space="preserve">
+    <value>**{0} सेकंड के नमूने**</value>
+  </data>
+  <data name="StartGameValidator_SampleLength" xml:space="preserve">
+    <value>नमूने की लंबाई ≥ 5 और ≤ 30 सेकंड होनी चाहिए।</value>
+  </data>
+  <data name="CreateGameStarter_Invalid_Title" xml:space="preserve">
+    <value>अमान्य फ़िल्टर</value>
+  </data>
+  <data name="StartGame_Preparing_BetweenYears" xml:space="preserve">
+    <value>{0} के बीच जारी {1}</value>
+  </data>
+  <data name="SendHelp_GameRounds" xml:space="preserve">
+    <value>वीडियो गेम राउंड्स</value>
+  </data>
+  <data name="SendHelp_AnimeRounds" xml:space="preserve">
+    <value>एनीमे राउंड्स</value>
+  </data>
+  <data name="Execute_Help_gamegenres" xml:space="preserve">
+    <value>सभी संभावित गेम शैलियों दिखाएँ</value>
+  </data>
+  <data name="Execute_Help_mydifficulty" xml:space="preserve">
+    <value>अपनी डिफ़ॉल्ट कठिनाई बदलें</value>
+  </data>
+  <data name="SendHelp_Player" xml:space="preserve">
+    <value>खिलाड़ी</value>
+  </data>
+  <data name="CharacterGender_Male" xml:space="preserve">
+    <value>पुरुष</value>
+  </data>
+  <data name="CharacterGender_Female" xml:space="preserve">
+    <value>स्त्री</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Included" xml:space="preserve">
+    <value>चरित्र भूमिकाएँ सहित: **{0}**</value>
+  </data>
+  <data name="StopGame_Stopping" xml:space="preserve">
+    <value>वर्तमान दौर को रोकना…</value>
+  </data>
+  <data name="RoundSession_Stop_Stopping" xml:space="preserve">
+    <value>वर्तमान दौर का सत्र रोकना…</value>
+  </data>
+  <data name="MyDifficulty_Placeholder" xml:space="preserve">
+    <value>अपनी डिफ़ॉल्ट कठिनाई चुनें</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Undefined" xml:space="preserve">
+    <value>कोई कठिनाई नहीं</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Excluded" xml:space="preserve">
+    <value>प्रकार(ों) को छोड़कर: **{0}**</value>
+  </data>
+  <data name="AnimeTypes_TvSeries" xml:space="preserve">
+    <value>टीवी श्रृंखला</value>
+  </data>
+  <data name="AnimeTypes_Movie" xml:space="preserve">
+    <value>फिल्म</value>
+  </data>
+  <data name="AnimeTypes_Ova" xml:space="preserve">
+    <value>ओवीए</value>
+  </data>
+  <data name="AnimeTypes_MusicVideo" xml:space="preserve">
+    <value>संगीत वीडियो</value>
+  </data>
+  <data name="AnimeTypes_Web" xml:space="preserve">
+    <value>वेब</value>
+  </data>
+  <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
+    <value>अब एक और **{0} अंक** अर्जित करने के लिए दाईं ओर दिए गए एनीमे से एक पात्र का अनुमान लगाएँ!</value>
+  </data>
+  <data name="Execute_Help_sgq" xml:space="preserve">
+    <value>एक नया एनीमे कैरेक्टर कोट राउंड शुरू करें</value>
+  </data>
+  <data name="SendStatistics_ThemesCount" xml:space="preserve">
+    <value>`{0}` थीम</value>
+  </data>
+  <data name="AddTopPlayerDescription_Year" xml:space="preserve">
+    <value>साल का {0}</value>
+  </data>
+  <data name="CancelRound_RoundWasCancelled" xml:space="preserve">
+    <value>गिरफ्तारियों के अभाव के कारण यह दौर रद्द कर दिया गया। कम सख्त फ़िल्टरों के साथ एक और दौर आज़माएँ।</value>
+  </data>
+  <data name="AnimeList_Must_Be_Synced" xml:space="preserve">
+    <value>**{0}** {1} पर 's list अभी तक सिंक नहीं हुई है। सूची को सिंक करने के लिए पहले sync कमांड का उपयोग करें। ``</value>
+  </data>
+  <data name="Update_Title" xml:space="preserve">
+    <value>राउंड सत्र फ़िल्टर बदला गया</value>
+  </data>
+  <data name="SendStatistics_VideoGameCount" xml:space="preserve">
+    <value>`{0}` वीडियो गेम्स</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Operations_Description" xml:space="preserve">
+    <value>`n:` - एक सत्र में खेलने के लिए राउंड की संख्या (अधिकतम 10)
+`im:` - छवि हेरफेर: पिक्सेलेटेड `im:p`, उल्टा `im:i`, ऑयल-पेंटेड `im:o`, ग्रेस्केल `im:g`, लंबवत रूप से पलटा हुआ `im:f` या एकाधिक `im:p,i,o,g,f` (कोई भी संयोजन)
+`nh:` - संकेत न दिखाएँ `nh:1`
+`aggr:` - एनीमे सूचियों का उपयोग करते समय समूहीकरण विधि बदलें: सभी संयुक्त `aggr:union`, सभी सूचियों में मौजूद `aggr:intersect` या प्रत्येक सूची के लिए समान नमूना आकार `aggr:balance` (डिफ़ॉल्ट)</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Description" xml:space="preserve">
+    <value>`d:` - कठिनाई `d:0` से `d:5` (`0` कठिनाई फ़िल्टर को अक्षम करता है)
+`y:` - वर्ष `y:2010` या वर्ष की सीमा `y:1995-2005`
+`g:` - शैली `g:action` या कई `g:action,-sliceoflife,!kids`, जहाँ `-` या `!` शैली को बाहर करता है (सभी शैलियों के लिए `{0}शैलियों` का उपयोग करें)
+`t:` - गीत का प्रकार: ओपनिंग्स `t:op`, एंडिंग्स `t:ed` या इन्सर्ट सॉन्ग्स `t:in` (` में`केवल `sga` के साथ काम करता है)
+`sl:` - सेकंड में नमूना लंबाई, 5 और 30 के बीच (केवल `{0}sgsa` के साथ उपयोग योग्य)
+`mal:` - MyAnimeList उपयोगकर्ता एनीमे सूची `mal:username` या कई `mal:user1,user2`
+`anilist:` - AniList उपयोगकर्ता एनीमे सूची `anilist:username` या कई `anilist:user1,user2`</value>
+  </data>
+  <data name="ImageManipulationTypes_Pixelated" xml:space="preserve">
+    <value>पिक्सेलयुक्त</value>
+  </data>
+  <data name="ImageManipulationTypes_Inverted" xml:space="preserve">
+    <value>उलटे रंग</value>
+  </data>
+  <data name="RequirePatronTier_Error" xml:space="preserve">
+    <value>यह कमांड केवल संरक्षकों के लिए उपलब्ध है। संरक्षक बनने के तरीके के बारे में [इस पृष्ठ]({0}) देखें।
+</value>
+  </data>
+  <data name="HandleCapture_Cap" xml:space="preserve">
+    <value>टोपी</value>
+  </data>
+  <data name="HandleCapture_Hint" xml:space="preserve">
+    <value>संकेत</value>
+  </data>
+  <data name="HandleCapture_XSecondsLeft" xml:space="preserve">
+    <value>**आपके पास अनुमान लगाने के लिए {0} सेकंड बचे हैं!**</value>
+  </data>
+  <data name="SendMyScore_Speed" xml:space="preserve">
+    <value>गति</value>
+  </data>
+  <data name="InterruptAllGames_Description" xml:space="preserve">
+    <value>मैं आपके खेल में बाधा डालने के लिए क्षमा चाहता हूँ, लेकिन आपको शानदार नई सुविधाएँ प्रदान करने के लिए मुझे खुद को पुनः आरंभ करना होगा!</value>
+  </data>
+  <data name="InterruptAllGames_Description2" xml:space="preserve">
+    <value>आप एक मिनट में फिर से नया दौर शुरू कर सकते हैं।</value>
+  </data>
+  <data name="InterruptAllGames_Title" xml:space="preserve">
+    <value>:warning: **पुनरारंभ हो रहा है**</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>खिलाड़ी</value>
+  </data>
+  <data name="SendAnimeInformation_AlternativeTitles" xml:space="preserve">
+    <value>वैकल्पिक शीर्षक</value>
+  </data>
+  <data name="SendMyScore_AchievementPoints" xml:space="preserve">
+    <value>`{0}` उपलब्धि अंक</value>
+  </data>
+  <data name="SendMyScore_AllTime" xml:space="preserve">
+    <value>__सर्वकालिक__</value>
+  </data>
+  <data name="SendMyScore_NoWinsYet" xml:space="preserve">
+    <value>{0}, तुमने अभी तक कोई राउंड नहीं जीता है।</value>
+  </data>
+  <data name="SendMyScore_PlayerScore" xml:space="preserve">
+    <value>{0}का स्कोर</value>
+  </data>
+  <data name="SendMyScore_RoundPoints" xml:space="preserve">
+    <value>`{0}` गोल बिंदु</value>
+  </data>
+  <data name="SendMyScore_VisitProfilePage" xml:space="preserve">
+    <value>वैश्विक आँकड़ों के लिए [आपका प्रोफ़ाइल पेज]({1}/profile/{2}) पर जाएँ।</value>
+  </data>
+  <data name="SendTopPlayers_CheckTheSupportPage" xml:space="preserve">
+    <value>[पैट्रन बनें]({1}), [मुझे कॉफ़ी पिलाएँ]({2}) या [रोज़ वोट करें]({0}/#support)!</value>
+  </data>
+  <data name="SendTopPlayers_IfYouLikeThisBot" xml:space="preserve">
+    <value>RinBot को जीवित रखने में मदद करें!</value>
+  </data>
+  <data name="SendTopPlayers_NoPlayersFound" xml:space="preserve">
+    <value>कोई खिलाड़ी नहीं मिला।</value>
+  </data>
+  <data name="SendTopPlayers_SinceLastWeek" xml:space="preserve">
+    <value>पिछले सप्ताह से</value>
+  </data>
+  <data name="SendTopPlayers_Title" xml:space="preserve">
+    <value>**{0} के शीर्ष खिलाड़ी**</value>
+  </data>
+  <data name="StartGame_Maintenance_Description" xml:space="preserve">
+    <value>मैं वर्तमान में रखरखाव के अंतर्गत हूँ, जल्द ही फिर से प्रयास करें!</value>
+  </data>
+  <data name="StartGame_Maintenance_Title" xml:space="preserve">
+    <value>:warning: **रखरखाव**</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty" xml:space="preserve">
+    <value>कठिनाई है **{0}**</value>
+  </data>
+  <data name="StartGame_Preparing_Title" xml:space="preserve">
+    <value>एक नया दौर तैयार कर रहा हूँ…</value>
+  </data>
+  <data name="StartGame_RoundInProgress" xml:space="preserve">
+    <value>{0}, पहले से ही एक राउंड चल रहा है। इसे रोकने के लिए `{1}stopg` का उपयोग करें।</value>
+  </data>
+  <data name="StartGame_StartInXSeconds" xml:space="preserve">
+    <value>राउंड {0} सेकंड में शुरू होगा…</value>
+  </data>
+  <data name="StartGame_TooManyRounds" xml:space="preserve">
+    <value>{0}, इस समय बहुत सारे राउंड तैयार किए जा रहे हैं। थोड़ी देर में फिर से प्रयास करें।</value>
+  </data>
+  <data name="StartGame_UnknownParameter" xml:space="preserve">
+    <value>{0}, मुझे पैरामीटर समझ नहीं आ रहा है।</value>
+  </data>
+  <data name="StopGame_CooldownNotification" xml:space="preserve">
+    <value>{0}, आप हर {1} मिनट में `{2}stopg` कमांड का एक से अधिक बार उपयोग नहीं कर सकते।</value>
+  </data>
+  <data name="StopGame_NoRoundBeingPlayed" xml:space="preserve">
+    <value>{0}, वर्तमान में कोई राउंड नहीं खेला जा रहा है। आप `{1}sg` का उपयोग करके एक राउंड शुरू कर सकते हैं।</value>
+  </data>
+  <data name="UpdateProfile_LessPointsGiven" xml:space="preserve">
+    <value>आपको नीचे दी गई कठिनाई के दौरों के लिए कम अंक दिए जाएंगे। **{0}**</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievement" xml:space="preserve">
+    <value>{0} यह उपलब्धि प्राप्त हुई</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementList" xml:space="preserve">
+    <value>{0}की उपलब्धियों की सूची</value>
+  </data>
+  <data name="UpdateProfile_PlayerAchievementPointsGained" xml:space="preserve">
+    <value>और {0} अंक प्राप्त किए!</value>
+  </data>
+  <data name="UpdateProfile_PlayerLevelUp" xml:space="preserve">
+    <value>{0} अब सम है {1}</value>
+  </data>
+  <data name="StartGame_OnlyForPatrons" xml:space="preserve">
+    <value>{0}, यह कमांड केवल संरक्षकों के लिए उपलब्ध है (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_TooManyStarted" xml:space="preserve">
+    <value>{0}, आपने आज बहुत अधिक गेम शुरू कर दिए हैं। इस सीमा को बढ़ाने के लिए संरक्षक बनें (https://patreon.com/rinbot?fan_landing=true)</value>
+  </data>
+  <data name="StartGame_UserHasActiveRound" xml:space="preserve">
+    <value>{0}, आप पहले से ही कहीं और एक सक्रिय राउंड चला रहे हैं।</value>
+  </data>
+  <data name="SendMyScore_Achievements" xml:space="preserve">
+    <value>उपलब्धियाँ</value>
+  </data>
+  <data name="SendMyScore_LastWeek" xml:space="preserve">
+    <value>__पिछले सप्ताह__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Points" xml:space="preserve">
+    <value>`{0}` अंक</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rank" xml:space="preserve">
+    <value>रैंक {0}</value>
+  </data>
+  <data name="GetServerScoreFieldText_Rounds" xml:space="preserve">
+    <value>`{0}` राउंड जीते</value>
+  </data>
+  <data name="SendServerScore_Title" xml:space="preserve">
+    <value>{0}सर्वर स्कोर</value>
+  </data>
+  <data name="GetServerScoreFieldText_AllTime" xml:space="preserve">
+    <value>__सर्वकालिक__</value>
+  </data>
+  <data name="GetServerScoreFieldText_LastWeek" xml:space="preserve">
+    <value>__पिछले सप्ताह__</value>
+  </data>
+  <data name="GetServerScoreFieldText_ThisWeek" xml:space="preserve">
+    <value>__इस सप्ताह__</value>
+  </data>
+  <data name="GetServerScoreFieldText_Players" xml:space="preserve">
+    <value>`{0}` खिलाड़ी</value>
+  </data>
+  <data name="SendMyScore_Points" xml:space="preserve">
+    <value>अंक</value>
+  </data>
+  <data name="GetScoreFieldText_Speed" xml:space="preserve">
+    <value>`{0}`</value>
+  </data>
+  <data name="SendTopPlayers_SpeedTitle" xml:space="preserve">
+    <value>**सबसे तेज़ खिलाड़ी __{0}__**</value>
+  </data>
+  <data name="StartGame_HentaiNsfwRequired" xml:space="preserve">
+    <value>इस बॉट का उपयोग करने के लिए इस चैनल पर NSFW सक्षम होना चाहिए।</value>
+  </data>
+  <data name="FinishRound_YourTime" xml:space="preserve">
+    <value>समय: **{0}**</value>
+  </data>
+  <data name="FinishRound_YourGuess" xml:space="preserve">
+    <value>अनुमान लगाएँ: **{0}**</value>
+  </data>
+  <data name="FinishRound_PointGained" xml:space="preserve">
+    <value>**{0} बिंदु** प्राप्त हुआ</value>
+  </data>
+  <data name="SendTopPlayers_SpeedOnlyLargePoolCounts" xml:space="preserve">
+    <value>केवल उन राउंड्स को गिना जाता है जिनके पूल में 1000 से अधिक हैं।</value>
+  </data>
+  <data name="StartGame_Preparing_SongType" xml:space="preserve">
+    <value>गीत का प्रकार: **{0}**</value>
+  </data>
+  <data name="AddLastWeekWinnerLine_FieldName" xml:space="preserve">
+    <value>पिछले सप्ताह का विजेता</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field" xml:space="preserve">
+    <value>स्कोर और लीडरबोर्ड हर घंटे संसाधित किए जाते हैं।</value>
+  </data>
+  <data name="AddTopPlayerDescription_FromDateToDate" xml:space="preserve">
+    <value>{0} से {1}</value>
+  </data>
+  <data name="AddTopPlayerDescription_StartedFrom" xml:space="preserve">
+    <value>शुरू किया {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_Week" xml:space="preserve">
+    <value>सप्ताह {0}</value>
+  </data>
+  <data name="AddTopPlayerDescription_WeekEnds" xml:space="preserve">
+    <value>(समाप्त {0})</value>
+  </data>
+  <data name="EndCustomPlayerRanking_Ended" xml:space="preserve">
+    <value>इस चैनल में कस्टम लीडरबोर्ड समाप्त कर दिया गया था।
+अब आप इसे `{0}resetctop` का उपयोग करके रीसेट कर सकते हैं।</value>
+  </data>
+  <data name="EndCustomPlayerRanking_NoneActive" xml:space="preserve">
+    <value>कोई कस्टम लीडरबोर्ड सक्रिय नहीं है।
+आप `{0}startctop` का उपयोग करके एक शुरू कर सकते हैं।</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_NoneFound" xml:space="preserve">
+    <value>कोई कस्टम लीडरबोर्ड नहीं मिला।
+आप `{0}startctop` का उपयोग करके एक शुरू कर सकते हैं।</value>
+  </data>
+  <data name="ResetCustomPlayerRanking_Reset" xml:space="preserve">
+    <value>कस्टम लीडरबोर्ड रीसेट कर दिया गया था। आप `{0}startctop` के साथ फिर से एक नया शुरू कर सकते हैं।</value>
+  </data>
+  <data name="SendStatistics_AnimeCount" xml:space="preserve">
+    <value>`{0}` एनीमे</value>
+  </data>
+  <data name="SendStatistics_AnimeRounds" xml:space="preserve">
+    <value>`{0}` एनीमे राउंड्स</value>
+  </data>
+  <data name="SendStatistics_AudioRounds" xml:space="preserve">
+    <value>`{0}` ऑडियो राउंड्स</value>
+  </data>
+  <data name="SendStatistics_GuildCount" xml:space="preserve">
+    <value>`{0}` सर्वर</value>
+  </data>
+  <data name="SendStatistics_Guilds" xml:space="preserve">
+    <value>__सर्वर__</value>
+  </data>
+  <data name="SendStatistics_ImageRounds" xml:space="preserve">
+    <value>`{0}` छवि राउंड्स</value>
+  </data>
+  <data name="SendStatistics_PlayerCount" xml:space="preserve">
+    <value>`{0}` उपयोगकर्ता</value>
+  </data>
+  <data name="SendStatistics_Players" xml:space="preserve">
+    <value>__खिलाड़ी__</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1000Count" xml:space="preserve">
+    <value>`{0}` 1000 राउंड से अधिक जीते</value>
+  </data>
+  <data name="SendStatistics_PlayerWon100Count" xml:space="preserve">
+    <value>`{0}` 100 से अधिक राउंड जीते</value>
+  </data>
+  <data name="SendStatistics_PlayerWon10Count" xml:space="preserve">
+    <value>`{0}` 10 राउंड से अधिक जीते</value>
+  </data>
+  <data name="SendStatistics_RoundsCancelled" xml:space="preserve">
+    <value>`{0}` राउंड रद्द</value>
+  </data>
+  <data name="SendStatistics_RoundsFinished" xml:space="preserve">
+    <value>`{0}` राउंड समाप्त</value>
+  </data>
+  <data name="SendStatistics_SongsCount" xml:space="preserve">
+    <value>`{0}` गीत</value>
+  </data>
+  <data name="SendStatistics_VideoRounds" xml:space="preserve">
+    <value>`{0}` वीडियो राउंड्स</value>
+  </data>
+  <data name="SendStatistics_VisualNovelCount" xml:space="preserve">
+    <value>`{0}` दृश्य उपन्यास</value>
+  </data>
+  <data name="SendStatistics_VisualNovelRounds" xml:space="preserve">
+    <value>`{0}` विज़ुअल नॉवेल राउंड्स</value>
+  </data>
+  <data name="SendStatistics_GlobalFieldName" xml:space="preserve">
+    <value>वैश्विक</value>
+  </data>
+  <data name="SendStatistics_Rounds" xml:space="preserve">
+    <value>__राउंड्स__</value>
+  </data>
+  <data name="SendStatistics_Title" xml:space="preserve">
+    <value>खेल आँकड़े</value>
+  </data>
+  <data name="SendTopPlayers_CustomPlayerRankingTitle" xml:space="preserve">
+    <value># के लिए कस्टम लीडरबोर्ड{0}</value>
+  </data>
+  <data name="SendTopPlayers_NoCustomPlayerRanking" xml:space="preserve">
+    <value>{0}, कोई कस्टम लीडरबोर्ड नहीं मिला। आप `{1}startctop का उपयोग करके एक नया लीडरबोर्ड शुरू कर सकते हैं।`</value>
+  </data>
+  <data name="StartCustomPlayerRanking_AlreadyActive" xml:space="preserve">
+    <value>{0}, इस चैनल में पहले से ही एक कस्टम लीडरबोर्ड सक्रिय है।
+आप इसे `{1}endctop` का उपयोग करके समाप्त कर सकते हैं या इसे `{1}resetctop` का उपयोग करके पूरी तरह से रीसेट कर सकते हैं।</value>
+  </data>
+  <data name="StartCustomPlayerRanking_Started" xml:space="preserve">
+    <value>इस चैनल के लिए अभी-अभी एक कस्टम लीडरबोर्ड शुरू किया गया है।</value>
+  </data>
+  <data name="AddRecalculationNoticeField_Field2" xml:space="preserve">
+    <value>तेज़ प्रोसेसिंग पाने के लिए, आप [अपना सर्वर बूस्ट कर सकते हैं]({0})।</value>
+  </data>
+  <data name="SendStatistics_Servers" xml:space="preserve">
+    <value>__सर्वर__</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Easy" xml:space="preserve">
+    <value>आसान</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Normal" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Hard" xml:space="preserve">
+    <value>कठिन</value>
+  </data>
+  <data name="StartGame_Preparing_Difficulty_Nightmare" xml:space="preserve">
+    <value>दुःस्वप्न</value>
+  </data>
+  <data name="SongType_2" xml:space="preserve">
+    <value>समापन</value>
+  </data>
+  <data name="SongType_3" xml:space="preserve">
+    <value>इन्सर्ट सॉन्ग</value>
+  </data>
+  <data name="SongType_4" xml:space="preserve">
+    <value>चित्र गीत</value>
+  </data>
+  <data name="SendStatistics_EasyRounds" xml:space="preserve">
+    <value>`{0}` आसान राउंड</value>
+  </data>
+  <data name="SendStatistics_NormalRounds" xml:space="preserve">
+    <value>`{0}` सामान्य राउंड</value>
+  </data>
+  <data name="SendStatistics_HardRounds" xml:space="preserve">
+    <value>`{0}` कठोर राउंड</value>
+  </data>
+  <data name="SendStatistics_ExtremeRounds" xml:space="preserve">
+    <value>`{0}` अत्यधिक राउंड</value>
+  </data>
+  <data name="SendStatistics_NightmareRounds" xml:space="preserve">
+    <value>`{0}` दुःस्वप्न राउंड्स</value>
+  </data>
+  <data name="SendStatistics_EverythingRounds" xml:space="preserve">
+    <value>`{0}` बिना किसी कठिनाई के राउंड</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Title" xml:space="preserve">
+    <value>एक सत्र पहले से ही सक्रिय है।</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Description" xml:space="preserve">
+    <value>{0} डेटाबेस इस समय उपलब्ध नहीं है। कृपया बाद में फिर से प्रयास करें।
+
+अधिक जानकारी के लिए [स्टेटस पेज]({1}) या [रिनबॉट सपोर्ट सर्वर]({2}) देखें।</value>
+  </data>
+  <data name="SendDatabaseUnavailable_Title" xml:space="preserve">
+    <value>{0} राउंड्स वर्तमान में उपलब्ध नहीं हैं</value>
+  </data>
+  <data name="StartGame_VoiceRoundSessionIsActive_Description" xml:space="preserve">
+    <value>जब वॉइस राउंड सक्रिय हों, तो मैन्युअली गेम शुरू नहीं किया जा सकता।
+उन्हें रोकने के लिए आप `{0}stopgs` का उपयोग कर सकते हैं।</value>
+  </data>
+  <data name="SendStatistics_AnimeCharacterRounds" xml:space="preserve">
+    <value>`{0}` एनीमे कैरेक्टर राउंड्स</value>
+  </data>
+  <data name="SendStatistics_PlayerWon1Count" xml:space="preserve">
+    <value>`{0}` कम से कम 1 राउंड जीता</value>
+  </data>
+  <data name="StartGame_Preparing_ExclusivelyFromList" xml:space="preserve">
+    <value>उपयोगकर्ता(ओं) **{0}** से {1}</value>
+  </data>
+  <data name="StartGame_Preparing_AnimeListsAggregation" xml:space="preserve">
+    <value>एनीमे सूचियाँ हैं **{0}**</value>
+  </data>
+  <data name="InvalidGenre" xml:space="preserve">
+    <value>शैली उनमें से एक होनी चाहिए जो `!genres में सूचीबद्ध हैं।`</value>
+  </data>
+  <data name="InvalidYearRange" xml:space="preserve">
+    <value>आपने एक अमान्य वर्ष सीमा चुनी।</value>
+  </data>
+  <data name="NightmareDifficulty_NoOtherFilters" xml:space="preserve">
+    <value>आप किसी भी अन्य फ़िल्टर के साथ नाइटमेयर कठिनाई का उपयोग नहीं कर सकते।</value>
+  </data>
+  <data name="NsfwMode_Disabled" xml:space="preserve">
+    <value>इस फ़िल्टर का उपयोग करने के लिए चैनल को NSFW पर सेट करना होगा।</value>
+  </data>
+  <data name="YearEnd_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>अंत वर्ष वर्तमान वर्ष के बराबर या उससे कम होना चाहिए।</value>
+  </data>
+  <data name="YearStart_LessThanOrEqualToCurrentYear" xml:space="preserve">
+    <value>शुरुआत का वर्ष वर्तमान वर्ष से कम या बराबर होना चाहिए।</value>
+  </data>
+  <data name="YearStart_GreaterThan1900" xml:space="preserve">
+    <value>वर्ष की शुरुआत 1900 से अधिक होनी चाहिए।</value>
+  </data>
+  <data name="YearEnd_GreaterThanOrEqualToYearStart" xml:space="preserve">
+    <value>अंतिम वर्ष प्रारंभिक वर्ष से ≥ होना चाहिए।</value>
+  </data>
+  <data name="SongType_Is_For_Audio_Only" xml:space="preserve">
+    <value>गाने के प्रकार का फ़िल्टर केवल ऑडियो राउंड्स पर ही इस्तेमाल किया जा सकता है।</value>
+  </data>
+  <data name="GenreNotAvailable" xml:space="preserve">
+    <value>यह शैली उपलब्ध नहीं है</value>
+  </data>
+  <data name="AnimeList_Filter_For_Anime_Only" xml:space="preserve">
+    <value>एनीमे सूची फ़िल्टर केवल एनीमे और एनीमे पात्र राउंड्स के लिए काम करता है।</value>
+  </data>
+  <data name="Execute_Help_Title" xml:space="preserve">
+    <value>RinBot कमांड सूची</value>
+  </data>
+  <data name="Execute_Help_sg" xml:space="preserve">
+    <value>एक नया इमेज राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_Help_stopgs" xml:space="preserve">
+    <value>एक चल रहे सत्र को रोकें</value>
+  </data>
+  <data name="Execute_Help_sgv" xml:space="preserve">
+    <value>एक नया वीडियो राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_Help_sga" xml:space="preserve">
+    <value>एक नया ऑडियो राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_Help_stopg" xml:space="preserve">
+    <value>वर्तमान राउंड को रोकता है</value>
+  </data>
+  <data name="Execute_Help_myscore" xml:space="preserve">
+    <value>आपका व्यक्तिगत स्कोर दिखाता है</value>
+  </data>
+  <data name="Execute_Help_alltop" xml:space="preserve">
+    <value>सर्वर में सभी समय के शीर्ष खिलाड़ियों को दिखाता है</value>
+  </data>
+  <data name="Execute_Help_weektop" xml:space="preserve">
+    <value>सर्वर में इस सप्ताह के शीर्ष खिलाड़ियों को दिखाता है</value>
+  </data>
+  <data name="Execute_Help_CommandList" xml:space="preserve">
+    <value>कमांडों की पूरी सूची के लिए कृपया [वेबसाइट पर जाएँ]({0})।</value>
+  </data>
+  <data name="Execute_Help_sgvn" xml:space="preserve">
+    <value>एक नया विज़ुअल नॉवेल इमेज राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_Help_ctop" xml:space="preserve">
+    <value>कस्टम लीडरबोर्ड दिखाता है</value>
+  </data>
+  <data name="Execute_Help_serverscore" xml:space="preserve">
+    <value>इस सर्वर का कुल स्कोर दिखाता है</value>
+  </data>
+  <data name="Execute_Help_alltime" xml:space="preserve">
+    <value>सर्वर में सभी समय के सबसे तेज़ खिलाड़ी दिखाता है</value>
+  </data>
+  <data name="Execute_Help_weektime" xml:space="preserve">
+    <value>सर्वर में इस सप्ताह के सबसे तेज़ खिलाड़ी दिखाता है।</value>
+  </data>
+  <data name="Execute_Help_statg" xml:space="preserve">
+    <value>गेम आँकड़े दिखाएँ</value>
+  </data>
+  <data name="Execute_Help_genres" xml:space="preserve">
+    <value>सभी उपलब्ध एनीमे शैलियों दिखाएँ</value>
+  </data>
+  <data name="EnsureGuildPermissions" xml:space="preserve">
+    <value>{0}, इस सुविधा का उपयोग करने के लिए आपको इनमें से कम से कम एक अनुमति की आवश्यकता है: `{1}`</value>
+  </data>
+  <data name="SendHelp_Misc" xml:space="preserve">
+    <value>विविध</value>
+  </data>
+  <data name="SendHelp_Rounds" xml:space="preserve">
+    <value>राउंड्स</value>
+  </data>
+  <data name="SendHelp_Scores" xml:space="preserve">
+    <value>स्कोर</value>
+  </data>
+  <data name="SendHelp_Title" xml:space="preserve">
+    <value>आदेश</value>
+  </data>
+  <data name="Execute_Help_sgs" xml:space="preserve">
+    <value>वॉयस राउंड सत्र शुरू करें</value>
+  </data>
+  <data name="SendHelp_VoiceRounds" xml:space="preserve">
+    <value>आवाज़ राउंड्स</value>
+  </data>
+  <data name="Execute_Help_sgc" xml:space="preserve">
+    <value>एक नया एनीमे कैरेक्टर राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_UnknownParameter" xml:space="preserve">
+    <value>{0}, मुझे पैरामीटर समझ नहीं आ रहा है।</value>
+  </data>
+  <data name="Execute_Help_sgsa" xml:space="preserve">
+    <value>नमूनों के साथ एक नया वॉयस राउंड सत्र शुरू करें</value>
+  </data>
+  <data name="Execute_Help_sync" xml:space="preserve">
+    <value>एक एनीमे सूची सिंक्रनाइज़ करें</value>
+  </data>
+  <data name="SendHelp_Management" xml:space="preserve">
+    <value>प्रबंधन</value>
+  </data>
+  <data name="Execute_Help_prefix" xml:space="preserve">
+    <value>वर्तमान उपसर्ग दिखाएँ या इसे बदलें</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Description" xml:space="preserve">
+    <value>सुनिश्चित करें कि अनुमतियाँ सही ढंग से सेट की गई हैं। मुझे कम से कम कनेक्ट और बोलने की अनुमतियाँ चाहिए।</value>
+  </data>
+  <data name="Create_CouldNotConnectToVoiceChannel_Title" xml:space="preserve">
+    <value>वॉयस चैनल '{0}' से कनेक्ट नहीं हो सका।</value>
+  </data>
+  <data name="Create_FindingVoiceChannel" xml:space="preserve">
+    <value>जॉइन करने के लिए वॉयस चैनल ढूँढना…</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Description" xml:space="preserve">
+    <value>मैं जुड़ने के लिए कोई वॉयस चैनल नहीं ढूंढ सका।
+
+आप इसी टेक्स्ट चैनल के नाम से एक वॉयस चैनल बना सकते हैं, या उस वॉयस चैनल में शामिल हो सकते हैं जहाँ आप चाहते हैं कि मैं जाऊँ।</value>
+  </data>
+  <data name="Create_NoUsableVoiceChannel_Title" xml:space="preserve">
+    <value>कोई उपयोग योग्य वॉयस चैनल नहीं मिला</value>
+  </data>
+  <data name="Create_StartedSession_Description" xml:space="preserve">
+    <value>राउंड अपने आप शुरू हो जाएँगे।
+
+किसी राउंड को छोड़ने के लिए, `{0}stopg` का उपयोग करें और सत्र रद्द करने के लिए, `{0}stopgs` का उपयोग करें।</value>
+  </data>
+  <data name="Create_StartedSession_Title" xml:space="preserve">
+    <value>{0} राउंड्स के साथ एक सत्र शुरू किया।</value>
+  </data>
+  <data name="SendStartedMessage_Description" xml:space="preserve">
+    <value>सुनने और अनुमान लगाने के लिए वॉयस चैनल **{0}** में शामिल हों।</value>
+  </data>
+  <data name="SendStartedMessage_Title" xml:space="preserve">
+    <value>राउंड शुरू हो गया है!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Description" xml:space="preserve">
+    <value>सर्वर संसाधनों को बचाने के लिए, आपके लिए एक सत्र में अधिकतम राउंड {0} है।
+
+इस सीमा को बढ़ाने के लिए, आप [पैट्रन बनकर]({1}) क्राउड-फंडिंग में मदद कर सकते हैं!</value>
+  </data>
+  <data name="Start_MaximumRoundsReached_Title" xml:space="preserve">
+    <value>इस सत्र में अधिकतम राउंड पूरे हो गए।</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Description" xml:space="preserve">
+    <value>राउंड अपने आप शुरू हो जाएँगे।
+
+अपना फ़िल्टर बदलने के लिए, बस `{0}sgs` का फिर से उपयोग करें। किसी राउंड को छोड़ने के लिए, `{0}stopg` का उपयोग करें और सत्र रद्द करने के लिए `{0}stopgs` का उपयोग करें।</value>
+  </data>
+  <data name="Create_StartedVoiceSession_Title" xml:space="preserve">
+    <value>चैनल में वॉयस सेशन शुरू किया गया **{0}**</value>
+  </data>
+  <data name="SendRoundPreparation_With_Session_Title" xml:space="preserve">
+    <value>{1}के राउंड {0} की तैयारी …</value>
+  </data>
+  <data name="Execute_Help_More" xml:space="preserve">
+    <value>__अधिक सहायता__
+प्रश्न: `{0}सहायता प्रश्न`</value>
+  </data>
+  <data name="StartGame_SessionInProgress" xml:space="preserve">
+    <value>{0}, एक सत्र चल रहा है। इसे रोकने के लिए `{1}stopgs` का उपयोग करें।</value>
+  </data>
+  <data name="Execute_Help_endctop" xml:space="preserve">
+    <value>कस्टम लीडरबोर्ड समाप्त करें</value>
+  </data>
+  <data name="Execute_Help_resetctop" xml:space="preserve">
+    <value>कस्टम लीडरबोर्ड को रीसेट करें</value>
+  </data>
+  <data name="Execute_Help_sgg" xml:space="preserve">
+    <value>एक नया गेम राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_Help_sgpc" xml:space="preserve">
+    <value>एक नया एनीमे कैरेक्टर पिक्सेल राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_Help_credits" xml:space="preserve">
+    <value>श्रेय दिखाएँ</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Title" xml:space="preserve">
+    <value>एनीमे सूची सिंक्रनाइज़ेशन</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Description" xml:space="preserve">
+    <value>अपनी एनीमे सूची सिंक्रनाइज़ करने के लिए इस कमांड का उपयोग करें। इसे प्रतिदिन एक बार किया जा सकता है।</value>
+  </data>
+  <data name="MiscCommandModule_Sync_Username" xml:space="preserve">
+    <value>उपयोगकर्ता नाम</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Title" xml:space="preserve">
+    <value>श्रेय</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Description" xml:space="preserve">
+    <value>{0} को संभव बनाने में मदद करने के लिए इन सभी लोगों और वेबसाइटों का बहुत-बहुत धन्यवाद।</value>
+  </data>
+  <data name="MiscCommandModule_Credits_DatabasesAndAPIs" xml:space="preserve">
+    <value>डेटाबेस/एपीआई</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Patrons" xml:space="preserve">
+    <value>प्रायोजक</value>
+  </data>
+  <data name="MiscCommandModule_Credits_SpecialThanks" xml:space="preserve">
+    <value>विशेष धन्यवाद</value>
+  </data>
+  <data name="MiscCommandModule_Credits_Translations" xml:space="preserve">
+    <value>अनुवाद</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Description" xml:space="preserve">
+    <value>मेरा वर्तमान कमांड प्रीफ़िक्स `{0}` है। 
+
+इसे बदलने के लिए `{0}prefix your_prefix` या `@{1} prefix your_prefix` का उपयोग करें।</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixChanged" xml:space="preserve">
+    <value>मेरा कमांड प्रीफ़िक्स अब है: **{0}**</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixCouldNotBeChanged" xml:space="preserve">
+    <value>मेरे कमांड प्रीफ़िक्स को बदला नहीं जा सका।</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_PrefixLengthInvalid" xml:space="preserve">
+    <value>पूर्वसर्ग 1 से 5 अक्षरों के बीच होना चाहिए।</value>
+  </data>
+  <data name="ManagementCommandModule_Prefix_Title" xml:space="preserve">
+    <value>{0}कमांड उपसर्ग</value>
+  </data>
+  <data name="RequireAdminUser_Error" xml:space="preserve">
+    <value>तुम कुरुरिन नहीं हो, है ना?</value>
+  </data>
+  <data name="RequireBetaBot_Error" xml:space="preserve">
+    <value>यह सुविधा वर्तमान में केवल बीटा पर उपलब्ध है।</value>
+  </data>
+  <data name="RequireDevBot_Error" xml:space="preserve">
+    <value>यह सुविधा वर्तमान में केवल विकास पर उपलब्ध है।</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Description" xml:space="preserve">
+    <value>आप ऑपरेशन और फ़िल्टर को मिलाकर क्वेरी बना सकते हैं।
+
+उदाहरण के लिए: `{0}sg n:5 d:3 y:1995-2005` 1995 और 2005 के बीच हार्ड कठिनाई पर एनीमे के 5 राउंड के साथ एक सेशन शुरू करने के लिए।</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Filters_Title" xml:space="preserve">
+    <value>फ़िल्टर</value>
+  </data>
+  <data name="HelpCommandModule_SendQueryHelp_Title" xml:space="preserve">
+    <value>प्रश्नों के लिए सहायता</value>
+  </data>
+  <data name="RequireNonHentai_Error" xml:space="preserve">
+    <value>यह सुविधा इस बॉट पर उपलब्ध नहीं है।</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Balanced" xml:space="preserve">
+    <value>संतुलित</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_Intersected" xml:space="preserve">
+    <value>अतिक्रमित</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeListsAggregation_United" xml:space="preserve">
+    <value>एकजुट</value>
+  </data>
+  <data name="RoundSession_SendLeaderboard_Title" xml:space="preserve">
+    <value>इस सत्र के लिए रैंकिंग</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_AlsoKnownAs" xml:space="preserve">
+    <value>इसके अलावा इसे</value>
+  </data>
+  <data name="SendAnimeCharacterInformation_From" xml:space="preserve">
+    <value>से</value>
+  </data>
+  <data name="SendAnimeInformation_By" xml:space="preserve">
+    <value>द्वारा</value>
+  </data>
+  <data name="SendAnimeInformation_Song" xml:space="preserve">
+    <value>गीत</value>
+  </data>
+  <data name="SendGenres_Title" xml:space="preserve">
+    <value>शैलियाँ</value>
+  </data>
+  <data name="SendPatreonGoal_Description" xml:space="preserve">
+    <value>{0}के संचालन खर्च वर्तमान में **${1} प्रति माह**हैं।
+
+इस समय केवल **{2}%** ही कवर किया गया है।
+
+यदि आप {0} के खेल खेलना पसंद करते हैं, तो कृपया उसे जीवित रखने में मदद के लिए [Patreon पर $2 या अधिक का दान]({3}) करने पर विचार करें।
+
+छोटे दान भी बहुत मददगार होते हैं और बदले में आपको कुछ लाभ भी मिलेंगे!</value>
+  </data>
+  <data name="SendPatreonGoal_Title" xml:space="preserve">
+    <value>:star: {0} को आपकी ज़रूरत है!</value>
+  </data>
+  <data name="ManagementCommandModule_Language_CouldNotBeChanged" xml:space="preserve">
+    <value>भाषा बदली नहीं जा सकती थी।</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Description" xml:space="preserve">
+    <value>वर्तमान भाषा है `{3}` ({4}).
+
+आप `{0}lang language_code` का उपयोग करके {1} की भाषा बदल सकते हैं।
+ये भाषाएँ वर्तमान में समर्थित हैं:
+{2}
+
+आप [क्राउड ट्रांसलेशन वेबसाइट]({5}) पर इन भाषाओं को बेहतर बनाने या और अधिक भाषाएँ जोड़ने में मदद कर सकते हैं।</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Title" xml:space="preserve">
+    <value>भाषा बदलें</value>
+  </data>
+  <data name="ManagementCommandModule_Language_Changed" xml:space="preserve">
+    <value>भाषा को बदलकर `{0}` कर दिया गया है।</value>
+  </data>
+  <data name="Execute_Help_lang" xml:space="preserve">
+    <value>वर्तमान भाषा दिखाएँ या इसे बदलें</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Included" xml:space="preserve">
+    <value>शैली(यों) सहित **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeGenres_Excluded" xml:space="preserve">
+    <value>शैली(यों) को छोड़कर **{0}**</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Queued_Description" xml:space="preserve">
+    <value>आपको प्रत्यक्ष संदेशों में स्थिति अपडेट मिलेंगे।</value>
+  </data>
+  <data name="AnimeListSync_SynchronizedRecently" xml:space="preserve">
+    <value>आप हर 15 मिनट में केवल एक सिंक्रोनाइज़ेशन जॉब कतारबद्ध कर सकते हैं।</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Description" xml:space="preserve">
+    <value>स्थिति अब **{0}** है।</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Failed" xml:space="preserve">
+    <value>सुनिश्चित करें कि आपने सही उपयोगकर्ता नाम प्रदान किया है और आपकी सूची सार्वजनिक रूप से सुलभ है ____ ।
+
+यदि समस्या बनी रहती है, तो [समर्थन सर्वर]({0}) पर सहायता के लिए पूछें।</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Succeeded" xml:space="preserve">
+    <value>अब आप `{0}:{1}` फ़िल्टर का उपयोग शुरू कर सकते हैं।</value>
+  </data>
+  <data name="AnimeListSync_OnStateChanged_Title" xml:space="preserve">
+    <value>{0} उपयोगकर्ता '{1}' के लिए सिंक्रनाइज़ेशन स्थिति</value>
+  </data>
+  <data name="AnimeListSyncState_Failed" xml:space="preserve">
+    <value>असफल</value>
+  </data>
+  <data name="AnimeListSyncState_Processing" xml:space="preserve">
+    <value>प्रसंस्करण</value>
+  </data>
+  <data name="SessionCancelled_Description" xml:space="preserve">
+    <value>संभवतः इस फ़िल्टर के लिए हमारे पास कैप्स खत्म हो गए हैं, कोई और आज़माएँ।</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Title" xml:space="preserve">
+    <value>{0} में वॉइस राउंड शुरू करने के लिए अनुमतियाँ सही से सेट नहीं की गईं।</value>
+  </data>
+  <data name="SendMyScore_Globally" xml:space="preserve">
+    <value>वैश्विक रूप से</value>
+  </data>
+  <data name="SendMyScore_ThisWeek" xml:space="preserve">
+    <value>__इस सप्ताह__</value>
+  </data>
+  <data name="JoinVoiceChannel_NoPermissionToConnectOrSpeak_Description" xml:space="preserve">
+    <value>आपको मुझे उस चैनल के लिए कम से कम **, View चैनल के लिए**, **, Connect के लिए** और **, और Speak के लिए** की अनुमति देनी होगी।</value>
+  </data>
+  <data name="SendStatistics_Description" xml:space="preserve">
+    <value>आपका शार्ड `{0}` क्लस्टर `{3}` पर है।
+
+इस क्लस्टर से `{1}` सर्वर जुड़े हुए हैं।
+`{2}` राउंड वर्तमान में इसमें खेले जा रहे हैं।</value>
+  </data>
+  <data name="RoundSession_Create_MoreThanMaxRounds_Description" xml:space="preserve">
+    <value>आप प्रति सत्र अधिकतम `{0}` राउंड कर सकते हैं।</value>
+  </data>
+  <data name="RoundSession_Stop_NoActiveSession" xml:space="preserve">
+    <value>इस चैनल में कोई सक्रिय सत्र नहीं है।</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Title" xml:space="preserve">
+    <value>सर्वकालिक गति लीडरबोर्ड को रीसेट कर दिया गया है।</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Description" xml:space="preserve">
+    <value>लीडरबोर्ड को रिफ्रेश होने में थोड़ा समय लग सकता है।</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTop_Title" xml:space="preserve">
+    <value>सर्वकालिक अंक तालिका रीसेट कर दी गई है।</value>
+  </data>
+  <data name="PlayerRanking_ResetAllTime_Description" xml:space="preserve">
+    <value>लीडरबोर्ड को रिफ्रेश होने में थोड़ा समय लग सकता है।</value>
+  </data>
+  <data name="StartGameValidator_Video_OnlyForPatrons" xml:space="preserve">
+    <value>वीडियो राउंड केवल संरक्षकों के लिए उपलब्ध हैं।</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Title" xml:space="preserve">
+    <value>{0} उपयोगकर्ता '{1}' को सिंक्रनाइज़ कर रहा है।</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_Description" xml:space="preserve">
+    <value>यह सूची पहले से ही सिंक्रनाइज़ हो रही है।
+वर्तमान स्थिति है **{0}**</value>
+  </data>
+  <data name="AnimeListSync_Synchronize_SynchronizedRecently" xml:space="preserve">
+    <value>यह सूची हाल ही में सिंक्रोनाइज़ की गई थी।
+कृपया फिर से प्रयास करने से पहले {0} प्रतीक्षा करें।</value>
+  </data>
+  <data name="ButtonGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>माफ़ कीजिए, यह गलत है।</value>
+  </data>
+  <data name="RoundSession_Start_HasActiveRound" xml:space="preserve">
+    <value>इस चैनल में एक सक्रिय राउंड है। इसे रोकने के लिए `{0}stopg` या `{0}stopgs` का उपयोग करने का प्रयास करें।</value>
+  </data>
+  <data name="Execute_Help_resetalltop" xml:space="preserve">
+    <value>सभी समय के अंकों की लीडरबोर्ड को रीसेट करें</value>
+  </data>
+  <data name="Execute_Help_resetalltime" xml:space="preserve">
+    <value>सभी समय की गति लीडरबोर्ड को रीसेट करें</value>
+  </data>
+  <data name="MyDifficulty_BasedOnPoints" xml:space="preserve">
+    <value>आपके अंकों के आधार पर कठिनाई</value>
+  </data>
+  <data name="AnimeTypes_Other" xml:space="preserve">
+    <value>अन्य</value>
+  </data>
+  <data name="AnimeTypes_Undefined" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="ReverseGuess_CheckGuess_SorryWrongAnswer" xml:space="preserve">
+    <value>माफ़ कीजिए, वह **{0}** था, जो गलत है।</value>
+  </data>
+  <data name="TooManyWrongGuesses_Description" xml:space="preserve">
+    <value>{0}तुमने '{1}' या कुछ इसी तरह का अनुमान बहुत बार लगाया है। मैं कुछ समय के लिए इसे अनदेखा कर दूंगा।</value>
+  </data>
+  <data name="Help_AnimeTypes_Description" xml:space="preserve">
+    <value>आप इन्हें फ़िल्टर में "," (कॉमा) का उपयोग करके संयोजित कर सकते हैं। 
+प्रकार के पहले "-" या "!" का उपयोग करके अपवाद सेट किए जा सकते हैं।</value>
+  </data>
+  <data name="Execute_Help_sr" xml:space="preserve">
+    <value>एक नया रिवर्स इमेज अनुमान दौर शुरू करें</value>
+  </data>
+  <data name="Execute_Help_gameplatforms" xml:space="preserve">
+    <value>सभी संभावित गेम प्लेटफ़ॉर्म दिखाएँ</value>
+  </data>
+  <data name="TooManyWrongGuesses_Title" xml:space="preserve">
+    <value>बहुत सारे गलत अनुमान</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterGender" xml:space="preserve">
+    <value>चरित्र का लिंग: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoHints" xml:space="preserve">
+    <value>कोई संकेत नहीं</value>
+  </data>
+  <data name="CreateFilterDescription_CharacterRoles_Excluded" xml:space="preserve">
+    <value>चरित्र भूमिकाओं को छोड़कर: **{0}**</value>
+  </data>
+  <data name="CreateFilterDescription_NoDrops" xml:space="preserve">
+    <value>कोई बूंदें नहीं</value>
+  </data>
+  <data name="Execute_Help_sba" xml:space="preserve">
+    <value>बहुविकल्पीय बटनों के साथ एक नया ऑडियो राउंड शुरू करें</value>
+  </data>
+  <data name="Execute_Help_sgp" xml:space="preserve">
+    <value>एक नया पोकेमॉन दौर शुरू करें</value>
+  </data>
+  <data name="CreateFilterDescription_Lives" xml:space="preserve">
+    <value>जीवन: **{0}**</value>
+  </data>
+  <data name="Execute_Help_sbv" xml:space="preserve">
+    <value>बहुविकल्पीय बटनों के साथ एक नया वीडियो राउंड शुरू करें</value>
+  </data>
+  <data name="ManagementCommandModule_Language_PreferredLanguage" xml:space="preserve">
+    <value>सर्वर की भाषा - {0}</value>
+  </data>
+  <data name="ToReduceThisCooldown_BecomeASupporter" xml:space="preserve">
+    <value>इस कूलडाउन को कम करने के लिए, आप [समर्थक बन सकते हैं]({0})।</value>
+  </data>
+  <data name="CreateFilterDescription_AnimeTypes_Included" xml:space="preserve">
+    <value>प्रकार(ों) सहित: **{0}**</value>
+  </data>
+  <data name="MediaTypes_Anime" xml:space="preserve">
+    <value>एनीमे</value>
+  </data>
+  <data name="AnimeTypes_TvSpecial" xml:space="preserve">
+    <value>टीवी विशेष</value>
+  </data>
+  <data name="Help_AnimeTypes_EnumsField_Title" xml:space="preserve">
+    <value>प्रकार:</value>
+  </data>
+  <data name="MediaTypes_Manga" xml:space="preserve">
+    <value>मंगा</value>
+  </data>
+  <data name="MediaTypes_VisualNovel" xml:space="preserve">
+    <value>दृश्य उपन्यास</value>
+  </data>
+  <data name="MediaTypes_VideoGame" xml:space="preserve">
+    <value>वीडियो गेम</value>
+  </data>
+  <data name="MediaTypes_Pokemon" xml:space="preserve">
+    <value>पोकेमॉन</value>
+  </data>
+  <data name="MediaTypes_AnimeCharacter" xml:space="preserve">
+    <value>एनीमे पात्र</value>
+  </data>
+  <data name="SendStatistics_MangaCount" xml:space="preserve">
+    <value>`{0}` मंगा</value>
+  </data>
+  <data name="AudioManipulationTypes_Random" xml:space="preserve">
+    <value>यादृच्छिक</value>
+  </data>
+  <data name="AudioManipulationTypes_Tremolo" xml:space="preserve">
+    <value>ट्रेमोरो</value>
+  </data>
+  <data name="AudioManipulationTypes_Distortion" xml:space="preserve">
+    <value>विकृति</value>
+  </data>
+  <data name="AudioManipulationTypes_Rotation" xml:space="preserve">
+    <value>परिवर्तन</value>
+  </data>
+  <data name="Execute_Help_sgm" xml:space="preserve">
+    <value>एक नया मंगा दौर शुरू करें</value>
+  </data>
+  <data name="Help_AnimeTypes_Title" xml:space="preserve">
+    <value>फ़िल्टर के लिए एनीमे प्रकार</value>
+  </data>
+  <data name="Execute_Help_ping" xml:space="preserve">
+    <value>बॉट और डिस्कॉर्ड की विलंबता मापें</value>
+  </data>
+  <data name="SendStatistics_MangaRounds" xml:space="preserve">
+    <value>`{0}` मांगा राउंड्स</value>
+  </data>
+  <data name="AudioManipulationTypes_Karaoke" xml:space="preserve">
+    <value>कराओके</value>
+  </data>
+  <data name="AudioManipulationTypes_Vibrato" xml:space="preserve">
+    <value>वाइब्रेटो</value>
+  </data>
+  <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
+    <value>अंतिम अपडेट</value>
+  </data>
+  <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
+    <value>एक से अधिक विजेताओं की अनुमति</value>
+  </data>
 </root>
