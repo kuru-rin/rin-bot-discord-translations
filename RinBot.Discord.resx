@@ -1106,6 +1106,12 @@ If the problem persists, ask for assistance in [the support server]({0}).</value
   <data name="StartGame_NowTryToGuessACharacter" xml:space="preserve">
 	  <value>Now try to guess a character from the anime right to gain another **{0} points**!</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+	  <value>Now try to guess the platform the game released on to gain another **{0} points**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+	  <value>Now try to guess the song artist to gain another **{0} points**!</value>
+  </data>
   <data name="CreateFilterDescription_GamePlatforms_Included" xml:space="preserve">
 	  <value>Including platform(s) **{0}**</value>
   </data>
