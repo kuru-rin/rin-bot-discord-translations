@@ -1281,4 +1281,10 @@ Kizárásokat a típus előtt egy "-" vagy "!" betűvel lehet beállítani.</val
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Több nyertes engedélyezése</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Most próbáld meg kitalálni, hogy melyik platformon jelent meg a játék, hogy újabb **{0} pontokat szerezz**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Most próbáld meg kitalálni a dal előadóját, hogy újabb **{0} pontokat szerezz**!</value>
+  </data>
 </root>

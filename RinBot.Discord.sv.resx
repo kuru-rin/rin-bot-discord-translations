@@ -1281,4 +1281,10 @@ Undantag kan anges med hjälp av "-" eller "!" före typen.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Tillåtande av flera vinnare</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Försök nu att gissa vilken plattform spelet släpptes på för att få ytterligare **{0} poäng**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Försök nu gissa låtens artist för att få ytterligare **{0} poäng**!</value>
+  </data>
 </root>

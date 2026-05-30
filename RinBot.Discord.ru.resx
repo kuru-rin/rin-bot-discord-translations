@@ -1281,4 +1281,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Разрешение на несколько победителей</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Теперь попробуй угадать платформу, на которой вышла игра, чтобы набрать еще **{0} очков**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Теперь попробуй угадать исполнителя песни, чтобы набрать еще **{0} очков**!</value>
+  </data>
 </root>

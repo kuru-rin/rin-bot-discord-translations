@@ -1281,4 +1281,10 @@ Uitsluitingen kunnen worden ingesteld met een "-" of "!" voor het type.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Meerdere winnaars toestaan</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Probeer nu het platform te raden waarop het spel is uitgebracht om nog eens **{0} punten te winnen**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Probeer nu de artiest van het liedje te raden om nog eens **{0} punten te winnen**!</value>
+  </data>
 </root>

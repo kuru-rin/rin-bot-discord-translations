@@ -1281,4 +1281,10 @@ Udelukkelser kan indstilles med et "-" eller "!" før typen.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Tillader flere vindere</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Prøv nu at gætte, hvilken platform spillet er udgivet på, og få yderligere **{0} point**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Prøv nu at gætte sangens kunstner for at få yderligere **{0} point**!</value>
+  </data>
 </root>

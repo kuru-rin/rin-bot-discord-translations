@@ -1220,4 +1220,10 @@ Isključenja se mogu postaviti pomoću "-" ili "!" ispred tipa.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Dopuštanje više dobitnika</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Sada pokušajte pogoditi na kojoj je platformi igra objavljena kako biste osvojili još bodova **{0} -a**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Sada pokušajte pogoditi izvođača pjesme kako biste osvojili još bodova u natjecanju **{0}** !</value>
+  </data>
 </root>

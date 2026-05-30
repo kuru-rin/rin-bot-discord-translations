@@ -1222,4 +1222,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>允许多个获奖者</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>现在尝试猜测游戏发布的平台，以获得另一个**{0} 积分** ！</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>现在，请试着猜猜歌曲的演唱者，以获得另一个**{0} 积分** ！</value>
+  </data>
 </root>

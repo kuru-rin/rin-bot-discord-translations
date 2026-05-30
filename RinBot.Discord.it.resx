@@ -1281,4 +1281,10 @@ Le esclusioni possono essere impostate utilizzando un "-" o un "!" prima del tip
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Consentire la partecipazione di più vincitori</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Ora cerca di indovinare la piattaforma su cui è uscito il gioco per guadagnare altri **{0} punti**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Ora cerca di indovinare l'artista della canzone per guadagnare altri **{0} punti**!</value>
+  </data>
 </root>

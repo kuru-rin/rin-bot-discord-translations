@@ -1222,4 +1222,10 @@
   <data name="SendTopPlayers_LastUpdate" xml:space="preserve">
     <value>अन्तिम अद्यावधिक</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>अब अर्को **{0} अंक जित्नका लागि खेल कुन प्लेटफर्ममा रिलिज भएको हो अनुमान लगाउनुहोस्**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>अब अर्को **{0} अंक जित्न गीत कलाकार अनुमान लगाउनुहोस्**!</value>
+  </data>
 </root>

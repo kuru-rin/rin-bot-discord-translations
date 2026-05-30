@@ -1222,4 +1222,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>복수 당첨자 허용</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>이제 게임이 출시된 플랫폼을 맞혀 **{0} 포인트를 추가로 획득하세요**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>이제 노래 가수를 맞혀 **{0} 포인트를 추가로 획득하세요**!</value>
+  </data>
 </root>

@@ -1219,4 +1219,10 @@ Các loại trừ có thể được thiết lập bằng cách sử dụng dấ
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Cho phép nhiều người thắng cuộc</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Giờ thì thử đoán xem trò chơi này ra mắt trên nền tảng nào để kiếm thêm điểm " **{0} " nhé**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Giờ thì thử đoán xem ca sĩ của bài hát này là ai để kiếm thêm điểm **{0} nhé**!</value>
+  </data>
 </root>

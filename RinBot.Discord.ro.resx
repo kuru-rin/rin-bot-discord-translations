@@ -1222,4 +1222,10 @@ Excluderile pot fi setate folosind un "-" sau "!" înaintea tipului.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Permiterea câștigătorilor multipli</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Acum încearcă să ghicești platforma pe care a fost lansat jocul pentru a câștiga încă **{0} puncte**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Acum încearcă să ghicești artistul melodiei pentru a câștiga încă **{0} puncte**!</value>
+  </data>
 </root>

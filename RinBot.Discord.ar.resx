@@ -1281,4 +1281,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>السماح بتعدد الفائزين</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>حاول الآن تخمين المنصة التي صدرت عليها اللعبة لتحصل على **{0} نقطة أخرى**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>حاول الآن تخمين فنان الأغنية لتحصل على **{0} نقطة أخرى**!</value>
+  </data>
 </root>

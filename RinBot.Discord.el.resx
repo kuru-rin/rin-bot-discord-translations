@@ -1281,4 +1281,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Επιτρέποντας πολλαπλούς νικητές</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Τώρα προσπαθήστε να μαντέψετε την πλατφόρμα στην οποία κυκλοφόρησε το παιχνίδι για να κερδίσετε άλλους **{0} πόντους**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Τώρα προσπαθήστε να μαντέψετε τον καλλιτέχνη του τραγουδιού για να κερδίσετε άλλους **{0} πόντους**!</value>
+  </data>
 </root>

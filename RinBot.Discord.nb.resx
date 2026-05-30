@@ -1222,4 +1222,10 @@ Utelukkelser kan angis ved hjelp av "-" eller "!" foran typen.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Tillater flere vinnere</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Prøv nå å gjette hvilken plattform spillet ble utgitt på for å få ytterligere **{0} poeng**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Prøv nå å gjette artisten for å få ytterligere **{0} poeng**!</value>
+  </data>
 </root>

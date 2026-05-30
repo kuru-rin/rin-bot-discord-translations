@@ -1220,4 +1220,10 @@ Even small donations are a huge help and you will even get some perks in return!
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>הרשאת זוכים מרובים</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>עכשיו נסו לנחש באיזו פלטפורמה המשחק יצא כדי לזכות בעוד נקודות ב- **{0}** !</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>עכשיו נסה לנחש את שם הזמר כדי לזכות בעוד נקודות ב- **{0}** !</value>
+  </data>
 </root>

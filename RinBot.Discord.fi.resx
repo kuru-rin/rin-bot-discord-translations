@@ -1281,4 +1281,10 @@ Poissulkemiset voidaan asettaa käyttämällä "-" tai "!" ennen tyyppiä.</valu
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Usean voittajan salliminen</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Yritä nyt arvata, millä alustalla peli julkaistiin, niin saat lisää **{0} pisteitä**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Yritä nyt arvata kappaleen esittäjä saadaksesi lisää **{0} pisteitä**!</value>
+  </data>
 </root>

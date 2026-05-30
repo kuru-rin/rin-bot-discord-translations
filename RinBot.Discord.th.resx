@@ -1279,4 +1279,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>อนุญาตให้มีผู้ชนะหลายคน</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>**ตอนนี้ลองทายดูว่าเกมนี้เปิดตัวบนแพลตฟอร์มใดเพื่อรับคะแนน**{0} เพิ่มอีก !</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>ตอนนี้ลองทายชื่อศิลปินเพลงเพื่อรับคะแนนเพิ่มที่**{0}!**!</value>
+  </data>
 </root>

@@ -1281,4 +1281,10 @@ Pengecualian dapat diatur dengan menggunakan "-" atau "!" sebelum jenis.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Mengizinkan beberapa pemenang</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Sekarang coba tebak platform yang digunakan game ini untuk mendapatkan poin **{0}** !</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Sekarang cobalah menebak artis lagu tersebut untuk mendapatkan poin **{0}** lagi!</value>
+  </data>
 </root>

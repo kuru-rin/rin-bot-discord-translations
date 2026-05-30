@@ -1221,4 +1221,10 @@ Dışlamalar, türden önce bir "-" veya "!" kullanılarak ayarlanabilir.</value
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Birden fazla kazanana izin verme</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Şimdi bir **{0} puanı daha kazanmak için oyunun hangi platformda çıktığını tahmin etmeye çalışın**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Şimdi bir **{0} puanı daha kazanmak için şarkının sanatçısını tahmin etmeye çalışın**!</value>
+  </data>
 </root>

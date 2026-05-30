@@ -1222,4 +1222,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Дозволяє визначити кількох переможців</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>А тепер спробуйте вгадати платформу, на якій вийшла гра, щоб заробити ще **{0} балів**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>А тепер спробуйте вгадати виконавця пісні, щоб заробити ще **{0} балів**!</value>
+  </data>
 </root>

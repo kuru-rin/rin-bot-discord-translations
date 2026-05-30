@@ -1222,4 +1222,10 @@ Las exclusiones pueden establecerse utilizando un "-" o "!" antes del tipo.</val
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Permitir varios ganadores</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>¡Ahora intenta adivinar la plataforma en la que salió el juego para ganar otros **{0} puntos**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>¡Ahora intenta adivinar el artista de la canción para ganar otros **{0} puntos**!</value>
+  </data>
 </root>

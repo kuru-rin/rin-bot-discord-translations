@@ -1222,4 +1222,10 @@ Išimtis galima nustatyti naudojant "-" arba "!" prieš tipą.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Leidimas keliems laimėtojams</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Dabar pabandykite atspėti, kokioje platformoje išleistas žaidimas, ir gaukite dar **{0} taškų**!</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Dabar pabandykite atspėti dainos atlikėją ir gaukite dar **{0} taškų**!</value>
+  </data>
 </root>

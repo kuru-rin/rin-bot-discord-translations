@@ -1280,4 +1280,10 @@ Wykluczenia można ustawić za pomocą znaku "-" lub "!" przed typem.</value>
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>Dopuszczenie wielu zwycięzców</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>Teraz spróbuj odgadnąć platformę, na którą gra została wydana, aby zdobyć kolejne punkty **{0}** !</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>Teraz spróbuj odgadnąć wykonawcę piosenki, aby zdobyć kolejne punkty **{0}** !</value>
+  </data>
 </root>

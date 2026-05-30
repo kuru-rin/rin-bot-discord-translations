@@ -1281,4 +1281,10 @@
   <data name="CreateFilterDescription_AllowMultipleWinners" xml:space="preserve">
     <value>複数の入賞者を認める</value>
   </data>
+  <data name="StartGame_NowTryToGuessAPlatform" xml:space="preserve">
+    <value>このゲームがリリースされたプラットフォームを当てて、さらに**{0} ポイントを獲得しよう。** ！</value>
+  </data>
+  <data name="StartGame_NowTryToGuessAnArtist" xml:space="preserve">
+    <value>さて、さらに**{0} ポイントを獲得するために、曲のアーティストを当ててみよう** ！</value>
+  </data>
 </root>
